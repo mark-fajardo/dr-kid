@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenu : MonoBehaviour
+{
+    /**
+     * Start the game. Will redirect to game categories(First Aid and Calamity).
+     */
+    public void PlayGame ()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    /**
+     * Exit game.
+     */
+    public void ExitGame ()
+    {
+        Application.Quit();
+    }
+}
