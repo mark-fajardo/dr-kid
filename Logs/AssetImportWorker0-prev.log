@@ -15,11 +15,11 @@ F:/projects/freelance/dr-kid/dr-kid
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53112
+55168
 Successfully changed project path to: F:/projects/freelance/dr-kid/dr-kid
 F:/projects/freelance/dr-kid/dr-kid
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 192.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 129.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,120 +35,158 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010586 seconds.
+Registered in 0.005654 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 277.70 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 122.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.433 seconds
+- Completed reload, in  6.257 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004062 seconds.
+Registered in 0.002370 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 179.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 128.01 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.610 seconds
+- Completed reload, in  3.267 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.7 MB.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 5.367800 ms (FindLiveObjects: 0.655600 ms CreateObjectMapping: 0.301200 ms MarkObjects: 4.137300 ms  DeleteObjects: 0.270000 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 4.543000 ms (FindLiveObjects: 0.577400 ms CreateObjectMapping: 0.274300 ms MarkObjects: 3.423700 ms  DeleteObjects: 0.264300 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/img/dr-kid-logo-icon.png
   artifactKey: Guid(e4429c7e1f2f1e84db2a6fc3d39cdb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo-icon.png using Guid(e4429c7e1f2f1e84db2a6fc3d39cdb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19e656bd51af177e9738946004540f5') in 0.609363 seconds
-  Import took 0.745892 seconds .
+Start importing Assets/img/dr-kid-logo-icon.png using Guid(e4429c7e1f2f1e84db2a6fc3d39cdb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befbeb8fdf6432f11955ecce8ba6cc78') in 0.271097 seconds
+  Import took 0.277617 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000659 seconds.
+  Time since last request: 0.000508 seconds.
   path: Assets/img/dr-kid-logo-icon-head-only.png
   artifactKey: Guid(cdc36a7d719fb1443ae9851a2813cd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo-icon-head-only.png using Guid(cdc36a7d719fb1443ae9851a2813cd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007bc97dec2e8bca24af423bd14f2017') in 0.053583 seconds
-  Import took 0.126438 seconds .
+Start importing Assets/img/dr-kid-logo-icon-head-only.png using Guid(cdc36a7d719fb1443ae9851a2813cd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d9d6a70c5bf78c9adf29a091d48843') in 0.074813 seconds
+  Import took 0.081847 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000609 seconds.
+  Time since last request: 0.000475 seconds.
+  path: Assets/img/gradient-bg.png
+  artifactKey: Guid(34edc7467b11c3747b72abdd8fcd13f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/gradient-bg.png using Guid(34edc7467b11c3747b72abdd8fcd13f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d2d5817d258e879ae9102aac65a0f5') in 0.141536 seconds
+  Import took 0.148676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
   path: Assets/img/dr-kid-logo-landscape.png
   artifactKey: Guid(976f63162d3a49c4a9aa8adea0aed766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo-landscape.png using Guid(976f63162d3a49c4a9aa8adea0aed766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f3298a1133a7fce1e7a95f9379fac6') in 0.067693 seconds
-  Import took 0.076804 seconds .
+Start importing Assets/img/dr-kid-logo-landscape.png using Guid(976f63162d3a49c4a9aa8adea0aed766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c06db4b43b04ad365d95dbbb6f1e8b') in 0.073844 seconds
+  Import took 0.081546 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000374 seconds.
+  Time since last request: 0.000636 seconds.
   path: Assets/img/dr-kid-logo.png
   artifactKey: Guid(d18726e5c2b6ecd41964a882bbc0edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo.png using Guid(d18726e5c2b6ecd41964a882bbc0edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee5d210f442dfe8fbafd01746151d19') in 0.062187 seconds
-  Import took 0.119829 seconds .
+Start importing Assets/img/dr-kid-logo.png using Guid(d18726e5c2b6ecd41964a882bbc0edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95ac7a66f904f5361156bdc9e7b623') in 0.072589 seconds
+  Import took 0.083524 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000456 seconds.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36dfb2377aeec0cb340588e70a4748a') in 0.016689 seconds
+  Import took 0.025260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
   path: Assets/img/dr-kid-logo-landscape-wide.png
   artifactKey: Guid(d876c48d295a6774784dcd78eb5e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo-landscape-wide.png using Guid(d876c48d295a6774784dcd78eb5e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f74ddaf92cbb52dad9bbf2a8b8880a') in 0.077403 seconds
-  Import took 0.093846 seconds .
+Start importing Assets/img/dr-kid-logo-landscape-wide.png using Guid(d876c48d295a6774784dcd78eb5e0eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32760c7f815b69c3387795628832d2dd') in 0.067310 seconds
+  Import took 0.079603 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001132 seconds.
+  Time since last request: 0.000641 seconds.
   path: Assets/img/dr-kid-logo-icon-name-only.png
   artifactKey: Guid(ce31aac26a60eb948abb24a2962640f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo-icon-name-only.png using Guid(ce31aac26a60eb948abb24a2962640f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ab3f4871dbd57e0b78f1a4402a174d') in 0.075781 seconds
-  Import took 0.136553 seconds .
+Start importing Assets/img/dr-kid-logo-icon-name-only.png using Guid(ce31aac26a60eb948abb24a2962640f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05624cd71a2899b6e17c1f1d2f0af81f') in 0.046742 seconds
+  Import took 0.058590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000581 seconds.
+  Time since last request: 0.000428 seconds.
+  path: Assets/img/white-bg.png
+  artifactKey: Guid(3c0966fe50be42e4094453f1f4dc0ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/white-bg.png using Guid(3c0966fe50be42e4094453f1f4dc0ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7930a02fa5103702998b2187d662f6b') in 0.051863 seconds
+  Import took 0.061199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
   path: Assets/img/dr-kid-logo-landscape-cropped.png
   artifactKey: Guid(4af77bd14ab3ad34fa33fb6cfc7068c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/img/dr-kid-logo-landscape-cropped.png using Guid(4af77bd14ab3ad34fa33fb6cfc7068c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2543e85a6d0d7d87d3cb66c6423ba28c') in 0.108734 seconds
-  Import took 0.195108 seconds .
+Start importing Assets/img/dr-kid-logo-landscape-cropped.png using Guid(4af77bd14ab3ad34fa33fb6cfc7068c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beefb8452b94363938561315a2d1b63f') in 0.051401 seconds
+  Import took 0.060357 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.7 MB.
+System memory in use after: 53.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 5.128500 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.233100 ms MarkObjects: 4.313500 ms  DeleteObjects: 0.216900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003787 seconds.
+Registered in 0.002786 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.108 seconds
+- Completed reload, in  2.754 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.8 MB.
+Unloading 1843 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 8.490900 ms (FindLiveObjects: 1.316900 ms CreateObjectMapping: 1.156300 ms MarkObjects: 5.478600 ms  DeleteObjects: 0.515800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 3.817600 ms (FindLiveObjects: 0.978000 ms CreateObjectMapping: 0.269500 ms MarkObjects: 2.421700 ms  DeleteObjects: 0.146200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
