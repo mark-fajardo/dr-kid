@@ -9,6 +9,11 @@ public class OptionsMenu : MonoBehaviour
 
     public void SetVolume (float volume)
     {
+        if (volume <= -30)
+        {
+            volume = -80;
+        }
+
         audioMixer.SetFloat("MainMixer", volume);
     }
 }
