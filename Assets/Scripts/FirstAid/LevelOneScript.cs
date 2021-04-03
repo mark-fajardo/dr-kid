@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelOneScript : MonoBehaviour
 {
     public Dialog dialog;
+    public Dialog cindyHurtDialog;
     public Dialog nextStageDialog;
     public Dialog drinkBloodDialog;
     public Dialog doNothingDialog;
@@ -26,13 +27,15 @@ public class LevelOneScript : MonoBehaviour
 
     void Start ()
     {
-        StartCoroutine(StartDialog());
+        cindyHurt();
     }
 
     IEnumerator StartDialog ()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         task = "initial";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         FindObjectOfType<DialogManager>().StartDialog(dialog);
     }
 
@@ -44,8 +47,15 @@ public class LevelOneScript : MonoBehaviour
             return;
         }
 
-        if (task == "initial")
+        if (task == "cindyHurt")
         {
+            StartCoroutine(StartDialog());
+        }
+
+        else if (task == "initial")
+        {
+            FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
+            FindObjectOfType<FirstAidMenu>().SetCindySadPanel(true);
             choicesLeftAnimator.SetBool("ChoicesLeftOpen", true);
             choicesRightAnimator.SetBool("ChoicesRightOpen", true);
         } 
@@ -73,8 +83,11 @@ public class LevelOneScript : MonoBehaviour
 
     IEnumerator LoadAnswer()
     {
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
         answersAnimator.SetBool("AnswerIsOpen", true);
         yield return new WaitForSeconds(5f);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         answersAnimator.SetBool("AnswerIsOpen", false);
         nextStage();
     }
@@ -82,6 +95,8 @@ public class LevelOneScript : MonoBehaviour
     public void drinkBlood()
     {
         task = "initial";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         FindObjectOfType<DialogManager>().StartDialog(drinkBloodDialog);
@@ -90,6 +105,8 @@ public class LevelOneScript : MonoBehaviour
     public void doNothing()
     {
         task = "doNothing";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         FindObjectOfType<DialogManager>().StartDialog(doNothingDialog);
@@ -98,6 +115,8 @@ public class LevelOneScript : MonoBehaviour
     public void wipeWithDirtyTowel()
     {
         task = "initial";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         FindObjectOfType<DialogManager>().StartDialog(dirtyTowelDialog);
@@ -106,14 +125,29 @@ public class LevelOneScript : MonoBehaviour
     public void cleanTheCut()
     {
         task = "correct";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         FindObjectOfType<DialogManager>().StartDialog(cleanTheCutDialog);
     }
 
+    private void cindyHurt()
+    {
+        task = "cindyHurt";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(true);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
+        choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
+        choicesRightAnimator.SetBool("ChoicesRightOpen", false);
+        audioSource.PlayOneShot(cindyCry);
+        FindObjectOfType<DialogManager>().StartDialog(cindyHurtDialog);
+    }
+
     private void cindyDoNothing()
     {
         task = "cindyDoNothing";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(true);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         audioSource.PlayOneShot(cindyCry);
@@ -123,6 +157,8 @@ public class LevelOneScript : MonoBehaviour
     private void finalDoNothing()
     {
         task = "initial";
+        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         FindObjectOfType<DialogManager>().StartDialog(finalDoNothingDialog);
@@ -131,6 +167,7 @@ public class LevelOneScript : MonoBehaviour
     private void nextStage()
     {
         task = "nextDialog";
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
         FindObjectOfType<DialogManager>().StartDialog(nextStageDialog);
