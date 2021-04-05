@@ -34,7 +34,7 @@ public class LevelOneScript : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         task = "initial";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         FindObjectOfType<DialogManager>().StartDialog(dialog);
     }
@@ -55,7 +55,7 @@ public class LevelOneScript : MonoBehaviour
         else if (task == "initial")
         {
             FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
-            FindObjectOfType<FirstAidMenu>().SetCindySadPanel(true);
+            FindObjectOfType<FirstAidMenu>().SetCindyPanel(true);
             choicesLeftAnimator.SetBool("ChoicesLeftOpen", true);
             choicesRightAnimator.SetBool("ChoicesRightOpen", true);
         } 
@@ -83,7 +83,7 @@ public class LevelOneScript : MonoBehaviour
 
     IEnumerator LoadAnswer()
     {
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
         answersAnimator.SetBool("AnswerIsOpen", true);
         yield return new WaitForSeconds(5f);
@@ -95,7 +95,7 @@ public class LevelOneScript : MonoBehaviour
     public void drinkBlood()
     {
         task = "initial";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
@@ -105,7 +105,7 @@ public class LevelOneScript : MonoBehaviour
     public void doNothing()
     {
         task = "doNothing";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
@@ -115,7 +115,7 @@ public class LevelOneScript : MonoBehaviour
     public void wipeWithDirtyTowel()
     {
         task = "initial";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
@@ -125,7 +125,7 @@ public class LevelOneScript : MonoBehaviour
     public void cleanTheCut()
     {
         task = "correct";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
@@ -135,7 +135,7 @@ public class LevelOneScript : MonoBehaviour
     private void cindyHurt()
     {
         task = "cindyHurt";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(true);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(true);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
@@ -146,7 +146,7 @@ public class LevelOneScript : MonoBehaviour
     private void cindyDoNothing()
     {
         task = "cindyDoNothing";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(true);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(true);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);
@@ -157,7 +157,7 @@ public class LevelOneScript : MonoBehaviour
     private void finalDoNothing()
     {
         task = "initial";
-        FindObjectOfType<FirstAidMenu>().SetCindySadPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
         choicesLeftAnimator.SetBool("ChoicesLeftOpen", false);
         choicesRightAnimator.SetBool("ChoicesRightOpen", false);

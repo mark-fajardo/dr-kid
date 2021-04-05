@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/FirstAid/LevelOne.unity
-    guid: c07e57d1f513ee4438eb2b7573fef7c5
+    path: Assets/Scenes/FirstAid/Indoor/SceneOne.unity
+    guid: 519eef9b0cbbc6c499cd80b8f305d41d
   - enabled: 1
-    path: Assets/Scenes/FirstAid/LevelTwo.unity
-    guid: 0840d0b62d111674990ef88ec3d6cf6e
+    path: Assets/Scenes/FirstAid/Indoor/SceneTwo.unity
+    guid: 0c2898c377876594cb0576d30693ae6b
   m_configObjects: {}

@@ -722,7 +722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &359504382
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2368,7 +2368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &816798762
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2415,8 +2415,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b71775899ed24eac8829904d6f0c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  narratorPanel: {fileID: 0}
-  cindySadPanel: {fileID: 0}
+  CindyAnimator: {fileID: 0}
+  CindyContainer: {fileID: 0}
+  NarratorAnimator: {fileID: 0}
+  NarratorContainer: {fileID: 0}
+  IntroAnimator: {fileID: 0}
+  IntroContainer: {fileID: 0}
+  AudioSource: {fileID: 0}
+  CindyCry: {fileID: 0}
+  choicesLeftAnimator: {fileID: 0}
+  choicesRightAnimator: {fileID: 0}
 --- !u!1 &817035261
 GameObject:
   m_ObjectHideFlags: 0
