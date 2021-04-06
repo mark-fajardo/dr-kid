@@ -1335,10 +1335,10 @@ RectTransform:
   m_Father: {fileID: 2109236311}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.40500003, y: 0.39646158}
-  m_AnchorMax: {x: 0.56515455, y: 0.6898943}
-  m_AnchoredPosition: {x: -0.38850403, y: -1.888504}
-  m_SizeDelta: {x: 3.6336975, y: 6.061096}
+  m_AnchorMin: {x: 0.35432866, y: 0.30100003}
+  m_AnchorMax: {x: 0.6156573, y: 0.75340384}
+  m_AnchoredPosition: {x: -0.0000076293945, y: -0.36799622}
+  m_SizeDelta: {x: -0.1917038, y: 1.7706985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557206810
 MonoBehaviour:
@@ -3538,7 +3538,7 @@ MonoBehaviour:
     dialogs:
     - Actually, that can be used for covering wounds, but we just need a little one
       that can cover a cut.
-    - Also, Gauze is not enough to make a wound prevent from any infections.
+    - Also, Gauze only is not enough to make the wound fully prevented from any infections.
     - You can choose again.
 --- !u!1 &1524096694
 GameObject:
