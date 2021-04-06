@@ -166,17 +166,17 @@ public class SceneOneScript : MonoBehaviour
             FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
             WashingHands.SetActive(true);
         }
-        else if (DialogQue == 5)
+        else if (DialogQue == 6)
         {
             WashingHands.SetActive(false);
             TutorialOne.SetActive(true);
         }
-        else if (DialogQue == 6)
+        else if (DialogQue == 7)
         {
             TutorialOne.SetActive(false);
             TutorialTwo.SetActive(true);
         }
-        else if (DialogQue == 7)
+        else if (DialogQue == 8)
         {
             TutorialTwo.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();
