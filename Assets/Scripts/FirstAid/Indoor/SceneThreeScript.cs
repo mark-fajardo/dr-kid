@@ -213,7 +213,7 @@ public class SceneThreeScript : MonoBehaviour
         {
             if (Option == 1)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(3);
+                FindObjectOfType<LevelLoader>().LoadLevel(4);
             }
             else
             {
