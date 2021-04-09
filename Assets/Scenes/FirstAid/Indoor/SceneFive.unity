@@ -2673,7 +2673,7 @@ MonoBehaviour:
     - This is larger than before.
     - This is what really happened.
     - I was just running in the kitchen to get something to eat.
-    - While running, I did't saw the floor is wet.
+    - While running, I did't saw that the floor was wet.
     - I slided into the fridge, and suddenly got a wound from slipping on the floor.
     - Can you please help me?
   NarratorTutorialDialog:
@@ -2681,7 +2681,7 @@ MonoBehaviour:
     dialogs:
     - Hey there! This is the last part of our Indoor First Aid Scenes.
     - So you need to pay attention and remember things clearly.
-    - As we continue, Cindy already got the Betadine in it.
+    - As we continue, Cindy already got the Betadine on it.
     - We just need to get the Gauze, to cover the wound this size.
     - And the Medical Tape to tighten the gauze in it.
     - Let's go and pick the right things up!

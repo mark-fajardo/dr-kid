@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstAid/Indoor/SceneFive.unity
     guid: da464479f64809942ae0fc01788ce073
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneSix.unity
+    guid: 5db38d771bfae3243b41e5adb7cc7d63
   m_configObjects: {}
