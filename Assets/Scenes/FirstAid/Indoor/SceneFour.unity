@@ -3894,7 +3894,7 @@ MonoBehaviour:
     - Hi...
     - I am really sorry for being such a clumsy girl.
     - I bumped my head on the door of our bedroom while playing VR games.
-    - It does hurt my head.
+    - It really hurts my head.
     - I think, I need some first aid again. Thank you...
   NarratorTutorialDialog:
     name: Dr. Kid
@@ -3902,10 +3902,9 @@ MonoBehaviour:
     - Okay, so for now there will be no wound and no fever.
     - Cindy bumped her head in the door of their bedroom.
     - We just need a clean and tidy cloth.
-    - A Towel can do.
+    - A Towel will do.
     - Also, we need some Ice to put it into her head.
-    - We will put some ice to the towel and will put the towel with the ice on her
-      lump.
+    - We will put some ice on the towel and place it on her lump.
     - That's all, we just need a cloth and an ice.
   CindyChoosingDialog:
     name: Cindy
@@ -3916,10 +3915,10 @@ MonoBehaviour:
     name: Dr. Kid
     dialogs:
     - That's right! That is the cloth and the ice.
-    - Good job kid. We just need to put some ice on the towel.
-    - 'And then put it on the top of the lump on her head. '
+    - Good job, Little Doctor. We just need to put some ice on the towel.
+    - 'And then place it on the top of the lump on her head. '
     - So that the lump can get smaller as soon as possible.
-    - Cindy just need to endure the hurt the coldness of the ice.
+    - Cindy just need to endure the coldness of the ice.
     - Because it may hurt a bit to her skin.
     - She just need to mildly put it on the lump on her head.
     - That's all for her lump. Do not forget every thing we are learning every scenes.

@@ -389,7 +389,7 @@ MonoBehaviour:
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
-    - The Inhaler Cindy.
+    - The Inhaler, Cindy.
     - Fortunately, we have it right here in our First Aid Kit.
     - So as we start, this is the first scene of the new Outdoor Scenes we have here.
     - Cindy is encountering her Asthma right now.
@@ -401,12 +401,12 @@ MonoBehaviour:
     name: Dr. Kid
     dialogs:
     - Yes, you got it right.
-    - We need this Inhaler with it's medicine.
+    - We need the Inhaler with its medicine.
     - So we need to set it up right now.
     - Get the inhaler and remove its cap.
     - Now, make sure to make the inhaler loaded with her medicine.
     - Gently, put the mouthpiece between the front teeth of her mouth.
-    - And you may close your lip around it.
+    - And you may close her lips around it.
     - Breathe in deeply in about 2-3 seconds.
     - Do it continuously, until you make yourself feel better.
     - So that's all for the first scene of our new Outdoor Category.
@@ -489,7 +489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &183430147
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3070,7 +3070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1373941839
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5023,7 +5023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2098992694
 MonoBehaviour:
   m_ObjectHideFlags: 0

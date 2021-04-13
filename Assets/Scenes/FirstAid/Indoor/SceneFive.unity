@@ -2549,7 +2549,7 @@ MonoBehaviour:
     - Hey there! This is the last part of our Indoor First Aid Scenes.
     - So you need to pay attention and remember things clearly.
     - As we continue, Cindy already got the Betadine on it.
-    - We just need to get the Gauze, to cover the wound this size.
+    - We just need to get the Gauze, to cover the wound.
     - And the Medical Tape to tighten the gauze in it.
     - Let's go and pick the right things up!
   CindyChoosingDialog:
@@ -2571,13 +2571,13 @@ MonoBehaviour:
     dialogs:
     - Yep, that's right!
     - The only thing we just needed here is the Gauze and the Tape.
-    - We can cover the wound this size with a Gauze.
+    - We can cover the wound with a Gauze.
     - Bandage is not enough for this.
     - And also, to secure and tighten up the Gauze, we need a Medical Tape.
-    - You can just stick it on the top of the gauze and tape it to the sideways.
+    - You can just stick it on the top of the Gauze and Tape it to the sideways.
     - So that, the wound will be secured from any dirt.
     - That's all for our Indoor Scenes!
-    - Just don't forget to remember the things we are using, doing and learning here.
+    - Just remember the things we are using, doing and learning here.
     - Okay, so... Are you ready for the outdoor scenes?
     - Alright, Let's Go!
   OptionFourDialog:
