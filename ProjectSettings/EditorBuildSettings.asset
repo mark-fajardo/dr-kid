@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstAid/Outdoor/SceneEight.unity
     guid: 33ba375a4aa005c4e8b54b555a8de435
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneNine.unity
+    guid: e1aa438671a4eed43bf388ed89932f74
   m_configObjects: {}
