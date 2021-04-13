@@ -700,7 +700,7 @@ RectTransform:
   - {fileID: 1115132460}
   - {fileID: 378359224}
   m_Father: {fileID: 1805749086}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7224583, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1647,7 +1647,7 @@ RectTransform:
   - {fileID: 1046017548}
   - {fileID: 1372436024}
   m_Father: {fileID: 1805749086}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.27770835, y: 1}
@@ -3397,7 +3397,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3974,7 +3974,7 @@ RectTransform:
   - {fileID: 1599207940}
   - {fileID: 1436136253}
   m_Father: {fileID: 1805749086}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4669,9 +4669,9 @@ RectTransform:
   - {fileID: 572768311}
   - {fileID: 298617974}
   - {fileID: 1069477353}
-  - {fileID: 1442247752}
   - {fileID: 838763560}
   - {fileID: 193538249}
+  - {fileID: 1442247752}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4734,8 +4734,7 @@ MonoBehaviour:
     - Thank you for being reliable.
     - As we continue, Cindy's mom is confirmed that she has a fever.
     - And as we expect, the medicine will take effect in a few minutes.
-    - And make her take again some meds continuously on a specific length of time
-      between.
+    - And make her take again some meds every 4-6 hours if needed.
     - So that her mom can feel much better.
     - So that's it. Ready for the next scene? Let's go!
   OptionTwoDialog:

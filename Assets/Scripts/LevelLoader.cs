@@ -10,13 +10,12 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadLevel (int sceneIndex)
     {
-        StartCoroutine(LoadAsynchronously(sceneIndex));
+        StartCoroutine(AddLoading(sceneIndex));
     }
 
     IEnumerator LoadAsynchronously (int sceneIndex)
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
-        loadingScreen.SetActive(true);
 
         while (!operation.isDone)
         {
@@ -25,5 +24,12 @@ public class LevelLoader : MonoBehaviour
 
             yield return new WaitForSeconds(2f);
         }
+    }
+
+    IEnumerator AddLoading(int sceneIndex)
+    {
+        loadingScreen.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        StartCoroutine(LoadAsynchronously(sceneIndex));
     }
 }

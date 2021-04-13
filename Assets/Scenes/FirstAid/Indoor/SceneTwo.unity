@@ -2570,7 +2570,7 @@ RectTransform:
   - {fileID: 1331741752}
   - {fileID: 1411074400}
   m_Father: {fileID: 1356717599}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3423,9 +3423,9 @@ RectTransform:
   - {fileID: 1617605361}
   - {fileID: 2070852914}
   - {fileID: 639479407}
-  - {fileID: 992543168}
   - {fileID: 1566808384}
   - {fileID: 1584522973}
+  - {fileID: 992543168}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3455,18 +3455,19 @@ MonoBehaviour:
   CindyIntroDialog:
     name: Cindy
     dialogs:
-    - Hi again...
-    - I am really sorry for causing you any trouble...
-    - I am just running along the hallway on our living room.
-    - And suddenly I didn't saw the table near me and got me stumbled.
+    - Hi again.
+    - ...
+    - I am just running along the hallway to our living room.
+    - And suddenly, I didn't saw the table near me and got me stumbled.
     - I had a little wound on my knee from the fall.
-    - Can you help me? What do I need to do and the things I need to prepare.
+    - Can you help me on what do I need to do and the things I need to prepare?
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
     - Hey there!
-    - As you can see, Cindy is playing along the living room, running and stumbled.
-    - Unfortunately, she had a wound from the stumble before.
+    - As you can tell, Cindy was running along the hallway into the living room and
+      stumbled.
+    - Unfortunately, she had a wound from the stumble.
     - Now, we need to clean her wound from any bacteria using Alcohol.
     - Although, it will hurt a bit Cindy...
   CindyTutorialDialog:
@@ -3482,7 +3483,7 @@ MonoBehaviour:
     - And as we proceed, we also need the Betadine.
     - It can kill germs in minor cuts, burns and wounds.
     - And that's all we need. We need to finish this quickly to to make Cindy better.
-    - Stay smart on choosing and remember what I've taught you little ranger...
+    - Stay smart on choosing and remember what I've taught you little doctor...
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -3507,7 +3508,7 @@ MonoBehaviour:
     - We finished cleaning Cindy's wound with Alcohol and Betadine.
     - Do not forget this scene...
     - So that you may apply this if you have encounter any minor wounds again.
-    - We will now proceed to the next scene. Let's goo!
+    - We will now proceed to the next scene. Let's go!
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -4004,7 +4005,7 @@ RectTransform:
   - {fileID: 957409831}
   - {fileID: 78043699}
   m_Father: {fileID: 1356717599}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.27770835, y: 1}
@@ -4101,7 +4102,7 @@ RectTransform:
   - {fileID: 1391743732}
   - {fileID: 326896235}
   m_Father: {fileID: 1356717599}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7224583, y: 0}
   m_AnchorMax: {x: 1, y: 1}

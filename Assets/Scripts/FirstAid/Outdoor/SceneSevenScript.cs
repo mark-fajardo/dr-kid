@@ -29,7 +29,6 @@ public class SceneSevenScript : MonoBehaviour
 
     public void CindyIntro()
     {
-        FindObjectOfType<FirstAidMenu>().MakeCindyCry();
         FindObjectOfType<DialogManager>().StartDialog(CindyIntroDialog);
     }
 
