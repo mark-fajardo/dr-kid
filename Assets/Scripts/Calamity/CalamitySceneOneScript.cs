@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneTenScript : MonoBehaviour
+public class CalamitySceneOneScript : MonoBehaviour
 {
     public GameObject Intro;
     public GameObject IntroTwo;
-    public GameObject IntroThree;
     public GameObject TutorialOne;
-    public GameObject AssessmentOne;
+    public GameObject TutorialTwo;
+    public GameObject TutorialThree;
+    public GameObject TutorialFour;
+    public GameObject TutorialFive;
 
     public Dialog CindyIntroDialog;
     public Dialog NarratorTutorialDialog;
@@ -98,7 +100,7 @@ public class SceneTenScript : MonoBehaviour
     {
         if (DialogFinished == true)
         {
-            if (Option == 4)
+            if (Option == 2)
             {
                 FindObjectOfType<LevelLoader>().LoadLevel(0);
             }
@@ -108,17 +110,37 @@ public class SceneTenScript : MonoBehaviour
                 ChooseReset();
             }
         }
-        else if (Option == 4)
+        else if (Option == 2)
         {
-            if (DialogQue == 3)
+            if (DialogQue == 2)
             {
                 FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
                 FindObjectOfType<FirstAidMenu>().GrowIntro();
-                AssessmentOne.SetActive(true);
+                TutorialOne.SetActive(true);
+            }
+            else if (DialogQue == 3)
+            {
+                TutorialOne.SetActive(false);
+                TutorialTwo.SetActive(true);
+            }
+            else if (DialogQue == 4)
+            {
+                TutorialTwo.SetActive(false);
+                TutorialThree.SetActive(true);
             }
             else if (DialogQue == 5)
             {
-                AssessmentOne.SetActive(false);
+                TutorialThree.SetActive(false);
+                TutorialFour.SetActive(true);
+            }
+            else if (DialogQue == 6)
+            {
+                TutorialFour.SetActive(false);
+                TutorialFive.SetActive(true);
+            }
+            else if (DialogQue == 7)
+            {
+                TutorialFive.SetActive(false);
                 FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
                 FindObjectOfType<FirstAidMenu>().ShrinkIntro();
             }
@@ -129,7 +151,7 @@ public class SceneTenScript : MonoBehaviour
     {
         if (DialogQue == 2)
         {
-            FindObjectOfType<FirstAidMenu>().MoveCindyRight();
+            FindObjectOfType<FirstAidMenu>().MoveCindyUmbrellaRight();
             FindObjectOfType<FirstAidMenu>().GrowIntro();
             Intro.SetActive(true);
         }
@@ -138,16 +160,11 @@ public class SceneTenScript : MonoBehaviour
             Intro.SetActive(false);
             IntroTwo.SetActive(true);
         }
-        else if (DialogQue == 5)
+        else if (DialogQue == 7)
         {
             IntroTwo.SetActive(false);
-            IntroThree.SetActive(true);
-        }
-        else if (DialogQue == 6)
-        {
-            IntroThree.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();
-            FindObjectOfType<FirstAidMenu>().MoveCindyLeft();
+            FindObjectOfType<FirstAidMenu>().MoveCindyUmbrellaLeft();
         }
         else if (DialogFinished == true)
         {
@@ -158,15 +175,35 @@ public class SceneTenScript : MonoBehaviour
 
     private void NarratorTutorialQue()
     {
-        if (DialogQue == 1)
+        if (DialogQue == 6)
         {
             FindObjectOfType<FirstAidMenu>().GrowIntro();
             FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
             TutorialOne.SetActive(true);
         }
-        else if (DialogQue == 4)
+        else if (DialogQue == 7)
         {
             TutorialOne.SetActive(false);
+            TutorialTwo.SetActive(true);
+        }
+        else if (DialogQue == 9)
+        {
+            TutorialTwo.SetActive(false);
+            TutorialThree.SetActive(true);
+        }
+        else if (DialogQue == 11)
+        {
+            TutorialThree.SetActive(false);
+            TutorialFour.SetActive(true);
+        }
+        else if (DialogQue == 13)
+        {
+            TutorialFour.SetActive(false);
+            TutorialFive.SetActive(true);
+        }
+        else if (DialogQue == 15)
+        {
+            TutorialFive.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();
             FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
         }

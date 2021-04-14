@@ -95,6 +95,16 @@ public class FirstAidMenu : MonoBehaviour
         MoveCindy(false);
     }
 
+    public void MoveCindyUmbrellaRight()
+    {
+        MoveCindyUmbrella();
+    }
+
+    public void MoveCindyUmbrellaLeft()
+    {
+        MoveCindyUmbrella(false);
+    }
+
     public void MoveNarratorRight()
     {
         MoveNarrator();
@@ -116,6 +126,11 @@ public class FirstAidMenu : MonoBehaviour
     private void MoveCindy(bool move = true)
     {
         CindyAnimator.SetBool("CindyIsMoved", move);
+    }
+
+    private void MoveCindyUmbrella(bool move = true)
+    {
+        CindyAnimator.SetBool("CindyUmbrellaMoved", move);
     }
 
     private void MoveNarrator(bool move = true)
