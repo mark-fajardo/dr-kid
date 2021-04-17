@@ -195,6 +195,7 @@ public class SceneTwoScript : MonoBehaviour
     public void OptionThree() // Correct One
     {
         Option = 3;
+        FindObjectOfType<DB>().UpdateLevelDone(2, 3);
         ChooseOption(OptionThreeDialog);
     }
 

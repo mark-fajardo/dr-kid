@@ -27,7 +27,7 @@ public class DB : MonoBehaviour
         {14, 0, 0},
         {15, 0, 0},
 
-        {16, 0, 0},
+        {16, 1, 0},
         {17, 0, 0},
         {18, 0, 0},
         {19, 0, 0},
@@ -46,6 +46,26 @@ public class DB : MonoBehaviour
         SetupLevels();
     }
 
+    public void UpdateLevelDone(int LvlNo, int NextLvl = 0)
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = $"UPDATE levels SET is_done = 1 WHERE level_no = {LvlNo};";
+                if (NextLvl != 0)
+                {
+                    command.CommandText += $"UPDATE levels SET initial = 1 WHERE level_no = {NextLvl};";
+                }
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
     public List<string> CheckLevel(string LvlNo)
     {
         List<string> ReturnLvlDetails = new List<string>{ };
@@ -61,9 +81,6 @@ public class DB : MonoBehaviour
                 {
                     while (reader.Read())
                         ReturnLvlDetails.Add(reader["level_no"].ToString());
-                        //Array.Resize(ref ReturnLvlDetails, ReturnLvlDetails.Length + 1);
-                        //Debug.Log();
-                        //ReturnLvlDetails[ReturnLvlDetails.GetUpperBound(0)] = reader["level_no"].ToString();
 
                     reader.Close();
                 }

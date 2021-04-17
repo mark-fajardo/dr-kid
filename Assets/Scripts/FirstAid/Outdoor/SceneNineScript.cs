@@ -54,6 +54,7 @@ public class SceneNineScript : MonoBehaviour
     public void OptionOne() // Scissor
     {
         Option = 1;
+        FindObjectOfType<DB>().UpdateLevelDone(9, 10);
         ChooseOption(OptionOneDialog);
     }
 

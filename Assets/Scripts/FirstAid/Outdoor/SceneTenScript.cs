@@ -74,6 +74,7 @@ public class SceneTenScript : MonoBehaviour
     public void OptionFour() // Tape
     {
         Option = 4;
+        FindObjectOfType<DB>().UpdateLevelDone(10, 11);
         ChooseOption(OptionFourDialog);
     }
 
@@ -100,7 +101,7 @@ public class SceneTenScript : MonoBehaviour
         {
             if (Option == 4)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(0);
+                FindObjectOfType<LevelLoader>().LoadLevel(11);
             }
             else
             {

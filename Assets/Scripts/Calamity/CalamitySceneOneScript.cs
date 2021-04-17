@@ -64,6 +64,7 @@ public class CalamitySceneOneScript : MonoBehaviour
     public void OptionTwo() // Glue and Gauze
     {
         Option = 2;
+        FindObjectOfType<DB>().UpdateLevelDone(16, 17);
         ChooseOption(OptionTwoDialog);
     }
 

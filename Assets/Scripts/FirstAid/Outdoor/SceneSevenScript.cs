@@ -60,6 +60,7 @@ public class SceneSevenScript : MonoBehaviour
     public void OptionOne() // Correct One
     {
         Option = 1;
+        FindObjectOfType<DB>().UpdateLevelDone(7, 8);
         ChooseOption(OptionOneDialog);
     }
 
