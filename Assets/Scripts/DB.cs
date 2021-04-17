@@ -1,6 +1,8 @@
 using UnityEngine;
+using System;
 using System.Data;
 using Mono.Data.Sqlite;
+using System.Collections.Generic;
 
 public class DB : MonoBehaviour
 {
@@ -35,12 +37,42 @@ public class DB : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SetupDB();
     }
 
     public void SetupDB()
     {
         CreateDB();
         SetupLevels();
+    }
+
+    public List<string> CheckLevel(string LvlNo)
+    {
+        List<string> ReturnLvlDetails = new List<string>{ };
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = $"SELECT * FROM levels WHERE level_no IN {LvlNo} AND NOT (initial = 1 OR is_done = 1);";
+
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                        ReturnLvlDetails.Add(reader["level_no"].ToString());
+                        //Array.Resize(ref ReturnLvlDetails, ReturnLvlDetails.Length + 1);
+                        //Debug.Log();
+                        //ReturnLvlDetails[ReturnLvlDetails.GetUpperBound(0)] = reader["level_no"].ToString();
+
+                    reader.Close();
+                }
+            }
+
+            connection.Close();
+        }
+
+        return ReturnLvlDetails;
     }
 
     private void CreateDB()
@@ -51,7 +83,7 @@ public class DB : MonoBehaviour
 
             using (var command = connection.CreateCommand())
             {
-                command.CommandText = "CREATE TABLE IF NOT EXISTS levels (id INT, level_no INT, initial INT, is_done INT);";
+                command.CommandText = "CREATE TABLE IF NOT EXISTS levels (id INT PRIMARY KEY, level_no INT, initial INT, is_done INT);";
                 command.ExecuteNonQuery();
             }
 
@@ -81,7 +113,6 @@ public class DB : MonoBehaviour
         string InsertLevelsQuery = "";
         for (int i = 0; i < TotalLevels; i++)
         {
-            // InsertLevelsQuery += $"INSERT INTO memos(id, level_no, initial, is_done) SELECT {AllLevels[i,0]}, {AllLevels[i, 0]}, {AllLevels[i, 1]}, {AllLevels[i, 2]} WHERE NOT EXISTS(SELECT 1 FROM memos WHERE id = 5 AND text = 'text to insert');"
             InsertLevelsQuery += $"INSERT OR IGNORE INTO levels(id, level_no, initial, is_done) VALUES({AllLevels[i, 0]}, {AllLevels[i, 0]}, {AllLevels[i, 1]}, {AllLevels[i, 2]});";
         }
 
