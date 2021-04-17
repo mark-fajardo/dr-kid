@@ -1,12 +1,13 @@
 using UnityEngine;
 using System;
+using System.IO;
 using System.Data;
 using Mono.Data.Sqlite;
 using System.Collections.Generic;
 
 public class DB : MonoBehaviour
 {
-    private string DBName = "URI=file:dr_kid.db";
+    private string DBName = "URI=file:";
 
     private int[,] AllLevels = {
         {1, 1, 0},
@@ -37,6 +38,7 @@ public class DB : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DBName += SetupDBName();
         SetupDB();
     }
 
@@ -134,5 +136,26 @@ public class DB : MonoBehaviour
         }
 
         return InsertLevelsQuery;
+    }
+
+    private string SetupDBName()
+    {
+        string ReturnDBName = "";
+        //if (Application.platform != RuntimePlatform.Android)
+        //{
+        //    ReturnDBName = Application.dataPath + "/dr_kid.db";
+        //}
+        //else
+        //{
+        ReturnDBName = Application.persistentDataPath + "/dr_kid.db";
+        if (!File.Exists(ReturnDBName))
+        {
+            WWW load = new WWW("jar:file://" + Application.dataPath + "!/assets/" + "dr_kid.s3db");
+            while (!load.isDone) { }
+            File.WriteAllBytes(ReturnDBName, load.bytes);
+        }
+        //}
+
+        return ReturnDBName;
     }
 }

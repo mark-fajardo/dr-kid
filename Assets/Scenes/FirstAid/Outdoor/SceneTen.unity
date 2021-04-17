@@ -450,7 +450,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65b985b4c63d6e840b8b47c53377ff44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75372880c41e70f4b82df3b7a888dff4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -675,7 +675,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65b985b4c63d6e840b8b47c53377ff44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75372880c41e70f4b82df3b7a888dff4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4345,7 +4345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 65b985b4c63d6e840b8b47c53377ff44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75372880c41e70f4b82df3b7a888dff4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4658,9 +4658,9 @@ MonoBehaviour:
     name: Dr. Kid
     dialogs:
     - This will be the last scene of our Outdoor Scenes here in the First Aid category.
-    - We just need to find the Loperamide Hydrochloride for Cindy.
-    - She is having a stomach ache right now, due to eating too much.
-    - Let just grab the Loperamide Hydrochloride in the First Aid Kit.
+    - We just need to find the Imodium for Cindy.
+    - She is having an stomach ache right now, due to eating too much food.
+    - Let just grab the Imodium in the First Aid Kit.
     - Do not let Cindy wait. Let's go get it as soon as possible.
   OptionOneDialog:
     name: Dr. Kid
@@ -4681,11 +4681,11 @@ MonoBehaviour:
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
-    - Yes, we just need the Loperamide Hydrochloride medicine for this.
+    - Yes, we just need the Imodium syrup for this.
     - 'Cindy ate a lot of food, that caused her stomach ache. '
-    - And it might turn into diarrhea.
-    - So to prevent diarrhea, Cindy needs a Loperamide Hydrochloride.
-    - This is also used to reduce the amount of stool in people who have ileostomy.
+    - And it might turn into indigestion.
+    - So to prevent indigestion, Cindy needs an Imodium.
+    - This is also used in diarrhea, nausea and heartburn.
     - So that's all for our Outdoor Scenes.
     - Do not forget what we are using, doing and learning every scenes.
     - This will help us to have an idea in things regarding to using a First Aid
