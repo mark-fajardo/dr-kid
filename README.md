@@ -1,5 +1,5 @@
 # Dr. Kid: First Aid and Hazard Calamity
-App that will help the Kids learn some of the First Aid Actions during specific events.
+App that will help the Kids learn some of the necessary First Aid Actions during specific events.
 
 ### Version 1.0.0
 `Added`
