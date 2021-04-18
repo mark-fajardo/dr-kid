@@ -77,6 +77,7 @@ public class SceneFiveScript : MonoBehaviour
     public void OptionThree() // Correct
     {
         Option = 3;
+        FindObjectOfType<DB>().UpdateLevelDone(5, 6);
         ChooseOption(OptionThreeDialog);
     }
 

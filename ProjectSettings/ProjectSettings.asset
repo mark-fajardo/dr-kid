@@ -150,6 +150,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.WeCreate.Dr.KidFirstAidandHazard
     Standalone: com.DefaultCompany.dr-kid
   buildNumber:
     Standalone: 0

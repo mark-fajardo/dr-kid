@@ -63,6 +63,7 @@ public class SceneFourScript : MonoBehaviour
     public void OptionOne() // Correct One
     {
         Option = 1;
+        FindObjectOfType<DB>().UpdateLevelDone(4, 5);
         ChooseOption(OptionOneDialog);
     }
 
