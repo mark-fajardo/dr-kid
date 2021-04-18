@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Indoor/SceneOne.unity
+    guid: 519eef9b0cbbc6c499cd80b8f305d41d
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Indoor/SceneTwo.unity
+    guid: 0c2898c377876594cb0576d30693ae6b
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Indoor/SceneThree.unity
+    guid: 9b56e8977000a304c866585b065c646a
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Indoor/SceneFour.unity
+    guid: e135e976552cf3f41a36e5da793d5863
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Indoor/SceneFive.unity
+    guid: da464479f64809942ae0fc01788ce073
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneSix.unity
+    guid: 5db38d771bfae3243b41e5adb7cc7d63
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneSeven.unity
+    guid: e1a1fb112371f274890749b45548601d
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneEight.unity
+    guid: 33ba375a4aa005c4e8b54b555a8de435
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneNine.unity
+    guid: e1aa438671a4eed43bf388ed89932f74
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Outdoor/SceneTen.unity
+    guid: ac9a58161cd2f2149ac51d2669d2bd76
+  - enabled: 1
+    path: Assets/Scenes/Calamity/SceneOne.unity
+    guid: 0487eabf7d4a59d46a0a143bd63d7927
+  m_configObjects: {}
