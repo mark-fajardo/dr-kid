@@ -425,7 +425,13 @@ MonoBehaviour:
     dialogs:
     - She's having a hard time breathing, we don't need an ice pack right now.
     - She just need to recover her breathing as soon as possible.
-  CindyIntroDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 4f34e1904a65c0d478a81b2c059c7eed, type: 3}
+  - {fileID: 8300000, guid: 89a93f3dccbbea646945d30b804b1da2, type: 3}
+  - {fileID: 8300000, guid: 5f860df82133f634aa0ee5067898970a, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 5d866ce5b12740447a070c13b03d32f3, type: 3}
+  - {fileID: 8300000, guid: 6ce16b5eba69ed74595fbb6e7eadad0f, type: 3}
   NarratorTutorialDialogAudio: []
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []

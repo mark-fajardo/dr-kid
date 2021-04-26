@@ -2585,9 +2585,19 @@ MonoBehaviour:
     dialogs:
     - Tape is necessary, but we cannot do anything with the tape itself only.
     - Pick the right things up to cover a wound from dirt.
-  CindyIntroDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 4cce3e6d66e19dd44a5421a42b46ab0f, type: 3}
+  - {fileID: 8300000, guid: b8f28fb9524e751499fa9add8af80d3b, type: 3}
+  - {fileID: 8300000, guid: b64e1e4c512e96c45af30564993d7bce, type: 3}
+  - {fileID: 8300000, guid: fa79cdecbba57aa48b23b164eae6dd61, type: 3}
+  - {fileID: 8300000, guid: 638294f2806a70a459488f67ff1b89c5, type: 3}
+  - {fileID: 8300000, guid: 4e711920e2a24c04484776d5dc888869, type: 3}
+  - {fileID: 8300000, guid: 89b31105cc018a74da2e9363b35f80ca, type: 3}
+  - {fileID: 8300000, guid: 72209d1dd4863b54a91731fc56412e3b, type: 3}
+  - {fileID: 8300000, guid: 09a0c8e2013f02144b26c13501073995, type: 3}
   NarratorTutorialDialogAudio: []
-  CindyChoosingDialogAudio: []
+  CindyChoosingDialogAudio:
+  - {fileID: 8300000, guid: f1f4b093aa7d4c443b15985ec055ee6f, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []

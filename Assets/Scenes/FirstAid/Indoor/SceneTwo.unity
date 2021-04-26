@@ -3642,9 +3642,17 @@ MonoBehaviour:
     dialogs:
     - Not that. You don't want to use that.
     - It does not clean any kind of wounds. Try choosing again.
-  CindyIntroDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 6fc12848acdb593498bf26919077d94c, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: fed6ea60df0af5048baee424faf87816, type: 3}
+  - {fileID: 8300000, guid: 2699d0ce89cc58342934da014b9ff442, type: 3}
+  - {fileID: 8300000, guid: 78df3d8d54089f242b372d4edccbab21, type: 3}
+  - {fileID: 8300000, guid: 5df9fbfc2cae5fb498e784c174ae3c4a, type: 3}
   NarratorTutorialDialogAudio: []
-  CindyTutorialDialogAudio: []
+  CindyTutorialDialogAudio:
+  - {fileID: 8300000, guid: 2cacb29a6ead07c4385095eb20d06e26, type: 3}
+  - {fileID: 8300000, guid: 7b09d61d59a69094ab7e87369e4d0a44, type: 3}
   NarratorTutorialTwoDialogAudio: []
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []

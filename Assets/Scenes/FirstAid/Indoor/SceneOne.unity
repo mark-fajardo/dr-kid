@@ -3455,9 +3455,27 @@ MonoBehaviour:
     - Also, Gauze only is not enough to make the wound fully prevented from any infections.
     - You can choose again.
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 51ea3671e1a99f848974bf634d4e2bfd, type: 3}
-  NarratorTutorialDialogAudio: []
-  CindyChoosingDialogAudio: []
+  - {fileID: 8300000, guid: 8c6c61868b6ce334a9bb6a6b624afc60, type: 3}
+  - {fileID: 8300000, guid: 6f932d5a011d3f047a605544e2a33bd2, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 918274d9fb875054c95d4e1be26dc377, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CindyChoosingDialogAudio:
+  - {fileID: 8300000, guid: ac01df1d1fc25eb43956ef7d101e9269, type: 3}
+  - {fileID: 8300000, guid: 194066defe4c96648b6a2b68c99eb03a, type: 3}
+  - {fileID: 8300000, guid: 424b1bc1359ce4a4aa58d10849d66933, type: 3}
+  - {fileID: 8300000, guid: bd3528416ce8fe449ad4cc9de16465a0, type: 3}
+  - {fileID: 8300000, guid: d630bcb151a836749a4d896ee592cd8b, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []

@@ -4923,9 +4923,16 @@ MonoBehaviour:
     dialogs:
     - We don't need to cover any wounds right now.
     - Gauze is not needed for the mean time...
-  CindyIntroDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: e3ae3e72e75e9834c97ee6656ba27820, type: 3}
+  - {fileID: 8300000, guid: 13480187ee4546949b706b54d036eca6, type: 3}
+  - {fileID: 8300000, guid: 74e872a431d0a044f9d2e580c5ece563, type: 3}
+  - {fileID: 8300000, guid: 648a0b9f3e869a9468c10428010c7211, type: 3}
+  - {fileID: 8300000, guid: 9a823a26b92e32b4fadc24f0d993ab05, type: 3}
+  - {fileID: 8300000, guid: ac8675081d0613047b0c00917b57ae3b, type: 3}
   NarratorTutorialDialogAudio: []
-  CindyTutorialDialogAudio: []
+  CindyTutorialDialogAudio:
+  - {fileID: 8300000, guid: 0cd25e253567a1e4db8d29d9329491fa, type: 3}
   NarratorTutorialTwoDialogAudio: []
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []

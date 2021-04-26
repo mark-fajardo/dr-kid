@@ -4109,9 +4109,16 @@ MonoBehaviour:
     dialogs:
     - Betadine is unnecessary.
     - We don't need to disinfect the lump. We just need to flatten the lump.
-  CindyIntroDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: f5a38fc61b7246f4a91ddcbaa25ef7a3, type: 3}
+  - {fileID: 8300000, guid: 3a410cfd2706ed945a1189806760ea99, type: 3}
+  - {fileID: 8300000, guid: c47bc3f9af0293141892109bf843950e, type: 3}
+  - {fileID: 8300000, guid: 3e19519370fc43b4da110951abb2d302, type: 3}
+  - {fileID: 8300000, guid: 484c540ec3428234cac21df2aa3789df, type: 3}
   NarratorTutorialDialogAudio: []
-  CindyChoosingDialogAudio: []
+  CindyChoosingDialogAudio:
+  - {fileID: 8300000, guid: a2dd207f17769f04d892b765b0e07bc4, type: 3}
+  - {fileID: 8300000, guid: 66be1d75dd8231140a790be2adb19c0f, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
