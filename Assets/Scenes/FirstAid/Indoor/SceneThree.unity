@@ -4924,17 +4924,35 @@ MonoBehaviour:
     - We don't need to cover any wounds right now.
     - Gauze is not needed for the mean time...
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: e3ae3e72e75e9834c97ee6656ba27820, type: 3}
-  - {fileID: 8300000, guid: 13480187ee4546949b706b54d036eca6, type: 3}
-  - {fileID: 8300000, guid: 74e872a431d0a044f9d2e580c5ece563, type: 3}
-  - {fileID: 8300000, guid: 648a0b9f3e869a9468c10428010c7211, type: 3}
-  - {fileID: 8300000, guid: 9a823a26b92e32b4fadc24f0d993ab05, type: 3}
-  - {fileID: 8300000, guid: ac8675081d0613047b0c00917b57ae3b, type: 3}
-  NarratorTutorialDialogAudio: []
+  - {fileID: 8300000, guid: 57ea1d8bdaa9a2d4980e887de538d305, type: 3}
+  - {fileID: 8300000, guid: ac17bc5d7c7982f408e44af0c01a26a6, type: 3}
+  - {fileID: 8300000, guid: 9540c6dba8f59994f9dbd282b8fe660d, type: 3}
+  - {fileID: 8300000, guid: 9b2933d0897eb774885f4cc865bfb2ba, type: 3}
+  - {fileID: 8300000, guid: ec9c375a1f9b37342a19d0c6ecaa4386, type: 3}
+  - {fileID: 8300000, guid: 3a059bb0c89563640801a497da2e5b1e, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 0d1b5c86c4531f64b8ad5ab18260a9dd, type: 3}
+  - {fileID: 8300000, guid: 2805e0bed61f40d46a664e0590e99709, type: 3}
+  - {fileID: 8300000, guid: 3d2dced3293b5ce4d9bde67062142b55, type: 3}
   CindyTutorialDialogAudio:
-  - {fileID: 8300000, guid: 0cd25e253567a1e4db8d29d9329491fa, type: 3}
-  NarratorTutorialTwoDialogAudio: []
-  OptionOneDialogAudio: []
+  - {fileID: 8300000, guid: f7a0c31ed7bed3e4e855436505233700, type: 3}
+  NarratorTutorialTwoDialogAudio:
+  - {fileID: 8300000, guid: 2ea18d8fbded2f442874a8698bd28882, type: 3}
+  - {fileID: 8300000, guid: 9b42c66b9117d234685c600a370767f8, type: 3}
+  - {fileID: 8300000, guid: 3c377cdf6f115b148bf23ee3d1fc5ce6, type: 3}
+  - {fileID: 8300000, guid: 392177c8fea9d43428ea136e6d8c5f09, type: 3}
+  - {fileID: 8300000, guid: 6660611416c75494eb0b1f914afd5480, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 29a789f28b2bd4e41888fa811d0a8b59, type: 3}
+  - {fileID: 8300000, guid: d739d2dbabeb4e24fb97fbf13ea019b5, type: 3}
+  - {fileID: 8300000, guid: 1c9e14cb88cf86a42bd6297f6847d861, type: 3}
+  - {fileID: 8300000, guid: 3ec55f4a3134d84448bdbc1cd1bf6456, type: 3}
+  - {fileID: 8300000, guid: 2fb34c84bb5207840858ad84e7b05ae5, type: 3}
+  - {fileID: 8300000, guid: fd828ebcad13ded42b9e732be24a61a3, type: 3}
+  - {fileID: 8300000, guid: ee1a6a46a5521494294bd681c18187be, type: 3}
+  - {fileID: 8300000, guid: d5ba1c9ada163094ea7b5ef386d15eb3, type: 3}
+  - {fileID: 8300000, guid: c389035d0b406aa4c87827a63aa3bd41, type: 3}
+  - {fileID: 8300000, guid: afc7879506294e24b805c1c73952ee4b, type: 3}
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []

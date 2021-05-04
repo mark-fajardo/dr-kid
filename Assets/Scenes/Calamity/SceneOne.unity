@@ -4394,10 +4394,44 @@ MonoBehaviour:
     - Just standby? And don't care?
     - No. Cindy needs to move and prepare her things up.
     - There is no time for standing by. Cindy needs to move.
-  CindyIntroDialogAudio: []
-  NarratorTutorialDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: efe6c54e6c7954e47b237a165566b823, type: 3}
+  - {fileID: 8300000, guid: cf24fc3d1e378344089d78d5deea5f93, type: 3}
+  - {fileID: 8300000, guid: b88c0c20513a55640b4fbc02d9ee92b0, type: 3}
+  - {fileID: 8300000, guid: 27a05ee6cf8f79841bdf7053da70b044, type: 3}
+  - {fileID: 8300000, guid: fa17d5f18d2690b44bb531b849a5d37b, type: 3}
+  - {fileID: 8300000, guid: 481f184beb8db8941809a795556aa615, type: 3}
+  - {fileID: 8300000, guid: 645c1b638faf64d41b79031b1222cbd3, type: 3}
+  - {fileID: 8300000, guid: 68784cf9a2ce52b4bae1192fe5dbbfd2, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: fff8410d9c37d534d8a43ec5950fb4b6, type: 3}
+  - {fileID: 8300000, guid: 78f12269c0700d34eb3f5aa86dec502e, type: 3}
+  - {fileID: 8300000, guid: c282a6e5eaa83584591b872f888e8642, type: 3}
+  - {fileID: 8300000, guid: eafbde6a19e952f44910720f35364969, type: 3}
+  - {fileID: 8300000, guid: 0e2ebd5864c339e4d89c0726f23ade42, type: 3}
+  - {fileID: 8300000, guid: dde1ecdfe4c281a499ecb1c75438fafd, type: 3}
+  - {fileID: 8300000, guid: e9984eff5669b7d458c04213c3c8d265, type: 3}
+  - {fileID: 8300000, guid: 56fd714bb1a4cd34db1e1ad086dcdcf3, type: 3}
+  - {fileID: 8300000, guid: 76ac8db8d9e9c114fa08ae9db6f612d1, type: 3}
+  - {fileID: 8300000, guid: f2cb814e18a320e499fd3b9d6de201f8, type: 3}
+  - {fileID: 8300000, guid: 10a29e8a829f58d45bcf1a707c0603ae, type: 3}
+  - {fileID: 8300000, guid: ac6b16da02b144d4f8133110305e292e, type: 3}
+  - {fileID: 8300000, guid: 64c02e886b2d26d42a4d4771a4040765, type: 3}
+  - {fileID: 8300000, guid: 0e2287228061dcb42996287f587b4c02, type: 3}
+  - {fileID: 8300000, guid: c78e0bb9cd3c8544d98c75e1a5556fcf, type: 3}
+  - {fileID: 8300000, guid: be242c5781c2d0d4a89d7f4c9a38b520, type: 3}
   OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 385d3bad98cf1a14c9dcb983bd70fa15, type: 3}
+  - {fileID: 8300000, guid: b83c1d2f9e3e5824b9f99f7ce95edd05, type: 3}
+  - {fileID: 8300000, guid: 2f047466970b02e4998d86e16b69f87c, type: 3}
+  - {fileID: 8300000, guid: da829ba9ff5875b49a2e2320bfeac9b5, type: 3}
+  - {fileID: 8300000, guid: bb4ecbe290aea4c4db843ed171d74537, type: 3}
+  - {fileID: 8300000, guid: b7482565412167243801acca1d36d4ab, type: 3}
+  - {fileID: 8300000, guid: 8d71baf21ed203543aa6d49071aea5c4, type: 3}
+  - {fileID: 8300000, guid: 49c484760290ef7478d37a7a7c2b7c69, type: 3}
+  - {fileID: 8300000, guid: 2a69e7d3003e2c443a9e9a48f09c1986, type: 3}
+  - {fileID: 0}
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []
 --- !u!224 &1846343096

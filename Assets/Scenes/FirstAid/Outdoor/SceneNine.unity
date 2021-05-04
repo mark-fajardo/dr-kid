@@ -4428,9 +4428,27 @@ MonoBehaviour:
     - Not this one...
     - Loperamide Hydrochloride is used to treat diarrhea.
     - Cindy have a headache right now, so this is not what we need.
-  CindyIntroDialogAudio: []
-  NarratorTutorialDialogAudio: []
-  OptionOneDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 20422755f9a0444448f1b95d362bd5e0, type: 3}
+  - {fileID: 8300000, guid: a42911a1365a8c84db24aa3b661cb15f, type: 3}
+  - {fileID: 8300000, guid: b842da5a1be37d14492a7f885aa8a576, type: 3}
+  - {fileID: 8300000, guid: 907eaa070c7a1c347a275330aa6973ce, type: 3}
+  - {fileID: 8300000, guid: 3094ced6e4762b54abcf7cc57f31a173, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 2b2e51100fac0f446b7c4b5713ec5967, type: 3}
+  - {fileID: 8300000, guid: 70448b960f982bb4f9a31322e15a200d, type: 3}
+  - {fileID: 8300000, guid: e14d2fd7bdf041342937ca659a6e5b16, type: 3}
+  - {fileID: 8300000, guid: 245cfcfc1dc06b64a8ef343192f02779, type: 3}
+  - {fileID: 8300000, guid: 75730d4f469f8ec408fa1d21f71f2b13, type: 3}
+  - {fileID: 8300000, guid: 1b66f43395f1e9543ba181a8a9cd1432, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 8cd3702765ee8ee499867f305074cb34, type: 3}
+  - {fileID: 8300000, guid: cc323bea7367520478100822d8df5e2b, type: 3}
+  - {fileID: 8300000, guid: 6c1a31899797edd47b94ab62d750cbcc, type: 3}
+  - {fileID: 8300000, guid: 0eb55e05dbb132446bb4e9e8ee8d4260, type: 3}
+  - {fileID: 8300000, guid: 41185901d68c6d5429613f333c641eb5, type: 3}
+  - {fileID: 8300000, guid: 5dba0c993f3665541a3eaa20a6138444, type: 3}
+  - {fileID: 8300000, guid: 16bc6eb8a5fce7b45adcfbeaa5509407, type: 3}
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []

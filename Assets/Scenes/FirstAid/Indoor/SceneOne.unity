@@ -3399,7 +3399,7 @@ MonoBehaviour:
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
-    - Hey There! I am Dr. Kid, the one that will guide you through all these scenes.
+    - Hey there! I am Dr. Kid, the one that will guide you through all these scenes.
     - This is the first stage of the First Aid Indoor scenes.
     - As you can see, the girl before is Cindy. She slightly cut a part of her finger.
     - This happened when her mom teaches her how to cut a cloth.
@@ -3455,28 +3455,36 @@ MonoBehaviour:
     - Also, Gauze only is not enough to make the wound fully prevented from any infections.
     - You can choose again.
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 8c6c61868b6ce334a9bb6a6b624afc60, type: 3}
-  - {fileID: 8300000, guid: 6f932d5a011d3f047a605544e2a33bd2, type: 3}
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 918274d9fb875054c95d4e1be26dc377, type: 3}
+  - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
+  - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}
+  - {fileID: 8300000, guid: 9ace196f44b35984282625c166c527a6, type: 3}
+  - {fileID: 8300000, guid: 7bf676541b2fd6b43be27f3cd5e67462, type: 3}
   NarratorTutorialDialogAudio:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 98c9a7105d5c334419a9e779f8b3d31a, type: 3}
+  - {fileID: 8300000, guid: 0206687694f2d404d8e0970ff82a870d, type: 3}
+  - {fileID: 8300000, guid: 47d93737d47c7304ab8531d92e437cab, type: 3}
+  - {fileID: 8300000, guid: f8db119d9028ac5449df33242dde9fb9, type: 3}
+  - {fileID: 8300000, guid: 6b3e7aee99fc59d4eaafad8f09b878cc, type: 3}
+  - {fileID: 8300000, guid: e1bee2382e4a9b741b836d329c88b4b3, type: 3}
+  - {fileID: 8300000, guid: 3c6a2879987dada4da26ba9f24b6388a, type: 3}
+  - {fileID: 8300000, guid: 0f8f5890014210b4fbbef3a9ad0bcd70, type: 3}
+  - {fileID: 8300000, guid: b45fb5ba163aa6244a39403d632619c9, type: 3}
+  - {fileID: 8300000, guid: f0f19a51d2715b54fa06e44d8d9019de, type: 3}
   CindyChoosingDialogAudio:
-  - {fileID: 8300000, guid: ac01df1d1fc25eb43956ef7d101e9269, type: 3}
-  - {fileID: 8300000, guid: 194066defe4c96648b6a2b68c99eb03a, type: 3}
-  - {fileID: 8300000, guid: 424b1bc1359ce4a4aa58d10849d66933, type: 3}
-  - {fileID: 8300000, guid: bd3528416ce8fe449ad4cc9de16465a0, type: 3}
-  - {fileID: 8300000, guid: d630bcb151a836749a4d896ee592cd8b, type: 3}
-  OptionOneDialogAudio: []
+  - {fileID: 8300000, guid: 5bae821c8c840d24cbebe95e320f745d, type: 3}
+  - {fileID: 8300000, guid: d64193c6aa0eb2d45a243077623c132e, type: 3}
+  - {fileID: 8300000, guid: 0970621bcbb5a5e4286f392a19882c1d, type: 3}
+  - {fileID: 8300000, guid: 467ba296bd5aaa54b84ce76a796774e6, type: 3}
+  - {fileID: 8300000, guid: c230d2d2e3fc8fe46aceab1e51e9d31e, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: bf97a0898ef4d8e4589c102891552a44, type: 3}
+  - {fileID: 8300000, guid: 8e38a04ab6de8644e98268235d9f927d, type: 3}
+  - {fileID: 8300000, guid: cee940f62dbe22f459f978d1e7dc12e9, type: 3}
+  - {fileID: 8300000, guid: 7bee0e15884d3ce4da4f73947d66bde5, type: 3}
+  - {fileID: 8300000, guid: 3e82268a85adff74aa4ace4b69c26ce8, type: 3}
+  - {fileID: 8300000, guid: 070904c9731ac154399977b813b8f9e4, type: 3}
+  - {fileID: 8300000, guid: 0a82c3dcf53dd8b40b5202291c2136e0, type: 3}
+  - {fileID: 8300000, guid: 0eee49d15d61563488739c0111b37bd7, type: 3}
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []

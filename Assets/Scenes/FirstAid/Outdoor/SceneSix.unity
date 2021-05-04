@@ -426,14 +426,33 @@ MonoBehaviour:
     - She's having a hard time breathing, we don't need an ice pack right now.
     - She just need to recover her breathing as soon as possible.
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 4f34e1904a65c0d478a81b2c059c7eed, type: 3}
-  - {fileID: 8300000, guid: 89a93f3dccbbea646945d30b804b1da2, type: 3}
-  - {fileID: 8300000, guid: 5f860df82133f634aa0ee5067898970a, type: 3}
+  - {fileID: 8300000, guid: e5eaec7ad5e4e384693cf7a3076fdcb5, type: 3}
+  - {fileID: 8300000, guid: 7f31b71ebb758e940886eae06fbdad3b, type: 3}
+  - {fileID: 8300000, guid: 52f75c86ccc1a5d4e967546cc617f91e, type: 3}
   - {fileID: 0}
-  - {fileID: 8300000, guid: 5d866ce5b12740447a070c13b03d32f3, type: 3}
-  - {fileID: 8300000, guid: 6ce16b5eba69ed74595fbb6e7eadad0f, type: 3}
-  NarratorTutorialDialogAudio: []
-  OptionOneDialogAudio: []
+  - {fileID: 8300000, guid: a8f8f270c48fc0645aba7db97f0a5fab, type: 3}
+  - {fileID: 8300000, guid: e32dc975f2def134dbc3ac7a0b2f1f27, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: a034d88dd47f3fb44b62e3eb32bc1ca2, type: 3}
+  - {fileID: 8300000, guid: c199953a05087f740a69aeba9ecb179d, type: 3}
+  - {fileID: 8300000, guid: 74f1e9d6b20d1194db7168d09bc2e3ce, type: 3}
+  - {fileID: 8300000, guid: 0fefe97dc682641439f5e90dc19d4a86, type: 3}
+  - {fileID: 8300000, guid: 8aa581b088c56ca428d0ff7444ccaea7, type: 3}
+  - {fileID: 8300000, guid: 99eb5f13a86f1c04c935358b21732b50, type: 3}
+  - {fileID: 8300000, guid: d0c13e06cccff334b8ce48b3f3161b6c, type: 3}
+  - {fileID: 8300000, guid: 6477cf6fa393ced4b99cc228ca8d7401, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: cc50ebdaf67770c4a90010bc3ecd2ca0, type: 3}
+  - {fileID: 8300000, guid: 4b13b7922123075409f5cd2cf55903ff, type: 3}
+  - {fileID: 8300000, guid: f9dfd90a035d78d4581c5773763e6f02, type: 3}
+  - {fileID: 8300000, guid: 8d38f2049fbc45640b1b720fc606a0ce, type: 3}
+  - {fileID: 8300000, guid: 67567267aedfbaa4899cf1765094eceb, type: 3}
+  - {fileID: 8300000, guid: 20f90395cc29c3449a4adfe73931a130, type: 3}
+  - {fileID: 8300000, guid: 8c1b6eec399762244a8168c9af536358, type: 3}
+  - {fileID: 8300000, guid: a41982dc9c608b046acf0b7c8644d149, type: 3}
+  - {fileID: 8300000, guid: 7621591b8ce559c449374e9ee9e75698, type: 3}
+  - {fileID: 8300000, guid: de078f21ad35e3a42af740c6cfbb9ae8, type: 3}
+  - {fileID: 8300000, guid: 9897e1439b6f41849920b3fb0e5ae711, type: 3}
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []

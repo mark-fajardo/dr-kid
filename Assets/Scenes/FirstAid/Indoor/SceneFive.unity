@@ -2586,21 +2586,38 @@ MonoBehaviour:
     - Tape is necessary, but we cannot do anything with the tape itself only.
     - Pick the right things up to cover a wound from dirt.
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 4cce3e6d66e19dd44a5421a42b46ab0f, type: 3}
-  - {fileID: 8300000, guid: b8f28fb9524e751499fa9add8af80d3b, type: 3}
-  - {fileID: 8300000, guid: b64e1e4c512e96c45af30564993d7bce, type: 3}
-  - {fileID: 8300000, guid: fa79cdecbba57aa48b23b164eae6dd61, type: 3}
-  - {fileID: 8300000, guid: 638294f2806a70a459488f67ff1b89c5, type: 3}
-  - {fileID: 8300000, guid: 4e711920e2a24c04484776d5dc888869, type: 3}
-  - {fileID: 8300000, guid: 89b31105cc018a74da2e9363b35f80ca, type: 3}
-  - {fileID: 8300000, guid: 72209d1dd4863b54a91731fc56412e3b, type: 3}
-  - {fileID: 8300000, guid: 09a0c8e2013f02144b26c13501073995, type: 3}
-  NarratorTutorialDialogAudio: []
+  - {fileID: 8300000, guid: 060a3d45cc1cba7478ecbb6f6e3d51e2, type: 3}
+  - {fileID: 8300000, guid: 9203012b5ec2fd945aa1d05688f373d8, type: 3}
+  - {fileID: 8300000, guid: aaba2d0d88f467e45ac0192e3f12c6db, type: 3}
+  - {fileID: 8300000, guid: 5759c8fce014ef341a9508579b0f5423, type: 3}
+  - {fileID: 8300000, guid: 3d111aaa96deda74a964c0522d760f34, type: 3}
+  - {fileID: 8300000, guid: 665fe956742bde14aa15d0b4dd1219ad, type: 3}
+  - {fileID: 8300000, guid: c6a86743e2c846f4f93a4ef2b266b336, type: 3}
+  - {fileID: 8300000, guid: e09151832d0e0b84682bfe89fe2ddea7, type: 3}
+  - {fileID: 8300000, guid: 7e054f828112ef4478743503887f7dba, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: dc8714a205098b64196b9adcd0f19b59, type: 3}
+  - {fileID: 8300000, guid: 53f1adbc0c83b984990ed7dbef586512, type: 3}
+  - {fileID: 8300000, guid: dbdd294582021fc4382940e063a92feb, type: 3}
+  - {fileID: 8300000, guid: b879e7c62228cf649aa2c5332d422c4e, type: 3}
+  - {fileID: 8300000, guid: 06989e0e11ac6a744aabd2c1bf7a3c90, type: 3}
+  - {fileID: 8300000, guid: c38d4f3cc461d564c813c5b69ec45c96, type: 3}
   CindyChoosingDialogAudio:
-  - {fileID: 8300000, guid: f1f4b093aa7d4c443b15985ec055ee6f, type: 3}
+  - {fileID: 8300000, guid: 02226baa25a57774e98ee5b71da349e4, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: b499a0bd0675c544a987c983081c80f4, type: 3}
+  - {fileID: 8300000, guid: bcdb3833c16b9a34a84079d07539f3a7, type: 3}
+  - {fileID: 8300000, guid: 63c5709d39e49f0449b3339201b8d909, type: 3}
+  - {fileID: 8300000, guid: da54f3def4d9daf439bcd64ec0d1c0ca, type: 3}
+  - {fileID: 8300000, guid: 42bfcaf871ce4604581079ecc264a0cf, type: 3}
+  - {fileID: 8300000, guid: b25b0c8260c3d374fbf59ed6e5c5a46c, type: 3}
+  - {fileID: 8300000, guid: b1f1468308246744487e5fab60d94645, type: 3}
+  - {fileID: 8300000, guid: 55a1ce475616f214a82075c332e99d31, type: 3}
+  - {fileID: 8300000, guid: 87f54e4ea5ecc4b489b627a1249c5835, type: 3}
+  - {fileID: 8300000, guid: f398aea6ec85f5d4bbd56e5a28a93b17, type: 3}
+  - {fileID: 8300000, guid: 0d5416907a9232e4c90d91e6a993305f, type: 3}
   OptionFourDialogAudio: []
 --- !u!223 &1090764684
 Canvas:

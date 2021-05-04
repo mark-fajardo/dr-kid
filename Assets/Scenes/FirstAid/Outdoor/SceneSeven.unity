@@ -1832,10 +1832,26 @@ MonoBehaviour:
     dialogs:
     - Wipes can be used to clean some part of our skin.
     - But it is not the one we are needing right now.
-  CindyIntroDialogAudio: []
-  NarratorTutorialDialogAudio: []
-  CindyChoosingDialogAudio: []
-  OptionOneDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: e9645ee209aa93146886198b5d636bfd, type: 3}
+  - {fileID: 8300000, guid: 54b71bce0f427274b92410e3830423d6, type: 3}
+  - {fileID: 8300000, guid: 8da09969e7d685240802c9b24257dde1, type: 3}
+  - {fileID: 8300000, guid: ee1687c0e4654544caf223785b1dcf7a, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 1b2c42f03a868fc4b9dce1ffba26731e, type: 3}
+  - {fileID: 8300000, guid: c94567a65cef07e4b867085d50f33165, type: 3}
+  - {fileID: 8300000, guid: fd847bd75fd1765428a79b513b93f3e3, type: 3}
+  - {fileID: 8300000, guid: 8248ae4353eb1fb4e944ca18c9b85c44, type: 3}
+  - {fileID: 8300000, guid: 4fcab337bc9e9964a948e0db0cc66078, type: 3}
+  CindyChoosingDialogAudio:
+  - {fileID: 8300000, guid: 9a8394cf1fbad6345ac727ef2432bf6d, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: c25ff89c86e1bb5488c67a942daec906, type: 3}
+  - {fileID: 8300000, guid: e26a48166cd05774a87abc1373676b6f, type: 3}
+  - {fileID: 8300000, guid: 889a270a04bdadb40a26d0ed622293c5, type: 3}
+  - {fileID: 8300000, guid: 1f69a982be21a1c4792953028eb65ef5, type: 3}
+  - {fileID: 8300000, guid: 74b6b02ceeec2f5458c3da64b506a603, type: 3}
+  - {fileID: 8300000, guid: b9364c8852a2eb54587069adab6145b8, type: 3}
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []

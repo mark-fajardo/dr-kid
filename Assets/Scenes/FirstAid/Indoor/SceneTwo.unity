@@ -3643,20 +3643,43 @@ MonoBehaviour:
     - Not that. You don't want to use that.
     - It does not clean any kind of wounds. Try choosing again.
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 6fc12848acdb593498bf26919077d94c, type: 3}
+  - {fileID: 8300000, guid: bb3ac8b24aadae4488e90df4be977c00, type: 3}
   - {fileID: 0}
-  - {fileID: 8300000, guid: fed6ea60df0af5048baee424faf87816, type: 3}
-  - {fileID: 8300000, guid: 2699d0ce89cc58342934da014b9ff442, type: 3}
-  - {fileID: 8300000, guid: 78df3d8d54089f242b372d4edccbab21, type: 3}
-  - {fileID: 8300000, guid: 5df9fbfc2cae5fb498e784c174ae3c4a, type: 3}
-  NarratorTutorialDialogAudio: []
+  - {fileID: 8300000, guid: 67515189cde0e464bb769e300caab10c, type: 3}
+  - {fileID: 8300000, guid: fe5e74c0b02c42c4c94380739ae67db0, type: 3}
+  - {fileID: 8300000, guid: 73d47b360c04ca240895ca4012cfcef2, type: 3}
+  - {fileID: 8300000, guid: 5f7beeb948aeda54ab2b478c2d12e9c8, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: d5b45cf5c560c564884fe38d0ace17e0, type: 3}
+  - {fileID: 8300000, guid: 1ef03b5b362f33941a5e9f58d39762e9, type: 3}
+  - {fileID: 8300000, guid: 63a4887f7e56c3b48b636305d84098d9, type: 3}
+  - {fileID: 8300000, guid: dc322a64471dd2343a72e526731c291a, type: 3}
   CindyTutorialDialogAudio:
-  - {fileID: 8300000, guid: 2cacb29a6ead07c4385095eb20d06e26, type: 3}
-  - {fileID: 8300000, guid: 7b09d61d59a69094ab7e87369e4d0a44, type: 3}
-  NarratorTutorialTwoDialogAudio: []
+  - {fileID: 8300000, guid: 2dfff1f77ba36fc4a9c86e9c24385d2d, type: 3}
+  - {fileID: 8300000, guid: fb4a5c2d3e09fc04d9005db2885d2f5b, type: 3}
+  NarratorTutorialTwoDialogAudio:
+  - {fileID: 8300000, guid: d34f473117288944cb29cdac94833e5b, type: 3}
+  - {fileID: 8300000, guid: 4c05a46a7e67d0042849b4d95870ddcd, type: 3}
+  - {fileID: 8300000, guid: a0e9d48a5e31081478918910330d5df6, type: 3}
+  - {fileID: 8300000, guid: e8c9f4c61ff103c4d8371ba6fc0cd432, type: 3}
+  - {fileID: 8300000, guid: 3fc8fecd48cb43a4bb0d31583e0df030, type: 3}
+  - {fileID: 8300000, guid: ff640d95df2aa04449164bab95a1d58b, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: cbd8fe2cfd6faea459180d563d0bceb1, type: 3}
+  - {fileID: 8300000, guid: 488a1417772bad54990746b3e6365c33, type: 3}
+  - {fileID: 8300000, guid: cc54eb630b07f5349b6a3a3866272978, type: 3}
+  - {fileID: 8300000, guid: c07e388685327934b8856d3d7587beaf, type: 3}
+  - {fileID: 8300000, guid: 452c83361840e404f8819279647a93f0, type: 3}
+  - {fileID: 8300000, guid: 63edfb9d5ae13f54684b7058d8d79c38, type: 3}
+  - {fileID: 8300000, guid: e62b904c9b6ec164584e0604d3b32d00, type: 3}
+  - {fileID: 8300000, guid: 7c4c5e6ebd153934e8a972948e016939, type: 3}
+  - {fileID: 8300000, guid: 95fa55b510e38c447ae938c802c1f67d, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 0bff4180bfb284843be10d70fca8e1fb, type: 3}
+  - {fileID: 8300000, guid: 2e023f43efcecf145ba10163eb49153c, type: 3}
   OptionFourDialogAudio: []
 --- !u!114 &1356717601
 MonoBehaviour:

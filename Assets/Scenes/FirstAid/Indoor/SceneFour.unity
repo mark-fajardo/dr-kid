@@ -4110,16 +4110,32 @@ MonoBehaviour:
     - Betadine is unnecessary.
     - We don't need to disinfect the lump. We just need to flatten the lump.
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: f5a38fc61b7246f4a91ddcbaa25ef7a3, type: 3}
-  - {fileID: 8300000, guid: 3a410cfd2706ed945a1189806760ea99, type: 3}
-  - {fileID: 8300000, guid: c47bc3f9af0293141892109bf843950e, type: 3}
-  - {fileID: 8300000, guid: 3e19519370fc43b4da110951abb2d302, type: 3}
-  - {fileID: 8300000, guid: 484c540ec3428234cac21df2aa3789df, type: 3}
-  NarratorTutorialDialogAudio: []
+  - {fileID: 8300000, guid: f8376bd2df0171c46b2870ec806625c8, type: 3}
+  - {fileID: 8300000, guid: c5852d5f3125cd04fb96ddbbde347979, type: 3}
+  - {fileID: 8300000, guid: b51af40924f32c9428910f4267a3911b, type: 3}
+  - {fileID: 8300000, guid: 83f71757e4f9f7b4f9b8f7d6495bf07c, type: 3}
+  - {fileID: 8300000, guid: 450edf842a25c0840974e6a738669b8d, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 042d1463205763449a07b7e13dc319c9, type: 3}
+  - {fileID: 8300000, guid: 3958a50ae66bb154f807bb8e391e84b3, type: 3}
+  - {fileID: 8300000, guid: e5fa06dbfd63d6743808a9447d646beb, type: 3}
+  - {fileID: 8300000, guid: b6e0e81152423b84e9722f94f7b4c3bd, type: 3}
+  - {fileID: 8300000, guid: 3ad236787fb72c649b34874a9c07248a, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 8082a5166229b524883ab0d71a9d2037, type: 3}
   CindyChoosingDialogAudio:
-  - {fileID: 8300000, guid: a2dd207f17769f04d892b765b0e07bc4, type: 3}
-  - {fileID: 8300000, guid: 66be1d75dd8231140a790be2adb19c0f, type: 3}
-  OptionOneDialogAudio: []
+  - {fileID: 8300000, guid: fc1af376b3c6d3941a2decb1d0cf0726, type: 3}
+  - {fileID: 8300000, guid: 3f8612034e1805a4fab04467bf82d736, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: bd69cae5e817f8e44b4dcbd9329e8e26, type: 3}
+  - {fileID: 8300000, guid: c8c75d7a13bf50e49bc22be9326a1aa0, type: 3}
+  - {fileID: 8300000, guid: 9bd774969c86c3c468d80a42c444142c, type: 3}
+  - {fileID: 8300000, guid: 36f1cd4aa0686e44885a272ba0d2e680, type: 3}
+  - {fileID: 8300000, guid: b6c591508c30d224dbf72d6d6581803f, type: 3}
+  - {fileID: 8300000, guid: cab70bd5c37f5ca44bc5679c6b9fe81a, type: 3}
+  - {fileID: 8300000, guid: c40dbc0994bce5941a4e48c83e266f61, type: 3}
+  - {fileID: 8300000, guid: 0f552aa69f862e246b871b131be2c18d, type: 3}
+  - {fileID: 8300000, guid: f8f8e3a3c696c834bab011cd63ee3037, type: 3}
   OptionTwoDialogAudio: []
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []
