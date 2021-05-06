@@ -3485,9 +3485,19 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 070904c9731ac154399977b813b8f9e4, type: 3}
   - {fileID: 8300000, guid: 0a82c3dcf53dd8b40b5202291c2136e0, type: 3}
   - {fileID: 8300000, guid: 0eee49d15d61563488739c0111b37bd7, type: 3}
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 59c16968c85779c49a6c629372d3193c, type: 3}
+  - {fileID: 8300000, guid: 82db0ce02b9a36d4180167f098ede79f, type: 3}
+  - {fileID: 8300000, guid: 7074b71d93c35694fa78a3f853f49c08, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: b55f18ef52cfece4f9a26df39186fa17, type: 3}
+  - {fileID: 8300000, guid: 41eac6e0a0c760448a46665e1d11a5a7, type: 3}
+  - {fileID: 8300000, guid: 5c9519b0efe33064dad58bee24c05ca0, type: 3}
+  - {fileID: 8300000, guid: 62dd8b560526e894b8e3ef6855494dec, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 71a3b7da0651776468c94cdae9167b0d, type: 3}
+  - {fileID: 8300000, guid: b57371e96dee3db46bc2790d1c66cd91, type: 3}
+  - {fileID: 8300000, guid: be54257e00a1d8c4e902ce5bcaefbcf9, type: 3}
 --- !u!1 &1524096694
 GameObject:
   m_ObjectHideFlags: 0

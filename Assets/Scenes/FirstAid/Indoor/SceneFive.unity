@@ -2604,8 +2604,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c38d4f3cc461d564c813c5b69ec45c96, type: 3}
   CindyChoosingDialogAudio:
   - {fileID: 8300000, guid: 02226baa25a57774e98ee5b71da349e4, type: 3}
-  OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 992f210a3a87f314bb8a1601b1a9db02, type: 3}
+  - {fileID: 8300000, guid: 3fa3a5b71ae5daf4f851499e823c0532, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 69ef74c1987fa7d4ca36ca1c063ba057, type: 3}
+  - {fileID: 8300000, guid: 6acd1a11e05153b47bce645409b9c56f, type: 3}
   OptionThreeDialogAudio:
   - {fileID: 8300000, guid: b499a0bd0675c544a987c983081c80f4, type: 3}
   - {fileID: 8300000, guid: bcdb3833c16b9a34a84079d07539f3a7, type: 3}
@@ -2618,7 +2622,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 87f54e4ea5ecc4b489b627a1249c5835, type: 3}
   - {fileID: 8300000, guid: f398aea6ec85f5d4bbd56e5a28a93b17, type: 3}
   - {fileID: 8300000, guid: 0d5416907a9232e4c90d91e6a993305f, type: 3}
-  OptionFourDialogAudio: []
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: d0527f870d9d3804aa74ca7562089823, type: 3}
+  - {fileID: 8300000, guid: 56ad64e3431ffde4b82a47d0a1441906, type: 3}
 --- !u!223 &1090764684
 Canvas:
   m_ObjectHideFlags: 0

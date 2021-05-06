@@ -4833,9 +4833,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 81c1d38ae26310f4992b54f2d85243de, type: 3}
   - {fileID: 8300000, guid: 0f224e5a29ca783498674669e9f979a7, type: 3}
   - {fileID: 8300000, guid: d4b62ae0bea3b3e488b06c6bcb729b7d, type: 3}
-  OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 5405c08c480e68745ba9412499d754cd, type: 3}
+  - {fileID: 8300000, guid: aef96e7275b89e84ab1b654a5cdfd59b, type: 3}
+  - {fileID: 8300000, guid: b6fd759f47b37c74ba2d5a77dcb3f446, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 28b9681a0ddbdcd4cbfb337fe16da447, type: 3}
+  - {fileID: 8300000, guid: 6a692abcf5506d843aae6b870b3fd1c3, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: c254f5f182ce11a418a483d48d3f207d, type: 3}
+  - {fileID: 8300000, guid: 15d558938e552cc44b671b99644158e5, type: 3}
   OptionFourDialogAudio:
   - {fileID: 8300000, guid: 92d109ffa48bc1748a58d98cb3ef7c0b, type: 3}
   - {fileID: 8300000, guid: 127036b85fb71cc49a315733dc35a8c3, type: 3}

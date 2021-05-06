@@ -4420,7 +4420,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0e2287228061dcb42996287f587b4c02, type: 3}
   - {fileID: 8300000, guid: c78e0bb9cd3c8544d98c75e1a5556fcf, type: 3}
   - {fileID: 8300000, guid: be242c5781c2d0d4a89d7f4c9a38b520, type: 3}
-  OptionOneDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 87507af6ecd602d40b3b94990520a8d4, type: 3}
+  - {fileID: 8300000, guid: 0af512f0cb645a4439bdbdd6eabbf8e2, type: 3}
+  - {fileID: 8300000, guid: c3c530472a943624881de325e418be10, type: 3}
   OptionTwoDialogAudio:
   - {fileID: 8300000, guid: 385d3bad98cf1a14c9dcb983bd70fa15, type: 3}
   - {fileID: 8300000, guid: b83c1d2f9e3e5824b9f99f7ce95edd05, type: 3}
@@ -4432,8 +4435,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 49c484760290ef7478d37a7a7c2b7c69, type: 3}
   - {fileID: 8300000, guid: 2a69e7d3003e2c443a9e9a48f09c1986, type: 3}
   - {fileID: 0}
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: 9e93c32304f57f244a01d9aa2a54e485, type: 3}
+  - {fileID: 8300000, guid: c65fe4e44865c97489346b8602ad8b1b, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 53925589b7d258f49b34241a85693a87, type: 3}
+  - {fileID: 8300000, guid: 585bb2eb0dd865f4897d0daab69864db, type: 3}
+  - {fileID: 8300000, guid: 388bbe9b68d4b7541a2a43914b69e91a, type: 3}
 --- !u!224 &1846343096
 RectTransform:
   m_ObjectHideFlags: 0

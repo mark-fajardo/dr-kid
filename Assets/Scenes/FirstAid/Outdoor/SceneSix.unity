@@ -453,9 +453,14 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7621591b8ce559c449374e9ee9e75698, type: 3}
   - {fileID: 8300000, guid: de078f21ad35e3a42af740c6cfbb9ae8, type: 3}
   - {fileID: 8300000, guid: 9897e1439b6f41849920b3fb0e5ae711, type: 3}
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: ad71ee459f7ea6748b83d3870cc760b1, type: 3}
+  - {fileID: 8300000, guid: 89277be97db49b1488a85e4b7e2bfd16, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: a07f5f13f5886f6448bd9d126714ded2, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: bfa8d6208e6f7f5438aa271f6fcb1e7f, type: 3}
+  - {fileID: 8300000, guid: 3005c69bab8b2794091c565c0dfd2974, type: 3}
 --- !u!223 &155705731
 Canvas:
   m_ObjectHideFlags: 0

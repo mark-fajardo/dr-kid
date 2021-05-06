@@ -4953,9 +4953,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d5ba1c9ada163094ea7b5ef386d15eb3, type: 3}
   - {fileID: 8300000, guid: c389035d0b406aa4c87827a63aa3bd41, type: 3}
   - {fileID: 8300000, guid: afc7879506294e24b805c1c73952ee4b, type: 3}
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: a8fbea9ad61d79c45964a104ee754431, type: 3}
+  - {fileID: 8300000, guid: 7b0b74a403eede5468ba87991114f311, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: f6748efed39a8234eb6d20f17ada52b3, type: 3}
+  - {fileID: 8300000, guid: 69cd693d98b2ed04bbb453055d51403b, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: f80d3327e2383a545ad730be9ae6276b, type: 3}
+  - {fileID: 8300000, guid: 48dc08a91aa41354b975044800924c4d, type: 3}
 --- !u!1 &1988831019
 GameObject:
   m_ObjectHideFlags: 0

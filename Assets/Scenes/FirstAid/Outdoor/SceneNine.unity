@@ -4449,9 +4449,17 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 41185901d68c6d5429613f333c641eb5, type: 3}
   - {fileID: 8300000, guid: 5dba0c993f3665541a3eaa20a6138444, type: 3}
   - {fileID: 8300000, guid: 16bc6eb8a5fce7b45adcfbeaa5509407, type: 3}
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: f80722f364ab27649a1cb52ef41ec41c, type: 3}
+  - {fileID: 8300000, guid: dfb7bebac359c4b4f9a9b33e50f9bf79, type: 3}
+  - {fileID: 8300000, guid: 6637acd2cc4cb624f8f319fede5e0776, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: 1a2b59a7510886e499cbbb35e389292c, type: 3}
+  - {fileID: 8300000, guid: 05bb60cd18576e84cb5442df6640fedb, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: d3ea07f81d234984da4209af22860331, type: 3}
+  - {fileID: 8300000, guid: 606451599e80b05488b09bfe0a0e4e05, type: 3}
+  - {fileID: 8300000, guid: a143fde22ff55ba4f9014c7d62a62ad7, type: 3}
 --- !u!224 &1842347115
 RectTransform:
   m_ObjectHideFlags: 0

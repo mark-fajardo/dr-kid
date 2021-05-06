@@ -1852,9 +1852,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1f69a982be21a1c4792953028eb65ef5, type: 3}
   - {fileID: 8300000, guid: 74b6b02ceeec2f5458c3da64b506a603, type: 3}
   - {fileID: 8300000, guid: b9364c8852a2eb54587069adab6145b8, type: 3}
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 553289ab91a5ee842a8bd08dd7c910f2, type: 3}
+  - {fileID: 8300000, guid: 1a0a572d280a7a5418fbfe1f85761053, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: f44bb57152a964c48aef9bd6d4a83ed9, type: 3}
+  - {fileID: 8300000, guid: a2fd6a9b8f8cdd14bb1e68e4c5d1b14b, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: ba41dd4e8ebe81542b2b93dcf94c6f3d, type: 3}
+  - {fileID: 8300000, guid: 3ca34046b56ae2248bc1650e42ef2210, type: 3}
 --- !u!223 &834242195
 Canvas:
   m_ObjectHideFlags: 0
