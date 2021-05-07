@@ -57,7 +57,7 @@ public class FirstAidMenu : MonoBehaviour
 
     public void MakeCindyCry()
     {
-        AudioSource.PlayOneShot(CindyCry);
+        //AudioSource.PlayOneShot(CindyCry);
     }
 
     public void SetNarratorPanel(bool active)

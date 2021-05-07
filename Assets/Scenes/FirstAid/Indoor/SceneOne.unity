@@ -780,6 +780,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250202780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250202782}
+  - component: {fileID: 250202781}
+  m_Layer: 0
+  m_Name: Narration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &250202781
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250202780}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.755
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &250202782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250202780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 627.47174, y: 392.95004, z: -215.00761}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &433398434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,7 +3399,7 @@ MonoBehaviour:
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
-    - Hey There! I am Dr. Kid, the one that will guide you through all these scenes.
+    - Hey there! I am Dr. Kid, the one that will guide you through all these scenes.
     - This is the first stage of the First Aid Indoor scenes.
     - As you can see, the girl before is Cindy. She slightly cut a part of her finger.
     - This happened when her mom teaches her how to cut a cloth.
@@ -3327,6 +3454,50 @@ MonoBehaviour:
       that can cover a cut.
     - Also, Gauze only is not enough to make the wound fully prevented from any infections.
     - You can choose again.
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
+  - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}
+  - {fileID: 8300000, guid: 9ace196f44b35984282625c166c527a6, type: 3}
+  - {fileID: 8300000, guid: 7bf676541b2fd6b43be27f3cd5e67462, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 98c9a7105d5c334419a9e779f8b3d31a, type: 3}
+  - {fileID: 8300000, guid: 0206687694f2d404d8e0970ff82a870d, type: 3}
+  - {fileID: 8300000, guid: 47d93737d47c7304ab8531d92e437cab, type: 3}
+  - {fileID: 8300000, guid: f8db119d9028ac5449df33242dde9fb9, type: 3}
+  - {fileID: 8300000, guid: 6b3e7aee99fc59d4eaafad8f09b878cc, type: 3}
+  - {fileID: 8300000, guid: e1bee2382e4a9b741b836d329c88b4b3, type: 3}
+  - {fileID: 8300000, guid: 3c6a2879987dada4da26ba9f24b6388a, type: 3}
+  - {fileID: 8300000, guid: 0f8f5890014210b4fbbef3a9ad0bcd70, type: 3}
+  - {fileID: 8300000, guid: b45fb5ba163aa6244a39403d632619c9, type: 3}
+  - {fileID: 8300000, guid: f0f19a51d2715b54fa06e44d8d9019de, type: 3}
+  CindyChoosingDialogAudio:
+  - {fileID: 8300000, guid: 5bae821c8c840d24cbebe95e320f745d, type: 3}
+  - {fileID: 8300000, guid: d64193c6aa0eb2d45a243077623c132e, type: 3}
+  - {fileID: 8300000, guid: 0970621bcbb5a5e4286f392a19882c1d, type: 3}
+  - {fileID: 8300000, guid: 467ba296bd5aaa54b84ce76a796774e6, type: 3}
+  - {fileID: 8300000, guid: c230d2d2e3fc8fe46aceab1e51e9d31e, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: bf97a0898ef4d8e4589c102891552a44, type: 3}
+  - {fileID: 8300000, guid: 8e38a04ab6de8644e98268235d9f927d, type: 3}
+  - {fileID: 8300000, guid: cee940f62dbe22f459f978d1e7dc12e9, type: 3}
+  - {fileID: 8300000, guid: 7bee0e15884d3ce4da4f73947d66bde5, type: 3}
+  - {fileID: 8300000, guid: 3e82268a85adff74aa4ace4b69c26ce8, type: 3}
+  - {fileID: 8300000, guid: 070904c9731ac154399977b813b8f9e4, type: 3}
+  - {fileID: 8300000, guid: 0a82c3dcf53dd8b40b5202291c2136e0, type: 3}
+  - {fileID: 8300000, guid: 0eee49d15d61563488739c0111b37bd7, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 59c16968c85779c49a6c629372d3193c, type: 3}
+  - {fileID: 8300000, guid: 82db0ce02b9a36d4180167f098ede79f, type: 3}
+  - {fileID: 8300000, guid: 7074b71d93c35694fa78a3f853f49c08, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: b55f18ef52cfece4f9a26df39186fa17, type: 3}
+  - {fileID: 8300000, guid: 41eac6e0a0c760448a46665e1d11a5a7, type: 3}
+  - {fileID: 8300000, guid: 5c9519b0efe33064dad58bee24c05ca0, type: 3}
+  - {fileID: 8300000, guid: 62dd8b560526e894b8e3ef6855494dec, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 71a3b7da0651776468c94cdae9167b0d, type: 3}
+  - {fileID: 8300000, guid: b57371e96dee3db46bc2790d1c66cd91, type: 3}
+  - {fileID: 8300000, guid: be54257e00a1d8c4e902ce5bcaefbcf9, type: 3}
 --- !u!1 &1524096694
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,6 +4022,7 @@ MonoBehaviour:
   nameText: {fileID: 1679703573}
   dialogText: {fileID: 2024309816}
   animator: {fileID: 1479660940}
+  NarrationSource: {fileID: 250202781}
 --- !u!4 &1696462224
 Transform:
   m_ObjectHideFlags: 0

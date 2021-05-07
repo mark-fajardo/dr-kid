@@ -2641,6 +2641,7 @@ MonoBehaviour:
   nameText: {fileID: 1968490018}
   dialogText: {fileID: 1197267048}
   animator: {fileID: 1076415293}
+  NarrationSource: {fileID: 1582881474}
 --- !u!4 &1190192723
 Transform:
   m_ObjectHideFlags: 0
@@ -3677,6 +3678,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537191578}
   m_CullTransparentMesh: 1
+--- !u!1 &1582881473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1582881475}
+  - component: {fileID: 1582881474}
+  m_Layer: 0
+  m_Name: Narration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1582881474
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582881473}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.755
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1582881475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582881473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 627.47174, y: 392.95004, z: -215.00761}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1628044061
 GameObject:
   m_ObjectHideFlags: 0
@@ -5307,6 +5435,39 @@ MonoBehaviour:
     dialogs:
     - We don't need any Ice Pack right now.
     - Cindy's wound is needed to be covered as soon as possible.
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: e21d354c9f816ec469e7ce5691318125, type: 3}
+  - {fileID: 8300000, guid: 1eda11279a90d274e87205d62ec70b79, type: 3}
+  - {fileID: 8300000, guid: 833929e7de02e784593538e03ee1bb45, type: 3}
+  - {fileID: 8300000, guid: 93f9e2e93a9a72c42a22993f6c86f6e2, type: 3}
+  - {fileID: 8300000, guid: 36bbad78ce654534bb30cde8fca5eb5b, type: 3}
+  - {fileID: 8300000, guid: 4ffb75c896c9283469256e17af52b86c, type: 3}
+  - {fileID: 8300000, guid: e09cd3ac24fd9ba48a976f011a58c4ab, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 388a24329d3990c46b3c0235106f7461, type: 3}
+  - {fileID: 8300000, guid: e066544bdfb518a438e9a3807ff8371b, type: 3}
+  - {fileID: 8300000, guid: fbf5f84f4c48d0c4fa8d83ed2419c183, type: 3}
+  - {fileID: 8300000, guid: 518ef7f451580fa4cbf4892b69b1198a, type: 3}
+  - {fileID: 8300000, guid: 3fcb71778263dee43a3fe235e698042d, type: 3}
+  - {fileID: 8300000, guid: c3963985abf73d340b453c2f343329b8, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: dadc1486000a2a749a48e228c5b3b11f, type: 3}
+  - {fileID: 8300000, guid: 79ed216a9f7210f42a85f7f4b5e26daa, type: 3}
+  - {fileID: 8300000, guid: 378fcfd73e354b140b57bffcad95ae82, type: 3}
+  - {fileID: 8300000, guid: 1aa093c4acd57a14683a311c126d622a, type: 3}
+  - {fileID: 8300000, guid: ee5cbc56aff2a174893fb65e4f63fc15, type: 3}
+  - {fileID: 8300000, guid: 5a85623c364e0e14ca5ea97947ac65c9, type: 3}
+  - {fileID: 8300000, guid: aa9eb0ded80eb7940b78bfde2a07d8a8, type: 3}
+  - {fileID: 8300000, guid: 8d67cf1c4f6bece49a7ecd55436f8dbc, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: fd88bee15d1c35445a5a9204429f3927, type: 3}
+  - {fileID: 8300000, guid: ac26432a621c8084f8614f51522e95ba, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: ff1d98cd3bd02a544b521c610e15205e, type: 3}
+  - {fileID: 8300000, guid: ad279b4008a512640a4163d7bdce9707, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 1bf3f09f8c43f86438c1ab4c01ad659e, type: 3}
+  - {fileID: 8300000, guid: f0e55b8c738eb764da0514e0519bf83a, type: 3}
 --- !u!223 &2140154462
 Canvas:
   m_ObjectHideFlags: 0

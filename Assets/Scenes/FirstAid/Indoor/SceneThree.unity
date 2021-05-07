@@ -3281,6 +3281,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255404954}
   m_CullTransparentMesh: 1
+--- !u!1 &1284387714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1284387716}
+  - component: {fileID: 1284387715}
+  m_Layer: 0
+  m_Name: Narration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1284387715
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284387714}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.755
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1284387716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284387714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 627.47174, y: 392.95004, z: -215.00761}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1351380233
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,6 +4481,7 @@ MonoBehaviour:
   nameText: {fileID: 1359372478}
   dialogText: {fileID: 1384444795}
   animator: {fileID: 298617975}
+  NarrationSource: {fileID: 1284387715}
 --- !u!4 &1594494615
 Transform:
   m_ObjectHideFlags: 0
@@ -4795,6 +4923,45 @@ MonoBehaviour:
     dialogs:
     - We don't need to cover any wounds right now.
     - Gauze is not needed for the mean time...
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 57ea1d8bdaa9a2d4980e887de538d305, type: 3}
+  - {fileID: 8300000, guid: ac17bc5d7c7982f408e44af0c01a26a6, type: 3}
+  - {fileID: 8300000, guid: 9540c6dba8f59994f9dbd282b8fe660d, type: 3}
+  - {fileID: 8300000, guid: 9b2933d0897eb774885f4cc865bfb2ba, type: 3}
+  - {fileID: 8300000, guid: ec9c375a1f9b37342a19d0c6ecaa4386, type: 3}
+  - {fileID: 8300000, guid: 3a059bb0c89563640801a497da2e5b1e, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 0d1b5c86c4531f64b8ad5ab18260a9dd, type: 3}
+  - {fileID: 8300000, guid: 2805e0bed61f40d46a664e0590e99709, type: 3}
+  - {fileID: 8300000, guid: 3d2dced3293b5ce4d9bde67062142b55, type: 3}
+  CindyTutorialDialogAudio:
+  - {fileID: 8300000, guid: f7a0c31ed7bed3e4e855436505233700, type: 3}
+  NarratorTutorialTwoDialogAudio:
+  - {fileID: 8300000, guid: 2ea18d8fbded2f442874a8698bd28882, type: 3}
+  - {fileID: 8300000, guid: 9b42c66b9117d234685c600a370767f8, type: 3}
+  - {fileID: 8300000, guid: 3c377cdf6f115b148bf23ee3d1fc5ce6, type: 3}
+  - {fileID: 8300000, guid: 392177c8fea9d43428ea136e6d8c5f09, type: 3}
+  - {fileID: 8300000, guid: 6660611416c75494eb0b1f914afd5480, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 29a789f28b2bd4e41888fa811d0a8b59, type: 3}
+  - {fileID: 8300000, guid: d739d2dbabeb4e24fb97fbf13ea019b5, type: 3}
+  - {fileID: 8300000, guid: 1c9e14cb88cf86a42bd6297f6847d861, type: 3}
+  - {fileID: 8300000, guid: 3ec55f4a3134d84448bdbc1cd1bf6456, type: 3}
+  - {fileID: 8300000, guid: 2fb34c84bb5207840858ad84e7b05ae5, type: 3}
+  - {fileID: 8300000, guid: fd828ebcad13ded42b9e732be24a61a3, type: 3}
+  - {fileID: 8300000, guid: ee1a6a46a5521494294bd681c18187be, type: 3}
+  - {fileID: 8300000, guid: d5ba1c9ada163094ea7b5ef386d15eb3, type: 3}
+  - {fileID: 8300000, guid: c389035d0b406aa4c87827a63aa3bd41, type: 3}
+  - {fileID: 8300000, guid: afc7879506294e24b805c1c73952ee4b, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: a8fbea9ad61d79c45964a104ee754431, type: 3}
+  - {fileID: 8300000, guid: 7b0b74a403eede5468ba87991114f311, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: f6748efed39a8234eb6d20f17ada52b3, type: 3}
+  - {fileID: 8300000, guid: 69cd693d98b2ed04bbb453055d51403b, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: f80d3327e2383a545ad730be9ae6276b, type: 3}
+  - {fileID: 8300000, guid: 48dc08a91aa41354b975044800924c4d, type: 3}
 --- !u!1 &1988831019
 GameObject:
   m_ObjectHideFlags: 0

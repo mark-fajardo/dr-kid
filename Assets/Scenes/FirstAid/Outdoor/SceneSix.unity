@@ -425,6 +425,42 @@ MonoBehaviour:
     dialogs:
     - She's having a hard time breathing, we don't need an ice pack right now.
     - She just need to recover her breathing as soon as possible.
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: e5eaec7ad5e4e384693cf7a3076fdcb5, type: 3}
+  - {fileID: 8300000, guid: 7f31b71ebb758e940886eae06fbdad3b, type: 3}
+  - {fileID: 8300000, guid: 52f75c86ccc1a5d4e967546cc617f91e, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: a8f8f270c48fc0645aba7db97f0a5fab, type: 3}
+  - {fileID: 8300000, guid: e32dc975f2def134dbc3ac7a0b2f1f27, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: a034d88dd47f3fb44b62e3eb32bc1ca2, type: 3}
+  - {fileID: 8300000, guid: c199953a05087f740a69aeba9ecb179d, type: 3}
+  - {fileID: 8300000, guid: 74f1e9d6b20d1194db7168d09bc2e3ce, type: 3}
+  - {fileID: 8300000, guid: 0fefe97dc682641439f5e90dc19d4a86, type: 3}
+  - {fileID: 8300000, guid: 8aa581b088c56ca428d0ff7444ccaea7, type: 3}
+  - {fileID: 8300000, guid: 99eb5f13a86f1c04c935358b21732b50, type: 3}
+  - {fileID: 8300000, guid: d0c13e06cccff334b8ce48b3f3161b6c, type: 3}
+  - {fileID: 8300000, guid: 6477cf6fa393ced4b99cc228ca8d7401, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: cc50ebdaf67770c4a90010bc3ecd2ca0, type: 3}
+  - {fileID: 8300000, guid: 4b13b7922123075409f5cd2cf55903ff, type: 3}
+  - {fileID: 8300000, guid: f9dfd90a035d78d4581c5773763e6f02, type: 3}
+  - {fileID: 8300000, guid: 8d38f2049fbc45640b1b720fc606a0ce, type: 3}
+  - {fileID: 8300000, guid: 67567267aedfbaa4899cf1765094eceb, type: 3}
+  - {fileID: 8300000, guid: 20f90395cc29c3449a4adfe73931a130, type: 3}
+  - {fileID: 8300000, guid: 8c1b6eec399762244a8168c9af536358, type: 3}
+  - {fileID: 8300000, guid: a41982dc9c608b046acf0b7c8644d149, type: 3}
+  - {fileID: 8300000, guid: 7621591b8ce559c449374e9ee9e75698, type: 3}
+  - {fileID: 8300000, guid: de078f21ad35e3a42af740c6cfbb9ae8, type: 3}
+  - {fileID: 8300000, guid: 9897e1439b6f41849920b3fb0e5ae711, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: ad71ee459f7ea6748b83d3870cc760b1, type: 3}
+  - {fileID: 8300000, guid: 89277be97db49b1488a85e4b7e2bfd16, type: 3}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: a07f5f13f5886f6448bd9d126714ded2, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: bfa8d6208e6f7f5438aa271f6fcb1e7f, type: 3}
+  - {fileID: 8300000, guid: 3005c69bab8b2794091c565c0dfd2974, type: 3}
 --- !u!223 &155705731
 Canvas:
   m_ObjectHideFlags: 0
@@ -655,6 +691,7 @@ MonoBehaviour:
   nameText: {fileID: 1516990111}
   dialogText: {fileID: 1816126430}
   animator: {fileID: 1827762221}
+  NarrationSource: {fileID: 1694938494}
 --- !u!4 &339592596
 Transform:
   m_ObjectHideFlags: 0
@@ -4206,6 +4243,133 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1694938493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694938495}
+  - component: {fileID: 1694938494}
+  m_Layer: 0
+  m_Name: Narration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1694938494
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694938493}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.755
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1694938495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694938493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 627.47174, y: 392.95004, z: -215.00761}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767997095
 GameObject:

@@ -12,16 +12,19 @@ public class BtnClickSound : MonoBehaviour
 
     public void ClickSound()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(clickFx);
     }
 
     public void WrongChoiceSound()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(wrongChoice);
     }
 
     public void CorrectChoiceSound()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(correctChoice);
     }
 }
