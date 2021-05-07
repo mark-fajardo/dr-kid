@@ -111,7 +111,7 @@ public class CalamitySceneOneScript : MonoBehaviour
         {
             if (Option == 2)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(0);
+                FindObjectOfType<LevelLoader>().LoadLevel(12);
             }
             else
             {
