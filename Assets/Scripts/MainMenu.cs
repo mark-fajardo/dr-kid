@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
 
         if (parameterDate <= todaysDate)
         {
-            //SubscriptionCover.SetActive(true);
+            SubscriptionCover.SetActive(true);
         }
     }
 

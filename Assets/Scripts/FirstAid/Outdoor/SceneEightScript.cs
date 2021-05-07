@@ -20,6 +20,14 @@ public class SceneEightScript : MonoBehaviour
     public Dialog OptionThreeDialog;
     public Dialog OptionFourDialog;
 
+    public AudioClip[] CindyIntroDialogAudio;
+    public AudioClip[] NarratorTutorialDialogAudio;
+
+    public AudioClip[] OptionOneDialogAudio;
+    public AudioClip[] OptionTwoDialogAudio;
+    public AudioClip[] OptionThreeDialogAudio;
+    public AudioClip[] OptionFourDialogAudio;
+
     private int DialogQue = 0;
     private int Option = 1;
     private string Talking = "CindyIntro";
@@ -32,7 +40,7 @@ public class SceneEightScript : MonoBehaviour
 
     public void CindyIntro()
     {
-        FindObjectOfType<DialogManager>().StartDialog(CindyIntroDialog);
+        FindObjectOfType<DialogManager>().StartDialog(CindyIntroDialog, CindyIntroDialogAudio);
     }
 
     public void DisplayNextDialog()
@@ -55,29 +63,29 @@ public class SceneEightScript : MonoBehaviour
         }
     }
 
-    public void OptionOne() // Scissor
+    public void OptionOne()
     {
         Option = 1;
         FindObjectOfType<DB>().UpdateLevelDone(8, 9);
-        ChooseOption(OptionOneDialog);
+        ChooseOption(OptionOneDialog, OptionOneDialogAudio);
     }
 
-    public void OptionTwo() // Glue and Gauze
+    public void OptionTwo()
     {
         Option = 2;
-        ChooseOption(OptionTwoDialog);
+        ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
-    public void OptionThree() // Correct
+    public void OptionThree()
     {
         Option = 3;
-        ChooseOption(OptionThreeDialog);
+        ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
     }
 
-    public void OptionFour() // Tape
+    public void OptionFour()
     {
         Option = 4;
-        ChooseOption(OptionFourDialog);
+        ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
     private void ChooseReset()
@@ -87,14 +95,14 @@ public class SceneEightScript : MonoBehaviour
         FindObjectOfType<FirstAidMenu>().ShowChoices();
     }
 
-    private void ChooseOption(Dialog dialog)
+    private void ChooseOption(Dialog dialog, AudioClip[] audioClips)
     {
         Talking = "NarratorChoosing";
         DialogQue = 0;
         FindObjectOfType<FirstAidMenu>().HideChoices();
         FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
-        FindObjectOfType<DialogManager>().StartDialog(dialog);
+        FindObjectOfType<DialogManager>().StartDialog(dialog, audioClips);
     }
 
     private void ChoosingQue()
@@ -197,6 +205,6 @@ public class SceneEightScript : MonoBehaviour
         DialogQue = 0;
         FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
-        FindObjectOfType<DialogManager>().StartDialog(NarratorTutorialDialog);
+        FindObjectOfType<DialogManager>().StartDialog(NarratorTutorialDialog, NarratorTutorialDialogAudio);
     }
 }

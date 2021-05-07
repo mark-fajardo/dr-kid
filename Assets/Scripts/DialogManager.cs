@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class DialogManager : MonoBehaviour
 {
@@ -11,10 +12,17 @@ public class DialogManager : MonoBehaviour
 
     public Animator animator;
 
+    public AudioSource NarrationSource;
+    private AudioClip[] NarrationAudioGroup;
+    private bool HasAudioGlobal;
+
     private Queue<string> dialogs;
 
-    public void StartDialog(Dialog dialog)
+    private int TotalDialog;
+
+    public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
+        NarrationAudioGroup = NarrationAudio;
         animator.SetBool("DialogIsOpen", true);
         dialogs = new Queue<string>();
         dialogs.Clear();
@@ -26,6 +34,7 @@ public class DialogManager : MonoBehaviour
             dialogs.Enqueue(sDialog);
         }
 
+        TotalDialog = dialogs.Count;
         DisplayNextDialog();
     }
 
@@ -35,6 +44,19 @@ public class DialogManager : MonoBehaviour
         {
             EndDialog();
             return true;
+        }
+        try
+        {
+            if (NarrationAudioGroup != null)
+            {
+                NarrationSource.Stop();
+                NarrationSource.PlayOneShot(NarrationAudioGroup[TotalDialog - dialogs.Count]);
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("There was an error");
+            Console.WriteLine(e.Message);
         }
 
         string dialog = dialogs.Dequeue();
