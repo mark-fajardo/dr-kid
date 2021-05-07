@@ -8,3 +8,8 @@ App that will help the Kids learn some of the necessary First Aid Actions during
 - APKs:
   - Limited to May 15 only
   - Not limited
+
+### Version 1.1.0
+`Added`
+- Narration of Dr. Kid and Cindy
+- Calamity 2 and 3
