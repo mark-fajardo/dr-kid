@@ -13,3 +13,7 @@ App that will help the Kids learn some of the necessary First Aid Actions during
 `Added`
 - Narration of Dr. Kid and Cindy
 - Calamity 2 and 3
+
+### Version 1.1.1
+`Added`
+- Updated README
