@@ -11,12 +11,12 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        var parameterDate = DateTime.ParseExact("05/15/2021", "MM/dd/yyyy", CultureInfo.InvariantCulture);
+        var parameterDate = DateTime.ParseExact("05/30/2021", "MM/dd/yyyy", CultureInfo.InvariantCulture);
         var todaysDate = DateTime.Today;
 
         if (parameterDate <= todaysDate)
         {
-            SubscriptionCover.SetActive(true);
+            //SubscriptionCover.SetActive(true);
         }
     }
 

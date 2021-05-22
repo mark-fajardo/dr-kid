@@ -367,12 +367,41 @@ MonoBehaviour:
     dialogs:
     - Cindy needs to care about her surroundings and her family.
     - Tell her to pack their things up and evacuate.
-  CindyIntroDialogAudio: []
-  NarratorTutorialDialogAudio: []
-  OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: f06757ba144fcce438a7843a38e16006, type: 3}
+  - {fileID: 8300000, guid: 01f4c5c4fec32f54f8be4225b81b9777, type: 3}
+  - {fileID: 8300000, guid: 360a80af05d551649be5b8a858787b2d, type: 3}
+  - {fileID: 8300000, guid: 423548f28fc1409439532b423a8fd6b7, type: 3}
+  - {fileID: 8300000, guid: b55fffbf8237aa74a81a66c42f62b6ca, type: 3}
+  - {fileID: 8300000, guid: af1eafb218df0204c93b1088e709c421, type: 3}
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 08ce7831cd979144f9acb1f6b23120c1, type: 3}
+  - {fileID: 8300000, guid: 7d4caee13c796df43a693fde0cd351a4, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 27b30b749949d1746a51c816098a942c, type: 3}
+  - {fileID: 8300000, guid: af03a46d41672944aa95bb6f490650d1, type: 3}
+  - {fileID: 8300000, guid: 70f1c228481cd0e43923e95441550a12, type: 3}
+  - {fileID: 8300000, guid: ff64fc19989add34eaabca6d0d527001, type: 3}
+  - {fileID: 8300000, guid: bf0951c3c7777d841a1abe6d454ec518, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 232afedad25db5241bd5301cedbea1e2, type: 3}
+  - {fileID: 8300000, guid: adb1ff7c2b6b83c4982fd9cd8874cdbf, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 45d190bbc35d9d846aea14c473bd2096, type: 3}
+  - {fileID: 8300000, guid: c8e8cad5e3df0dc4d9182c51631763f7, type: 3}
+  - {fileID: 8300000, guid: 38387b5d328285847bce43579e338316, type: 3}
+  - {fileID: 8300000, guid: fd2cef576af186a4c9a51100d9e249ad, type: 3}
+  - {fileID: 8300000, guid: 6311a420d4284664f811ef45a8ff8cd3, type: 3}
+  - {fileID: 8300000, guid: 98099d49402fdbe47ae58511f3ad27f7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: dc12d6cd185e505428da0f0b79db9bc1, type: 3}
+  - {fileID: 8300000, guid: ca3bfa7d388aecb44893cd32349e4d92, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 946f06afc5cbe854bbe541f3fc6dc2e8, type: 3}
+  - {fileID: 8300000, guid: ff5d8b55c1d914d489cb520ceaffb2c2, type: 3}
 --- !u!224 &144940842
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1576,7 +1605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2dd8cd1c5508f5340a55796115dc2c68, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a85fe890e5598744a93b66ba0c2e5e13, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2339,7 +2368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31546a663d4f7f145aaeef7142e0ff43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f33fcf55cb21be84b9144329128cff28, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2415,7 +2444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31546a663d4f7f145aaeef7142e0ff43, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f33fcf55cb21be84b9144329128cff28, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2829,7 +2858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2dd8cd1c5508f5340a55796115dc2c68, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a85fe890e5598744a93b66ba0c2e5e13, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
