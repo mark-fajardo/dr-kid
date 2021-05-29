@@ -46,6 +46,7 @@ public class DB : MonoBehaviour
     {
         CreateDB();
         SetupLevels();
+        SetupConfig();
     }
 
     public void UpdateLevelDone(int LvlNo, int NextLvl = 0)
@@ -61,6 +62,22 @@ public class DB : MonoBehaviour
                 {
                     command.CommandText += $"UPDATE levels SET initial = 1 WHERE level_no = {NextLvl};";
                 }
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
+    public void UpdateConfigDone(string ToUpdate)
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = $"UPDATE config SET {ToUpdate} WHERE id = 1;";
                 command.ExecuteNonQuery();
             }
 
@@ -94,6 +111,58 @@ public class DB : MonoBehaviour
         return ReturnLvlDetails;
     }
 
+    public List<string> CheckLanguage()
+    {
+        List<string> ReturnConfig = new List<string> { };
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "SELECT language FROM config WHERE id = 1;";
+
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                        ReturnConfig.Add("lang_" + reader["language"].ToString());
+
+                    reader.Close();
+                }
+            }
+
+            connection.Close();
+        }
+
+        return ReturnConfig;
+    }
+
+    public List<string> CheckGender()
+    {
+        List<string> ReturnGender = new List<string> { };
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "SELECT gender FROM config WHERE id = 1;";
+
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                        ReturnGender.Add("gen_" + reader["gender"].ToString());
+
+                    reader.Close();
+                }
+            }
+
+            connection.Close();
+        }
+
+        return ReturnGender;
+    }
+
     private void CreateDB()
     {
         using (var connection = new SqliteConnection(DBName))
@@ -103,6 +172,8 @@ public class DB : MonoBehaviour
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = "CREATE TABLE IF NOT EXISTS levels (id INT PRIMARY KEY, level_no INT, initial INT, is_done INT);";
+                // language: 0 = English, 1 = Filipino; gender: 0 = female, 1 = male
+                command.CommandText += "CREATE TABLE IF NOT EXISTS config (id INT PRIMARY KEY, language INT, gender INT);";
                 command.ExecuteNonQuery();
             }
 
@@ -125,7 +196,39 @@ public class DB : MonoBehaviour
             connection.Close();
         }
     }
-    
+
+    private void SetupConfig()
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "INSERT OR IGNORE INTO config(id, language, gender) VALUES (1, 0, 0);";
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
+    private void SetupDialogLanguage()
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = GetLevels();
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
     private string GetLevels()
     {
         int TotalLevels = (AllLevels.Length / 3);
