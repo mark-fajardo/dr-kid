@@ -29,7 +29,6 @@ public class DialogManager : MonoBehaviour
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
         DialogBackBtn = GameObject.Find("Canvas/DialogBox/DialogBackBtn");
-        NarrationAudioGroup = NarrationAudio;
         animator.SetBool("DialogIsOpen", true);
         nameText.text = dialog.name;
         SetupLanguage();
@@ -38,10 +37,12 @@ public class DialogManager : MonoBehaviour
         if (SelectedLanguage == "lang_0")
         {
             dialogs = dialog.dialogs;
+            NarrationAudioGroup = NarrationAudio;
         } 
         else
         {
             dialogs = dialog.tagalogDialogs;
+            NarrationAudioGroup = dialog.tagalogAudio;
         }
 
         TotalDialog = dialogs.Length;

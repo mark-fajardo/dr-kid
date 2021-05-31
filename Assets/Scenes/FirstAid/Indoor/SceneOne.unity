@@ -3536,6 +3536,7 @@ MonoBehaviour:
     - Tinuturuan ako ni inay na gumamit ng gunting sa pag-gupit ng tela.
     - At aksidenteng nahiwa ko po ang balat ng daliri ko.
     - Tulungan ninyo po ako...
+    tagalogAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -3563,6 +3564,7 @@ MonoBehaviour:
     - At kunin natin ang bendahe para matakpan ang hiwa.
     - Kailangan mong piliin ang tamang Paunang Lunas na kailangan niya.
     - Mag-ingat sa pagpili, at huwag kalimutan kung ano ang sinabi kong piliin mo.
+    tagalogAudio: []
   CindyChoosingDialog:
     name: Cindy
     dialogs:
@@ -3579,6 +3581,7 @@ MonoBehaviour:
     - At, ano pa po ung isa...
     - Ahh, 'ung pang-takip po. Ung pang-takip na magtatakip, sa hiwa ko sa daliri,
       sa mga dumi.
+    tagalogAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -3595,20 +3598,28 @@ MonoBehaviour:
     - Let's Go!
     tagalogDialogs:
     - Oo, tama!
-    - 'Gaya ng sinabi ko kanina, kailangan '
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Gaya ng sinabi ko kanina, kailangan ni Cindy ng Betadine para mailayo sa dumi
+      ang kaniyang sugat.
+    - Ito ay makapag-bibigay satin ng kasiguraduhan laban sa mga impeksyon.
+    - At para mailayo sa kahit na anong dumi, kailangan natin ng BandAid.
+    - At kapag ito'y nailagay na, maka-sisiguro tayo na magiging ligtas ito sa mga
+      pagkakabunggo.
+    - Pagbutihan pa natin, at huwag kalilimutan ang mga kailangan na mga gamit sa
+      mga ganitong aksidente.
+    - At ngayon, tayo ay tutungo na sa susunod na eksena.
+    - Tara!
+    tagalogAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Nope, not that. It cannot make the cut prevent from any infections.
     - Also, it is not used to cover any wound.
     - 'You can try it again. '
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Hindi, 'di iyan. Di mo mailalayo sa mga impeksyon ang sugat gamit iyan.
+    - At hindi rin ito pang takip ng sugat.
+    - Pumili ulit ng iyong sagot.
+    tagalogAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -3617,7 +3628,13 @@ MonoBehaviour:
     - Cindy has no fever. She just needs to make her wound prevent from any infections
       and cover it.
     - Keep your patience up and choose again...
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Hindi iyan.
+    - Hindi natin kailangan ng Thermometer sa ngayon.
+    - Walang lagnat si Cindy. Kailangan lang niya maka-iwas sa impeksyon at takpan
+      ito.
+    - Ayos lang iyan, maaari ka nang pumili ulit.
+    tagalogAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -3625,7 +3642,12 @@ MonoBehaviour:
       that can cover a cut.
     - Also, Gauze only is not enough to make the wound fully prevented from any infections.
     - You can choose again.
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Sa totoo lang, makatutulong ito sa pagtakip ng sugat, pero kailangan natin
+      ng mismong pang-takip.
+    - Hindi ito sapat para maprotektahan ang sugat sa kahit na anong dumi at impeksyon.
+    - Maaari ka nang pumili ulit.
+    tagalogAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
   - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}
