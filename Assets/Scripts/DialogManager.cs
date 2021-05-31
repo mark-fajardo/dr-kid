@@ -16,53 +16,61 @@ public class DialogManager : MonoBehaviour
     private AudioClip[] NarrationAudioGroup;
     private bool HasAudioGlobal;
 
-    private Queue<string> dialogs;
+    private string[] dialogs;
 
-    private int TotalDialog;
+    private int TotalDialog = 0;
+    private int DialogDisplayIndex = 0;
 
     private string SelectedLanguage;
 
+    private GameObject DialogBackBtn;
+
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
+        DialogBackBtn = GameObject.Find("Canvas/DialogBox/DialogBackBtn");
         NarrationAudioGroup = NarrationAudio;
         animator.SetBool("DialogIsOpen", true);
-        dialogs = new Queue<string>();
-        dialogs.Clear();
         nameText.text = dialog.name;
         SetupLanguage();
 
         if (SelectedLanguage == "lang_0")
         {
-            foreach (string sDialog in dialog.dialogs)
-            {
-                dialogs.Enqueue(sDialog);
-            }
+            dialogs = dialog.dialogs;
         } 
         else
         {
-            foreach (string sDialog in dialog.tagalogDialogs)
-            {
-                dialogs.Enqueue(sDialog);
-            }
+            dialogs = dialog.tagalogDialogs;
         }
 
-        TotalDialog = dialogs.Count;
+        TotalDialog = dialogs.Length;
         DisplayNextDialog();
     }
 
     public bool DisplayNextDialog()
     {
-        if (dialogs.Count == 0)
+        if (DialogDisplayIndex == 0)
+        {
+            DialogBackBtn.SetActive(false);
+        }
+        else
+        {
+            DialogBackBtn.SetActive(true);
+        }
+
+        if (TotalDialog == DialogDisplayIndex)
         {
             EndDialog();
+            DialogDisplayIndex = 0;
+            DialogBackBtn.SetActive(false);
             return true;
         }
+
         try
         {
             if (NarrationAudioGroup != null)
             {
                 NarrationSource.Stop();
-                NarrationSource.PlayOneShot(NarrationAudioGroup[TotalDialog - dialogs.Count]);
+                NarrationSource.PlayOneShot(NarrationAudioGroup[DialogDisplayIndex]);
             }
         }
         catch (Exception e)
@@ -71,9 +79,10 @@ public class DialogManager : MonoBehaviour
             Console.WriteLine(e.Message);
         }
 
-        string dialog = dialogs.Dequeue();
+        string dialog = dialogs[DialogDisplayIndex];
         StopAllCoroutines();
         StartCoroutine(TypeDialog(dialog));
+        DialogDisplayIndex++;
         return false;
     }
 
@@ -85,6 +94,12 @@ public class DialogManager : MonoBehaviour
             dialogText.text += letter;
             yield return null;
         }
+    }
+
+    public void ReturnDialog()
+    {
+        DialogDisplayIndex -= 2;
+        DisplayNextDialog();
     }
 
     void EndDialog()
