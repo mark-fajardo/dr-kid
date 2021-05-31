@@ -24,6 +24,7 @@ public class DialogManager : MonoBehaviour
     private string SelectedLanguage;
 
     private GameObject DialogBackBtn;
+    public Image Narrator;
 
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
@@ -32,6 +33,7 @@ public class DialogManager : MonoBehaviour
         animator.SetBool("DialogIsOpen", true);
         nameText.text = dialog.name;
         SetupLanguage();
+        SetupGender();
 
         if (SelectedLanguage == "lang_0")
         {
@@ -116,5 +118,21 @@ public class DialogManager : MonoBehaviour
     private void ManageLanguage(string Config)
     {
         SelectedLanguage = Config;
+    }
+
+    private void SetupGender()
+    {
+        List<string> ShowGender = FindObjectOfType<DB>().CheckGender();
+        ShowGender.ForEach(x => ManageGender(x));
+    }
+
+    private void ManageGender(string Config)
+    {
+        if (Config == "gen_1")
+        {
+            var DrKidBoy = Resources.Load<Sprite>("Characters/dr-kid-boy");
+            //GameObject.Find("Canvas/Characters/Narrator").GetComponent<Image>().sprite = DrKidBoy;
+            Narrator.sprite = DrKidBoy;
+        }
     }
 }
