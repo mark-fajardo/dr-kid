@@ -16,6 +16,11 @@ public class OptionsMenu : MonoBehaviour
 
     void Start()
     {
+        SetupOptions();
+    }
+
+    public void SetupOptions()
+    {
         SetupLanguage();
         SetupGender();
     }
@@ -61,12 +66,12 @@ public class OptionsMenu : MonoBehaviour
         if (FemaleToggleBtn.GetComponent<Toggle>().isOn == true)
         {
             MaleToggleBtn.GetComponent<Toggle>().isOn = false;
-            FindObjectOfType<DB>().UpdateConfigDone("gender = 0");
+            UpdateGenderToFemale();
             return;
         }
 
         MaleToggleBtn.GetComponent<Toggle>().isOn = true;
-        FindObjectOfType<DB>().UpdateConfigDone("gender = 1");
+        UpdateGenderToMale();
     }
 
     public void UpdateToMale()
@@ -74,11 +79,21 @@ public class OptionsMenu : MonoBehaviour
         if (MaleToggleBtn.GetComponent<Toggle>().isOn == true)
         {
             FemaleToggleBtn.GetComponent<Toggle>().isOn = false;
-            FindObjectOfType<DB>().UpdateConfigDone("gender = 1");
+            UpdateGenderToMale();
             return;
         }
 
         FemaleToggleBtn.GetComponent<Toggle>().isOn = true;
+        UpdateGenderToFemale();
+    }
+
+    public void UpdateGenderToMale()
+    {
+        FindObjectOfType<DB>().UpdateConfigDone("gender = 1");
+    }
+
+    public void UpdateGenderToFemale()
+    {
         FindObjectOfType<DB>().UpdateConfigDone("gender = 0");
     }
 

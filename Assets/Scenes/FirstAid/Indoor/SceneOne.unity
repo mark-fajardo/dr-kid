@@ -778,7 +778,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &250202780
 GameObject:
@@ -1415,7 +1415,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &609765517
 GameObject:
@@ -2115,7 +2115,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020486800
 GameObject:
@@ -2257,7 +2257,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074381585
 GameObject:
@@ -3342,7 +3342,7 @@ RectTransform:
   - {fileID: 96872680}
   - {fileID: 808680331}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3396,12 +3396,17 @@ MonoBehaviour:
     - Mom is teaching me how to use a scissor and cut a cloth.
     - And I accidentally cut the skin of my finger.
     - Please help me...
+    tagalogDialogs:
+    - UWAAAH! Tulungan niyo po ako, nahiwa ko po ang daliri ko.
+    - Tinuturuan ako ni inay na gumamit ng gunting sa pag-gupit ng tela.
+    - At aksidenteng nahiwa ko po ang balat ng daliri ko.
+    - Tulungan ninyo po ako...
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
     - Hey there! I am Dr. Kid, the one that will guide you through all these scenes.
     - This is the first stage of the First Aid Indoor scenes.
-    - As you can see, the girl before is Cindy. She slightly cut a part of her finger.
+    - As you can see, the kid before is Cindy. She slightly cut a part of her finger.
     - This happened when her mom teaches her how to cut a cloth.
     - While I am introducing, Cindy had already cleaned her finger.
     - Now, help Cindy to proceed to the First Aid that she needs.
@@ -3410,6 +3415,19 @@ MonoBehaviour:
     - Options will be shown, and you need to choose the right first aid kit she needs
       to use.
     - Keep safe on choosing, and don't forget what I have told you to pick.
+    tagalogDialogs:
+    - Kamusta! Ako si Dr. Kid,  ang gagabay sayo sa mga eksenang ganito.
+    - Ito ang unang eksena ng mga Paunang Lunas sa loob ng bahay.
+    - Kung mapapansin mo, ang bata kanina ay si Cindy. Bahagyang nahiwa nya ang kaniyang
+      daliri.
+    - Nangyari ito nang turuan siya ng kaniyang ina na mag-gupit ng tela.
+    - Habang ako'y nagsasalita, nahugasan na ni Alex ang kaniyang daliri.
+    - Ngayon, tulungan natin si Cindy na magpauloy sa Paunang Lunas na kailangan
+      niya.
+    - Tulungan natin si Cindy na kumuha ng Betadine, para maiwasan ang impeksyon.
+    - At kunin natin ang bendahe para matakpan ang hiwa.
+    - Kailangan mong piliin ang tamang Paunang Lunas na kailangan niya.
+    - Mag-ingat sa pagpili, at huwag kalimutan kung ano ang sinabi kong piliin mo.
   CindyChoosingDialog:
     name: Cindy
     dialogs:
@@ -3419,6 +3437,13 @@ MonoBehaviour:
     - And also... Hmm. What is the other one...
     - Oh yes, the cover thing. The cover thing, that will make my cut be covered
       from dirt.
+    tagalogDialogs:
+    - Mapagkakatiwalaan po ba talaga kita?
+    - Nahugasan ko na ang aking kamay. Sumasakit na lalo ang aking hiwa sa daliri.
+    - Gaya po ng sabi ni Dr. Kid, kailangan ko po ng bagay na pang-iwas sa impeksyon.
+    - At, ano pa po ung isa...
+    - Ahh, 'ung pang-takip po. Ung pang-takip na magtatakip, sa hiwa ko sa daliri,
+      sa mga dumi.
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -3433,12 +3458,22 @@ MonoBehaviour:
       you encounter this scene again.
     - Now, we will proceed to the next scene...
     - Let's Go!
+    tagalogDialogs:
+    - Oo, tama!
+    - 'Gaya ng sinabi ko kanina, kailangan '
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Nope, not that. It cannot make the cut prevent from any infections.
     - Also, it is not used to cover any wound.
     - 'You can try it again. '
+    tagalogDialogs: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -3447,6 +3482,7 @@ MonoBehaviour:
     - Cindy has no fever. She just needs to make her wound prevent from any infections
       and cover it.
     - Keep your patience up and choose again...
+    tagalogDialogs: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -3454,6 +3490,7 @@ MonoBehaviour:
       that can cover a cut.
     - Also, Gauze only is not enough to make the wound fully prevented from any infections.
     - You can choose again.
+    tagalogDialogs: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
   - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}
@@ -4035,7 +4072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1730079307
 GameObject:
@@ -4428,7 +4465,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1861402209
 GameObject:
@@ -5055,7 +5092,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2109236310
 GameObject:

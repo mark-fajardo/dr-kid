@@ -1,6 +1,6 @@
 using UnityEngine;
-using System;
 using System.IO;
+using System;
 using System.Data;
 using Mono.Data.Sqlite;
 using System.Collections.Generic;
@@ -47,6 +47,7 @@ public class DB : MonoBehaviour
         CreateDB();
         SetupLevels();
         SetupConfig();
+        SetupConfigForGenderSelection();
     }
 
     public void UpdateLevelDone(int LvlNo, int NextLvl = 0)
@@ -78,6 +79,22 @@ public class DB : MonoBehaviour
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = $"UPDATE config SET {ToUpdate} WHERE id = 1;";
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
+    public void UpdateGenderConfigSetting()
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "UPDATE config SET gender = 1 WHERE id = 2;";
                 command.ExecuteNonQuery();
             }
 
@@ -163,6 +180,32 @@ public class DB : MonoBehaviour
         return ReturnGender;
     }
 
+    public List<string> CheckGenderSetting()
+    {
+        List<string> ReturnGender = new List<string> { };
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = "SELECT gender FROM config WHERE id = 2;";
+
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                        ReturnGender.Add("gen_setting_" + reader["gender"].ToString());
+
+                    reader.Close();
+                }
+            }
+
+            connection.Close();
+        }
+
+        return ReturnGender;
+    }
+
     private void CreateDB()
     {
         using (var connection = new SqliteConnection(DBName))
@@ -206,6 +249,24 @@ public class DB : MonoBehaviour
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = "INSERT OR IGNORE INTO config(id, language, gender) VALUES (1, 0, 0);";
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
+    private void SetupConfigForGenderSelection()
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                //gender = 0; if gender is not yet selected
+                //gender = 1; if gender was selected
+                command.CommandText = "INSERT OR IGNORE INTO config(id, language, gender) VALUES (2, 0, 0);";
                 command.ExecuteNonQuery();
             }
 

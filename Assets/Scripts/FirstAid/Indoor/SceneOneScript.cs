@@ -36,7 +36,7 @@ public class SceneOneScript : MonoBehaviour
 
     public void Start()
     {
-        CindyIntro();
+        Invoke("CindyIntro", 2);
     }
 
     public void CindyIntro()

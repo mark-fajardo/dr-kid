@@ -20,18 +20,30 @@ public class DialogManager : MonoBehaviour
 
     private int TotalDialog;
 
+    private string SelectedLanguage;
+
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
         NarrationAudioGroup = NarrationAudio;
         animator.SetBool("DialogIsOpen", true);
         dialogs = new Queue<string>();
         dialogs.Clear();
-
         nameText.text = dialog.name;
+        SetupLanguage();
 
-        foreach (string sDialog in dialog.dialogs)
+        if (SelectedLanguage == "lang_0")
         {
-            dialogs.Enqueue(sDialog);
+            foreach (string sDialog in dialog.dialogs)
+            {
+                dialogs.Enqueue(sDialog);
+            }
+        } 
+        else
+        {
+            foreach (string sDialog in dialog.tagalogDialogs)
+            {
+                dialogs.Enqueue(sDialog);
+            }
         }
 
         TotalDialog = dialogs.Count;
@@ -78,5 +90,16 @@ public class DialogManager : MonoBehaviour
     void EndDialog()
     {
         animator.SetBool("DialogIsOpen", false);
+    }
+
+    private void SetupLanguage()
+    {
+        List<string> ShowLanguage = FindObjectOfType<DB>().CheckLanguage();
+        ShowLanguage.ForEach(x => ManageLanguage(x));
+    }
+
+    private void ManageLanguage(string Config)
+    {
+        SelectedLanguage = Config;
     }
 }
