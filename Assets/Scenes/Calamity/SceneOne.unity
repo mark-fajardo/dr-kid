@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -607,6 +607,140 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96377305}
+  m_CullTransparentMesh: 1
+--- !u!1 &151592717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151592718}
+  - component: {fileID: 151592720}
+  - component: {fileID: 151592719}
+  m_Layer: 5
+  m_Name: ContinueTxt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &151592718
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151592717}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1287691463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -93.18058, y: 7.569001}
+  m_SizeDelta: {x: 130.1368, y: 37.7002}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &151592719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151592717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<< Back \n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32.15
+  m_fontSizeBase: 36.9
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &151592720
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151592717}
   m_CullTransparentMesh: 1
 --- !u!1 &227832159
 GameObject:
@@ -3129,6 +3263,151 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180520861}
   m_CullTransparentMesh: 1
+--- !u!1 &1287691462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287691463}
+  - component: {fileID: 1287691466}
+  - component: {fileID: 1287691465}
+  - component: {fileID: 1287691464}
+  m_Layer: 5
+  m_Name: DialogBackBtn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1287691463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287691462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 151592718}
+  m_Father: {fileID: 1718781985}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 113, y: 26.426025}
+  m_SizeDelta: {x: 159.01001, y: 52.8511}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1287691464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287691462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1287691465}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1467290621}
+        m_TargetAssemblyTypeName: DialogManager, Assembly-CSharp
+        m_MethodName: ReturnDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2062012611}
+        m_TargetAssemblyTypeName: BtnClickSound, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1287691465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287691462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1287691466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287691462}
+  m_CullTransparentMesh: 1
 --- !u!1 &1346230846
 GameObject:
   m_ObjectHideFlags: 0
@@ -3554,6 +3833,7 @@ MonoBehaviour:
   dialogText: {fileID: 1056980922}
   animator: {fileID: 1718781986}
   NarrationSource: {fileID: 870760235}
+  Narrator: {fileID: 990098325}
 --- !u!4 &1467290622
 Transform:
   m_ObjectHideFlags: 0
@@ -3903,6 +4183,7 @@ RectTransform:
   - {fileID: 2055960442}
   - {fileID: 1056980921}
   - {fileID: 45787819}
+  - {fileID: 1287691463}
   m_Father: {fileID: 1846343096}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4342,6 +4623,18 @@ MonoBehaviour:
     - Many trash are floating due to this high flood level.
     - And because of it, they turn down all of the electrical source.
     - I think we have to do something about this.
+    tagalogDialogs:
+    - Ang bagyo ay lalo pang lumalala.
+    - Nakakalungkot po itong makita.
+    - Ang mga puno ay nagbubuwalan dahil sa lakas ng ulan at ng hangin.
+    - Maraming bahay ang nasira.
+    - Ang baha ay lalong tumataas.
+    - Maraming mga basura ang nagkalat dahil sa taas ng tubig baha.
+    - At dahil dito, pinatay ang lahat ng kuryente sa aming lugar.
+    - Sa tingin ko po ay mayroon kaming kailangang gawin para dito.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -4357,17 +4650,44 @@ MonoBehaviour:
     - Because, there will be a shortage in Food.
     - We need also some Clothes.
     - We don't know how long this storm will take. So we need to be ready.
-    - And the Important Papers in school, in house and government.
     - We need these things to evacuate safe and sure.
     - But don't forget to save your Pets.
     - Pick them up with you to survive this storm.
     - That's all! You just need to tell Cindy what she needs to do.
+    tagalogDialogs:
+    - Naku!
+    - Ang bagyo ay nagngangalit, ang mga puno ay nagtutumbahan at ang baha ay lalong
+      tumataas.
+    - Kailangan nating ipaalam kay Cindy na kailangan nya na maghanda ng mga gamit.
+    - Kailangan lang ni Cindy ng mga importante at mga kailangan na mga gamit.
+    - Pero, asahan parin natin ang tulong mula sa ating gobyerno.
+    - At ililipat nila ang mga tao sa mga Evacuation Centers.
+    - Kailangan ni Cindy ihanda ang kanyang mga First Aid Kit at mga Gamot.
+    - Pati narin mga pagkain na sapat at kaya nilang bitbitin
+    - Dahil maaaring magkaroon ng kakulangan sa pagkain.
+    - Kailangan rin ng mangilan-ngilang mga damit.
+    - Dahil di natin alam kung gaano katagal ang aabutin ng bagyong ito. Kaya kailangang
+      maghanda.
+    - Kailangan ni Cindy ng mga gamit na ito para maka-evacuate ng ligtas at sigurado.
+    - At wag kakalimutan ang ating mga alagang hayop.
+    - Kuhanin natin sila para sila ay maligtas sa bagyo at baha na nagaganap.
+    - Iyun lamang, kailangan na malaman ni Cindy ang mga kailangan niyang gawin.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
     - 'Nope. '
     - This is the thing we don't want Cindy to just do.
     - Do not let Cindy cry and be frightened to what is happening right now.
+    tagalogDialogs:
+    - Hindi.
+    - Hindi natin gusto na ito ang gawin ni Cindy sa panahon ngayon.
+    - Huwag natin hayaan na matakot at umiyak si Cindy dahil sa mga nangyayari.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -4376,24 +4696,50 @@ MonoBehaviour:
     - Cindy needs to pack her First Aid Kits and Medicines.
     - She also needs to pack her Food and Drinks.
     - Importantly, she needs to prepare some spare of Clothes.
-    - Also, her school, house and government issued Papers.
     - And lastly, if she have some Pet, she needs to bring them with her.
     - So that's all! Cindy needs to prepare her things before going to the Evacuation
       Center.
     - Don't forget the things you need to prepare and to pack, when this kind of
       situation happens.
     - For now, let's go to the next scene!
+    tagalogDialogs:
+    - Tama!
+    - Kailangan ni Cindy na ihanda ang kaniyang mga gamit na nabanggit natin kanina.
+    - Kailangan ni Cindy na ihanda ang mga First Aid Kits at mga Gamot.
+    - Kailangan rin niya maghanda ng tubig at pagkain.
+    - Isa sa mga mahahalaga ay makapaghanda siya ng kaniyang mga damit.
+    - At huli, kung mayron man siyang alaga ay kailangan niya ring isama.
+    - Kailangan ni Cindy na ihanda ang kaniyang mga gamit bago lumikas sa Evacuation
+      Center.
+    - Huwag kalilimutan ang mga gamit na dapat ihanda at dalin sa mga ganitong pangyayari.
+    - Sa ngayon, tayo tutungo na sa susunod na eksena!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - There is no time for playing right now.
     - Cindy needs to get ready and pack her things up.
+    tagalogDialogs:
+    - Wala nang oras para sa paglalaro ngayon.
+    - Kailangan ni Cindy na makapag-handa na ng kaniyang mga gamit.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Just standby? And don't care?
     - No. Cindy needs to move and prepare her things up.
     - There is no time for standing by. Cindy needs to move.
+    tagalogDialogs:
+    - Tumambay at huwag pansinin ang mga nangyayare?
+    - Hindi. Kailangan ni Cindy na kumilos at mag-handa ng kaniyang mga kagamitan.
+    - Wala nang panahon pa para tumambay. Kailangan ni Cindy na kumilos.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: efe6c54e6c7954e47b237a165566b823, type: 3}
   - {fileID: 8300000, guid: cf24fc3d1e378344089d78d5deea5f93, type: 3}

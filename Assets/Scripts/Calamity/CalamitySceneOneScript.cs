@@ -35,7 +35,7 @@ public class CalamitySceneOneScript : MonoBehaviour
 
     public void Start()
     {
-        CindyIntro();
+        Invoke("CindyIntro", 2);
     }
 
     public void CindyIntro()
@@ -140,14 +140,9 @@ public class CalamitySceneOneScript : MonoBehaviour
             else if (DialogQue == 5)
             {
                 TutorialThree.SetActive(false);
-                TutorialFour.SetActive(true);
-            }
-            else if (DialogQue == 6)
-            {
-                TutorialFour.SetActive(false);
                 TutorialFive.SetActive(true);
             }
-            else if (DialogQue == 7)
+            else if (DialogQue == 6)
             {
                 TutorialFive.SetActive(false);
                 FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
@@ -200,17 +195,12 @@ public class CalamitySceneOneScript : MonoBehaviour
             TutorialTwo.SetActive(false);
             TutorialThree.SetActive(true);
         }
-        else if (DialogQue == 11)
+        else if (DialogQue == 12)
         {
             TutorialThree.SetActive(false);
-            TutorialFour.SetActive(true);
-        }
-        else if (DialogQue == 13)
-        {
-            TutorialFour.SetActive(false);
             TutorialFive.SetActive(true);
         }
-        else if (DialogQue == 15)
+        else if (DialogQue == 14)
         {
             TutorialFive.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();

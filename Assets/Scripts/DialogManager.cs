@@ -32,7 +32,6 @@ public class DialogManager : MonoBehaviour
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
         DialogBackBtn = GameObject.Find("Canvas/DialogBox/DialogBackBtn");
-        Debug.Log(DialogBackBtn);
         animator.SetBool("DialogIsOpen", true);
         nameText.text = dialog.name;
         DialogModel = dialog;
@@ -148,22 +147,17 @@ public class DialogManager : MonoBehaviour
     {
         if (DialogModel.name != "Dr. Kid")
         {
-            Debug.Log("Not Dr. Kid");
             return;
         }
 
-        Debug.Log("This is Dr. Kid");
         if (SelectedGender == "gen_1")
         {
-            Debug.Log("Male");
             if (SelectedLanguage == "lang_0")
             {
-                Debug.Log("English Boy");
                 NarrationAudioGroup = DialogModel.englishDrKidBoyAudio;
             } 
             else
             {
-                Debug.Log("Tagalog Boy");
                 NarrationAudioGroup = DialogModel.tagalogDrKidBoyAudio;
             }
         }
