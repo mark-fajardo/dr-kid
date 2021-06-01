@@ -3537,6 +3537,8 @@ MonoBehaviour:
     - At aksidenteng nahiwa ko po ang balat ng daliri ko.
     - Tulungan ninyo po ako...
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -3565,6 +3567,8 @@ MonoBehaviour:
     - Kailangan mong piliin ang tamang Paunang Lunas na kailangan niya.
     - Mag-ingat sa pagpili, at huwag kalimutan kung ano ang sinabi kong piliin mo.
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyChoosingDialog:
     name: Cindy
     dialogs:
@@ -3582,6 +3586,8 @@ MonoBehaviour:
     - Ahh, 'ung pang-takip po. Ung pang-takip na magtatakip, sa hiwa ko sa daliri,
       sa mga dumi.
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -3609,6 +3615,8 @@ MonoBehaviour:
     - At ngayon, tayo ay tutungo na sa susunod na eksena.
     - Tara!
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -3620,6 +3628,8 @@ MonoBehaviour:
     - At hindi rin ito pang takip ng sugat.
     - Pumili ulit ng iyong sagot.
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -3635,6 +3645,8 @@ MonoBehaviour:
       ito.
     - Ayos lang iyan, maaari ka nang pumili ulit.
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -3648,6 +3660,8 @@ MonoBehaviour:
     - Hindi ito sapat para maprotektahan ang sugat sa kahit na anong dumi at impeksyon.
     - Maaari ka nang pumili ulit.
     tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
   - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}

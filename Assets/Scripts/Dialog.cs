@@ -14,4 +14,8 @@ public class Dialog
     public string[] tagalogDialogs;
 
     public AudioClip[] tagalogAudio;
+
+    public AudioClip[] englishDrKidBoyAudio;
+
+    public AudioClip[] tagalogDrKidBoyAudio;
 }

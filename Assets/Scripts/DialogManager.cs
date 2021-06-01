@@ -22,15 +22,19 @@ public class DialogManager : MonoBehaviour
     private int DialogDisplayIndex = 0;
 
     private string SelectedLanguage;
+    private string SelectedGender;
 
     private GameObject DialogBackBtn;
     public Image Narrator;
+
+    private Dialog DialogModel;
 
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
         DialogBackBtn = GameObject.Find("Canvas/DialogBox/DialogBackBtn");
         animator.SetBool("DialogIsOpen", true);
         nameText.text = dialog.name;
+        DialogModel = dialog;
         SetupLanguage();
         SetupGender();
 
@@ -45,6 +49,7 @@ public class DialogManager : MonoBehaviour
             NarrationAudioGroup = dialog.tagalogAudio;
         }
 
+        SetupDrKidAudio();
         TotalDialog = dialogs.Length;
         DisplayNextDialog();
     }
@@ -129,11 +134,37 @@ public class DialogManager : MonoBehaviour
 
     private void ManageGender(string Config)
     {
-        if (Config == "gen_1")
+        SelectedGender = Config;
+        if (SelectedGender == "gen_1")
         {
             var DrKidBoy = Resources.Load<Sprite>("Characters/dr-kid-boy");
             //GameObject.Find("Canvas/Characters/Narrator").GetComponent<Image>().sprite = DrKidBoy;
             Narrator.sprite = DrKidBoy;
+        }
+    }
+
+    private void SetupDrKidAudio()
+    {
+        if (DialogModel.name != "Dr. Kid")
+        {
+            Debug.Log("Not Dr. Kid");
+            return;
+        }
+
+        Debug.Log("This is Dr. Kid");
+        if (SelectedGender == "gen_1")
+        {
+            Debug.Log("Male");
+            if (SelectedLanguage == "lang_0")
+            {
+                Debug.Log("English Boy");
+                NarrationAudioGroup = DialogModel.englishDrKidBoyAudio;
+            } 
+            else
+            {
+                Debug.Log("Tagalog Boy");
+                NarrationAudioGroup = DialogModel.tagalogDrKidBoyAudio;
+            }
         }
     }
 }
