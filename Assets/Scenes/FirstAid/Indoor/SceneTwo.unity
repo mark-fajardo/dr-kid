@@ -427,6 +427,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307500537}
   m_CullTransparentMesh: 1
+--- !u!1 &319796825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319796826}
+  - component: {fileID: 319796828}
+  - component: {fileID: 319796827}
+  m_Layer: 5
+  m_Name: ContinueTxt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &319796826
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319796825}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695762821}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -93.18058, y: 7.569001}
+  m_SizeDelta: {x: 130.1368, y: 37.7002}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &319796827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319796825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<< Back \n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32.15
+  m_fontSizeBase: 36.9
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &319796828
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319796825}
+  m_CullTransparentMesh: 1
 --- !u!1 &326896234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,6 +1927,151 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675437357}
+  m_CullTransparentMesh: 1
+--- !u!1 &695762820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695762821}
+  - component: {fileID: 695762824}
+  - component: {fileID: 695762823}
+  - component: {fileID: 695762822}
+  m_Layer: 5
+  m_Name: DialogBackBtn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &695762821
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695762820}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 319796826}
+  m_Father: {fileID: 2070852914}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 113.82, y: 26.426}
+  m_SizeDelta: {x: 159.01001, y: 52.8511}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &695762822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695762820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 695762823}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1214282184}
+        m_TargetAssemblyTypeName: DialogManager, Assembly-CSharp
+        m_MethodName: ReturnDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 667214573}
+        m_TargetAssemblyTypeName: BtnClickSound, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &695762823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695762820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &695762824
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695762820}
   m_CullTransparentMesh: 1
 --- !u!1 &711889734
 GameObject:
@@ -3224,6 +3503,7 @@ MonoBehaviour:
   dialogText: {fileID: 1093469664}
   animator: {fileID: 2070852915}
   NarrationSource: {fileID: 644769414}
+  Narrator: {fileID: 383727483}
 --- !u!4 &1214282185
 Transform:
   m_ObjectHideFlags: 0
@@ -3589,6 +3869,17 @@ MonoBehaviour:
     - And suddenly, I didn't saw the table near me and got me stumbled.
     - I had a little wound on my knee from the fall.
     - Can you help me on what do I need to do and the things I need to prepare?
+    tagalogDialogs:
+    - Hi.
+    - ...
+    - Ako ay tumatakbo lamang sa koridor papunta sa aming sala.
+    - Di ko po nakita ang lamesa, at di inaasahan na bigla akong nadapa.
+    - Nagkaroon ako ng maliit na sugat sa aking tuhod.
+    - Matutulungan nyo po ba ako, sa kung ano ang dapat kong gawin at mga gamit na
+      dapat kong ihanda?
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -3598,11 +3889,27 @@ MonoBehaviour:
     - Unfortunately, she had a wound from the stumble.
     - Now, we need to clean her wound from any bacteria using Alcohol.
     - Although, it will hurt a bit Cindy...
+    tagalogDialogs:
+    - Hi!
+    - Ayon kay CIndy, siya ay tumatakbo sa kanilang koridor nang bigla siyang nadapa.
+    - At di inaasahan, siya ay nagkasugat dahil sa kaniyang pagkakadapa.
+    - Kailangan natin siyang turuan na malinis ang mga dumi sa kaniyang sugat, gamit
+      ang Alcohol.
+    - Pero, ito ay medyo mahapdi Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyTutorialDialog:
     name: Cindy
     dialogs:
     - Oh noo, it will hurt that much?
     - Uwaaah. Just make it fast and do not pour too much of it.
+    tagalogDialogs:
+    - Naku! Sasakit ito?
+    - Paki-bilisan na lamang po at wag ninyo pong damihan.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -3612,16 +3919,40 @@ MonoBehaviour:
     - It can kill germs in minor cuts, burns and wounds.
     - And that's all we need. We need to finish this quickly to to make Cindy better.
     - Stay smart on choosing and remember what I've taught you little doctor...
+    tagalogDialogs:
+    - Huwag ka mag-alala masiyado Cindy.
+    - Ang kaibigan natin dito ay tuturuan ka sa kung papaano mo lilinisin ang iyong
+      sugat.
+    - At sa ating pagpapatuloy, kailangan rin natin ng Betadine.
+    - Ito ay maka-pupuksa ng mga germs sa malilit na hiwa, sunog at sugat sa balat.
+    - At iyon lamang po ang ating kailangan. Kailangan lang natin itong bilisan para
+      kay Cindy.
+    - Manatiling matalino sa pamimili at tandaan ang aking mga itinuro.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
     - Oh no no no, we don't need to cut anything.
     - We don't really want to cut anything from Cindy.
+    tagalogDialogs:
+    - Hindi, 'di natin kailangan gumupit ng kung ano.
+    - Hindi natin gusto na may mahiwa o magupit kay Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Cindy has no fever right now. We don't need thermometer.
     - We just want to clean her wound as fast as we can.
+    tagalogDialogs:
+    - Si Cindy ay walang lagnat ngayon. Hindi natin kailangan ng thermometer.
+    - Gusto lang natin ay malinis ang sugat ni Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -3637,11 +3968,35 @@ MonoBehaviour:
     - Do not forget this scene...
     - So that you may apply this if you have encounter any minor wounds again.
     - We will now proceed to the next scene. Let's go!
+    tagalogDialogs:
+    - Iyan nga, tama!
+    - Sa ating pagpapatuloy, kailangan natin na malinis ang kaniyang sugat gamit
+      ang Alcohol.
+    - Nang sa gayon ay matanggal ang mga bacteria sa sugat.
+    - Mag-ingat sa pag-gamit ng Alcohol sa ibang mga sugat.
+    - Ito ay maaaring makasakit sa iba, lalo na sa mga malalaking sugat.
+    - At kailangan rin natin ng Betadine.
+    - Para maiwasan ang pag-dami ng baceria sa sugat.
+    - At iyon lamang para sa ngayon.
+    - Nalinis na natin ang sugat ni Cindy gamit ang Alcohol at Betadine.
+    - Huwag kalilimutan ang mga ganitong pangyayari.
+    - Nang sa gayon ay magamit natin ang ating mga natutunan kung sakali man na ito
+      ay maulit muli.
+    - Tayo ay tutungo na sa susunod na eksena. Tara!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Not that. You don't want to use that.
     - It does not clean any kind of wounds. Try choosing again.
+    tagalogDialogs:
+    - Hindi iyan. Hindi mo gugustuhin na gamitin yan.
+    - Hindi iyan nakalilinis ng kahit na anong sugat. Maaaring pumili ka ulit.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: bb3ac8b24aadae4488e90df4be977c00, type: 3}
   - {fileID: 0}
@@ -4392,7 +4747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5255,6 +5610,7 @@ RectTransform:
   - {fileID: 667122923}
   - {fileID: 1093469663}
   - {fileID: 1677508744}
+  - {fileID: 695762821}
   m_Father: {fileID: 1356717599}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

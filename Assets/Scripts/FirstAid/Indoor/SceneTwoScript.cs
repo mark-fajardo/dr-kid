@@ -39,7 +39,7 @@ public class SceneTwoScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CindyIntro();
+        Invoke("CindyIntro", 2);
     }
 
     public void CindyIntro()

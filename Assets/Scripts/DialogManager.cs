@@ -32,6 +32,7 @@ public class DialogManager : MonoBehaviour
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
         DialogBackBtn = GameObject.Find("Canvas/DialogBox/DialogBackBtn");
+        Debug.Log(DialogBackBtn);
         animator.SetBool("DialogIsOpen", true);
         nameText.text = dialog.name;
         DialogModel = dialog;
