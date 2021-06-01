@@ -29,9 +29,13 @@ public class DialogManager : MonoBehaviour
 
     private Dialog DialogModel;
 
+    private int ReturnInt;
+    
+
     public void StartDialog(Dialog dialog, AudioClip[]? NarrationAudio = null)
     {
         DialogBackBtn = GameObject.Find("Canvas/DialogBox/DialogBackBtn");
+        ReturnInt = 0;
         animator.SetBool("DialogIsOpen", true);
         nameText.text = dialog.name;
         DialogModel = dialog;
@@ -54,7 +58,7 @@ public class DialogManager : MonoBehaviour
         DisplayNextDialog();
     }
 
-    public bool DisplayNextDialog()
+    public int DisplayNextDialog(bool FromSceneScript = true)
     {
         if (DialogDisplayIndex == 0)
         {
@@ -70,7 +74,8 @@ public class DialogManager : MonoBehaviour
             EndDialog();
             DialogDisplayIndex = 0;
             DialogBackBtn.SetActive(false);
-            return true;
+
+            return 1;
         }
 
         try
@@ -91,7 +96,16 @@ public class DialogManager : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(TypeDialog(dialog));
         DialogDisplayIndex++;
-        return false;
+        Debug.Log(FromSceneScript);
+        Debug.Log(ReturnInt);
+        if (ReturnInt > 0 && FromSceneScript == true)
+        {
+            ReturnInt--;
+            Debug.Log("Clicked next but returned");
+            return 2;
+        }
+
+        return 0;
     }
 
     IEnumerator TypeDialog (string dialog)
@@ -107,7 +121,8 @@ public class DialogManager : MonoBehaviour
     public void ReturnDialog()
     {
         DialogDisplayIndex -= 2;
-        DisplayNextDialog();
+        ReturnInt++;
+        DisplayNextDialog(false);
     }
 
     void EndDialog()
@@ -135,6 +150,11 @@ public class DialogManager : MonoBehaviour
     private void ManageGender(string Config)
     {
         SelectedGender = Config;
+        if (DialogModel.name != "Dr. Kid")
+        {
+            return;
+        }
+
         if (SelectedGender == "gen_1")
         {
             var DrKidBoy = Resources.Load<Sprite>("Characters/dr-kid-boy");

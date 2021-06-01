@@ -48,8 +48,23 @@ public class SceneFiveScript : MonoBehaviour
 
     public void DisplayNextDialog()
     {
-        DialogQue += 1;
-        DialogFinished = FindObjectOfType<DialogManager>().DisplayNextDialog();
+        //DialogFinished = FindObjectOfType<DialogManager>().DisplayNextDialog();
+        int DialogStatus = FindObjectOfType<DialogManager>().DisplayNextDialog();
+        if (DialogStatus == 0)
+        {
+            DialogQue += 1;
+            DialogFinished = false;
+        }
+        else if (DialogStatus == 1)
+        {
+            DialogQue += 1;
+            DialogFinished = true;
+        }
+        else
+        {
+            DialogFinished = false;
+        }
+
         if (Talking == "CindyIntro")
         {
             CindyQue();

@@ -41,7 +41,7 @@ public class LevelOneScript : MonoBehaviour
 
     public void DisplayNextDialog ()
     {
-        finished = FindObjectOfType<DialogManager>().DisplayNextDialog();
+        //finished = FindObjectOfType<DialogManager>().DisplayNextDialog();
         if (finished == false)
         {
             return;

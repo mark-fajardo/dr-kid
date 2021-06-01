@@ -2555,7 +2555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f984dd7997df199418810cf4a5b7e055, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6264a48a12f8ec443bc1b5ab6ceeb23e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4636,7 +4636,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - 'Oh no. '
     - The storm is raging, the trees are falling and the flood is getting higher.
@@ -4676,7 +4676,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - 'Nope. '
     - This is the thing we don't want Cindy to just do.
@@ -4689,7 +4689,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionTwoDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - Yes!
     - Cindy needs to prepare the things we have said earlier.
@@ -4717,7 +4717,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionThreeDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - There is no time for playing right now.
     - Cindy needs to get ready and pack her things up.
@@ -4728,7 +4728,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionFourDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - Just standby? And don't care?
     - No. Cindy needs to move and prepare her things up.
