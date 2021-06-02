@@ -91,6 +91,7 @@ public class CalamitySceneOneScript : MonoBehaviour
     {
         Option = 2;
         FindObjectOfType<DB>().UpdateLevelDone(16, 17);
+        FindObjectOfType<DB>().UpdateLevelSCore(16, TimesSelected);
         ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 

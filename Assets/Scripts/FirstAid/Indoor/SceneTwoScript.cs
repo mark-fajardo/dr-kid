@@ -225,6 +225,7 @@ public class SceneTwoScript : MonoBehaviour
     {
         Option = 3;
         FindObjectOfType<DB>().UpdateLevelDone(2, 3);
+        FindObjectOfType<DB>().UpdateLevelSCore(2, TimesSelected);
         ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
     }
 

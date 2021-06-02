@@ -35,6 +35,32 @@ public class DB : MonoBehaviour
         {20, 0, 0}
     };
 
+    private int[,] AllLevelsScore = {
+        {1, 0},
+        {2, 0},
+        {3, 0},
+        {4, 0},
+        {5, 0},
+
+        {6, 0},
+        {7, 0},
+        {8, 0},
+        {9, 0},
+        {10, 0},
+
+        {11, 0},
+        {12, 0},
+        {13, 0},
+        {14, 0},
+        {15, 0},
+
+        {16, 0},
+        {17, 0},
+        {18, 0},
+        {19, 0},
+        {20, 0}
+    };
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +74,7 @@ public class DB : MonoBehaviour
         SetupLevels();
         SetupConfig();
         SetupConfigForGenderSelection();
+        SetupLevelsScore();
     }
 
     public void UpdateLevelDone(int LvlNo, int NextLvl = 0)
@@ -63,6 +90,24 @@ public class DB : MonoBehaviour
                 {
                     command.CommandText += $"UPDATE levels SET initial = 1 WHERE level_no = {NextLvl};";
                 }
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
+    public void UpdateLevelSCore(int LvlNo, int TimesSelected)
+    {
+        int LevelScore = GetScore(TimesSelected);
+
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = $"UPDATE scores SET score = {LevelScore} WHERE id = {LvlNo};";
                 command.ExecuteNonQuery();
             }
 
@@ -217,6 +262,7 @@ public class DB : MonoBehaviour
                 command.CommandText = "CREATE TABLE IF NOT EXISTS levels (id INT PRIMARY KEY, level_no INT, initial INT, is_done INT);";
                 // language: 0 = English, 1 = Filipino; gender: 0 = female, 1 = male
                 command.CommandText += "CREATE TABLE IF NOT EXISTS config (id INT PRIMARY KEY, language INT, gender INT);";
+                command.CommandText += "CREATE TABLE IF NOT EXISTS scores (id INT PRIMARY KEY, score INT);";
                 command.ExecuteNonQuery();
             }
 
@@ -233,6 +279,22 @@ public class DB : MonoBehaviour
             using (var command = connection.CreateCommand())
             {
                 command.CommandText = GetLevels();
+                command.ExecuteNonQuery();
+            }
+
+            connection.Close();
+        }
+    }
+
+    private void SetupLevelsScore()
+    {
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = GetLevelsScore();
                 command.ExecuteNonQuery();
             }
 
@@ -302,6 +364,18 @@ public class DB : MonoBehaviour
         return InsertLevelsQuery;
     }
 
+    private string GetLevelsScore()
+    {
+        int TotalLevelsScore = (AllLevelsScore.Length / 2);
+        string InsertLevelsQuery = "";
+        for (int i = 0; i < TotalLevelsScore; i++)
+        {
+            InsertLevelsQuery += $"INSERT OR IGNORE INTO scores(id, score) VALUES({AllLevelsScore[i, 0]}, {AllLevelsScore[i, 1]});";
+        }
+
+        return InsertLevelsQuery;
+    }
+
     private string SetupDBName()
     {
         string ReturnDBName = "";
@@ -321,5 +395,21 @@ public class DB : MonoBehaviour
         //}
 
         return ReturnDBName;
+    }
+
+    private int GetScore(int TimesSelected)
+    {
+        if (TimesSelected == 0)
+        {
+            return 3;
+        }
+        else if (TimesSelected >= 1 && TimesSelected <= 2)
+        {
+            return 2;
+        }
+        else
+        {
+            return 1;
+        }
     }
 }

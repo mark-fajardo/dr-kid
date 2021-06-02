@@ -91,6 +91,7 @@ public class SceneOneScript : MonoBehaviour
     {
         Option = 1;
         FindObjectOfType<DB>().UpdateLevelDone(1, 2);
+        FindObjectOfType<DB>().UpdateLevelSCore(1, TimesSelected);
         ChooseOption(OptionOneDialog, OptionOneDialogAudio);
     }
 
