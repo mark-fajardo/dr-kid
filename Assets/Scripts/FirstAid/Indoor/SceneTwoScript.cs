@@ -36,6 +36,8 @@ public class SceneTwoScript : MonoBehaviour
     private string Talking = "CindyIntro";
     private bool DialogFinished = false;
 
+    public int TimesSelected = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -208,12 +210,14 @@ public class SceneTwoScript : MonoBehaviour
     public void OptionOne()
     {
         Option = 1;
+        TimesSelected++;
         ChooseOption(OptionOneDialog, OptionOneDialogAudio);
     }
 
     public void OptionTwo()
     {
         Option = 2;
+        TimesSelected++;
         ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
@@ -227,6 +231,7 @@ public class SceneTwoScript : MonoBehaviour
     public void OptionFour()
     {
         Option = 4;
+        TimesSelected++;
         ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
@@ -253,7 +258,7 @@ public class SceneTwoScript : MonoBehaviour
         {
             if (Option == 3)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(3);
+                FindObjectOfType<LevelLoader>().LoadNextLevel(3, TimesSelected);
             }
             else
             {

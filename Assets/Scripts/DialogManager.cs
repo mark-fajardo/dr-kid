@@ -96,12 +96,9 @@ public class DialogManager : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(TypeDialog(dialog));
         DialogDisplayIndex++;
-        Debug.Log(FromSceneScript);
-        Debug.Log(ReturnInt);
         if (ReturnInt > 0 && FromSceneScript == true)
         {
             ReturnInt--;
-            Debug.Log("Clicked next but returned");
             return 2;
         }
 

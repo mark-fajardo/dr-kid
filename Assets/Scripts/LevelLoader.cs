@@ -8,12 +8,55 @@ public class LevelLoader : MonoBehaviour
     public GameObject loadingScreen;
     public Slider loadingBar;
 
+    public Image Star1;
+    public Image Star2;
+    public Image Star3;
+    public GameObject ScoreBoard;
+
     private int CurrentSceneIndex;
+
+    private int NextSceneIndex;
 
     public void LoadLevel (int sceneIndex)
     {
         CurrentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         StartCoroutine(AddLoading(sceneIndex));
+    }
+
+    public void ContinueToNextLevel()
+    {
+        ScoreBoard.SetActive(false);
+        StartCoroutine(AddLoading(NextSceneIndex));
+    }
+
+    public void LoadNextLevel(int sceneIndex, int TimesSelected = -1)
+    {
+        CurrentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        var StarWin = Resources.Load<Sprite>("star/star_win");
+        NextSceneIndex = sceneIndex;
+
+        if (TimesSelected <= -1)
+        {
+            StartCoroutine(AddLoading(sceneIndex));
+        }
+        else if (TimesSelected == 0)
+        {
+            ScoreBoard.SetActive(true);
+            Star1.sprite = StarWin;
+            Star2.sprite = StarWin;
+            Star3.sprite = StarWin;
+        }
+        else if (TimesSelected >= 1 && TimesSelected <= 2)
+        {
+            ScoreBoard.SetActive(true);
+            Star1.sprite = StarWin;
+            Star2.sprite = StarWin;
+        }
+        else if (TimesSelected >= 3)
+        {
+            ScoreBoard.SetActive(true);
+            Star1.sprite = StarWin;
+        }
     }
 
     IEnumerator LoadAsynchronously (int sceneIndex)

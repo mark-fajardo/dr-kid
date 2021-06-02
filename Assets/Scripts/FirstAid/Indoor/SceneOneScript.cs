@@ -34,6 +34,8 @@ public class SceneOneScript : MonoBehaviour
     private string Talking = "CindyIntro";
     private bool DialogFinished = false;
 
+    public int TimesSelected = 0;
+
     public void Start()
     {
         Invoke("CindyIntro", 2);
@@ -95,18 +97,21 @@ public class SceneOneScript : MonoBehaviour
     public void OptionTwo()
     {
         Option = 2;
+        TimesSelected++;
         ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
     public void OptionThree()
     {
         Option = 3;
+        TimesSelected++;
         ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
     }
 
     public void OptionFour()
     {
         Option = 4;
+        TimesSelected++;
         ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
@@ -133,8 +138,9 @@ public class SceneOneScript : MonoBehaviour
         {
             if (Option == 1)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(2);
-            } else
+                FindObjectOfType<LevelLoader>().LoadNextLevel(2, TimesSelected);
+            } 
+            else
             {
                 FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
                 ChooseReset();
