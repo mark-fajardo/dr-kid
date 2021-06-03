@@ -173,6 +173,35 @@ public class DB : MonoBehaviour
         return ReturnLvlDetails;
     }
 
+    public List<int[]> CheckScore(string LvlNo)
+    {
+        List<int[]> ReturnLvlDetails = new List<int[]> { };
+        using (var connection = new SqliteConnection(DBName))
+        {
+            connection.Open();
+
+            using (var command = connection.CreateCommand())
+            {
+                command.CommandText = $"SELECT * FROM scores WHERE id IN {LvlNo} AND score != 0;";
+
+                using (IDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        int[] TempScore = { Int32.Parse(reader["id"].ToString()), Int32.Parse(reader["score"].ToString()) };
+                        ReturnLvlDetails.Add(TempScore);
+                    }
+
+                    reader.Close();
+                }
+            }
+
+            connection.Close();
+        }
+
+        return ReturnLvlDetails;
+    }
+
     public List<string> CheckLanguage()
     {
         List<string> ReturnConfig = new List<string> { };
