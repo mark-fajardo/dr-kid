@@ -5411,7 +5411,15 @@ MonoBehaviour:
     - Maraming mga basura ang nagkalat dahil sa taas ng tubig baha.
     - At dahil dito, pinatay ang lahat ng kuryente sa aming lugar.
     - Sa tingin ko po ay mayroon kaming kailangang gawin para dito.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: b9b28da2a99d4404ca9698ce095fc9c0, type: 3}
+    - {fileID: 8300000, guid: 4851d5e1088c9694491ec465e3d4ddd0, type: 3}
+    - {fileID: 8300000, guid: a9dd57aebac873846bac0f82f813fc51, type: 3}
+    - {fileID: 8300000, guid: f15e0b3277f2d9e449197fc1f4a9efec, type: 3}
+    - {fileID: 8300000, guid: 36b1d3b0a923da940a3f910dc4503de1, type: 3}
+    - {fileID: 8300000, guid: dc1f23d9e237e7745aeb987431d624df, type: 3}
+    - {fileID: 8300000, guid: 28b4e18ab809e604f8d34f6478e108ad, type: 3}
+    - {fileID: 8300000, guid: 94b1afc1ec6c31c47a1322f280810216, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -5451,7 +5459,22 @@ MonoBehaviour:
     - At wag kakalimutan ang ating mga alagang hayop.
     - Kuhanin natin sila para sila ay maligtas sa bagyo at baha na nagaganap.
     - Iyun lamang, kailangan na malaman ni Cindy ang mga kailangan niyang gawin.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 7c8717a826c57e4459cd6a87af4b3750, type: 3}
+    - {fileID: 8300000, guid: 9b6251caf70ad92479a4071318f751c3, type: 3}
+    - {fileID: 8300000, guid: 27713683d23331b4f92a7fd23aa27be8, type: 3}
+    - {fileID: 8300000, guid: 930c5346ea6973b4fbe4260a3d9d966c, type: 3}
+    - {fileID: 8300000, guid: d1a2cc37299cf3441adb4daa1846c55f, type: 3}
+    - {fileID: 8300000, guid: 3c2f27e068ec92a4e996bda2834a0ff3, type: 3}
+    - {fileID: 8300000, guid: 3842616ac34acf243811677cf679be25, type: 3}
+    - {fileID: 8300000, guid: 08abfdb81ea17dc468beee09b8d3dbd8, type: 3}
+    - {fileID: 8300000, guid: 01f9c3268ff2fdc4280f15e01d190217, type: 3}
+    - {fileID: 8300000, guid: 4c6e47bcd0dbe584590695c1ff0d63cc, type: 3}
+    - {fileID: 8300000, guid: 04e77eb8584c39448b0a00482940cdb2, type: 3}
+    - {fileID: 8300000, guid: 2a8cb5f78cf24e746be37dceb6f59cb9, type: 3}
+    - {fileID: 8300000, guid: 4923095a36d850548968cc51fbf8299f, type: 3}
+    - {fileID: 8300000, guid: 1823ba714d88e11488cc29dd88d3f7de, type: 3}
+    - {fileID: 8300000, guid: 6422a1435493e954398b75f4bd35c9b9, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -5464,7 +5487,10 @@ MonoBehaviour:
     - Hindi.
     - Hindi natin gusto na ito ang gawin ni Cindy sa panahon ngayon.
     - Huwag natin hayaan na matakot at umiyak si Cindy dahil sa mga nangyayari.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4e251c809b29ccb4297f2f7e0a0b1198, type: 3}
+    - {fileID: 8300000, guid: 7f4a69b7c047cae41ab2112ffbdf696c, type: 3}
+    - {fileID: 8300000, guid: 78289fa50bf87894590b58b031f273a5, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionTwoDialog:
@@ -5492,7 +5518,16 @@ MonoBehaviour:
       Center.
     - Huwag kalilimutan ang mga gamit na dapat ihanda at dalin sa mga ganitong pangyayari.
     - Sa ngayon, tayo tutungo na sa susunod na eksena!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e2964ff3cf4d28b4cbeea51d9f3b2389, type: 3}
+    - {fileID: 8300000, guid: 26eef6af7194e0548b1b6815ebca97cf, type: 3}
+    - {fileID: 8300000, guid: 76c66a68653f48b4ba60c37f991245d6, type: 3}
+    - {fileID: 8300000, guid: 9c31db0ff644b8d4a9630b7308cc336f, type: 3}
+    - {fileID: 8300000, guid: 3870203972dc7434780b59e3cb7fb390, type: 3}
+    - {fileID: 8300000, guid: 9b1f97822b1e9bc468cde3134690a423, type: 3}
+    - {fileID: 8300000, guid: 66b92aef059b92c4fba430a3a8e8b1c7, type: 3}
+    - {fileID: 8300000, guid: f52947c1ca174044d9316ad97ac3302d, type: 3}
+    - {fileID: 8300000, guid: fd3f28d49f139c443afb0d90d7ebfe7c, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionThreeDialog:
@@ -5503,7 +5538,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Wala nang oras para sa paglalaro ngayon.
     - Kailangan ni Cindy na makapag-handa na ng kaniyang mga gamit.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: aa6feedfc8319e64695636889cd75cc1, type: 3}
+    - {fileID: 8300000, guid: 75f22f1b554315c40a3ab308c7c81a16, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionFourDialog:
@@ -5516,7 +5553,10 @@ MonoBehaviour:
     - Tumambay at huwag pansinin ang mga nangyayare?
     - Hindi. Kailangan ni Cindy na kumilos at mag-handa ng kaniyang mga kagamitan.
     - Wala nang panahon pa para tumambay. Kailangan ni Cindy na kumilos.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 7bf6fd75f8cce3e4a87b5a88392bc9ac, type: 3}
+    - {fileID: 8300000, guid: a76dc406efefcb0439ce749c3e1e1d9d, type: 3}
+    - {fileID: 8300000, guid: 5e3724e71e18080459b26703959704ef, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:

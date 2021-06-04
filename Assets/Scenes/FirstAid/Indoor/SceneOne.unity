@@ -4238,7 +4238,11 @@ MonoBehaviour:
     - Tinuturuan ako ni inay na gumamit ng gunting sa pag-gupit ng tela.
     - At aksidenteng nahiwa ko po ang balat ng daliri ko.
     - Tulungan ninyo po ako...
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: ccf051dfaef821440a3956556ae2da2e, type: 3}
+    - {fileID: 8300000, guid: a96ef2b29d4f3354ab5aa76ba8f49712, type: 3}
+    - {fileID: 8300000, guid: 26d68e3ce41c67c4189696a8b4ddcfac, type: 3}
+    - {fileID: 8300000, guid: 4b0aa430fafba1640bd23032e2801b27, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -4287,7 +4291,12 @@ MonoBehaviour:
     - At, ano pa po ung isa...
     - Ahh, 'ung pang-takip po. Ung pang-takip na magtatakip, sa hiwa ko sa daliri,
       sa mga dumi.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 0da73ec56ef60374bb5853e41e799294, type: 3}
+    - {fileID: 8300000, guid: 2634887058e89064699aba02187fb364, type: 3}
+    - {fileID: 8300000, guid: 08262aba8e6eb0e489b403fa72940d3e, type: 3}
+    - {fileID: 8300000, guid: 1c9fc5da416c46c468455afdf8398979, type: 3}
+    - {fileID: 8300000, guid: 3fec9f0519cfd9f4380f33c24522a4c7, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:

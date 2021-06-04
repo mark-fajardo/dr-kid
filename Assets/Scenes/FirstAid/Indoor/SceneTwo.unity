@@ -4442,7 +4442,13 @@ MonoBehaviour:
     - Nagkaroon ako ng maliit na sugat sa aking tuhod.
     - Matutulungan nyo po ba ako, sa kung ano ang dapat kong gawin at mga gamit na
       dapat kong ihanda?
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 56a045c5e5920514cbb4f62997a70562, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: f718ee84a8d9de64a9d219ed8f650cc9, type: 3}
+    - {fileID: 8300000, guid: 7383932a13dd7cd458765444f8f5703d, type: 3}
+    - {fileID: 8300000, guid: 5179e160a279ef14994c65bbc334bd85, type: 3}
+    - {fileID: 8300000, guid: ca55509549d428a47a15a967ccd820ba, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -4472,7 +4478,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Naku! Sasakit ito?
     - Paki-bilisan na lamang po at wag ninyo pong damihan.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: f5147b3f7e68d864b846cbc7e971306b, type: 3}
+    - {fileID: 8300000, guid: aeda98c88a926c34fbe4c55f35a0eef1, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialTwoDialog:

@@ -16,7 +16,7 @@ public class OptionsMenu : MonoBehaviour
 
     void Start()
     {
-        SetupOptions();
+        //SetupOptions();
     }
 
     public void SetupOptions()
