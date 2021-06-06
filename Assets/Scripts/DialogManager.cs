@@ -167,6 +167,8 @@ public class DialogManager : MonoBehaviour
             return;
         }
 
+        Debug.Log("Dr. Kid is speaking");
+
         if (SelectedGender == "gen_1")
         {
             if (SelectedLanguage == "lang_0")

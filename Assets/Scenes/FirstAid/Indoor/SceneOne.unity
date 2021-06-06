@@ -4229,12 +4229,12 @@ MonoBehaviour:
   CindyIntroDialog:
     name: Cindy
     dialogs:
-    - UWAAAH! Help me, I cut a bit of my finger.
+    - Help me, I cut a bit of my finger.
     - Mom is teaching me how to use a scissor and cut a cloth.
     - And I accidentally cut the skin of my finger.
     - Please help me...
     tagalogDialogs:
-    - UWAAAH! Tulungan niyo po ako, nahiwa ko po ang daliri ko.
+    - Tulungan niyo po ako, nahiwa ko po ang daliri ko.
     - Tinuturuan ako ni inay na gumamit ng gunting sa pag-gupit ng tela.
     - At aksidenteng nahiwa ko po ang balat ng daliri ko.
     - Tulungan ninyo po ako...
@@ -4265,16 +4265,46 @@ MonoBehaviour:
     - Kung mapapansin mo, ang bata kanina ay si Cindy. Bahagyang nahiwa nya ang kaniyang
       daliri.
     - Nangyari ito nang turuan siya ng kaniyang ina na mag-gupit ng tela.
-    - Habang ako'y nagsasalita, nahugasan na ni Alex ang kaniyang daliri.
+    - Habang ako'y nagsasalita, nahugasan na ni Cindy ang kaniyang daliri.
     - Ngayon, tulungan natin si Cindy na magpatuloy sa Paunang Lunas na kailangan
       niya.
     - Tulungan natin si Cindy na kumuha ng Betadine, para maiwasan ang impeksyon.
     - At kunin natin ang bendahe para matakpan ang hiwa.
     - Kailangan mong piliin ang tamang Paunang Lunas na kailangan niya.
     - Mag-ingat sa pagpili, at huwag kalimutan kung ano ang sinabi kong piliin mo.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: b1c2857c05caa6649b338054569ec724, type: 3}
+    - {fileID: 8300000, guid: 0a9f72aa51122bb43ab37cf538857fc8, type: 3}
+    - {fileID: 8300000, guid: 2ed95a0d222db0947b2bc6ebcc19f10e, type: 3}
+    - {fileID: 8300000, guid: df1c0fa4797bb0342b01744238b7e018, type: 3}
+    - {fileID: 8300000, guid: db657264c0d127c43924786ac05bf930, type: 3}
+    - {fileID: 8300000, guid: ca4ee2107f4efcc408a2dbe1ef527918, type: 3}
+    - {fileID: 8300000, guid: b5e552f588a3a324eb4b86fce6c94aac, type: 3}
+    - {fileID: 8300000, guid: 48f6ece00207ca743b3f704225e44d60, type: 3}
+    - {fileID: 8300000, guid: 80a62af7242bf7f41b0af36a00ee3050, type: 3}
+    - {fileID: 8300000, guid: 4a78a34f0b1d63e4d8648732eb816d91, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 48f44bc10e98be444bda32269adf34ac, type: 3}
+    - {fileID: 8300000, guid: d550ec0efc99eda4397d702c9d6a6406, type: 3}
+    - {fileID: 8300000, guid: fba77d01bfd61fe49822e266b7557185, type: 3}
+    - {fileID: 8300000, guid: 56460612a568ae44aa1da830ef1b0283, type: 3}
+    - {fileID: 8300000, guid: 2d8d85d357bee5845b2b00932dff02ce, type: 3}
+    - {fileID: 8300000, guid: 4dcef3cbcff20ca4f8e3921309fb0230, type: 3}
+    - {fileID: 8300000, guid: 6e9ee605cf1209a4e8cff662030d3640, type: 3}
+    - {fileID: 8300000, guid: f131a3d23705a134a9ec55ae11f5bf8f, type: 3}
+    - {fileID: 8300000, guid: 8a239ee4cbed19d4d88e675b0e4ce950, type: 3}
+    - {fileID: 8300000, guid: 3c7cb3a13e4b1e54ca860beb1bc5e994, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: eaac605060f9f644d851da1efed99f6e, type: 3}
+    - {fileID: 8300000, guid: c61edc9453e58734e80f98d6636d80e3, type: 3}
+    - {fileID: 8300000, guid: 0a0ef0fa2d1235249b9ecb1023d7251a, type: 3}
+    - {fileID: 8300000, guid: c4c5418e5f6362e45a5e8140ae486754, type: 3}
+    - {fileID: 8300000, guid: 6f6d8b93e735cdd418001ec27c86a778, type: 3}
+    - {fileID: 8300000, guid: 5ac21d69cb08f544eb38d43386590a6b, type: 3}
+    - {fileID: 8300000, guid: 626da9dbce4e9774bb4e4b90c9d81042, type: 3}
+    - {fileID: 8300000, guid: 2c4f8f62c9e7335469d504d849da0db1, type: 3}
+    - {fileID: 8300000, guid: 9125b212ad640ef458f631c91894aa30, type: 3}
+    - {fileID: 8300000, guid: 21854df5afa61f648a682a0f48f0678b, type: 3}
   CindyChoosingDialog:
     name: Cindy
     dialogs:
@@ -4325,9 +4355,33 @@ MonoBehaviour:
       mga ganitong aksidente.
     - At ngayon, tayo ay tutungo na sa susunod na eksena.
     - Tara!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: bba0cb7113d3a554087b5bcd31c6f969, type: 3}
+    - {fileID: 8300000, guid: 84e7a56f249bcc446917572c05f41114, type: 3}
+    - {fileID: 8300000, guid: b36199002d174a141992d6a427591222, type: 3}
+    - {fileID: 8300000, guid: 3eb5fd35ebc70ee45bb92aea60252e19, type: 3}
+    - {fileID: 8300000, guid: dfed737c07f88204d835826754aac7e5, type: 3}
+    - {fileID: 8300000, guid: 9bf796e514f557c4da73b05127e795d7, type: 3}
+    - {fileID: 8300000, guid: eb243f73f45644a40be9618cff01e5af, type: 3}
+    - {fileID: 8300000, guid: 0b0185ce1c3bddd4887bac755ad95c16, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 068c281cda245fe469f20bbafb862721, type: 3}
+    - {fileID: 8300000, guid: 57180ce233f085c47a68b0aee8497aa6, type: 3}
+    - {fileID: 8300000, guid: 8d9a634afee8e214e8670c5397dba885, type: 3}
+    - {fileID: 8300000, guid: d6a5e8676b69fd34da209ef56e3fbe7f, type: 3}
+    - {fileID: 8300000, guid: 35d497300d1a1a24ea972d9d7b46cd38, type: 3}
+    - {fileID: 8300000, guid: 9ab3bb325dc01464a964028fb12db145, type: 3}
+    - {fileID: 8300000, guid: 7b5d31f9f6a6a31499f53b5bf141cf67, type: 3}
+    - {fileID: 8300000, guid: f93e66ecd64939f4cb8e0a6258b76da2, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 1f22c303d08c29f4090f0e704c263a3c, type: 3}
+    - {fileID: 8300000, guid: 67bff220b86ccbc49b747b2ef086d344, type: 3}
+    - {fileID: 8300000, guid: 7b5419aec2f73624e932cf55a63c6e76, type: 3}
+    - {fileID: 8300000, guid: 44e37ea32996d314db4531310cd4a3e0, type: 3}
+    - {fileID: 8300000, guid: 06e5375b84871ad4bb16b3493a5de74f, type: 3}
+    - {fileID: 8300000, guid: d8247fe716ff58649901e640f8b21191, type: 3}
+    - {fileID: 8300000, guid: c07b6b3d35923224a9de06d48b546489, type: 3}
+    - {fileID: 8300000, guid: 51b445aa4a759264b8795f321c39148f, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -4338,9 +4392,18 @@ MonoBehaviour:
     - Hindi, 'di iyan. Di mo mailalayo sa mga impeksyon ang sugat gamit iyan.
     - At hindi rin ito pang takip ng sugat.
     - Pumili ulit ng iyong sagot.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 6da313f0cf0b2ed4f94fc8f60b54c025, type: 3}
+    - {fileID: 8300000, guid: 4239eada3b924d84bb3260ac8d21ad1c, type: 3}
+    - {fileID: 8300000, guid: 37311b87f5ce6464e9566a75d108af3b, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: e48ede6cfe37bae448ed8527ec5c15f8, type: 3}
+    - {fileID: 8300000, guid: 669f94cbd4ee84e4aaf35eff6ce18977, type: 3}
+    - {fileID: 8300000, guid: a89d3e2a6a0cdaa4192c12852ac6f209, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 521a1f96a3750104087051de1aef751e, type: 3}
+    - {fileID: 8300000, guid: 9c924a2ff6a187b46a202f55f1503487, type: 3}
+    - {fileID: 8300000, guid: 0131aaeb941bd004d8488b29a8472764, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -4355,9 +4418,21 @@ MonoBehaviour:
     - Walang lagnat si Cindy. Kailangan lang niya maka-iwas sa impeksyon at takpan
       ito.
     - Ayos lang iyan, maaari ka nang pumili ulit.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: bd0eff1160e9908439211e0a84a47185, type: 3}
+    - {fileID: 8300000, guid: b60ef52675e73e04291b78400603a6b3, type: 3}
+    - {fileID: 8300000, guid: 0135ac936fb6e524996eacc8b109dbb3, type: 3}
+    - {fileID: 8300000, guid: 0144e64377becdd4998cb8127a36bcb0, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: cd52539d1eaf87841a26484b00300461, type: 3}
+    - {fileID: 8300000, guid: a719a65c5f342da4b9efb72d50a82bbc, type: 3}
+    - {fileID: 8300000, guid: e74f613ae2c3df34f8df153a88855854, type: 3}
+    - {fileID: 8300000, guid: 3eea0414edf71dd49acc500e5fe6acb7, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 1d768088483f4b745892fd0f10e5731d, type: 3}
+    - {fileID: 8300000, guid: ed4248c4936d13b44a3bc935d2a6b31f, type: 3}
+    - {fileID: 8300000, guid: fa005994e189ab146a65af2e5314b072, type: 3}
+    - {fileID: 8300000, guid: ad3d29300df58bb48b1282a8ebae2026, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -4370,9 +4445,18 @@ MonoBehaviour:
       ng mismong pang-takip.
     - Hindi ito sapat para maprotektahan ang sugat sa kahit na anong dumi at impeksyon.
     - Maaari ka nang pumili ulit.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: b9d7559b4cb22b64d9ef67ee42422426, type: 3}
+    - {fileID: 8300000, guid: 41c1a12133db51945b95682c10e804fc, type: 3}
+    - {fileID: 8300000, guid: 61ee70f892eacc54fbf4311b771ce318, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: d0424d6c069ba32478b94028b5dee474, type: 3}
+    - {fileID: 8300000, guid: 47f479d0baf5743468e539886d3cb725, type: 3}
+    - {fileID: 8300000, guid: f823c7b0a4b3df045a01f45f3369544b, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 54c2e32a359cac64e9eb12088a1c4c28, type: 3}
+    - {fileID: 8300000, guid: aef3ccb65f5bec54391956f58f194cc4, type: 3}
+    - {fileID: 8300000, guid: 8a2931288ae47b943b32354baeab8f87, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
   - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}
@@ -4524,6 +4608,7 @@ GameObject:
   - component: {fileID: 1547755832}
   - component: {fileID: 1547755834}
   - component: {fileID: 1547755833}
+  - component: {fileID: 1547755835}
   m_Layer: 5
   m_Name: Cindy
   m_TagString: Untagged
@@ -4589,6 +4674,102 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547755831}
   m_CullTransparentMesh: 1
+--- !u!82 &1547755835
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547755831}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1192565a28f3fd34ebb8a88c1a3c7e61, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1570727740
 GameObject:
   m_ObjectHideFlags: 0
