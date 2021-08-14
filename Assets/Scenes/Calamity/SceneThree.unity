@@ -466,7 +466,10 @@ MonoBehaviour:
     - Oh no! Everything is shaking right now.
     - I am a bit dizzy, I need help.
     - What do I need to do?
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Naku! Lahat ay yumuyugyog ngayon.
+    - Nahihilo na ako, kailangan ko ng tulong.
+    - Ano ang dapat kong gawin?
     tagalogAudio: []
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
@@ -480,7 +483,15 @@ MonoBehaviour:
     - And find some place to hide, like under the table.
     - She can go in there and hide.
     - Tell her as soon as possible.
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Kailangan nating matapos ito sa pinakamabilis na ating makakaya.
+    - Lahat ng mga kalamidad ay delikado.
+    - Kaya kailangan nating sabihan si Cindy na kailangan nya takpan ang kaniyang
+      ulo sa mga nahuhulog na mga bagay.
+    - Ang pinakamainam na bagay na kaniyang gawin ay takpan ang kaniyang ulo.
+    - At maghanap ng lugar na mapagtataguan, tulad ng ilalim ng matitibay na lamesa.
+    - Pwede siyang pumunta doon at magtago.
+    - Sabihin natin ito sa lalong madaling panahon.
     tagalogAudio: []
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
@@ -496,7 +507,15 @@ MonoBehaviour:
     - Don't forget to tell anyone that is in danger if these calimities are about
       to happen.
     - So keep safe kid! Let's Go!
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Tama! Kailangan ni Cindy na takpan ang kaniyang ulo, maupo at magtago sa malalaking
+      bagay na matitibay.
+    - Nang sa gayon ay makaligtas siya sa mga nahuhulog na mga bagay.
+    - Para sa ating impormasyon, lahat ng kalamidad ay hindi ligtas, kaya kailangan
+      nating panatilihing ligtas ang ating mga sarili.
+    - Kailangan nating magisip ng mabilis para sa mga ganitong kaganapan.
+    - Huwag kalilimutan na sabihin sa iba na delikado ang mga ganitong kalamidad.
+    - Kaya manatiling ligtas! Tara!
     tagalogAudio: []
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
@@ -505,7 +524,9 @@ MonoBehaviour:
     dialogs:
     - Cindy has no time to play outside.
     - She needs to make herself safe from the earthquake.
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Si Cindy ay wala nang oras para maglaro sa labas.
+    - Kailangan ni Cindy na maging ligtas sa lindol.
     tagalogAudio: []
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
@@ -514,7 +535,9 @@ MonoBehaviour:
     dialogs:
     - Do not tell Cindy to run along with the falling objects.
     - Cindy might get hurt by it.
-    tagalogDialogs: []
+    tagalogDialogs:
+    - Huwag sabihin kay Cindy na magtatakbo sa mga nahuhulog na mga bagay.
+    - Maaari siyang masaktan dito.
     tagalogAudio: []
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
@@ -524,7 +547,10 @@ MonoBehaviour:
     - Crying will not hep Cindy to be safe.
     - Cindy needs to know that she needs to move and find a hiding place that is
       secured.
-    tagalogDialogs: []
+    tagalogDialogs:
+    - 'Ang pagiyak ay di makatutulong. '
+    - Kailangang malaman ni Cindy na kailangan niya na kumilos at maghanap ng lugar
+      na mapagtataguan.
     tagalogAudio: []
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
