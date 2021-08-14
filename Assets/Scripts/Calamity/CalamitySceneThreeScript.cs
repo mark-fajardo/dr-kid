@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class CalamitySceneThreeScript : MonoBehaviour
 {
@@ -28,6 +29,9 @@ public class CalamitySceneThreeScript : MonoBehaviour
     private bool DialogFinished = false;
 
     public int TimesSelected = 0;
+
+    public VideoPlayer VideoContainer;
+    public GameObject VideoTutorial;
 
     public void Start()
     {
@@ -75,12 +79,33 @@ public class CalamitySceneThreeScript : MonoBehaviour
         }
     }
 
+    public void ShowVideo()
+    {
+        Talking = "NarratorChoosing";
+        DialogQue = 0;
+        FindObjectOfType<FirstAidMenu>().HideChoices();
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
+
+        VideoTutorial.SetActive(true);
+        VideoContainer.Play();
+    }
+
+    public void CloseVideo()
+    {
+        VideoContainer.Stop();
+        VideoTutorial.SetActive(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
+        FindObjectOfType<DialogManager>().StartDialog(OptionOneDialog, OptionOneDialogAudio);
+    }
+
     public void OptionOne()
     {
         Option = 1;
         FindObjectOfType<DB>().UpdateLevelDone(18, 19);
         FindObjectOfType<DB>().UpdateLevelSCore(18, TimesSelected);
-        ChooseOption(OptionOneDialog, OptionOneDialogAudio);
+        // ChooseOption(OptionOneDialog, OptionOneDialogAudio);
+        ShowVideo();
     }
 
     public void OptionTwo()

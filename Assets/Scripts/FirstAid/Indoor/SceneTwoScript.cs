@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class SceneTwoScript : MonoBehaviour
 {
@@ -37,6 +38,9 @@ public class SceneTwoScript : MonoBehaviour
     private bool DialogFinished = false;
 
     public int TimesSelected = 0;
+
+    public VideoPlayer VideoContainer;
+    public GameObject VideoTutorial;
 
     // Start is called before the first frame update
     void Start()
@@ -207,6 +211,26 @@ public class SceneTwoScript : MonoBehaviour
         }
     }
 
+    public void ShowVideo()
+    {
+        Talking = "NarratorChoosing";
+        DialogQue = 0;
+        FindObjectOfType<FirstAidMenu>().HideChoices();
+        FindObjectOfType<FirstAidMenu>().SetCindyPanel(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(false);
+
+        VideoTutorial.SetActive(true);
+        VideoContainer.Play();
+    }
+
+    public void CloseVideo()
+    {
+        VideoContainer.Stop();
+        VideoTutorial.SetActive(false);
+        FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
+        FindObjectOfType<DialogManager>().StartDialog(OptionThreeDialog, OptionThreeDialogAudio);
+    }
+
     public void OptionOne()
     {
         Option = 1;
@@ -226,7 +250,8 @@ public class SceneTwoScript : MonoBehaviour
         Option = 3;
         FindObjectOfType<DB>().UpdateLevelDone(2, 3);
         FindObjectOfType<DB>().UpdateLevelSCore(2, TimesSelected);
-        ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
+        // ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
+        ShowVideo();
     }
 
     public void OptionFour()
