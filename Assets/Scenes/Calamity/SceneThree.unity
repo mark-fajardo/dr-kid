@@ -439,7 +439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CindyAnimator: {fileID: 864621697}
   CindyContainer: {fileID: 150489448}
-  NarratorAnimator: {fileID: 2029074704}
+  NarratorAnimator: {fileID: 0}
   NarratorContainer: {fileID: 319943154}
   IntroAnimator: {fileID: 1856551097}
   IntroContainer: {fileID: 1057848920}
@@ -474,7 +474,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - This needs to be done as fast as we can.
     - Every calamity is life threatening.
@@ -496,7 +496,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
-    name: Dr. Kidi
+    name: Rescuer Princess
     dialogs:
     - Yes! Cindy needs to cover her head, sit and hide under a large object that
       cannot break easily.
@@ -520,7 +520,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionTwoDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - Cindy has no time to play outside.
     - She needs to make herself safe from the earthquake.
@@ -531,7 +531,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionThreeDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - Do not tell Cindy to run along with the falling objects.
     - Cindy might get hurt by it.
@@ -542,7 +542,7 @@ MonoBehaviour:
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionFourDialog:
-    name: Dr. Kid
+    name: Rescuer Princess
     dialogs:
     - Crying will not hep Cindy to be safe.
     - Cindy needs to know that she needs to move and find a hiding place that is
@@ -792,7 +792,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2029074701}
+  - {fileID: 1055774226}
   m_Father: {fileID: 1425909352}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2619,6 +2619,101 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050111473}
+  m_CullTransparentMesh: 1
+--- !u!1 &1055774225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055774226}
+  - component: {fileID: 1055774229}
+  - component: {fileID: 1055774228}
+  - component: {fileID: 1055774227}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1055774226
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055774225}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 319943155}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.32043752, y: 0.25166667}
+  m_AnchorMax: {x: 0.68100005, y: 0.8318519}
+  m_AnchoredPosition: {x: 0.47424316, y: 1.6079102}
+  m_SizeDelta: {x: 0.9484253, y: -3.2158203}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1055774227
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055774225}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c17a1dc6a0e18874791e9d6215b5ee76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1055774228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055774225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6264a48a12f8ec443bc1b5ab6ceeb23e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1055774229
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055774225}
   m_CullTransparentMesh: 1
 --- !u!1 &1057848920
 GameObject:
@@ -4866,101 +4961,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925852131}
   m_CullTransparentMesh: 1
---- !u!1 &2029074700
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2029074701}
-  - component: {fileID: 2029074703}
-  - component: {fileID: 2029074702}
-  - component: {fileID: 2029074704}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2029074701
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029074700}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 319943155}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32043752, y: 0.25166667}
-  m_AnchorMax: {x: 0.68100005, y: 0.8318519}
-  m_AnchoredPosition: {x: 0.47424316, y: 1.6079102}
-  m_SizeDelta: {x: 0.9484253, y: -3.2158203}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2029074702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029074700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f984dd7997df199418810cf4a5b7e055, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2029074703
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029074700}
-  m_CullTransparentMesh: 1
---- !u!95 &2029074704
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029074700}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c17a1dc6a0e18874791e9d6215b5ee76, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2087880985
 GameObject:
   m_ObjectHideFlags: 0
