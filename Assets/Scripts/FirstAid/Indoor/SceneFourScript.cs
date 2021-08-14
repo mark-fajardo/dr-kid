@@ -33,6 +33,8 @@ public class SceneFourScript : MonoBehaviour
     private string Talking = "CindyIntro";
     private bool DialogFinished = false;
 
+    public int TimesSelected = 0;
+
     public void Start()
     {
         CindyIntro();
@@ -88,24 +90,28 @@ public class SceneFourScript : MonoBehaviour
     {
         Option = 1;
         FindObjectOfType<DB>().UpdateLevelDone(4, 5);
+        FindObjectOfType<DB>().UpdateLevelSCore(4, TimesSelected);
         ChooseOption(OptionOneDialog, OptionOneDialogAudio);
     }
 
     public void OptionTwo()
     {
         Option = 2;
+        TimesSelected++;
         ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
     public void OptionThree()
     {
         Option = 3;
+        TimesSelected++;
         ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
     }
 
     public void OptionFour()
     {
         Option = 4;
+        TimesSelected++;
         ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
@@ -132,7 +138,7 @@ public class SceneFourScript : MonoBehaviour
         {
             if (Option == 1)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(5);
+                FindObjectOfType<LevelLoader>().LoadNextLevel(5, TimesSelected);
             }
             else
             {

@@ -34,6 +34,8 @@ public class SceneThreeScript : MonoBehaviour
     private string Talking = "CindyIntro";
     private bool DialogFinished = false;
 
+    public int TimesSelected = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -195,24 +197,28 @@ public class SceneThreeScript : MonoBehaviour
     {
         Option = 1;
         FindObjectOfType<DB>().UpdateLevelDone(3, 4);
+        FindObjectOfType<DB>().UpdateLevelSCore(3, TimesSelected);
         ChooseOption(OptionOneDialog, OptionOneDialogAudio);
     }
 
     public void OptionTwo()
     {
         Option = 2;
+        TimesSelected++;
         ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
     public void OptionThree()
     {
         Option = 3;
+        TimesSelected++;
         ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
     }
 
     public void OptionFour()
     {
         Option = 4;
+        TimesSelected++;
         ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
@@ -239,7 +245,7 @@ public class SceneThreeScript : MonoBehaviour
         {
             if (Option == 1)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(4);
+                FindObjectOfType<LevelLoader>().LoadNextLevel(4, TimesSelected);
             }
             else
             {

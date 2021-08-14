@@ -27,6 +27,8 @@ public class CalamitySceneThreeScript : MonoBehaviour
     private string Talking = "CindyIntro";
     private bool DialogFinished = false;
 
+    public int TimesSelected = 0;
+
     public void Start()
     {
         CindyIntro();
@@ -77,24 +79,28 @@ public class CalamitySceneThreeScript : MonoBehaviour
     {
         Option = 1;
         FindObjectOfType<DB>().UpdateLevelDone(18, 19);
+        FindObjectOfType<DB>().UpdateLevelSCore(18, TimesSelected);
         ChooseOption(OptionOneDialog, OptionOneDialogAudio);
     }
 
     public void OptionTwo()
     {
         Option = 2;
+        TimesSelected++;
         ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
     public void OptionThree()
     {
         Option = 3;
+        TimesSelected++;
         ChooseOption(OptionThreeDialog, OptionThreeDialogAudio);
     }
 
     public void OptionFour()
     {
         Option = 4;
+        TimesSelected++;
         ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
@@ -121,7 +127,8 @@ public class CalamitySceneThreeScript : MonoBehaviour
         {
             if (Option == 1)
             {
-                FindObjectOfType<LevelLoader>().LoadLevel(0);
+                // FindObjectOfType<LevelLoader>().LoadLevel(0);
+                FindObjectOfType<LevelLoader>().LoadNextLevel(0, TimesSelected);
             }
             else
             {
