@@ -328,6 +328,16 @@ MonoBehaviour:
       house.
     - 'This is quite alarming. '
     - What do I need to do? Please help.
+    tagalogDialogs:
+    - Naku!
+    - Dahil siguro ito sa malakas na pagulan.
+    - Maraming mga bundok at puno dito sa aming probinsiya.
+    - At nakakita ako ng malalaking bato at lupa na dumudulas patungo sa aming tirahan.
+    - Ito ay nakagugulat at nakatatakot.
+    - Ano ang aking dapat gawin? Tulong.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -339,11 +349,30 @@ MonoBehaviour:
     - And lastly, they might need some spare of clothes.
     - 'So, that''s all! We just need to do this quick. '
     - Assist Cindy to finish evacuating faster.
+    tagalogDialogs:
+    - Una sa lahat, kailangan nating matapos ito sa lalong madaling panahon.
+    - Pangalawa, kailangan ipaalam ni Cindy sa kaniyang pamilya ang nagaganap sa
+      labas ng kanilang bahay.
+    - Nang sila Cindy ay makapag-handa at makalikas ng maayos sa ligtas na lugar.
+    - Kailangan nila ng mga gamot, para handa sa kung ano mang mangyari.
+    - Kailangan rin nila ng pagkain, para magkaroon sila ng lakas ng pangangatawan.
+    - At kailangan nila ng mga ekstrang damit para dito.
+    - Iyun lamang, kailangan natin tong gawin ng mabilis.
+    - Tulungan natin si Cindy na makalikas ng mabilis.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
     - No, Cindy has no time for chitchatting with her mother.
     - Quick, there is danger outside.
+    tagalogDialogs:
+    - Mali, si Cindy ay wala nang oras para makipag-kwentuhan pa sa kaniyang ina.
+    - Dalian natin, dahil mapanganib na sa labas.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -357,16 +386,42 @@ MonoBehaviour:
     - 'So that''s all for our Second Calamity Scene! '
     - Better be ready for this kind of situations.
     - Keep safe! Let's Go!
+    tagalogDialogs:
+    - Tama, kailangan ni Cindy na maghanda ng kanilang mga gamit.
+    - Kailangan nila ihanda ang mga gamot at mga bitamina nila.
+    - Kailangan rin nila ihanda ang mga pagkain na kakailangan nila, para magkaroon
+      sila ng lakas.
+    - At mga ekstrang damit, dahil baka ito ay magtagal.
+    - Pagtapos ay ang kanilang mga lokal na gobyerno ay tutulong sa kanila.
+    - Pati narin sa kanilang lugar.
+    - Iyun lamang para sa ikalawang eksena.
+    - Maging handa sa paglikas kahit na anong oras.
+    - Maging ligtas palagi! Tara!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Cindy has no time to double think and be doubtful to share what she saw.
     - Quick, this needs to be done faster.
+    tagalogDialogs:
+    - Si Cindy ay wala nang oras para magdalawang isip pa.
+    - Dalian natin, dahil ito ay seryosong sitwasyon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Cindy needs to care about her surroundings and her family.
     - Tell her to pack their things up and evacuate.
+    tagalogDialogs:
+    - Kailangan magingat nila Cindy sa kanilang paligid.
+    - Sabihin natin na kailangan niya na maghanda at lumikas.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: f06757ba144fcce438a7843a38e16006, type: 3}
   - {fileID: 8300000, guid: 01f4c5c4fec32f54f8be4225b81b9777, type: 3}
@@ -1935,6 +1990,7 @@ MonoBehaviour:
   dialogText: {fileID: 531004506}
   animator: {fileID: 1536167956}
   NarrationSource: {fileID: 799829577}
+  Narrator: {fileID: 0}
 --- !u!4 &825808042
 Transform:
   m_ObjectHideFlags: 0
@@ -1980,6 +2036,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1677121008}
   loadingBar: {fileID: 1547462028}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &851446941
 Transform:
   m_ObjectHideFlags: 0
@@ -4920,7 +4980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

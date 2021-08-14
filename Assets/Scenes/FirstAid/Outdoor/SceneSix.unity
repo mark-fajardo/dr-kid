@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -386,6 +386,16 @@ MonoBehaviour:
     - (breathing heavily)
     - I think, I need my... what do you call that.
     - The...
+    tagalogDialogs:
+    - Hi, nasa labas ako ngayon at nasa parke.
+    - Tumatakbo lamang ako at nakikipaglaro sa aking mga kalaro.
+    - Nang bigla ako ay nahirapang huminga.
+    - (humihinga ng malalim)
+    - Sa tingin ko, kailangan ko ng... Ano ang tawad doon.
+    - Ang aking...
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -397,6 +407,18 @@ MonoBehaviour:
     - 'You need to pick up the Inhaler, set it up and give it to Cindy. '
     - We need the Inhaler as soon as possible.
     - So let's start right now.
+    tagalogDialogs:
+    - Ang iyong Inhaler, Cindy.
+    - Buti na lamang ay nandito ang iyong Inhaler sa ating First Aid Kit.
+    - Sa ating panimula, ito ang unang eksena para sa ating Outdoor Scenes.
+    - Si Cindy ay nakararanas ng Asthma ngayon.
+    - Nahihirapan siyang huminga at buti nalang ay nandito kami para siya ay tulungan.
+    - Kailangan nating kuhanin ang kaniyang Inhaler, i-ayos at ibigay kay Cindy.
+    - Kailangan natin ng Inhaler sa lalong madaling panahon.
+    - Simulan na natin ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -411,20 +433,52 @@ MonoBehaviour:
     - Do it continuously, until you make yourself feel better.
     - So that's all for the first scene of our new Outdoor Category.
     - Let's now proceed to the next scene!
+    tagalogDialogs:
+    - Tama!
+    - Kailangan natin ng Inhaler kasama ang mga gamot nito.
+    - Kailangan natin i-ayos ang gamot nito.
+    - Kunin ang Inhaler at tanggalin ang takip.
+    - Ngayon ay kailangan nating lagiyan ito ng gamot.
+    - Dahan dahang ilagay sa kaniyang bibig ang mouthpiece ng kaniyang Inhaler.
+    - At maaari nang isarado ang kaniyang bibig habang nakapalibot sa mouthpiece.
+    - Huminga ng malalim sa loob ng 2-3 segundo.
+    - Ulit-ulitin ito hanggang sa gumaan ang pakiramdam ni Cindy.
+    - At iyun lamang para sa ating unang eksena ng Outdoor Scenes.
+    - Tara sa susunod na eksena!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - You can give a bottled water to Cindy to make her feel better if she's tired.
     - But, that's not the one that we're needing right now.
+    tagalogDialogs:
+    - Maaaring bigyan si CIndy ng tubig kapag siya ay napapagod.
+    - Ngunit hindi ito ang ating kailangan sa ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Nope, we don't need any antibiotics or medicines right now.
+    tagalogDialogs:
+    - Hindi natin kailangan ng mga gamot sa ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - She's having a hard time breathing, we don't need an ice pack right now.
     - She just need to recover her breathing as soon as possible.
+    tagalogDialogs:
+    - Nahihirapan siya huminga ngayon, hindi natin kailangan ng yelo ngayon.
+    - Kailangan ni Cindy na makahinga ng maayos sa lalong madaling panahon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: e5eaec7ad5e4e384693cf7a3076fdcb5, type: 3}
   - {fileID: 8300000, guid: 7f31b71ebb758e940886eae06fbdad3b, type: 3}
@@ -692,6 +746,7 @@ MonoBehaviour:
   dialogText: {fileID: 1816126430}
   animator: {fileID: 1827762221}
   NarrationSource: {fileID: 1694938494}
+  Narrator: {fileID: 0}
 --- !u!4 &339592596
 Transform:
   m_ObjectHideFlags: 0
@@ -2487,6 +2542,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 146487599}
   loadingBar: {fileID: 1993118625}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &1013998022
 Transform:
   m_ObjectHideFlags: 0

@@ -1026,6 +1026,7 @@ MonoBehaviour:
   dialogText: {fileID: 1150483256}
   animator: {fileID: 2075301571}
   NarrationSource: {fileID: 348815887}
+  Narrator: {fileID: 0}
 --- !u!4 &336007581
 Transform:
   m_ObjectHideFlags: 0
@@ -1537,6 +1538,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1173537093}
   loadingBar: {fileID: 2003528348}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &516678312
 Transform:
   m_ObjectHideFlags: 0
@@ -1604,7 +1609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4067,6 +4072,15 @@ MonoBehaviour:
     - I bumped my head on the door of our bedroom while playing VR games.
     - It really hurts my head.
     - I think, I need some first aid again. Thank you...
+    tagalogDialogs:
+    - Hi...
+    - Pasensiya na at lagi nalang ako nasasaktan.
+    - Nauntog ang ulo ko sa pinto ng  aming kwarto habang naglalaro ng VR games.
+    - Ang sakit ng ulo!
+    - Sa tingin ko, kailangan ko ng paunang lunas ngayon. Salamat...
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -4077,11 +4091,28 @@ MonoBehaviour:
     - Also, we need some Ice to put it into her head.
     - We will put some ice on the towel and place it on her lump.
     - That's all, we just need a cloth and an ice.
+    tagalogDialogs:
+    - Okay, sa ngayon walang sugat at walang lagnat.
+    - Nauntog si Cindy sa kanilang pinto.
+    - Kailangan lamang natin ng malinis na pamunas.
+    - Pwede na ang kaniyang Towel.
+    - Kailangan rin natin ng Yelo na pwedeng ilagay sa kaniyang ulo.
+    - Ilalagay natin ang ilang yelo sa Towel at ipapatong sa kaniyang bukol.
+    - Iyun lamang, kailangan lamang natin ng Towel at ng Yelo.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyChoosingDialog:
     name: Cindy
     dialogs:
     - Can you make this quick, I want to get rid of it.
     - I can't use my VR headset and play with a lump on my head.
+    tagalogDialogs:
+    - Magagawa mo po ba ito ng mabilis.
+    - Hinddi ko magamit ang aking VR headset at maglaro nang may bukol sa aking ulo.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -4094,21 +4125,54 @@ MonoBehaviour:
     - She just need to mildly put it on the lump on her head.
     - That's all for her lump. Do not forget every thing we are learning every scenes.
     - You might use it in an unexpected time. Let's go to the next scene!
+    tagalogDialogs:
+    - Tama! Kailangan natin ng Towel at ng Yelo.
+    - Mabuti iyan. Kailangan natin lagyan ng Yelo ang Towel.
+    - At ilagay sa taas ng kaniyang bukol.
+    - Nang sa gayon, lumiit at unti unting mawala ang kaniyang bukol.
+    - Kailangan lang ni Cindy tiising ang lamig ng Yelo.
+    - Dahil maaaring maging masakit ito sa kaniyang balat.
+    - Kailangan lang niya na dahan dahang ilagay ito sa kaniyang ulo.
+    - Iyun lamang para sa kaniyang bukol. Huwag kalilimutan ang ating mga natutunan
+      kada eksena.
+    - Maaaring magamit mo ito sa di inaasahang panahon. Tara sa susunod na eksena!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Not the bandage, we don't need to cover it.
     - We just need to lessen the size of the lump.
+    tagalogDialogs:
+    - Hindi iyan, hindi natin kailangan ng pangtakip ng sugat.
+    - Kailangan lamang natin na paliitin ang bukol ni Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - We don't really need something to cover the lump.
     - We just need to make the lump get smaller until it recover.
+    tagalogDialogs:
+    - Hindi talaga natin kailangan ng pang-takip ng bukol.
+    - Kailangan lamang natin na paliitin ang kaniyang bukol hanggang sa gumaling.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Betadine is unnecessary.
     - We don't need to disinfect the lump. We just need to flatten the lump.
+    tagalogDialogs:
+    - Hindi kinakailangan ng Betadine.
+    - Hindi natin kailangan na linisin ang bukol. Kailangan lamang natin na paliitin
+      ang bukol.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: f8376bd2df0171c46b2870ec806625c8, type: 3}
   - {fileID: 8300000, guid: c5852d5f3125cd04fb96ddbbde347979, type: 3}

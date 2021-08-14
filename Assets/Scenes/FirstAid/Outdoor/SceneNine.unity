@@ -472,6 +472,7 @@ MonoBehaviour:
   dialogText: {fileID: 1196240911}
   animator: {fileID: 1289563757}
   NarrationSource: {fileID: 96840533}
+  Narrator: {fileID: 0}
 --- !u!4 &67233988
 Transform:
   m_ObjectHideFlags: 0
@@ -2273,7 +2274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3410,6 +3411,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1990236570}
   loadingBar: {fileID: 278981402}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &1416908759
 Transform:
   m_ObjectHideFlags: 0
@@ -4392,6 +4397,15 @@ MonoBehaviour:
     - Is it from the sun? Or am I just tired?
     - I am just playing football in the park.
     - And I feel my head hurts while playing.
+    tagalogDialogs:
+    - Hi...
+    - Sumasakit ang ulo ko ngayon.
+    - Dahil lang ba sa init o sadyang pagod lamang ako.
+    - Naglalaro lamang ako ng Football dito sa parke.
+    - Nang sumakit ang ulo ko.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -4401,6 +4415,16 @@ MonoBehaviour:
     - 'I think this will be faster. '
     - You just need to find the medicine that is labeled Paracetamol.
     - Let's go and find it now!
+    tagalogDialogs:
+    - Naku, sa tingin ko ay nakararanas ng Pananakit ng Ulo si Cindy ngayon.
+    - Marami tayong gamot sa ating bag.
+    - Pero ang kailangan lamang natin ay Paracetamol para sa sakit ng ulo.
+    - Sa tingin ko ito ay mabilis lamang.
+    - Kailangan lamang natin malaman at makuha ang Paracetamol.
+    - Tara at kunin na natin ito.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -4411,23 +4435,55 @@ MonoBehaviour:
     - And that's all! We just need to wait for the medicine to take effect.
     - We will now proceed to the next scene!
     - Let's Go!
+    tagalogDialogs:
+    - Tama!
+    - Paracetamol ay ang tamang gamot para sa pananakit ng ulo at lagnat.
+    - Ito ang kailangan ni Cindy ngayon.
+    - Kailangan lamang natin bigyan ng gamot si Cindy.
+    - At iyun lamang, hintayin natin na tumalab ito kay Cindy.
+    - Tayo ay dadako na sa susunod na eksena!
+    - Tara!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Nope, we don't need any vitamins right now.
     - Multivitamins are used to treat or prevent being vitamin deficiency.
     - This is necessary if you have poor diet or certain illness.
+    tagalogDialogs:
+    - Mali, hindi natin kailangan ng mga bitamina ngayon.
+    - Multivitamins ay para lamang sa mga nagkukulang ng bitamina sa katawan.
+    - Kinakailangan ito kapag ikaw ay may di magandang dyeta o may sakit na nangangailangan
+      nito.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Guaifenesin is used for cough and sometimes for pain relief from fibromyalgia.
     - This is not what we are needing right now.
+    tagalogDialogs:
+    - Ang Guaifenesin ay ginagamit para sa ubo at iba pa.
+    - Hindi natin ito kailangan sa ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Not this one...
     - Loperamide Hydrochloride is used to treat diarrhea.
     - Cindy have a headache right now, so this is not what we need.
+    tagalogDialogs:
+    - Hindi ito.
+    - Ang Loperamide Hydrochloride ay para sa pananakit ng tiyan o pagdudumi.
+    - Masakit ang ulo ni Cindy ngayon, hindi natin kailangan nito.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 20422755f9a0444448f1b95d362bd5e0, type: 3}
   - {fileID: 8300000, guid: a42911a1365a8c84db24aa3b661cb15f, type: 3}

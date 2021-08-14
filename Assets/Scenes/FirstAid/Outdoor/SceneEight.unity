@@ -1202,6 +1202,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1225294307}
   loadingBar: {fileID: 1781683390}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &493059967
 Transform:
   m_ObjectHideFlags: 0
@@ -2642,6 +2646,7 @@ MonoBehaviour:
   dialogText: {fileID: 1197267048}
   animator: {fileID: 1076415293}
   NarrationSource: {fileID: 1582881474}
+  Narrator: {fileID: 0}
 --- !u!4 &1190192723
 Transform:
   m_ObjectHideFlags: 0
@@ -4049,7 +4054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5399,6 +5404,17 @@ MonoBehaviour:
     - Because the birds are so many, that I got myself so excited to go to them.
     - And suddenly, I fell and stumbled.
     - It is hurting so much. So that I really need a quick first aid to it.
+    tagalogDialogs:
+    - Hi...
+    - Nagkaroon ako ng sugat sa aking tuhod.
+    - Tumatakbo lamang ako sa palaruan.
+    - Nang makakita ako ng ibon sa tabi ng bangko ay tumalon ako.
+    - Sa dami ng ibon doon ay ako'y natuwa.
+    - At di inaasahan ay natumba ako.
+    - Sobrang sakit po ngayon. Kailangan ko na po ng paunang lunas para dito.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -5409,6 +5425,17 @@ MonoBehaviour:
       wound.
     - And lastly, we need to cover the wound with a Bandage.
     - So that's all! We need to gather these things for Cindy right now.
+    tagalogDialogs:
+    - Hi!
+    - Kailangan natin to gawin sa lalong madaling panahon.
+    - Una, kailangan natin linisin ang sugat gamit ang tubig. Tapos na si Cindy dito.
+    - Susunod ay kailangan nating kunin ang Betadine para mailinis ang sugat sa mga
+      dumi.
+    - At huli ay kailangan natin itong takpan gamit ang Bandage.
+    - Iyun lamang! Kailangan natin kunin ang mga gamit na ito para kay Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -5420,21 +5447,51 @@ MonoBehaviour:
     - Just make sure to remember the things we're doing here.
     - This is good for future use.
     - Ready for the next scene? Let's Go!
+    tagalogDialogs:
+    - Tama! Kailangan natin itong mga gamit na ito ngayon.
+    - Kailangan natin ng Betadine para malinis ang sugat sa mga dumi.
+    - At para masigurado natain na hindi na dumami ang bacteria.
+    - At ang Bandage para matakpan ang sugat sa kahit na anong dumi sa palaruan.
+    - Iyun lamang para sa eksenang ito.
+    - Alalahanin mabuti palagi ang ating mga ginagawa dito.
+    - Mabuti ito para may kaalaman tayo kapag kinakailangan.
+    - Handa ka na ba sa susunod na eksena? Tara!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Actually... We don't need the Inhaler right now.
     - Choose the appropriate first aid kit materials for Cindy's wound.
+    tagalogDialogs:
+    - Sa totoo lang, hindi natin kailangan ng Inhaler ngayon.
+    - Piliin ang tamang gamit para sa sugat ni Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Not the Calamine Lotion.
     - We just need the materials for Cindy's wound.
+    tagalogDialogs:
+    - Hindi iyang lotion.
+    - Kailangan natin ay ang mga gamit para sa sugat ni Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - We don't need any Ice Pack right now.
     - Cindy's wound is needed to be covered as soon as possible.
+    tagalogDialogs:
+    - Hindi natin kailangan ng Yelo ngayon.
+    - Kailangan natin ay matakpan ang sugat ni Cindy ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: e21d354c9f816ec469e7ce5691318125, type: 3}
   - {fileID: 8300000, guid: 1eda11279a90d274e87205d62ec70b79, type: 3}

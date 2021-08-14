@@ -466,6 +466,10 @@ MonoBehaviour:
     - Oh no! Everything is shaking right now.
     - I am a bit dizzy, I need help.
     - What do I need to do?
+    tagalogDialogs: []
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -476,6 +480,10 @@ MonoBehaviour:
     - And find some place to hide, like under the table.
     - She can go in there and hide.
     - Tell her as soon as possible.
+    tagalogDialogs: []
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kidi
     dialogs:
@@ -488,22 +496,38 @@ MonoBehaviour:
     - Don't forget to tell anyone that is in danger if these calimities are about
       to happen.
     - So keep safe kid! Let's Go!
+    tagalogDialogs: []
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Cindy has no time to play outside.
     - She needs to make herself safe from the earthquake.
+    tagalogDialogs: []
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Do not tell Cindy to run along with the falling objects.
     - Cindy might get hurt by it.
+    tagalogDialogs: []
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Crying will not hep Cindy to be safe.
     - Cindy needs to know that she needs to move and find a hiding place that is
       secured.
+    tagalogDialogs: []
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 892f847afd99a8240b4e87d421a79962, type: 3}
   - {fileID: 8300000, guid: e0537d3ec73e3ce45a0ac56760ee1fe9, type: 3}
@@ -3074,7 +3098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4145,6 +4169,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1572509818}
   loadingBar: {fileID: 1880686528}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &1801504214
 Transform:
   m_ObjectHideFlags: 0
@@ -4663,6 +4691,7 @@ MonoBehaviour:
   dialogText: {fileID: 220026255}
   animator: {fileID: 630714379}
   NarrationSource: {fileID: 1630106892}
+  Narrator: {fileID: 0}
 --- !u!4 &1891752686
 Transform:
   m_ObjectHideFlags: 0

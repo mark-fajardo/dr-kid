@@ -1227,7 +1227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2275,6 +2275,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 377488796}
   loadingBar: {fileID: 452980766}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &848200807
 Transform:
   m_ObjectHideFlags: 0
@@ -4781,6 +4785,18 @@ MonoBehaviour:
     - And a hotdog because it looks yummy.
     - After a few minutes, I felt that my stomach was aching.
     - Can you help me to find the right medicine for my stomach ache?
+    tagalogDialogs:
+    - Naku...
+    - Naparami ata ang nakain ko.
+    - Kumain ako ng burger steak na may fries.
+    - At ang sarap nito.
+    - Kumain uli naman ako ng sinangag na may toppings sa cup.
+    - At ng hotdog, dahil sa mukha itong masarap.
+    - Ilang minuto lamang ay sumakit ang aking tiyan.
+    - Matutulungan mo po ba ako kuhanin ang tamang gamot para dito?
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -4789,22 +4805,52 @@ MonoBehaviour:
     - She is having an stomach ache right now, due to eating too much food.
     - Let just grab the Imodium in the First Aid Kit.
     - Do not let Cindy wait. Let's go get it as soon as possible.
+    tagalogDialogs:
+    - Ito ang ating huling eksena para sa ating Outdoor Scenes.
+    - Kailangan lamang natin kuhanin ang Imodium para kay Cindy.
+    - Nakararanas siya ng pananakit ng tiyan sa ngayon, dahil sa pagkain ng marami.
+    - Kuhanin lamang natin ang Imodium sa ating First Aid Kit.
+    - Huwag natin hayaan na paghintayin si Cindy. Gawin na natin ito sa lalong madaling
+      panahon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
     - Multivitamins is not necessary right now.
     - This is for the ones who has vitamin deficiency or certain illness.
     - Also to the ones that has poor diet.
+    tagalogDialogs:
+    - Ang Multivitamins ay hindi natin kailangan sa ngayon.
+    - Ito ay para lamang sa nagkukulang ng bitamina sa katawan.
+    - Pati narin sa mga may hindi magandang dyeta.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - Ibuprofen is not recommended for kids having a stomach ache.
     - This can cause her stomach upset.
+    tagalogDialogs:
+    - Ang Ibuprofen ay hindi nirerekomenda para sa mga batang nakararanas ng panankit
+      ng tiyan.
+    - Maaaring makaranas siya ng ibang bagay dahil dito.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Guaifenesin is for coughs.
     - This is not necessary for stomach aches.
+    tagalogDialogs:
+    - Ang Guaifenesin ay para sa mga may ubo.
+    - Hindi natin ito kailangan ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -4818,6 +4864,21 @@ MonoBehaviour:
     - This will help us to have an idea in things regarding to using a First Aid
       Kit.
     - So, let's go! We'll proceed to the next scene.
+    tagalogDialogs:
+    - Tama, kailangan natin ng Imodium syrup ngayon.
+    - Nakakain ng maraming pagkain si Cindy kaya sumakit ang kaniyang tiyan.
+    - At baka mahirapan siyang matunawan.
+    - Para maiwasan ito, kailangan ni Cindy ng Imodium.
+    - Ito rin ay ginagamit sa pagdudumi at heartburn.
+    - At ito lamang para sa ating Outdoor Scenes.
+    - Huwag kalilimutan kung ano ang ating mga ginagamit, ginagawa at natututunan
+      sa bawat eksena.
+    - Makatutulong ito para magkaroon tatyo ng mga ideya ukol sa paggamit ng First
+      Aid Kit.
+    - Tara na sa susunod na eksena!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: b23e6aac3e8fca34289b8b61c7062e98, type: 3}
   - {fileID: 8300000, guid: 2be7efc0067cce244ab1a6ec0aea46c6, type: 3}
@@ -5050,6 +5111,7 @@ MonoBehaviour:
   dialogText: {fileID: 997920135}
   animator: {fileID: 248133586}
   NarrationSource: {fileID: 1405425434}
+  Narrator: {fileID: 0}
 --- !u!4 &2066878790
 Transform:
   m_ObjectHideFlags: 0

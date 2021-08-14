@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1333,6 +1333,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1442247751}
   loadingBar: {fileID: 1599207941}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &671721094
 Transform:
   m_ObjectHideFlags: 0
@@ -4482,6 +4486,7 @@ MonoBehaviour:
   dialogText: {fileID: 1384444795}
   animator: {fileID: 298617975}
   NarrationSource: {fileID: 1284387715}
+  Narrator: {fileID: 0}
 --- !u!4 &1594494615
 Transform:
   m_ObjectHideFlags: 0
@@ -4876,16 +4881,40 @@ MonoBehaviour:
     - I touched her neck and it felt a bit hot that the normal state.
     - I think she has a fever, but I don't know what to do.
     - Also, I need to confirm if she has a fever.
+    tagalogDialogs:
+    - Hi...
+    - Ngunit hindi ako ang nangangailangan ng tulong, kundi ang aking Ina.
+    - Pumasok ako sa kaniyang kwarto at nakitang siya ay nilalamig at nakakumot.
+    - Sinalat ko ang kaniyang leeg at ito ay mainit kumpara sa normal.
+    - Sa tingin ko ay mayroon siyang lagnat, ngunit di ko alam ang aking gagawin.
+    - Kailangan ko kumpirmahin kung mayroon nga talaga siyang sakit.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
     - Don't you worry Cindy, here our friend will guide you through this.
     - Okay, so first of all, we will use Thermometer to check if her mom has fever.
     - "Check if her temperature exceeds 37.5\xB0C."
+    tagalogDialogs:
+    - Huwag kang mag-alala Cindy, nandito kami para ikaw ay gabayan sa mga ganitong
+      sitwasyon.
+    - Una, kailangan natin ng Thermometer para malaman kung may sakit nga ang iyong
+      Ina.
+    - "Tignan kung lalagpas ba ang kaniyang temperatura ng 37.5\xB0C."
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyTutorialDialog:
     name: Cindy
     dialogs:
     - Yes, I need that thing to confirm if mom has fever.
+    tagalogDialogs:
+    - Iyan nga, iyan ang kailangan ko para malaman kung siya ay may lagnat.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -4895,6 +4924,16 @@ MonoBehaviour:
     - We need atleast one tablet of the Paracetamol medicine.
     - And let's hurry up to provide some first aid medication to her mom as soon
       as possible.
+    tagalogDialogs:
+    - Kaya natin ito Cindy.
+    - At sa ating pagpapatuloy, kailangan nga natin na malaman ang kaniyang temperatura.
+    - "At kung ito ay lalagpas ng 37.5\xB0C, kailangan na natin siyang agapan ng
+      mga gamot."
+    - Kailangan natin ng Paracetamol na gamot.
+    - At dalian natin para agapan ang kaniyang masamang nararamdaman.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -4908,21 +4947,54 @@ MonoBehaviour:
     - And make her take again some meds every 4-6 hours if needed.
     - So that her mom can feel much better.
     - So that's it. Ready for the next scene? Let's go!
+    tagalogDialogs:
+    - Tama! Iyan nga iyun.
+    - Kailangan natin ng Thermometer para malaman ang kaniyang temperatura.
+    - Para makumpirma ang kaniyang nararamdaman sa ngayon.
+    - At kailangan natin siya bigyan ng Paracetamol na gamot para huminto ang kaniyang
+      lagnat.
+    - Salamat sa pagiging maaasahan.
+    - Sa ating pagpapatuloy, nakumpirma natin na ang kaniyang Ina ay may lagnat.
+    - At sa ating inaasahan, dapat ay tumalab ang gamit sa ilang oras lamang.
+    - At huwag kalilimutan na bigyan siya ng gamot kada 4-6 na oras kung kinakailangan.
+    - Nang sa gayon ay guminhawa ang pakiramdam ng kaniyang Ina.
+    - Tara sa susunod na eksena? Let's go!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - 'Nope, not that. '
     - We don't need to cleanse anything right now.
+    tagalogDialogs:
+    - Hindi iyan.
+    - Hindi natin kailangan maglinis ng kahit na ano ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Betadine is not necessary right now.
     - We are not experiencing some minor wounds here.
+    tagalogDialogs:
+    - Hindi natin kailangan ng Betadine ngayon.
+    - Wala siyang nararanasan na sugat sa ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - We don't need to cover any wounds right now.
     - Gauze is not needed for the mean time...
+    tagalogDialogs:
+    - Wala tayong kailangang takpan na sugat sa ngayon.
+    - Gauze ay hindi kinakailangan ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 57ea1d8bdaa9a2d4980e887de538d305, type: 3}
   - {fileID: 8300000, guid: ac17bc5d7c7982f408e44af0c01a26a6, type: 3}

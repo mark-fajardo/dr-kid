@@ -1662,6 +1662,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 818132533}
   loadingBar: {fileID: 1975854511}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &612222128
 Transform:
   m_ObjectHideFlags: 0
@@ -2540,9 +2544,24 @@ MonoBehaviour:
     - This is larger than before.
     - This is what really happened.
     - I was just running in the kitchen to get something to eat.
-    - While running, I did't saw that the floor was wet.
+    - While running, I didn't saw that the floor was wet.
     - I slided into the fridge, and suddenly got a wound from slipping on the floor.
     - Can you please help me?
+    tagalogDialogs:
+    - Ang sakit!
+    - Kailangan ko ng pangtakip ng aking sugat.
+    - Alam ko na kung pano maglagay ng Betadine, ngunit di ko alam kung ano ang dapat
+      na ipang-takip ko.
+    - Ito ay mas malaki kesa sa nakaraan.
+    - Ito talaga ang nangyari.
+    - Tumatakbo lamang ako sa aming kusina para kumuha ng makakain.
+    - Habang tumatakbo, hindi ko nakita na basa ang sahig.
+    - Nadulas ako sa fridge, at di inaasahang nagkasugat dahil sa nadulas ako sa
+      sahig.
+    - Maaari mo po ba akong tulungan?
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -2552,20 +2571,47 @@ MonoBehaviour:
     - We just need to get the Gauze, to cover the wound.
     - And the Medical Tape to tighten the gauze in it.
     - Let's go and pick the right things up!
+    tagalogDialogs:
+    - Hi! Ito ang huling eksena para sa ating Indoor First Aid Scenes.
+    - Kaya kailangan mo ito tutukan at maalala.
+    - Sa ating pagpapatuloy, nalagyan na ni Cindy ito ng Betadine.
+    - Kailangan lamang natin ng Gauze para matakpan ang sugat.
+    - At ng Medical Tape para maidikit ang Gauze.
+    - Tara at kunin na natin ang mga kailangang gamit!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyChoosingDialog:
     name: Cindy
     dialogs:
     - Yes, I think the cover to the wound will be the last thing I need here.
+    tagalogDialogs:
+    - Opo, sa tingin ko ay pang-takip nalang ng sugat ang kailangan ko.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
     - A Scissor may be useful for cutting the things I've said.
     - Though, it is not used for covering wounds.
+    tagalogDialogs:
+    - Maaaring makatutulong ang gunting para magupit ang mga kinakailangang gamit.
+    - Ngunit, di natin kailangan nito para pang-takip ng sugat.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - The Gauze Pad is right, but the Glue...
     - We don't need the Glue to tighten the Gauze.
+    tagalogDialogs:
+    - Tama ang Gauze, ngunit ang Pandikit ay...
+    - Hindi natin kailangan ng Pandikit para sa Gauze.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -2580,11 +2626,32 @@ MonoBehaviour:
     - Just remember the things we are using, doing and learning here.
     - Okay, so... Are you ready for the outdoor scenes?
     - Alright, Let's Go!
+    tagalogDialogs:
+    - Tama!
+    - Ang tanging kailangan lamang natin ay Gauze at Tape.
+    - Matatakpan natin ang sugat gamit ang Gauze.
+    - Ang Bandage ay hindi sapat para dito.
+    - At para mai-takip natin ng maayos ay kailangan rin natin ng Medical Tape.
+    - Maaaring idikit lamang natin ito sa taas ng Gauze ng patayo at pahalang.
+    - Nang sa gayon ay mailayo natin ang sugat sa kahit na anong dumi.
+    - At iyun lamang po para lahat ng ating Indoor Scenes!
+    - Alalahanin lamang ang lahat ng ating ginagamit, ginagawa at natutunan dito.
+    - Handa ka na ba para sa ating Outdoor Scenes?
+    - Tara!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Tape is necessary, but we cannot do anything with the tape itself only.
     - Pick the right things up to cover a wound from dirt.
+    tagalogDialogs:
+    - Kailangan natin ng Tape, ngunit wala tayong magagawa kung Tape lamang.
+    - Piliin mabuti ang tamang gamit para matakpan ang sugat sa dumi.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 060a3d45cc1cba7478ecbb6f6e3d51e2, type: 3}
   - {fileID: 8300000, guid: 9203012b5ec2fd945aa1d05688f373d8, type: 3}
@@ -4037,7 +4104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5140,6 +5207,7 @@ MonoBehaviour:
   dialogText: {fileID: 268446615}
   animator: {fileID: 2048648607}
   NarrationSource: {fileID: 2042986701}
+  Narrator: {fileID: 0}
 --- !u!4 &1992638417
 Transform:
   m_ObjectHideFlags: 0

@@ -1073,6 +1073,7 @@ MonoBehaviour:
   dialogText: {fileID: 1217522139}
   animator: {fileID: 141840007}
   NarrationSource: {fileID: 987904826}
+  Narrator: {fileID: 0}
 --- !u!4 &379778184
 Transform:
   m_ObjectHideFlags: 0
@@ -1290,7 +1291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.24705882}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1796,6 +1797,14 @@ MonoBehaviour:
     - I think some part of my feet is feeling itchy right now.
     - This started when we have stayed for a while here in the playground.
     - What do I need to do, to get rid of this itchiness?
+    tagalogDialogs:
+    - Hi!
+    - Sa tingin ko ay may parte ng paa ko na makati.
+    - Nagsimula ito noong napatagal ako ng paglalaro dito sa palaruan.
+    - Ano ang kailangan kong gawin para mawala itong pangangati ng aking paa?
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
     name: Dr. Kid
     dialogs:
@@ -1804,10 +1813,24 @@ MonoBehaviour:
     - We will be using Calamine Lotion.
     - This will help the skin to relieve from itchiness and skin irritation.
     - So, let's go pick the Calamine Lotion up for Cindy.
+    tagalogDialogs:
+    - Ngayon, si Cindy ay nakararanas ng pangangati ng kaniyang mga paa.
+    - Kailangan natin ng tamang gamit para dito.
+    - At ang gagamitin natin ay Calamine Lotion.
+    - Makatutulong ito para unti unti mawala ang pangangati ng kaniyang mga paa.
+    - Tara, at kuhanin na natin ang Calamine Lotion para kay Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyChoosingDialog:
     name: Cindy
     dialogs:
     - I think, this will be quick?
+    tagalogDialogs:
+    - Sa tingin ko ay magiging mabilis lang po ito?
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -1817,21 +1840,49 @@ MonoBehaviour:
     - Let the Calamine Lotion work by letting it to dry 'til the itchiness are gone.
     - There you have it. Do not forget that this lotion is for skin itchiness.
     - Ready for the next scene? Let's Go!
+    tagalogDialogs:
+    - Tama, ito ang Calamine Lotion.
+    - Kailangan lang natin itong buksan at ipahid sa makating part ng kaniyang balat.
+    - Marahan lamang itong ipahid.
+    - Hayaan natin na tumalab ang Calamine Lotion hanggang sa mawala ang pangangati.
+    - Huwag kalilimutan na ang Lotion na ito ay para sa pangangati ng balat.
+    - Handa ka na sa susunod na eksena? Tara!
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - We don't need thermometer as of now.
     - We just need to relieve Cindy from itchiness.
+    tagalogDialogs:
+    - Hindi natin kailangan ng thermometer sa ngayon.
+    - Kailangan lamang natin na mawala ang pangangati ni Cindy.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Medicines are unnecessary as of right now.
     - You can choose the one that is for rubbing.
+    tagalogDialogs:
+    - Hindi natin kailangan ng mga gamot sa ngayon.
+    - Pumili ng gamit na siyang pinapahid.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
     - Wipes can be used to clean some part of our skin.
     - But it is not the one we are needing right now.
+    tagalogDialogs:
+    - Maaaring kailangan ng Wipes para pamunas ng dumi o panlinis.
+    - Ngunit hindi ito ang ating kailangan sa ngayon.
+    tagalogAudio: []
+    englishDrKidBoyAudio: []
+    tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: e9645ee209aa93146886198b5d636bfd, type: 3}
   - {fileID: 8300000, guid: 54b71bce0f427274b92410e3830423d6, type: 3}
@@ -4851,6 +4902,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1194845303}
   loadingBar: {fileID: 590024858}
+  Star1: {fileID: 0}
+  Star2: {fileID: 0}
+  Star3: {fileID: 0}
+  ScoreBoard: {fileID: 0}
 --- !u!4 &2076988192
 Transform:
   m_ObjectHideFlags: 0
