@@ -8,6 +8,7 @@ public class SceneSixScript : MonoBehaviour
     public GameObject Intro;
     public GameObject IntroTwo;
     public GameObject TutorialOne;
+    public GameObject Assessment;
     public GameObject AssessmentOne;
 
     public Dialog CindyIntroDialog;
@@ -168,11 +169,11 @@ public class SceneSixScript : MonoBehaviour
             {
                 FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
                 FindObjectOfType<FirstAidMenu>().GrowIntro();
-                TutorialOne.SetActive(true);
+                Assessment.SetActive(true);
             }
             else if (DialogQue == 5)
             {
-                TutorialOne.SetActive(false);
+                Assessment.SetActive(false);
                 AssessmentOne.SetActive(true);
             }
             else if (DialogQue == 9)
