@@ -3808,7 +3808,16 @@ MonoBehaviour:
     - Nadulas ako sa fridge, at di inaasahang nagkasugat dahil sa nadulas ako sa
       sahig.
     - Maaari mo po ba akong tulungan?
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e1f338529fd4131438e9dc473bedaa26, type: 3}
+    - {fileID: 8300000, guid: d9544cef7ae1b9949974cf3d7473bc66, type: 3}
+    - {fileID: 8300000, guid: b1d629be35ad633449cc6b715ec8faea, type: 3}
+    - {fileID: 8300000, guid: cf96c71f72a05894e8b510214ef46c42, type: 3}
+    - {fileID: 8300000, guid: 2a00243d4a365f04583d87bc231e08ad, type: 3}
+    - {fileID: 8300000, guid: 5865ca4a25ce3c44490e719fca99d246, type: 3}
+    - {fileID: 8300000, guid: 9bae6977268302542944b1eb50fd9ea9, type: 3}
+    - {fileID: 8300000, guid: e32ba65bc5071874083fe11d407c0b67, type: 3}
+    - {fileID: 8300000, guid: 3c9ffddd6d1bc7344b2c50273a97cbb5, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -3827,16 +3836,35 @@ MonoBehaviour:
     - Kailangan lamang natin ng Gauze para matakpan ang sugat.
     - At ng Medical Tape para maidikit ang Gauze.
     - Tara at kunin na natin ang mga kailangang gamit!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 270d412b290641944ac14d1c7829701c, type: 3}
+    - {fileID: 8300000, guid: 2a870af167d22f5468b6d5385d8ca187, type: 3}
+    - {fileID: 8300000, guid: 0ed8a4d3b2e3b0b4185ce6b3ea96b4eb, type: 3}
+    - {fileID: 8300000, guid: facbacf43cf6d4e4c8dc0645fb9e8e41, type: 3}
+    - {fileID: 8300000, guid: 1ef26f988ffc73e4b88071d985cb5854, type: 3}
+    - {fileID: 8300000, guid: bc6802de57f8f1745b5c2889a9f9b60d, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 896ca249316d6474ebf7474fb61443c8, type: 3}
+    - {fileID: 8300000, guid: 33c37949527f5334e845b822dd740dac, type: 3}
+    - {fileID: 8300000, guid: 58cc74d52343497458a91e9d401ba58e, type: 3}
+    - {fileID: 8300000, guid: ebf6c0dfdaae8b4419733d2af2a6ec24, type: 3}
+    - {fileID: 8300000, guid: 7c9321210e438fc4dae20ed5b7b77333, type: 3}
+    - {fileID: 8300000, guid: 1f584f9bed02e1d4c8a4b05493c87ae8, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: fe4289b6591867645883484a657eca95, type: 3}
+    - {fileID: 8300000, guid: 0aa6626e0d9e6464a9f5c03a94cbd066, type: 3}
+    - {fileID: 8300000, guid: 62fc62408d104fd49ab287d3638856e9, type: 3}
+    - {fileID: 8300000, guid: f00311d1adb574c43a029a9062706a94, type: 3}
+    - {fileID: 8300000, guid: f88f1f1f2b1b2ea4fa84bb89a0d9f819, type: 3}
+    - {fileID: 8300000, guid: a75be68093ee3d643816701ec7cfa1b4, type: 3}
   CindyChoosingDialog:
     name: Cindy
     dialogs:
     - Yes, I think the cover to the wound will be the last thing I need here.
     tagalogDialogs:
     - Opo, sa tingin ko ay pang-takip nalang ng sugat ang kailangan ko.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: bdd77aa3964b09842b17163462fd5d65, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -3847,20 +3875,32 @@ MonoBehaviour:
     tagalogDialogs:
     - Maaaring makatutulong ang gunting para magupit ang mga kinakailangang gamit.
     - Ngunit, di natin kailangan nito para pang-takip ng sugat.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 9792d8d4b5dbedb43a82234548921eba, type: 3}
+    - {fileID: 8300000, guid: 258638d25f0342445ad3207d4cb864cc, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 5cf0e9e4a8b8d2c4b8db5c5bf5be63c3, type: 3}
+    - {fileID: 8300000, guid: 24bfb13fc48715c4eb15b879800ccc38, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: f4e9c384db12d2d4fa89ba5921f41f0d, type: 3}
+    - {fileID: 8300000, guid: 03d064c47e2de54488fc5ad37818a8aa, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
     - The Gauze Pad is right, but the Glue...
     - We don't need the Glue to tighten the Gauze.
     tagalogDialogs:
-    - Tama ang Gauze, ngunit ang Pandikit ay...
+    - Tama ang Gasa, ngunit ang Pandikit ay...
     - Hindi natin kailangan ng Pandikit para sa Gauze.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 9082d602d4b5d7b44874b3ff89cb8ba7, type: 3}
+    - {fileID: 8300000, guid: 2b7d096995dbb554bb11647bf1ca8803, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 44469283f03ea5442ace60cb337b6260, type: 3}
+    - {fileID: 8300000, guid: d8342915f7710c94ab81e201a47b0058, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 37fd29cfcac64d240904dca751504f62, type: 3}
+    - {fileID: 8300000, guid: c24e10612d036ef42bcce4cde2b7bb03, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -3887,9 +3927,42 @@ MonoBehaviour:
     - Alalahanin lamang ang lahat ng ating ginagamit, ginagawa at natutunan dito.
     - Handa ka na ba para sa ating Outdoor Scenes?
     - Tara!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e9f3c1544c8b16849ba477e9fe49715e, type: 3}
+    - {fileID: 8300000, guid: 9777ca2be9903854290fd90e7a2d270d, type: 3}
+    - {fileID: 8300000, guid: 58370574fd260684f82df2e43286b29f, type: 3}
+    - {fileID: 8300000, guid: a8520901c441f1346ad341e78b7eb6ac, type: 3}
+    - {fileID: 8300000, guid: a521d99bbd14f954196f1856f5a9d8b3, type: 3}
+    - {fileID: 8300000, guid: 6d20df3b2793221428ecc952a4385a1f, type: 3}
+    - {fileID: 8300000, guid: a16c5b6214524ef41a3659da319196b5, type: 3}
+    - {fileID: 8300000, guid: 011006ee03560894292fc347fe70d3e8, type: 3}
+    - {fileID: 8300000, guid: 6a51aff1132181f42996309f78f62d12, type: 3}
+    - {fileID: 8300000, guid: 1db4a47428807a24590aa4a0e843afaa, type: 3}
+    - {fileID: 8300000, guid: 91412ff6b2a425d4fa691eca1952c880, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: c3abc1a67a49c3d4c87c94facacec2bf, type: 3}
+    - {fileID: 8300000, guid: 6f5bf539ab75b1b4e8d652ca7e3c470d, type: 3}
+    - {fileID: 8300000, guid: 21125974130a6ad4392553f40e141808, type: 3}
+    - {fileID: 8300000, guid: 71855953ef8f161439fe8e9db9c3e834, type: 3}
+    - {fileID: 8300000, guid: a9fe96640bfd320448753ad41118c3d0, type: 3}
+    - {fileID: 8300000, guid: f48abfd69b36d684eb826a2f06c58932, type: 3}
+    - {fileID: 8300000, guid: 774c2c60acbb9c84c943af887d060dd2, type: 3}
+    - {fileID: 8300000, guid: bccfb0bcfd0d2eb4bac95ee0ba903eeb, type: 3}
+    - {fileID: 8300000, guid: c8650b9213801ea4699bec7ecd03b7e9, type: 3}
+    - {fileID: 8300000, guid: f839ecd6c5f4d7a429af2e9d6464611f, type: 3}
+    - {fileID: 8300000, guid: 8b0dbd6e79466a14b85ac002436fbc8c, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: dfcb2834dca4e8e4d8bdf735d5cf6bb2, type: 3}
+    - {fileID: 8300000, guid: cdaa8c2c75e9ff643a26107e866cc941, type: 3}
+    - {fileID: 8300000, guid: e654b9fd5fbc7744f85ec575c97d2f20, type: 3}
+    - {fileID: 8300000, guid: 80050e8abfd6e504fb6075143029742d, type: 3}
+    - {fileID: 8300000, guid: 27c3e34e00f7ed84ba526bc350d83f02, type: 3}
+    - {fileID: 8300000, guid: 9375e54c0e2431a458528f82ed70be54, type: 3}
+    - {fileID: 8300000, guid: 5418c0182e4d2e74c93afcb8a8621f39, type: 3}
+    - {fileID: 8300000, guid: 7ee980c0a7f1d3f41925b2db5389374f, type: 3}
+    - {fileID: 8300000, guid: 949e8bb4e8a0f674e989b1b46d1518eb, type: 3}
+    - {fileID: 8300000, guid: 2814212d82a7da546a310ba2f76c3a9c, type: 3}
+    - {fileID: 8300000, guid: 5f12e34797575e64586625ccf5d46e6d, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -3898,9 +3971,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Kailangan natin ng Tape, ngunit wala tayong magagawa kung Tape lamang.
     - Piliin mabuti ang tamang gamit para matakpan ang sugat sa dumi.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 993b726f931d5f44d916a95539c6dc78, type: 3}
+    - {fileID: 8300000, guid: 3d607c4b90424144cb097dd31f281c96, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 4f89bbf6e0e05b146b23008f098aafab, type: 3}
+    - {fileID: 8300000, guid: df265fc20c0ce054a9bb61bbf5e11b9c, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 4a93ada38002fc4438ee729862239b0a, type: 3}
+    - {fileID: 8300000, guid: a6cd73ddc942b4f4586930e809b651ec, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 060a3d45cc1cba7478ecbb6f6e3d51e2, type: 3}
   - {fileID: 8300000, guid: 9203012b5ec2fd945aa1d05688f373d8, type: 3}

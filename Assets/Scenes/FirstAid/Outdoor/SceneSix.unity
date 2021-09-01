@@ -470,7 +470,13 @@ MonoBehaviour:
     - (humihinga ng malalim)
     - Sa tingin ko, kailangan ko ng... Ano ang tawag doon.
     - Ang aking...
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 00758f1b84b73bd42b5481d1ee419bd8, type: 3}
+    - {fileID: 8300000, guid: f9139e853d7d90e48b35426cb1210098, type: 3}
+    - {fileID: 8300000, guid: dc28e65a076cbf040a287f50e1b532e1, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: e50d61505a88ee344acd8ba0e15e5174, type: 3}
+    - {fileID: 8300000, guid: 7da3b87217eda974fb7c272c46a3bc6b, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -493,9 +499,33 @@ MonoBehaviour:
     - Kailangan nating kuhanin ang kaniyang Inhaler, i-ayos at ibigay kay Cindy.
     - Kailangan natin ng Inhaler sa lalong madaling panahon.
     - Simulan na natin ngayon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: a9352d496e4ed5045a7732a79168cd6a, type: 3}
+    - {fileID: 8300000, guid: eebb5cedc0cc1124490f9230632d38d7, type: 3}
+    - {fileID: 8300000, guid: 8c72089bf801e6347ad948107aabd3ba, type: 3}
+    - {fileID: 8300000, guid: 26f03830b33056543b9c779a528b8e2c, type: 3}
+    - {fileID: 8300000, guid: 8900edca4ef15d84fb4a708c328afb86, type: 3}
+    - {fileID: 8300000, guid: 3bdcfb7dbebe90340923ad5190dab6dc, type: 3}
+    - {fileID: 8300000, guid: b26241bf2ee523b4397b42b53d437e78, type: 3}
+    - {fileID: 8300000, guid: 1252528244da04f4ca8ee37c64648a73, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: ea5d82aacb8990042b46e9fc0727d6f6, type: 3}
+    - {fileID: 8300000, guid: 8a8ced9e59ac9184aae3315f8f8a7d6c, type: 3}
+    - {fileID: 8300000, guid: accba1ae8889aa4498e7ae8ce44bce4e, type: 3}
+    - {fileID: 8300000, guid: 7f9779fac60ca79429a3909179762d50, type: 3}
+    - {fileID: 8300000, guid: f53bc32b59e9dd84580641d5f732d00d, type: 3}
+    - {fileID: 8300000, guid: d655ea1176da0bf49ae3734371a121c7, type: 3}
+    - {fileID: 8300000, guid: e3ddf96e5000d994b8b9ef27280ed204, type: 3}
+    - {fileID: 8300000, guid: d8fd1aa134d7f4848939e8918e71ee8a, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 2416b02862a41864ea4121b779c235f3, type: 3}
+    - {fileID: 8300000, guid: f4e04e2fec183844e9493971f85f2e5f, type: 3}
+    - {fileID: 8300000, guid: 29c4bc9c319570744ad814939efc7d3d, type: 3}
+    - {fileID: 8300000, guid: 17123808a3a52334299ccae7d3b14908, type: 3}
+    - {fileID: 8300000, guid: 176acad5002affd4eb59f5a2adf06e10, type: 3}
+    - {fileID: 8300000, guid: 9c1d02fd086c39b42981e28c79c225a3, type: 3}
+    - {fileID: 8300000, guid: c6b4ed095b30a254da95ea8b9954d30f, type: 3}
+    - {fileID: 8300000, guid: b5349b7cc55a61a47b8f95be90a2ef2b, type: 3}
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -522,9 +552,42 @@ MonoBehaviour:
     - Ulit-ulitin ito hanggang sa gumaan ang pakiramdam ni Cindy.
     - At iyun lamang para sa ating unang eksena ng Outdoor Scenes.
     - Tara sa susunod na eksena!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 1acb569401aed984e9d1586e035a3d79, type: 3}
+    - {fileID: 8300000, guid: 8efd8feff54bbaa439f827cff39cabe1, type: 3}
+    - {fileID: 8300000, guid: 2490e8da4421da24d8126b64f1399066, type: 3}
+    - {fileID: 8300000, guid: 8fe5055196e25cb48bf2458cd5d8b858, type: 3}
+    - {fileID: 8300000, guid: 646e51b65cde809439af0c86db82b77f, type: 3}
+    - {fileID: 8300000, guid: 53f7c87f9844ec642a2e61bc00982e6e, type: 3}
+    - {fileID: 8300000, guid: b4b1324bdb046db41b92f555d6514479, type: 3}
+    - {fileID: 8300000, guid: eb97e4d0d2a69fb4484573ca1813f33b, type: 3}
+    - {fileID: 8300000, guid: 53b9478a2401e0c4ca029c60152087b4, type: 3}
+    - {fileID: 8300000, guid: db06a0ca1c7846e49b8a907107ed0f05, type: 3}
+    - {fileID: 8300000, guid: 31459d3136242df439a6643d99c1677b, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 458116e88f122d146a70fb029c785906, type: 3}
+    - {fileID: 8300000, guid: 1ba415e1319bac34fa56a69d2d50b538, type: 3}
+    - {fileID: 8300000, guid: c9f86b1caf84d5b499a2de6d73e6fa65, type: 3}
+    - {fileID: 8300000, guid: 7713e9ca04916064ca57d0aaafa85b8b, type: 3}
+    - {fileID: 8300000, guid: 4ce753af9405f1e45bf0c78a5055a2fb, type: 3}
+    - {fileID: 8300000, guid: b5200a36850253649aff255ec7decaba, type: 3}
+    - {fileID: 8300000, guid: 422e1fbb8ffe94f4181a1a742f279ca2, type: 3}
+    - {fileID: 8300000, guid: 9f9ca7c47ff46bc46baed0b1e66d8818, type: 3}
+    - {fileID: 8300000, guid: 6866523466bcff44e9026040988c7acd, type: 3}
+    - {fileID: 8300000, guid: 820857e1d18ce3044ace7030e71f0c91, type: 3}
+    - {fileID: 8300000, guid: 319a9c3c2e10a134a920a7abf76c211d, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 9c1f40cd9c53dff488bc610f0ea2c4ab, type: 3}
+    - {fileID: 8300000, guid: 127ca0b12fc42944bb596d228cdb25e6, type: 3}
+    - {fileID: 8300000, guid: af941dc4d7b91d24d8c420f17d8d1786, type: 3}
+    - {fileID: 8300000, guid: e588853745a17df4986a81cb47623e57, type: 3}
+    - {fileID: 8300000, guid: 7953e3abbe4cd604d9d6d11ac8f849e3, type: 3}
+    - {fileID: 8300000, guid: 3efe07dbd89e4e342970ebf28ce1afb8, type: 3}
+    - {fileID: 8300000, guid: 0f5b508f18f663d41a21af639d94aaa4, type: 3}
+    - {fileID: 8300000, guid: c784093e456fff842bb26f37b1e823b9, type: 3}
+    - {fileID: 8300000, guid: 69b99039bdf29024093ac72f48fc89c8, type: 3}
+    - {fileID: 8300000, guid: 2839c4656bb4fdc4ab2d6d9634777e83, type: 3}
+    - {fileID: 8300000, guid: ac373d4f55d22214396b4642d451c051, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -533,18 +596,27 @@ MonoBehaviour:
     tagalogDialogs:
     - Maaaring bigyan si Cindy ng tubig kapag siya ay napapagod.
     - Ngunit hindi ito ang ating kailangan sa ngayon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 782ff8d72c1dfc44199fec768ea5836c, type: 3}
+    - {fileID: 8300000, guid: 85eca132724307142b907a2efad70163, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 070c219c505fc0344b560a8b13d8e89e, type: 3}
+    - {fileID: 8300000, guid: 62893dda64fbe9b42a177bc9674b322c, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: f73890e64afb7474bacb6d92edaffeac, type: 3}
+    - {fileID: 8300000, guid: d675269ff5835114dab68e020093417e, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
     - Nope, we don't need any antibiotics or medicines right now.
     tagalogDialogs:
     - Hindi natin kailangan ng mga gamot sa ngayon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4e6f8dc938f5ec947ac8d899e347f818, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 15f542ec686deb240a855490ae3072a6, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: ca374eb6e64a94a4b860f5a2e7952c22, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -553,9 +625,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Nahihirapan siya huminga ngayon, hindi natin kailangan ng yelo ngayon.
     - Kailangan ni Cindy na makahinga ng maayos sa lalong madaling panahon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: ca2617185575cce49abc3924790e7f5c, type: 3}
+    - {fileID: 8300000, guid: 6817b0b4beeee6e41960892b0debb7ab, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: c9db3001f65d75841b3fdf83adf05b02, type: 3}
+    - {fileID: 8300000, guid: 550740f920c451141abbfc76017446eb, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: db64cb09cea8c00499c2b8735e33ba01, type: 3}
+    - {fileID: 8300000, guid: 66e4376d26c1c0b4aaa04ea970f6faf6, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: e5eaec7ad5e4e384693cf7a3076fdcb5, type: 3}
   - {fileID: 8300000, guid: 7f31b71ebb758e940886eae06fbdad3b, type: 3}

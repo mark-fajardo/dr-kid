@@ -2346,7 +2346,11 @@ MonoBehaviour:
     - Sa tingin ko ay may parte ng paa ko na makati.
     - Nagsimula ito noong napatagal ako ng paglalaro dito sa palaruan.
     - Ano ang kailangan kong gawin para mawala itong pangangati ng aking paa?
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e23712ada8f49c844b91d563a3f33d5c, type: 3}
+    - {fileID: 8300000, guid: 06240f3d0b188e4448f86d7cd858fd16, type: 3}
+    - {fileID: 8300000, guid: 658854a82b8870341b01a6406836edc0, type: 3}
+    - {fileID: 8300000, guid: 651e9f893fef9a64296f1f9eb60ae53b, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -2363,16 +2367,32 @@ MonoBehaviour:
     - At ang gagamitin natin ay Calamine Lotion.
     - Makatutulong ito para unti unti mawala ang pangangati ng kaniyang mga paa.
     - Tara, at kuhanin na natin ang Calamine Lotion para kay Cindy.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: df947588f5b2b494ea66b6f859f9231e, type: 3}
+    - {fileID: 8300000, guid: 6879cd3a8df1a704d897c8c7cb78c8e8, type: 3}
+    - {fileID: 8300000, guid: eade4441626aff74e85c556443972506, type: 3}
+    - {fileID: 8300000, guid: cdb667b592a6f664098acc0ad05da956, type: 3}
+    - {fileID: 8300000, guid: 0cbf05c77780b80498f5176232e1dea1, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: b0641ad2e1260d54392c0ff23245df43, type: 3}
+    - {fileID: 8300000, guid: c6ab2b2efe415f54ea0a55abf3d7cfb4, type: 3}
+    - {fileID: 8300000, guid: 10324ca36fa625a45b6a019f2b5e1953, type: 3}
+    - {fileID: 8300000, guid: d2d55abc9ee65154b8d03890d93f8c69, type: 3}
+    - {fileID: 8300000, guid: e8e09fd15d19d744c9e507959f9c8525, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 9b9ff96f0d548dd4181645d48b04e1fe, type: 3}
+    - {fileID: 8300000, guid: a282103c40f1b004a8be15330135a0f1, type: 3}
+    - {fileID: 8300000, guid: ecb18e24f8ac1234587e7fae9d6c54cc, type: 3}
+    - {fileID: 8300000, guid: 8cbf3c7ff67b9494c959208b8183abdd, type: 3}
+    - {fileID: 8300000, guid: 594c7d2eb68fbdf4fb3c1ab8e5fa8133, type: 3}
   CindyChoosingDialog:
     name: Cindy
     dialogs:
     - I think, this will be quick?
     tagalogDialogs:
     - Sa tingin ko ay magiging mabilis lang po ito?
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 651e9f893fef9a64296f1f9eb60ae53b, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -2391,9 +2411,27 @@ MonoBehaviour:
     - Hayaan natin na tumalab ang Calamine Lotion hanggang sa mawala ang pangangati.
     - Huwag kalilimutan na ang Lotion na ito ay para sa pangangati ng balat.
     - Handa ka na sa susunod na eksena? Tara!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4998be431ebe6524b99643853f48d676, type: 3}
+    - {fileID: 8300000, guid: bf2cfcd16ad664e4e8e2099debb971c7, type: 3}
+    - {fileID: 8300000, guid: 7eee0df9893bcc74789a9d1ac390c353, type: 3}
+    - {fileID: 8300000, guid: 2f0e0fc70fddeb241bd5f689c81cbc62, type: 3}
+    - {fileID: 8300000, guid: b0f88dadea5b2ee42984ce1783a70aec, type: 3}
+    - {fileID: 8300000, guid: 00f5f49bb7b7aac4da00e488e8ad6420, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 9756f8244ccc8cd4abbad56af723f3a1, type: 3}
+    - {fileID: 8300000, guid: c98d54034b36fc74b9ca9f5b04257941, type: 3}
+    - {fileID: 8300000, guid: 111b25a0ba5b77b4cb5e4206387582a6, type: 3}
+    - {fileID: 8300000, guid: e9fb5cf40e7e7c940aa48b034f678a47, type: 3}
+    - {fileID: 8300000, guid: aa9e47d67009ffd4cbada080a7219d31, type: 3}
+    - {fileID: 8300000, guid: 7a0881a1b339c65438825835a7bc7774, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 0f72287cff5dc0d40bdd9e6f1ad2fec3, type: 3}
+    - {fileID: 8300000, guid: ac14b6896b737314490d8346274a8028, type: 3}
+    - {fileID: 8300000, guid: 8b91f6db645cb684c8b099e991792920, type: 3}
+    - {fileID: 8300000, guid: c5ffa25a7bced5b45a629a9f752ea29a, type: 3}
+    - {fileID: 8300000, guid: 66bf976f50b0de14b9835578fabe4e63, type: 3}
+    - {fileID: 8300000, guid: 4f5ade2087c1e8a4fb2b412a43e18e9e, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -2402,9 +2440,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng thermometer sa ngayon.
     - Kailangan lamang natin na mawala ang pangangati ni Cindy.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: a1a6614b2eb67cb4e9a98ad47ae8e5c9, type: 3}
+    - {fileID: 8300000, guid: 465641bf6002581499e30f4edfc97b20, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: ad2a1ed9c8f6d3d4e96338de59fd6d1d, type: 3}
+    - {fileID: 8300000, guid: 246698f137f827c478749f5461c8289e, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 3b22ad8b092e70a4190bf6a149cdd114, type: 3}
+    - {fileID: 8300000, guid: 86fc706e0250bab42b099eafa3ff9eb3, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -2413,9 +2457,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng mga gamot sa ngayon.
     - Pumili ng gamit na siyang pinapahid.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4241fe346d16a354fb495b35caef8aa9, type: 3}
+    - {fileID: 8300000, guid: e2b39070640df2f4c95447e5dbb2314f, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 08a97c6b45243364aa9d5c72ce20e898, type: 3}
+    - {fileID: 8300000, guid: ef1d1e928e6881e43a6c8f14d323c96f, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: b0176ad76928c394a806fa0c036cbed2, type: 3}
+    - {fileID: 8300000, guid: e741c2189d0893c48ae1d13b86d86a1b, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -2424,9 +2474,13 @@ MonoBehaviour:
     tagalogDialogs:
     - Maaaring kailangan ng Wipes para pamunas ng dumi o panlinis.
     - Ngunit hindi ito ang ating kailangan sa ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 3b128123fdac92d4f84bd9736bc938e1, type: 3}
+    - {fileID: 8300000, guid: 0dc5e199919f8df48933f4a6a712db55, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 706253f634c89ab4ab933b3cca591c98, type: 3}
+    - {fileID: 8300000, guid: aa88f15b56eab624e965dd9768002539, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: e9645ee209aa93146886198b5d636bfd, type: 3}
   - {fileID: 8300000, guid: 54b71bce0f427274b92410e3830423d6, type: 3}

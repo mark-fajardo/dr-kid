@@ -470,7 +470,10 @@ MonoBehaviour:
     - Naku! Lahat ay yumuyugyog ngayon.
     - Nahihilo na ako, kailangan ko ng tulong.
     - Ano ang dapat kong gawin?
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: ef2588fec81cd7a4987aeb0797e055d6, type: 3}
+    - {fileID: 8300000, guid: b43eee4621f7cb7409fcefa957b38769, type: 3}
+    - {fileID: 8300000, guid: 0c7bb3662b2d52740be33feb4d376c54, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -492,7 +495,14 @@ MonoBehaviour:
     - At maghanap ng lugar na mapagtataguan, tulad ng ilalim ng matitibay na lamesa.
     - Pwede siyang pumunta doon at magtago.
     - Sabihin natin ito sa lalong madaling panahon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e70c408b92894eb41878809a6ea6396f, type: 3}
+    - {fileID: 8300000, guid: f354e31318a6963438223828c1bc6d05, type: 3}
+    - {fileID: 8300000, guid: 49fbc40cc00d6ff4b9042d927511a582, type: 3}
+    - {fileID: 8300000, guid: 43a96bdc2c0ea804db5319979d318d4f, type: 3}
+    - {fileID: 8300000, guid: a95d216c0eee58b4e88fcd1fba74d4bb, type: 3}
+    - {fileID: 8300000, guid: 11ec2b6a0f734fc40bb49a910e691f3f, type: 3}
+    - {fileID: 8300000, guid: a895c06af97362740afbf89c97e45643, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -516,7 +526,13 @@ MonoBehaviour:
     - Kailangan nating magisip ng mabilis para sa mga ganitong kaganapan.
     - Huwag kalilimutan na sabihin sa iba na delikado ang mga ganitong kalamidad.
     - Kaya manatiling ligtas! Tara!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: dc4da8f2af9e30d4cb9398a01e64c55d, type: 3}
+    - {fileID: 8300000, guid: 14176a125d34a5e418e40c6b2947f940, type: 3}
+    - {fileID: 8300000, guid: ef9fc060ee6407f4a9ac0d230506c79f, type: 3}
+    - {fileID: 8300000, guid: 0114e987fb2d02f41813176e2530dc2b, type: 3}
+    - {fileID: 8300000, guid: 5f8941f20213ad547934052354184526, type: 3}
+    - {fileID: 8300000, guid: 3d1ba374046b96a4385f7be293ef1f33, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionTwoDialog:
@@ -527,7 +543,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Si Cindy ay wala nang oras para maglaro sa labas.
     - Kailangan ni Cindy na maging ligtas sa lindol.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4d84eedfe81faec459ec93acf65f55d9, type: 3}
+    - {fileID: 8300000, guid: 6455654bd028dd54e814598a342efe82, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionThreeDialog:
@@ -538,7 +556,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Huwag sabihin kay Cindy na magtatakbo sa mga nahuhulog na mga bagay.
     - Maaari siyang masaktan dito.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 7f0e419b837f7ca4f808b97e6e9c25d9, type: 3}
+    - {fileID: 8300000, guid: b261fca006929944dabd538e1b9cc092, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionFourDialog:
@@ -551,7 +571,9 @@ MonoBehaviour:
     - 'Ang pagiyak ay di makatutulong. '
     - Kailangang malaman ni Cindy na kailangan niya na kumilos at maghanap ng lugar
       na mapagtataguan.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 3559ee61877f57a4f9c916ffbf328939, type: 3}
+    - {fileID: 8300000, guid: 2e37856bf3c34db469a6e6abc88af0d5, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:

@@ -6992,7 +6992,13 @@ MonoBehaviour:
     - Sinalat ko ang kaniyang leeg at ito ay mainit kumpara sa normal.
     - Sa tingin ko ay mayroon siyang lagnat, ngunit di ko alam ang aking gagawin.
     - Kailangan ko kumpirmahin kung mayroon nga talaga siyang sakit.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: c5ac8ec0bc27f1248b4871a4c904b672, type: 3}
+    - {fileID: 8300000, guid: 7661743a134ca5042a717364497a8e3b, type: 3}
+    - {fileID: 8300000, guid: 8e5f028da3291524cb9aab0109975bc4, type: 3}
+    - {fileID: 8300000, guid: de993ceb006c6be409f59071876a43ed, type: 3}
+    - {fileID: 8300000, guid: 8d6c11233a9912442a1b42c24cfebf5d, type: 3}
+    - {fileID: 8300000, guid: 5af6b8479e5ffe7478e9e8274a5b1160, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -7007,16 +7013,26 @@ MonoBehaviour:
     - Una, kailangan natin ng Thermometer para malaman kung may sakit nga ang iyong
       Ina.
     - "Tignan kung lalagpas ba ang kaniyang temperatura ng 37.5\xB0C."
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: d73d11e02426fca4d820e117f7821213, type: 3}
+    - {fileID: 8300000, guid: cbc5920151ac87b429b90bad952370b4, type: 3}
+    - {fileID: 8300000, guid: 129ad35b1adff2f47aba6a3dd8b64a36, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: f379cf07528576842b52a30597019f4e, type: 3}
+    - {fileID: 8300000, guid: e80282fedcbdbdc4db2df9dcd7b26e36, type: 3}
+    - {fileID: 8300000, guid: 005e650e1cc7b904f93f91d3b08ba80c, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 94ebc5dc4cb005941bb4e0ced7f71f35, type: 3}
+    - {fileID: 8300000, guid: 493e5cb6ec86be548993046afbc4d839, type: 3}
+    - {fileID: 8300000, guid: 17990578de302b34f96080d4f669871b, type: 3}
   CindyTutorialDialog:
     name: Cindy
     dialogs:
     - Yes, I need that thing to confirm if mom has fever.
     tagalogDialogs:
     - Iyan nga, iyan ang kailangan ko para malaman kung siya ay may lagnat.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 2a4f40d736a78184ea9c019a861b90ca, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialTwoDialog:
@@ -7035,9 +7051,24 @@ MonoBehaviour:
       mga gamot."
     - Kailangan natin ng Paracetamol na gamot.
     - At dalian natin para agapan ang kaniyang masamang nararamdaman.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 46158af82748e574fb69ece58549817f, type: 3}
+    - {fileID: 8300000, guid: b10c609ad9c2b1344864e137dff8f6b4, type: 3}
+    - {fileID: 8300000, guid: 8f55025c89519f049a57becb62e41031, type: 3}
+    - {fileID: 8300000, guid: 35626482f5aec554c8eceb23d13d2244, type: 3}
+    - {fileID: 8300000, guid: 59c9cfe168ba62e4fad9939be7ee13ed, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8c58364e2a298d14d918868f30e9ca25, type: 3}
+    - {fileID: 8300000, guid: 66e1f37d85b58ff4db0abc659c5bb30c, type: 3}
+    - {fileID: 8300000, guid: 1255bfe583d7c514c9b3905c99ed1e42, type: 3}
+    - {fileID: 8300000, guid: 2ce9b0fa1d5ab29498e180f8c362eed2, type: 3}
+    - {fileID: 8300000, guid: d53a4fdf59cce2540a26a9b73e2dd3d5, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: e792e9517cbb64847b917dc668e9085c, type: 3}
+    - {fileID: 8300000, guid: c2bfea7602d88a7419d0433db88d482e, type: 3}
+    - {fileID: 8300000, guid: 8eaa246654183dd4e8bb45df7d30c491, type: 3}
+    - {fileID: 8300000, guid: de4fa680834244d43b8def8c4cb9defa, type: 3}
+    - {fileID: 8300000, guid: a7b1edd99b9a373449b88888920e6541, type: 3}
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -7062,10 +7093,40 @@ MonoBehaviour:
     - At sa ating inaasahan, dapat ay tumalab ang gamit sa ilang oras lamang.
     - At huwag kalilimutan na bigyan siya ng gamot kada 4-6 na oras kung kinakailangan.
     - Nang sa gayon ay guminhawa ang pakiramdam ng kaniyang Ina.
-    - Tara sa susunod na eksena? Let's go!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    - Tara sa susunod na eksena? Tara na!
+    tagalogAudio:
+    - {fileID: 8300000, guid: 7848a0f243aaa2a4695d9d6506f125e5, type: 3}
+    - {fileID: 8300000, guid: 40f5ccecc7acfc54f912886c588c3455, type: 3}
+    - {fileID: 8300000, guid: 8c877f0b125b75848847cc6f040a140d, type: 3}
+    - {fileID: 8300000, guid: df5b9746c511b784197d817bec17ee81, type: 3}
+    - {fileID: 8300000, guid: 02dab19f0934b2d48a81d192ec0ca186, type: 3}
+    - {fileID: 8300000, guid: fa48b2dbe50dff54c80547eb0c4a3771, type: 3}
+    - {fileID: 8300000, guid: 2a35222992cc44948b71a4236ba791ac, type: 3}
+    - {fileID: 8300000, guid: 7837d64e0db5a5c4aabb3b5200c941bc, type: 3}
+    - {fileID: 8300000, guid: 1af5d2a50f362cb4d950cf4a0ed69822, type: 3}
+    - {fileID: 8300000, guid: 05ba1a4b07ae5f349bbedbdaafad1a79, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 6a7500d6230eb234da677227c2cb722b, type: 3}
+    - {fileID: 8300000, guid: e6e881263bd04424299b46ac457d99c8, type: 3}
+    - {fileID: 8300000, guid: dc055fdcc8d4c6640ad9699f7a9e9d5e, type: 3}
+    - {fileID: 8300000, guid: ea11177ca29eaf643a712d115fd890a3, type: 3}
+    - {fileID: 8300000, guid: 3cfc0208ac96a0048bb74b9e2443eb4f, type: 3}
+    - {fileID: 8300000, guid: 636a26ad8bd8ef04884fcb77a2524574, type: 3}
+    - {fileID: 8300000, guid: 89fc4a20e7726c74299c336505eb267f, type: 3}
+    - {fileID: 8300000, guid: 0b0e4710b55e7514ab2c2ec80c67a53c, type: 3}
+    - {fileID: 8300000, guid: 15b2e478f153b43418941270ea7265bb, type: 3}
+    - {fileID: 8300000, guid: f32ee05bdeedd5742817f73b4b1d680d, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: a4c1d3005c6f3664a9a5ff1e71208374, type: 3}
+    - {fileID: 8300000, guid: 170c4820de197f744857df53677cc095, type: 3}
+    - {fileID: 8300000, guid: e4724a2de8cda02408d46d1ec44e19a4, type: 3}
+    - {fileID: 8300000, guid: 737c2db4a97f0864eab12b239e9c642a, type: 3}
+    - {fileID: 8300000, guid: 719086e630b290242b4000b94ccbb661, type: 3}
+    - {fileID: 8300000, guid: a79650611406f434da8431d34ccab05d, type: 3}
+    - {fileID: 8300000, guid: ecff2b2af22db8a41b3d99625bb663ab, type: 3}
+    - {fileID: 8300000, guid: 6201e7a6e29fced459eebe28f7acf62b, type: 3}
+    - {fileID: 8300000, guid: 7f294aff52da630459c7c23a854ab83f, type: 3}
+    - {fileID: 8300000, guid: 09fbae0b91f426448b79348a63d63ada, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -7074,9 +7135,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi iyan.
     - Hindi natin kailangan maglinis ng kahit na ano ngayon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: db1be5571d89c66448d332ad87d189eb, type: 3}
+    - {fileID: 8300000, guid: 07a6c6a3ade0466459f982fc8b99bc9e, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 2859ac3efa42dab4badc238771e8ceee, type: 3}
+    - {fileID: 8300000, guid: 89b8b64c50e31004ea6e3445a0865826, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: b0381bd4373a2e949bc09d4b2428ea7a, type: 3}
+    - {fileID: 8300000, guid: 97acf5efb16c7164b977252872903778, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -7085,9 +7152,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng Betadine ngayon.
     - Wala siyang nararanasan na sugat sa ngayon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 3385f78eac1bd4541a79ff489a28e86a, type: 3}
+    - {fileID: 8300000, guid: 2a3d3ba1009f54f418503eced8008cfd, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 627a4941ce1687f4f8c0027b88ba6844, type: 3}
+    - {fileID: 8300000, guid: 10364121845eb5c449df7ad576d2b338, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 32443d52f0ca3e34887e99e58fc87103, type: 3}
+    - {fileID: 8300000, guid: 86f68a4ab51c03641a811d761770207d, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -7096,9 +7169,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Wala tayong kailangang takpan na sugat sa ngayon.
     - Gauze ay hindi kinakailangan ngayon.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: f20884f50d048b74d995735e2fbd891d, type: 3}
+    - {fileID: 8300000, guid: 4b61369ed4da3214bb7c0187b3991167, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: affbf6768f34b6d40b513d8e9abdf227, type: 3}
+    - {fileID: 8300000, guid: 7c3589f809f9d2b4b82859f33547e3d0, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8106b8ef3dec49745bb3ca069b1791b7, type: 3}
+    - {fileID: 8300000, guid: e11f763e3ad95d64888e3dddab46d46b, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 57ea1d8bdaa9a2d4980e887de538d305, type: 3}
   - {fileID: 8300000, guid: ac17bc5d7c7982f408e44af0c01a26a6, type: 3}

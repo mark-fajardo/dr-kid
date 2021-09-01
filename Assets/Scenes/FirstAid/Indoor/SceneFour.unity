@@ -3397,7 +3397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.12900001, y: 0.10113957}
   m_AnchorMax: {x: 0.836, y: 0.90370196}
-  m_AnchoredPosition: {x: 0.97215, y: 0.010117}
+  m_AnchoredPosition: {x: 0.9721527, y: 0.010116577}
   m_SizeDelta: {x: 3.842804, y: -0.020301819}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829807520
@@ -5734,7 +5734,12 @@ MonoBehaviour:
     - Nauntog ang ulo ko sa pinto ng aming kwarto habang naglalaro ng VR games.
     - Ang sakit ng ulo!
     - Sa tingin ko, kailangan ko ng paunang lunas ngayon. Salamat...
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 81e458fcd14596749b161d733b49b30f, type: 3}
+    - {fileID: 8300000, guid: e5e4b8e776ff32f44a628c3debcda42a, type: 3}
+    - {fileID: 8300000, guid: f0257fe1f0b97e64f834308bcaac0a63, type: 3}
+    - {fileID: 8300000, guid: d002580d5a9bf184d895757e9807a64e, type: 3}
+    - {fileID: 8300000, guid: f728a1f9821f0c344aabdde914ce306c, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -5755,9 +5760,30 @@ MonoBehaviour:
     - Kailangan rin natin ng Yelo na pwedeng ilagay sa kaniyang ulo.
     - Ilalagay natin ang ilang yelo sa Towel at ipapatong sa kaniyang bukol.
     - Iyun lamang, kailangan lamang natin ng Towel at ng Yelo.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 3da2bba256be3a44c8958a25273ad7b7, type: 3}
+    - {fileID: 8300000, guid: 4fac737337cc90f4dbcb7e5ef4387df7, type: 3}
+    - {fileID: 8300000, guid: 70663b95f25080d40a1e1724efd4e881, type: 3}
+    - {fileID: 8300000, guid: 6edfe3b8d65286f4299b6ff238793e1b, type: 3}
+    - {fileID: 8300000, guid: 392cac06deb4f334c8ba91293da5a618, type: 3}
+    - {fileID: 8300000, guid: 3b629f8299b409a46b95ad4d481e016f, type: 3}
+    - {fileID: 8300000, guid: f3ea7ac035ff2b045b40abdc2ef22312, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 6170cba2357f7be4581bcf1449599e80, type: 3}
+    - {fileID: 8300000, guid: 9587a6e7182eda745bea7fe460435ad5, type: 3}
+    - {fileID: 8300000, guid: 1b760527152834446af542ea8b4bd1e9, type: 3}
+    - {fileID: 8300000, guid: 0e34996404f04054a80734b32d8335d0, type: 3}
+    - {fileID: 8300000, guid: 8ff4b19b4183b6c439e15eca047ce12e, type: 3}
+    - {fileID: 8300000, guid: ace0193dcbc8e684ea9ea2caaf7b18e9, type: 3}
+    - {fileID: 8300000, guid: 10bd5d11a4104ee4897c02097d4499bd, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8839fda1de0b3d545af36252d44b7bbf, type: 3}
+    - {fileID: 8300000, guid: 7d11b7b0ac5b1b64fbb6bd02b7163b69, type: 3}
+    - {fileID: 8300000, guid: 3164472ec4102df40939a0ff28186d92, type: 3}
+    - {fileID: 8300000, guid: 52b0c4884ff88d24696a14747fcaeb67, type: 3}
+    - {fileID: 8300000, guid: 70eae81352c66a84392bd4174c1bac62, type: 3}
+    - {fileID: 8300000, guid: ffb263870046288498073b8f86ddd93c, type: 3}
+    - {fileID: 8300000, guid: 59dcf0b78ba241f479dc370b119e4870, type: 3}
   CindyChoosingDialog:
     name: Cindy
     dialogs:
@@ -5766,7 +5792,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Magagawa mo po ba ito ng mabilis.
     - Hindi ko magamit ang aking VR headset at maglaro nang may bukol sa aking ulo.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: ad69d135f414e47468fe93f0998d5e7c, type: 3}
+    - {fileID: 8300000, guid: 8f4dd710a1cc2b846b526e2152a30515, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -5792,9 +5820,36 @@ MonoBehaviour:
     - Iyun lamang para sa kaniyang bukol. Huwag kalilimutan ang ating mga natutunan
       kada eksena.
     - Maaaring magamit mo ito sa di inaasahang panahon. Tara sa susunod na eksena!
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 79fd4d86bfe779a448698a9cca81ef4f, type: 3}
+    - {fileID: 8300000, guid: 9a72990f18288a248923293fd9ba4e9c, type: 3}
+    - {fileID: 8300000, guid: 6d1ab2d1b94436d46856cbf5b9f055a6, type: 3}
+    - {fileID: 8300000, guid: 0309775af1539234faab2879956e0d43, type: 3}
+    - {fileID: 8300000, guid: 3c1cfb9595a15bc4595112d5ebe8a70a, type: 3}
+    - {fileID: 8300000, guid: 1dbe654e16abd494bb2cef99efe5120f, type: 3}
+    - {fileID: 8300000, guid: c7d742601fde55844aa162b61dd3a5e8, type: 3}
+    - {fileID: 8300000, guid: 2fe07302cb7f0b545b083be03b101972, type: 3}
+    - {fileID: 8300000, guid: f7b54a8ae4f3a46419d215146699255d, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: af542085f40b0bd499052e65b1283d24, type: 3}
+    - {fileID: 8300000, guid: 87531246f84ff364c9f528710f1d1843, type: 3}
+    - {fileID: 8300000, guid: 4af90585406f98940a69f1fd04e9f409, type: 3}
+    - {fileID: 8300000, guid: 10434315bd0a1f84f8440f89725e038c, type: 3}
+    - {fileID: 8300000, guid: f60371661eab89743bbfa9147b675e8e, type: 3}
+    - {fileID: 8300000, guid: 38fea1caa7fe9ec4a95a5e63fb1fc9fa, type: 3}
+    - {fileID: 8300000, guid: b7175eb2945691045a8722127859344b, type: 3}
+    - {fileID: 8300000, guid: 8a17edb95c2ab6d4aa0244c675b1490d, type: 3}
+    - {fileID: 8300000, guid: f0e97e7e807cec94e93bc532f4b18c47, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 733bfded59b67874fb7df0731be4eca0, type: 3}
+    - {fileID: 8300000, guid: 4d217db5b279f3445b4b71bd23181af9, type: 3}
+    - {fileID: 8300000, guid: d75a33cc5298ba843b8a5caf769426af, type: 3}
+    - {fileID: 8300000, guid: 922f766e221350246bdf13c8972943d6, type: 3}
+    - {fileID: 8300000, guid: 66d82367151fe1441aeceb29aefe75a4, type: 3}
+    - {fileID: 8300000, guid: f17dc91250856834898bf299e50f2485, type: 3}
+    - {fileID: 8300000, guid: 5222a0f7f4aaea44db28d1d83f4b09ba, type: 3}
+    - {fileID: 8300000, guid: 7fb8f3a1a8bfe5046907bfd0ebde5450, type: 3}
+    - {fileID: 8300000, guid: d85f9435e28b08741be9dfac517e4536, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -5803,9 +5858,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi iyan, hindi natin kailangan ng pangtakip ng sugat.
     - Kailangan lamang natin na paliitin ang bukol ni Cindy.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e93962ac09e0c2543a66906fe7b0ca5b, type: 3}
+    - {fileID: 8300000, guid: 7cf8a974a8379d44689e3b2c2c7ea406, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: e7d1cf1c10fab7a4c84c0be28ad01225, type: 3}
+    - {fileID: 8300000, guid: 7db84bbfd4eec8b4e8d7614db13e26f8, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: b7fd1d24e5fdf9a498dd76615bedb81b, type: 3}
+    - {fileID: 8300000, guid: 05e325045a3afb64dbe880fffe003cf9, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -5814,9 +5875,15 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi talaga natin kailangan ng pang-takip ng bukol.
     - Kailangan lamang natin na paliitin ang kaniyang bukol hanggang sa gumaling.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: bab58d173b109f34396273aab5ea63fb, type: 3}
+    - {fileID: 8300000, guid: 9e8656d5b5e28604aa92721093e487f7, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 9c1da499d242aa14b852353772dce86f, type: 3}
+    - {fileID: 8300000, guid: d2f0e8abe4769c04e973c3ca8f0a9ca2, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8dc320fd31e4b5f4c84f71c1fbe46dae, type: 3}
+    - {fileID: 8300000, guid: ba3b934ee6d47164cad6d00f163aacb9, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -5826,9 +5893,15 @@ MonoBehaviour:
     - Hindi kinakailangan ng Betadine.
     - Hindi natin kailangan na linisin ang bukol. Kailangan lamang natin na paliitin
       ang bukol.
-    tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 1f9f648f7f9052b4f83c16744d5be3b1, type: 3}
+    - {fileID: 8300000, guid: 290ad24e692765a4ba652fea65362ab1, type: 3}
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 9b803060456dfa046a05199a3d0e494c, type: 3}
+    - {fileID: 8300000, guid: d8b95469f737efe48afae1f6a127774d, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 3ba6386ceabb9ef4687e5346fc1729ba, type: 3}
+    - {fileID: 8300000, guid: 2b3b0a3672a27b846bec7fd825008fb0, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: f8376bd2df0171c46b2870ec806625c8, type: 3}
   - {fileID: 8300000, guid: c5852d5f3125cd04fb96ddbbde347979, type: 3}

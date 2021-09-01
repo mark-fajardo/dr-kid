@@ -6822,7 +6822,15 @@ MonoBehaviour:
     - At ng hotdog, dahil sa mukha itong masarap.
     - Ilang minuto lamang ay sumakit ang aking tiyan.
     - Matutulungan mo po ba ako kuhanin ang tamang gamot para dito?
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e5f5eafe5a814e34197d3532be5a29c0, type: 3}
+    - {fileID: 8300000, guid: 56afb6fa170315c4ba6a4dfdfd527990, type: 3}
+    - {fileID: 8300000, guid: efba346d0d084574fbaccd8a8c92be25, type: 3}
+    - {fileID: 8300000, guid: 823fa86ecbba9524699061f3311f99a0, type: 3}
+    - {fileID: 8300000, guid: 7c35561755381e74e93d88af7d82412b, type: 3}
+    - {fileID: 8300000, guid: e38d5270e8676c043b0abfc81437280b, type: 3}
+    - {fileID: 8300000, guid: 3fbb4d5ed238e9843b88b2a6dc340024, type: 3}
+    - {fileID: 8300000, guid: b2209f47d012e1b4abe44bc7f81f3e61, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -6840,9 +6848,19 @@ MonoBehaviour:
     - Kuhanin lamang natin ang Imodium sa ating First Aid Kit.
     - Huwag natin hayaan na paghintayin si Cindy. Gawin na natin ito sa lalong madaling
       panahon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: a60f57387aa014d4896fdefb3cdc1682, type: 3}
+    - {fileID: 8300000, guid: 2a008d941ab9f5648bdc78aef7ed31a2, type: 3}
+    - {fileID: 8300000, guid: ae1812890de3d3b4ea5af761c231a6be, type: 3}
+    - {fileID: 8300000, guid: 6d980d738c2a2f24c86a1957da707605, type: 3}
+    - {fileID: 8300000, guid: 5f1ca7a6324161a4db9e4befa1774933, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 3c602065a341eec459d33c3913fdd587, type: 3}
+    - {fileID: 8300000, guid: f76fc5bc42c49a1418ac812537f86dec, type: 3}
+    - {fileID: 8300000, guid: 727d430b2154cdf469687adbb37007ff, type: 3}
+    - {fileID: 8300000, guid: f796956532ba0a74990ef762a21df2f9, type: 3}
+    - {fileID: 8300000, guid: 5bc4107a70ba7c94abb6b4f89b843c9a, type: 3}
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -6853,9 +6871,15 @@ MonoBehaviour:
     - Ang Multivitamins ay hindi natin kailangan sa ngayon.
     - Ito ay para lamang sa nagkukulang ng bitamina sa katawan.
     - Pati narin sa mga may hindi magandang dyeta.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 9af5ec25b83c56940ab7f01830e45626, type: 3}
+    - {fileID: 8300000, guid: 9f2f39107493c1949ade22f55075e4f5, type: 3}
+    - {fileID: 8300000, guid: a0a4bd220b1e4cd4ea000a20212c949f, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: df6981b1258c8704fbfcd4a4ae057ede, type: 3}
+    - {fileID: 8300000, guid: c91c765003f5eef41964bfbef4ed75e5, type: 3}
+    - {fileID: 0}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -6865,9 +6889,13 @@ MonoBehaviour:
     - Ang Ibuprofen ay hindi nirerekomenda para sa mga batang nakararanas ng pananakit
       ng tiyan.
     - Maaaring makaranas siya ng ibang bagay dahil dito.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e69ae0b51d9d3884ba28e4a37bb38a8f, type: 3}
+    - {fileID: 8300000, guid: e44c60e8da83ce04f82efe9d67ad2834, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 973fcadf9ae06f2439c5aa7ad235eb51, type: 3}
+    - {fileID: 8300000, guid: cd646b3516b7c814bae17155fe6dcec0, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -6876,9 +6904,13 @@ MonoBehaviour:
     tagalogDialogs:
     - Ang Guaifenesin ay para sa mga may ubo.
     - Hindi natin ito kailangan ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 70f5710ed3e0a4c419ab698fdc32bcdc, type: 3}
+    - {fileID: 8300000, guid: d61f9ca86fae57e4ca65c46032f891e9, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 603c91daa9a82624189829e19ea81b8a, type: 3}
+    - {fileID: 8300000, guid: e134c4b3ec7cb214c8eedc53ca255d23, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -6904,9 +6936,27 @@ MonoBehaviour:
     - Makatutulong ito para magkaroon tatyo ng mga ideya ukol sa paggamit ng First
       Aid Kit.
     - Tara na sa susunod na eksena!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 40db682236732de4284a643ba8c035e7, type: 3}
+    - {fileID: 8300000, guid: b22b56e5aa3b7764ea7e846ce1e92206, type: 3}
+    - {fileID: 8300000, guid: f5f6b6196cd0c6d43b9486fa566a989f, type: 3}
+    - {fileID: 8300000, guid: 5bbedaa864101344bb202d5a5fc15ead, type: 3}
+    - {fileID: 8300000, guid: 3afb52f375cff9a4e934568dc9d74bb2, type: 3}
+    - {fileID: 8300000, guid: 7d4e5a1c974e44f448606e17a7baf72f, type: 3}
+    - {fileID: 8300000, guid: 4c175b801eaafd1498d73328ee6c9b4d, type: 3}
+    - {fileID: 8300000, guid: 699415c5b1332a54c823eee47d26dfa5, type: 3}
+    - {fileID: 8300000, guid: 92b7d14ea14145e4490e0858836486f6, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 678db9b44d829d1489f2cf0c1b298be8, type: 3}
+    - {fileID: 8300000, guid: 203ae32dfd0326d419c2fc73b20c4487, type: 3}
+    - {fileID: 8300000, guid: fd4ac92de34538f46b1bd80add00bab8, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 6bcf86c1b16ac9d46b3761941f5ddada, type: 3}
+    - {fileID: 8300000, guid: 3f0e25ad2e879384b865d7841ae3b618, type: 3}
+    - {fileID: 8300000, guid: 5222d8d36a757884ab87cb2c9808edae, type: 3}
+    - {fileID: 8300000, guid: 8b179642e87c75c4bb48e078b3ebd38e, type: 3}
+    - {fileID: 8300000, guid: 37e58127228c6c847a9ede6f7ee7b35c, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: b23e6aac3e8fca34289b8b61c7062e98, type: 3}
   - {fileID: 8300000, guid: 2be7efc0067cce244ab1a6ec0aea46c6, type: 3}

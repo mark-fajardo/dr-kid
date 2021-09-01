@@ -518,7 +518,13 @@ MonoBehaviour:
     - At nakakita ako ng malalaking bato at lupa na dumudulas patungo sa aming tirahan.
     - Ito ay nakagugulat at nakatatakot.
     - Ano ang aking dapat gawin? Tulong.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 8cec443f33fe0aa419c0db992dd92b71, type: 3}
+    - {fileID: 8300000, guid: 97eae981d19a5d847a438d7cf50063d8, type: 3}
+    - {fileID: 8300000, guid: 38a151d4cf6b1ec47b9a170a4fe429dc, type: 3}
+    - {fileID: 8300000, guid: 418fddbae70017940963b83ffb5590c4, type: 3}
+    - {fileID: 8300000, guid: d1f240a4a0370db49972d84c1648182b, type: 3}
+    - {fileID: 8300000, guid: 3bcaf07de7eb0ab4badb92d5a715e08a, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -542,7 +548,15 @@ MonoBehaviour:
     - At kailangan nila ng mga ekstrang damit para dito.
     - Iyun lamang, kailangan natin tong gawin ng mabilis.
     - Tulungan natin si Cindy na makalikas ng mabilis.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 959c14dfaf4c31d44a03848493d5ce5a, type: 3}
+    - {fileID: 8300000, guid: c0abeb2b8844a2e4eaedb2dc47ae17fb, type: 3}
+    - {fileID: 8300000, guid: 70b0a91389afe7c44b836f1a2c815d2a, type: 3}
+    - {fileID: 8300000, guid: 88f662573d3dbb44180bbae1086f6edc, type: 3}
+    - {fileID: 8300000, guid: 295440af8f0f6e84a98785b86680c37d, type: 3}
+    - {fileID: 8300000, guid: 995fd79caf017184d958cce20f393dec, type: 3}
+    - {fileID: 8300000, guid: 3d12a1a9f4317f74c8b7e10d369c86b7, type: 3}
+    - {fileID: 8300000, guid: f064cca9d8af5c04e9c873f1948307e8, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -553,7 +567,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Mali, si Cindy ay wala nang oras para makipag-kwentuhan pa sa kaniyang ina.
     - Dalian natin, dahil mapanganib na sa labas.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 01b5a2f7637e8c849a79bf516bae1a2d, type: 3}
+    - {fileID: 8300000, guid: 803a852081cc0f04cae17bf2f3466d06, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionTwoDialog:
@@ -580,7 +596,16 @@ MonoBehaviour:
     - Iyun lamang para sa ikalawang eksena.
     - Maging handa sa paglikas kahit na anong oras.
     - Maging ligtas palagi! Tara!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: fe4d56dcd215d1c4cbcfa19f1a66512b, type: 3}
+    - {fileID: 8300000, guid: 803a852081cc0f04cae17bf2f3466d06, type: 3}
+    - {fileID: 8300000, guid: 68360671e708c2e43b365d1503338b5a, type: 3}
+    - {fileID: 8300000, guid: 5b10ea26ffb837549b914227ebb02e49, type: 3}
+    - {fileID: 8300000, guid: 3ef01216fb21b2143b8dd7fc1959dfd7, type: 3}
+    - {fileID: 8300000, guid: c207a6ac51e6d2748a994d0b19637930, type: 3}
+    - {fileID: 8300000, guid: 0dfa4def1540b1a4eb0e067c9059bbd2, type: 3}
+    - {fileID: 8300000, guid: eaeac508ece3ea84bb3b0d2468a0760c, type: 3}
+    - {fileID: 8300000, guid: 8e984f9a8a7d81c46884b6f33ac5541c, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionThreeDialog:
@@ -591,7 +616,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Si Cindy ay wala nang oras para magdalawang isip pa.
     - Dalian natin, dahil ito ay seryosong sitwasyon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: a384b6abd03035843b90d1372d6cda44, type: 3}
+    - {fileID: 8300000, guid: cd8b5a679df3c2a4da9e38f30aba592d, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionFourDialog:
@@ -602,7 +629,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Kailangan magingat nila Cindy sa kanilang paligid.
     - Sabihin natin na kailangan niya na maghanda at lumikas.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: dd4a94080399a22478e4b285824601c0, type: 3}
+    - {fileID: 8300000, guid: 462ab3f43490df746a585e322c2f3cdf, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:

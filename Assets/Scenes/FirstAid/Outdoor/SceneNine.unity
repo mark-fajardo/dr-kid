@@ -6002,7 +6002,12 @@ MonoBehaviour:
     - Dahil lang ba sa init o sadyang pagod lamang ako.
     - Naglalaro lamang ako ng Football dito sa parke.
     - Nang sumakit ang ulo ko.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: d2d661a06fb7d3c4d9d84c575e1cec5b, type: 3}
+    - {fileID: 8300000, guid: 4dd7ddc43c5508549910cd5af31387bc, type: 3}
+    - {fileID: 8300000, guid: 53dd850ca2445c74abf7cdf70c6cd99d, type: 3}
+    - {fileID: 8300000, guid: 2006a03d9ddb45342969940e223aafcd, type: 3}
+    - {fileID: 8300000, guid: 2d8975263bc00054f8cf7efaaba501a1, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -6021,9 +6026,21 @@ MonoBehaviour:
     - Sa tingin ko ito ay mabilis lamang.
     - Kailangan lamang natin malaman at makuha ang Paracetamol.
     - Tara at kunin na natin ito.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 408a23fcc700b3a419c485a39815e8f6, type: 3}
+    - {fileID: 8300000, guid: 2b492be944048f0418157aff77cf4b8a, type: 3}
+    - {fileID: 8300000, guid: 02822ec33f89a7d4db741bbddf78bb62, type: 3}
+    - {fileID: 8300000, guid: c10958315639f7a41a5980d1ca0059a0, type: 3}
+    - {fileID: 8300000, guid: 4c09ae3852022c244ba8813ab7e6dfa9, type: 3}
+    - {fileID: 8300000, guid: 81d47fc6cb6a51e4c9319666d3a2dce2, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 73e4e8f2fb5dd694a94776b7d7ef0e9c, type: 3}
+    - {fileID: 8300000, guid: c24feb7c675e8344890fb03e69ee9e88, type: 3}
+    - {fileID: 8300000, guid: 9fa471288605612418fd1c6a69978b19, type: 3}
+    - {fileID: 8300000, guid: 6f4eeed3dbe9f0c458ba95f2474fbebc, type: 3}
+    - {fileID: 8300000, guid: f96a732995b624246bc9b20ba90a3e64, type: 3}
+    - {fileID: 8300000, guid: 7a12da07d2982ff4290f8fd27321df7a, type: 3}
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -6042,9 +6059,23 @@ MonoBehaviour:
     - At iyun lamang, hintayin natin na tumalab ito kay Cindy.
     - Tayo ay dadako na sa susunod na eksena!
     - Tara!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 7c40995acb7bce44dbf7d0a62f8bdaff, type: 3}
+    - {fileID: 8300000, guid: 4e5858fbb63592444b60d883d39f0f8f, type: 3}
+    - {fileID: 8300000, guid: 1ce289143e40d1c439a965543c76ca6d, type: 3}
+    - {fileID: 8300000, guid: 7792765c36679fd438842737122ebda5, type: 3}
+    - {fileID: 8300000, guid: aba1c8df0177321428f78915eed61199, type: 3}
+    - {fileID: 8300000, guid: f4b49e576b354e0479d008211c29fd0c, type: 3}
+    - {fileID: 8300000, guid: 9768b5dac183a1246bcc9a7c0927110d, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 80353b119fddcc5488bfd260a13760c1, type: 3}
+    - {fileID: 8300000, guid: 8c6f4b50a1aaa9f4ca5e4d2bc3e5d278, type: 3}
+    - {fileID: 8300000, guid: 16d14834f3980b444be2131b9c6128d3, type: 3}
+    - {fileID: 8300000, guid: 577c47554b73e8f42908d2089a8c1da8, type: 3}
+    - {fileID: 8300000, guid: 6f5e208235cc15f419e1d40b5423ec19, type: 3}
+    - {fileID: 8300000, guid: 156addd439ccc8248a19725f2991bff8, type: 3}
+    - {fileID: 8300000, guid: 735e599a01b988f4585e46a574aa3f49, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -6056,9 +6087,15 @@ MonoBehaviour:
     - Multivitamins ay para lamang sa mga nagkukulang ng bitamina sa katawan.
     - Kinakailangan ito kapag ikaw ay may di magandang dyeta o may sakit na nangangailangan
       nito.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: a7fb1b4c21d8034409e64440539f6a68, type: 3}
+    - {fileID: 8300000, guid: f7236f00bf50c5b4bad1fe1807da1cee, type: 3}
+    - {fileID: 8300000, guid: e113654bcbe95184382605083435155a, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: d88b137dd0d8fa340b758646a2b2c4de, type: 3}
+    - {fileID: 8300000, guid: 73bab26da2fba334cb372c596dd77e01, type: 3}
+    - {fileID: 8300000, guid: 1a58954fc68f6c346a7b72526ca88341, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -6067,9 +6104,13 @@ MonoBehaviour:
     tagalogDialogs:
     - Ang Guaifenesin ay ginagamit para sa ubo at iba pa.
     - Hindi natin ito kailangan sa ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 8f8e87e5a0f5ef442967d7076ecdf95a, type: 3}
+    - {fileID: 8300000, guid: 413675ec044f8ff4e9bd677cd1c09193, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 877d4a127fae65d4bb4b37fe198368ff, type: 3}
+    - {fileID: 8300000, guid: 0e2fd22da3e69714bac4e57a5d880525, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -6080,9 +6121,15 @@ MonoBehaviour:
     - Hindi ito.
     - Ang Loperamide Hydrochloride ay para sa pananakit ng tiyan o pagdudumi.
     - Masakit ang ulo ni Cindy ngayon, hindi natin kailangan nito.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4549ca9fcbd52b44f9cbac722054ec62, type: 3}
+    - {fileID: 8300000, guid: dca2065af7e0b9641b8b05972980d414, type: 3}
+    - {fileID: 8300000, guid: 9f75e00b060635b4ebd027f68f1e670d, type: 3}
     englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8c7fa9038a8684d41b348f6862032351, type: 3}
+    - {fileID: 8300000, guid: 90133b3236827dc49b3b5ba3303f9d83, type: 3}
+    - {fileID: 8300000, guid: eda9cff265a776549a7b1ca20608d343, type: 3}
   CindyIntroDialogAudio:
   - {fileID: 8300000, guid: 20422755f9a0444448f1b95d362bd5e0, type: 3}
   - {fileID: 8300000, guid: a42911a1365a8c84db24aa3b661cb15f, type: 3}
