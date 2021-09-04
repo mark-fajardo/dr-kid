@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class SceneTenScript : MonoBehaviour
+public class SceneElevenScript : MonoBehaviour
 {
     public GameObject Intro;
     public GameObject IntroTwo;
-    public GameObject IntroThree;
     public GameObject TutorialOne;
+    public GameObject TutorialTwo;
     public GameObject AssessmentOne;
+    public GameObject AssessmentTwo;
 
     public Dialog CindyIntroDialog;
     public Dialog NarratorTutorialDialog;
@@ -99,7 +100,7 @@ public class SceneTenScript : MonoBehaviour
         VideoContainer.Stop();
         VideoTutorial.SetActive(false);
         FindObjectOfType<FirstAidMenu>().SetNarratorPanel(true);
-        FindObjectOfType<DialogManager>().StartDialog(OptionFourDialog, OptionFourDialogAudio);
+        FindObjectOfType<DialogManager>().StartDialog(OptionTwoDialog, OptionTwoDialogAudio);
     }
 
     public void OptionOne()
@@ -112,8 +113,9 @@ public class SceneTenScript : MonoBehaviour
     public void OptionTwo()
     {
         Option = 2;
-        TimesSelected++;
-        ChooseOption(OptionTwoDialog, OptionTwoDialogAudio);
+        FindObjectOfType<DB>().UpdateLevelDone(11, 12);
+        FindObjectOfType<DB>().UpdateLevelSCore(11, TimesSelected);
+        ShowVideo();
     }
 
     public void OptionThree()
@@ -126,10 +128,8 @@ public class SceneTenScript : MonoBehaviour
     public void OptionFour()
     {
         Option = 4;
-        FindObjectOfType<DB>().UpdateLevelDone(10, 11);
-        FindObjectOfType<DB>().UpdateLevelSCore(10, TimesSelected);
-        // ChooseOption(OptionFourDialog, OptionFourDialogAudio);
-        ShowVideo();
+        TimesSelected++;
+        ChooseOption(OptionFourDialog, OptionFourDialogAudio);
     }
 
     private void ChooseReset()
@@ -153,9 +153,9 @@ public class SceneTenScript : MonoBehaviour
     {
         if (DialogFinished == true)
         {
-            if (Option == 4)
+            if (Option == 2)
             {
-                FindObjectOfType<LevelLoader>().LoadNextLevel(14, TimesSelected);
+                FindObjectOfType<LevelLoader>().LoadNextLevel(15, TimesSelected);
             }
             else
             {
@@ -163,17 +163,22 @@ public class SceneTenScript : MonoBehaviour
                 ChooseReset();
             }
         }
-        else if (Option == 4)
+        else if (Option == 2)
         {
-            if (DialogQue == 3)
+            if (DialogQue == 1)
             {
                 FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
                 FindObjectOfType<FirstAidMenu>().GrowIntro();
                 AssessmentOne.SetActive(true);
             }
-            else if (DialogQue == 5)
+            else if (DialogQue == 2)
             {
                 AssessmentOne.SetActive(false);
+                AssessmentTwo.SetActive(true);
+            }
+            else if (DialogQue == 3)
+            {
+                AssessmentTwo.SetActive(false);
                 FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
                 FindObjectOfType<FirstAidMenu>().ShrinkIntro();
             }
@@ -182,25 +187,20 @@ public class SceneTenScript : MonoBehaviour
 
     private void CindyQue()
     {
-        if (DialogQue == 2)
+        if (DialogQue == 1)
         {
             FindObjectOfType<FirstAidMenu>().MoveCindyRight();
             FindObjectOfType<FirstAidMenu>().GrowIntro();
             Intro.SetActive(true);
         }
-        else if (DialogQue == 4)
+        else if (DialogQue == 2)
         {
             Intro.SetActive(false);
             IntroTwo.SetActive(true);
         }
-        else if (DialogQue == 5)
+        else if (DialogQue == 4)
         {
             IntroTwo.SetActive(false);
-            IntroThree.SetActive(true);
-        }
-        else if (DialogQue == 6)
-        {
-            IntroThree.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();
             FindObjectOfType<FirstAidMenu>().MoveCindyLeft();
         }
@@ -213,13 +213,18 @@ public class SceneTenScript : MonoBehaviour
 
     private void NarratorTutorialQue()
     {
-        if (DialogQue == 1)
+        if (DialogQue == 5)
         {
             FindObjectOfType<FirstAidMenu>().GrowIntro();
             FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
             TutorialOne.SetActive(true);
         }
-        else if (DialogQue == 4)
+        else if (DialogQue == 6)
+        {
+            TutorialOne.SetActive(false);
+            TutorialTwo.SetActive(true);
+        }
+        else if (DialogQue == 7)
         {
             TutorialOne.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();

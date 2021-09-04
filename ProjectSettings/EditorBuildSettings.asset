@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Calamity/SceneThree.unity
     guid: 3a453c9d748e73648921c6bbc5f2fd08
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Actions/SceneEleven.unity
+    guid: 4dcde021f18fbdd46b5d4f927088c580
   m_configObjects: {}
