@@ -3218,6 +3218,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843465452}
   m_CullTransparentMesh: 1
+--- !u!1 &906186802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906186803}
+  - component: {fileID: 906186805}
+  - component: {fileID: 906186804}
+  m_Layer: 5
+  m_Name: OptionImg (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &906186803
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906186802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1861402210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.16218291, y: 0.27522734}
+  m_AnchorMax: {x: 0.8433658, y: 0.7756819}
+  m_AnchoredPosition: {x: -0.67063904, y: 19}
+  m_SizeDelta: {x: -87.4798, y: -6.2053}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &906186804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906186802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f270ec057f6c56441b61e95e4f0c869d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &906186805
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906186802}
+  m_CullTransparentMesh: 1
 --- !u!1 &934613682
 GameObject:
   m_ObjectHideFlags: 0
@@ -5286,10 +5361,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: aef3ccb65f5bec54391956f58f194cc4, type: 3}
     - {fileID: 8300000, guid: 8a2931288ae47b943b32354baeab8f87, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 1ee624d3bb8aaab4fa85c0694dbed4f3, type: 3}
-  - {fileID: 8300000, guid: 88b1e2951d6127542b43ca975630d29d, type: 3}
-  - {fileID: 8300000, guid: 9ace196f44b35984282625c166c527a6, type: 3}
-  - {fileID: 8300000, guid: 7bf676541b2fd6b43be27f3cd5e67462, type: 3}
+  - {fileID: 8300000, guid: 6ea4399db901c69459b93892d1ac1a5e, type: 3}
+  - {fileID: 8300000, guid: 24960ab312d35a442a236600956e0d63, type: 3}
+  - {fileID: 8300000, guid: c131d9286f78556429541703b99ef65d, type: 3}
+  - {fileID: 8300000, guid: b2a04305ebe13944ba5032d269d60085, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 8300000, guid: 98c9a7105d5c334419a9e779f8b3d31a, type: 3}
   - {fileID: 8300000, guid: 0206687694f2d404d8e0970ff82a870d, type: 3}
@@ -5302,11 +5377,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b45fb5ba163aa6244a39403d632619c9, type: 3}
   - {fileID: 8300000, guid: f0f19a51d2715b54fa06e44d8d9019de, type: 3}
   CindyChoosingDialogAudio:
-  - {fileID: 8300000, guid: 5bae821c8c840d24cbebe95e320f745d, type: 3}
-  - {fileID: 8300000, guid: d64193c6aa0eb2d45a243077623c132e, type: 3}
-  - {fileID: 8300000, guid: 0970621bcbb5a5e4286f392a19882c1d, type: 3}
-  - {fileID: 8300000, guid: 467ba296bd5aaa54b84ce76a796774e6, type: 3}
-  - {fileID: 8300000, guid: c230d2d2e3fc8fe46aceab1e51e9d31e, type: 3}
+  - {fileID: 8300000, guid: 41e2b861b81b7e7458e7b1e13461f91b, type: 3}
+  - {fileID: 8300000, guid: c939ff4e3f6a3374e97820fbd7f037ab, type: 3}
+  - {fileID: 8300000, guid: 192082102f5b2a4499575a858354f1a4, type: 3}
+  - {fileID: 8300000, guid: f742d49ed78cba84caf45ab450a0cde7, type: 3}
+  - {fileID: 8300000, guid: 839cdb2f98d98174594ad9c4e01717e4, type: 3}
   OptionOneDialogAudio:
   - {fileID: 8300000, guid: bf97a0898ef4d8e4589c102891552a44, type: 3}
   - {fileID: 8300000, guid: 8e38a04ab6de8644e98268235d9f927d, type: 3}
@@ -5630,11 +5705,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1861402210}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.16218291, y: 0.27522734}
   m_AnchorMax: {x: 0.8433658, y: 0.7756819}
-  m_AnchoredPosition: {x: 0.33499908, y: -0.26080322}
+  m_AnchoredPosition: {x: -0.6706238, y: -30}
   m_SizeDelta: {x: -0.66989994, y: -6.2052994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570727742
@@ -6542,6 +6617,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 906186803}
   - {fileID: 1570727741}
   m_Father: {fileID: 459296277}
   m_RootOrder: 0

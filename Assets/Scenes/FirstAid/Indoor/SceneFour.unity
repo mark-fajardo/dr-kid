@@ -5903,11 +5903,11 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 3ba6386ceabb9ef4687e5346fc1729ba, type: 3}
     - {fileID: 8300000, guid: 2b3b0a3672a27b846bec7fd825008fb0, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: f8376bd2df0171c46b2870ec806625c8, type: 3}
-  - {fileID: 8300000, guid: c5852d5f3125cd04fb96ddbbde347979, type: 3}
-  - {fileID: 8300000, guid: b51af40924f32c9428910f4267a3911b, type: 3}
-  - {fileID: 8300000, guid: 83f71757e4f9f7b4f9b8f7d6495bf07c, type: 3}
-  - {fileID: 8300000, guid: 450edf842a25c0840974e6a738669b8d, type: 3}
+  - {fileID: 8300000, guid: caadd4d8cecc8f24cb42f06db306c916, type: 3}
+  - {fileID: 8300000, guid: dae267f3d88185246876280039513c10, type: 3}
+  - {fileID: 8300000, guid: 37530f22637ca9343a9fd756ac5531c8, type: 3}
+  - {fileID: 8300000, guid: 4b2c205dad198374da4e0b8d5a1ccbce, type: 3}
+  - {fileID: 8300000, guid: 0974d488f8808aa4199e40177f26fbcc, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 8300000, guid: 042d1463205763449a07b7e13dc319c9, type: 3}
   - {fileID: 8300000, guid: 3958a50ae66bb154f807bb8e391e84b3, type: 3}
@@ -5917,8 +5917,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6a31f5ed88ca1b94eb41c10927633927, type: 3}
   - {fileID: 8300000, guid: 8082a5166229b524883ab0d71a9d2037, type: 3}
   CindyChoosingDialogAudio:
-  - {fileID: 8300000, guid: fc1af376b3c6d3941a2decb1d0cf0726, type: 3}
-  - {fileID: 8300000, guid: 3f8612034e1805a4fab04467bf82d736, type: 3}
+  - {fileID: 8300000, guid: 172bf992690987549b16698f0e2c60a9, type: 3}
+  - {fileID: 8300000, guid: 5ab8c505e9c26074aaa5ab51a905867f, type: 3}
   OptionOneDialogAudio:
   - {fileID: 8300000, guid: bd69cae5e817f8e44b4dcbd9329e8e26, type: 3}
   - {fileID: 8300000, guid: c8c75d7a13bf50e49bc22be9326a1aa0, type: 3}

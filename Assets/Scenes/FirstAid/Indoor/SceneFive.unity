@@ -3911,7 +3911,6 @@ MonoBehaviour:
     - And also, to secure and tighten up the Gauze, we need a Medical Tape.
     - You can just stick it on the top of the Gauze and Tape it to the sideways.
     - So that, the wound will be secured from any dirt.
-    - That's all for our Indoor Scenes!
     - Just remember the things we are using, doing and learning here.
     - Okay, so... Are you ready for the outdoor scenes?
     - Alright, Let's Go!
@@ -3923,7 +3922,6 @@ MonoBehaviour:
     - At para mai-takip natin ng maayos ay kailangan rin natin ng Medical Tape.
     - Maaaring idikit lamang natin ito sa taas ng Gauze ng patayo at pahalang.
     - Nang sa gayon ay mailayo natin ang sugat sa kahit na anong dumi.
-    - At iyun lamang po para lahat ng ating Indoor Scenes!
     - Alalahanin lamang ang lahat ng ating ginagamit, ginagawa at natutunan dito.
     - Handa ka na ba para sa ating Outdoor Scenes?
     - Tara!
@@ -3935,7 +3933,6 @@ MonoBehaviour:
     - {fileID: 8300000, guid: a521d99bbd14f954196f1856f5a9d8b3, type: 3}
     - {fileID: 8300000, guid: 6d20df3b2793221428ecc952a4385a1f, type: 3}
     - {fileID: 8300000, guid: a16c5b6214524ef41a3659da319196b5, type: 3}
-    - {fileID: 8300000, guid: 011006ee03560894292fc347fe70d3e8, type: 3}
     - {fileID: 8300000, guid: 6a51aff1132181f42996309f78f62d12, type: 3}
     - {fileID: 8300000, guid: 1db4a47428807a24590aa4a0e843afaa, type: 3}
     - {fileID: 8300000, guid: 91412ff6b2a425d4fa691eca1952c880, type: 3}
@@ -3947,7 +3944,6 @@ MonoBehaviour:
     - {fileID: 8300000, guid: a9fe96640bfd320448753ad41118c3d0, type: 3}
     - {fileID: 8300000, guid: f48abfd69b36d684eb826a2f06c58932, type: 3}
     - {fileID: 8300000, guid: 774c2c60acbb9c84c943af887d060dd2, type: 3}
-    - {fileID: 8300000, guid: bccfb0bcfd0d2eb4bac95ee0ba903eeb, type: 3}
     - {fileID: 8300000, guid: c8650b9213801ea4699bec7ecd03b7e9, type: 3}
     - {fileID: 8300000, guid: f839ecd6c5f4d7a429af2e9d6464611f, type: 3}
     - {fileID: 8300000, guid: 8b0dbd6e79466a14b85ac002436fbc8c, type: 3}
@@ -3959,7 +3955,6 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 27c3e34e00f7ed84ba526bc350d83f02, type: 3}
     - {fileID: 8300000, guid: 9375e54c0e2431a458528f82ed70be54, type: 3}
     - {fileID: 8300000, guid: 5418c0182e4d2e74c93afcb8a8621f39, type: 3}
-    - {fileID: 8300000, guid: 7ee980c0a7f1d3f41925b2db5389374f, type: 3}
     - {fileID: 8300000, guid: 949e8bb4e8a0f674e989b1b46d1518eb, type: 3}
     - {fileID: 8300000, guid: 2814212d82a7da546a310ba2f76c3a9c, type: 3}
     - {fileID: 8300000, guid: 5f12e34797575e64586625ccf5d46e6d, type: 3}
@@ -3981,15 +3976,15 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 4a93ada38002fc4438ee729862239b0a, type: 3}
     - {fileID: 8300000, guid: a6cd73ddc942b4f4586930e809b651ec, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 060a3d45cc1cba7478ecbb6f6e3d51e2, type: 3}
-  - {fileID: 8300000, guid: 9203012b5ec2fd945aa1d05688f373d8, type: 3}
-  - {fileID: 8300000, guid: aaba2d0d88f467e45ac0192e3f12c6db, type: 3}
-  - {fileID: 8300000, guid: 5759c8fce014ef341a9508579b0f5423, type: 3}
-  - {fileID: 8300000, guid: 3d111aaa96deda74a964c0522d760f34, type: 3}
-  - {fileID: 8300000, guid: 665fe956742bde14aa15d0b4dd1219ad, type: 3}
-  - {fileID: 8300000, guid: c6a86743e2c846f4f93a4ef2b266b336, type: 3}
-  - {fileID: 8300000, guid: e09151832d0e0b84682bfe89fe2ddea7, type: 3}
-  - {fileID: 8300000, guid: 7e054f828112ef4478743503887f7dba, type: 3}
+  - {fileID: 8300000, guid: b697599e5465cdd47b95e9bdf402d1b6, type: 3}
+  - {fileID: 8300000, guid: 787b85ce4294be5438b93932eb31e73b, type: 3}
+  - {fileID: 8300000, guid: 6c8cfb91cbd9c744a81d870fec1d332f, type: 3}
+  - {fileID: 8300000, guid: c3b987de23024c946abb39605c45aacc, type: 3}
+  - {fileID: 8300000, guid: 8bdd3119b169d27458824de9da779cd9, type: 3}
+  - {fileID: 8300000, guid: 442185221c7ee6f4987dfdfbbb8c8fba, type: 3}
+  - {fileID: 8300000, guid: 6bc43dbdb7737fb4fb47563fb8713f0a, type: 3}
+  - {fileID: 8300000, guid: d256c7d0a6e338e4a9f5e9ae2cfcacf3, type: 3}
+  - {fileID: 8300000, guid: 94030fcd260a4664fb49bb4246225bd8, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 8300000, guid: dc8714a205098b64196b9adcd0f19b59, type: 3}
   - {fileID: 8300000, guid: 53f1adbc0c83b984990ed7dbef586512, type: 3}
@@ -3998,7 +3993,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 06989e0e11ac6a744aabd2c1bf7a3c90, type: 3}
   - {fileID: 8300000, guid: c38d4f3cc461d564c813c5b69ec45c96, type: 3}
   CindyChoosingDialogAudio:
-  - {fileID: 8300000, guid: 02226baa25a57774e98ee5b71da349e4, type: 3}
+  - {fileID: 8300000, guid: 52d2c766c1a06334a958e6e028a42537, type: 3}
   OptionOneDialogAudio:
   - {fileID: 8300000, guid: 992f210a3a87f314bb8a1601b1a9db02, type: 3}
   - {fileID: 8300000, guid: 3fa3a5b71ae5daf4f851499e823c0532, type: 3}
@@ -4013,7 +4008,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 42bfcaf871ce4604581079ecc264a0cf, type: 3}
   - {fileID: 8300000, guid: b25b0c8260c3d374fbf59ed6e5c5a46c, type: 3}
   - {fileID: 8300000, guid: b1f1468308246744487e5fab60d94645, type: 3}
-  - {fileID: 8300000, guid: 55a1ce475616f214a82075c332e99d31, type: 3}
   - {fileID: 8300000, guid: 87f54e4ea5ecc4b489b627a1249c5835, type: 3}
   - {fileID: 8300000, guid: f398aea6ec85f5d4bbd56e5a28a93b17, type: 3}
   - {fileID: 8300000, guid: 0d5416907a9232e4c90d91e6a993305f, type: 3}

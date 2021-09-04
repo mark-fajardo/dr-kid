@@ -494,6 +494,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1901525861}
   - {fileID: 711889735}
   m_Father: {fileID: 1123038171}
   m_RootOrder: 0
@@ -2594,12 +2595,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 307500538}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.373}
   m_AnchorMin: {x: 0.17925623, y: 0.23700002}
   m_AnchorMax: {x: 0.79761577, y: 0.7948182}
-  m_AnchoredPosition: {x: 1.2000046, y: 6.800003}
-  m_SizeDelta: {x: -11.690399, y: 0.4993}
+  m_AnchoredPosition: {x: 1, y: -27}
+  m_SizeDelta: {x: 0.8721, y: -20.9838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &711889736
 MonoBehaviour:
@@ -4929,7 +4930,7 @@ MonoBehaviour:
     name: Cindy
     dialogs:
     - Oh noo, it will hurt that much?
-    - Uwaaah. Just make it fast and do not pour too much of it.
+    - Woahhh. Just make it fast and do not pour too much of it.
     tagalogDialogs:
     - Naku! Sasakit ito?
     - Paki-bilisan na lamang po at wag ninyo pong damihan.
@@ -5098,12 +5099,12 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 5599cccb7d983254e91e31b49a3fe0a8, type: 3}
     - {fileID: 8300000, guid: 92ab234f0e6adc449babd5e68d474920, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: bb3ac8b24aadae4488e90df4be977c00, type: 3}
+  - {fileID: 8300000, guid: 6c02ecb7101e1194f955de0961687bd2, type: 3}
   - {fileID: 0}
-  - {fileID: 8300000, guid: 67515189cde0e464bb769e300caab10c, type: 3}
-  - {fileID: 8300000, guid: fe5e74c0b02c42c4c94380739ae67db0, type: 3}
-  - {fileID: 8300000, guid: 73d47b360c04ca240895ca4012cfcef2, type: 3}
-  - {fileID: 8300000, guid: 5f7beeb948aeda54ab2b478c2d12e9c8, type: 3}
+  - {fileID: 8300000, guid: 78ebd440054e7f04e8cbdd499a33b47f, type: 3}
+  - {fileID: 8300000, guid: da03cc8768897aa47b90fd2c1e934a3a, type: 3}
+  - {fileID: 8300000, guid: f3204a6098c6cab40904f0017b3d760e, type: 3}
+  - {fileID: 8300000, guid: d1151df3ed5ea2b4599ff801b7bee14c, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 0}
   - {fileID: 8300000, guid: d5b45cf5c560c564884fe38d0ace17e0, type: 3}
@@ -5111,8 +5112,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 63a4887f7e56c3b48b636305d84098d9, type: 3}
   - {fileID: 8300000, guid: dc322a64471dd2343a72e526731c291a, type: 3}
   CindyTutorialDialogAudio:
-  - {fileID: 8300000, guid: 2dfff1f77ba36fc4a9c86e9c24385d2d, type: 3}
-  - {fileID: 8300000, guid: fb4a5c2d3e09fc04d9005db2885d2f5b, type: 3}
+  - {fileID: 8300000, guid: b79106078a95eb74691a0576064c7dd0, type: 3}
+  - {fileID: 8300000, guid: 99930086e5c241444aa03b710dec70d6, type: 3}
   NarratorTutorialTwoDialogAudio:
   - {fileID: 8300000, guid: d34f473117288944cb29cdac94833e5b, type: 3}
   - {fileID: 8300000, guid: 4c05a46a7e67d0042849b4d95870ddcd, type: 3}
@@ -6945,6 +6946,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861399209}
+  m_CullTransparentMesh: 1
+--- !u!1 &1901525860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1901525861}
+  - component: {fileID: 1901525863}
+  - component: {fileID: 1901525862}
+  m_Layer: 5
+  m_Name: OptionImg (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1901525861
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901525860}
+  m_LocalRotation: {x: -0, y: -0, z: -0.046871003, w: 0.99890095}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 307500538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.373}
+  m_AnchorMin: {x: 0.34440923, y: 0.38635612}
+  m_AnchorMax: {x: 0.70259094, y: 0.7948182}
+  m_AnchoredPosition: {x: -1.5, y: 4.5}
+  m_SizeDelta: {x: -12.903297, y: 19.2117}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1901525862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901525860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f270ec057f6c56441b61e95e4f0c869d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1901525863
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901525860}
   m_CullTransparentMesh: 1
 --- !u!1 &1913480258
 GameObject:

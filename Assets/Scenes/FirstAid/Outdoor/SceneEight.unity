@@ -524,11 +524,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 296942628}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.127, y: 0.23334543}
   m_AnchorMax: {x: 0.87700003, y: 0.86388487}
-  m_AnchoredPosition: {x: -0.52149963, y: 0}
+  m_AnchoredPosition: {x: -1.5787964, y: -31}
   m_SizeDelta: {x: 3.1575012, y: -3.0670013}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77990652
@@ -824,6 +824,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1253873119}
   - {fileID: 77990651}
   m_Father: {fileID: 514410830}
   m_RootOrder: 0
@@ -4665,6 +4666,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233616023}
   m_CullTransparentMesh: 1
+--- !u!1 &1253873118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1253873119}
+  - component: {fileID: 1253873121}
+  - component: {fileID: 1253873120}
+  m_Layer: 5
+  m_Name: OptionImg (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1253873119
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253873118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 296942628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.127, y: 0.23334543}
+  m_AnchorMax: {x: 0.87700003, y: 0.86388487}
+  m_AnchoredPosition: {x: 0, y: 16.567001}
+  m_SizeDelta: {x: -90.3255, y: -33.1348}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1253873120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253873118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f270ec057f6c56441b61e95e4f0c869d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1253873121
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253873118}
+  m_CullTransparentMesh: 1
 --- !u!1 &1324174146
 GameObject:
   m_ObjectHideFlags: 0
@@ -7759,7 +7835,13 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9265241e135fe35419af207b95947b3e, type: 3}
     - {fileID: 8300000, guid: 85809cfd3eed9d842ac1acb1f01d2825, type: 3}
     - {fileID: 8300000, guid: 80d7fb23a7a32c940b16b6ee162a5c50, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: a83bee78d8329ef41bcb595d6630fbf1, type: 3}
+    - {fileID: 8300000, guid: 91e343e520577924480e63925fc49f6c, type: 3}
+    - {fileID: 8300000, guid: cfc83360408225344aac935494e8a950, type: 3}
+    - {fileID: 8300000, guid: f4bec2cde616ba9439d177902e95e8ce, type: 3}
+    - {fileID: 8300000, guid: 57f7005333011f344b953cc21d455882, type: 3}
+    - {fileID: 8300000, guid: f12e9bbcb9b372249bf1c5674ede6955, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: a9c9ec25cdb054b40bcf4662ce0db83b, type: 3}
     - {fileID: 8300000, guid: 7ce8cae9f7e219640a9fee78a04743b9, type: 3}
@@ -7796,7 +7878,15 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 0fba23a97a53f6e419de9f4bdd03d7bd, type: 3}
     - {fileID: 8300000, guid: a3cd120290273e745abe417bf30ddaf3, type: 3}
     - {fileID: 8300000, guid: 49a9b01b2ced25e4492268d9b8571751, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: fdd82df11636b1b41a560f87943123c1, type: 3}
+    - {fileID: 8300000, guid: fd635ee16578f6842b1d6931b9e5b154, type: 3}
+    - {fileID: 8300000, guid: 772572bdbf7f75e498137f19a71a5984, type: 3}
+    - {fileID: 8300000, guid: 458e0eca30efa8d47a869b430479205c, type: 3}
+    - {fileID: 8300000, guid: e2d342445841aae449b56f01d0f12395, type: 3}
+    - {fileID: 8300000, guid: 9114b396cee5de845afd22a63a6c8f64, type: 3}
+    - {fileID: 8300000, guid: ece1837bd845d354dba5870889de9513, type: 3}
+    - {fileID: 8300000, guid: b004a114db1caae4ca9df7184bd62922, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 46d4a4ec3ab2bc641b90e5eaa47e0bfb, type: 3}
     - {fileID: 8300000, guid: 87eb821247202b243a5014909250b1ea, type: 3}
@@ -7817,7 +7907,9 @@ MonoBehaviour:
     tagalogAudio:
     - {fileID: 8300000, guid: f053d0608f4efbe49a0d5edb1711bc66, type: 3}
     - {fileID: 8300000, guid: 731dfc173573e7c45be7f506e2f8ee5f, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 284c91d4ce0adc64e8da147467744900, type: 3}
+    - {fileID: 8300000, guid: 4ff19b5f4c7cf9e419f47646f1493025, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: d4abbf11a877a504daeb394c43c73b71, type: 3}
     - {fileID: 8300000, guid: e48d420ee66b5ed46a0c9a37a5e06640, type: 3}
@@ -7832,7 +7924,9 @@ MonoBehaviour:
     tagalogAudio:
     - {fileID: 8300000, guid: fc9f0724742c9e0498a887695cd45742, type: 3}
     - {fileID: 8300000, guid: bfa50557ded67494fa9e87234c1c0547, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 3ece0d0b5360fae4d893446b542b956d, type: 3}
+    - {fileID: 8300000, guid: 991a6eae2cddf294ca4ae3a81d179f1b, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: b3810c32c8631e148ae5128d8397dc18, type: 3}
     - {fileID: 8300000, guid: 22222f30611d92b4bb5c304f2aaaaad0, type: 3}
@@ -7847,18 +7941,20 @@ MonoBehaviour:
     tagalogAudio:
     - {fileID: 8300000, guid: f7edd660068eed9408c32fad2cce2e75, type: 3}
     - {fileID: 8300000, guid: 8b4c73f7f1a799f4eb207371d29e02e9, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 9898903c443d91147b889aa27daae514, type: 3}
+    - {fileID: 8300000, guid: f279c4fa631d03e4a88454339c76f7d0, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 12dda61fec2da054698a79175544f3b0, type: 3}
     - {fileID: 8300000, guid: f6de35792cd963d4da992399d830c64e, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: e21d354c9f816ec469e7ce5691318125, type: 3}
-  - {fileID: 8300000, guid: 1eda11279a90d274e87205d62ec70b79, type: 3}
-  - {fileID: 8300000, guid: 833929e7de02e784593538e03ee1bb45, type: 3}
-  - {fileID: 8300000, guid: 93f9e2e93a9a72c42a22993f6c86f6e2, type: 3}
-  - {fileID: 8300000, guid: 36bbad78ce654534bb30cde8fca5eb5b, type: 3}
-  - {fileID: 8300000, guid: 4ffb75c896c9283469256e17af52b86c, type: 3}
-  - {fileID: 8300000, guid: e09cd3ac24fd9ba48a976f011a58c4ab, type: 3}
+  - {fileID: 8300000, guid: 35118846727d5d44bbab669e8420d2aa, type: 3}
+  - {fileID: 8300000, guid: 4cd8d4c0c0e32994abb5899bccf61431, type: 3}
+  - {fileID: 8300000, guid: 4c5a0e282e16fc540bf6b05dee15d3bb, type: 3}
+  - {fileID: 8300000, guid: 68374e67de9cd8643ac7e9f54e0f0605, type: 3}
+  - {fileID: 8300000, guid: ea4c2dc9b3144704d915a188da2755c8, type: 3}
+  - {fileID: 8300000, guid: a1caf739867aa50418b5569ce575a5d0, type: 3}
+  - {fileID: 8300000, guid: d0a97db4303644343854f4add609abe4, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 8300000, guid: 388a24329d3990c46b3c0235106f7461, type: 3}
   - {fileID: 8300000, guid: e066544bdfb518a438e9a3807ff8371b, type: 3}

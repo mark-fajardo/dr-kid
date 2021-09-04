@@ -6854,7 +6854,12 @@ MonoBehaviour:
     - {fileID: 8300000, guid: ae1812890de3d3b4ea5af761c231a6be, type: 3}
     - {fileID: 8300000, guid: 6d980d738c2a2f24c86a1957da707605, type: 3}
     - {fileID: 8300000, guid: 5f1ca7a6324161a4db9e4befa1774933, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 057f902bfeab65e49a889d2d1972e8af, type: 3}
+    - {fileID: 8300000, guid: 9c965f459c7e71f4c8710b0b6836cd0d, type: 3}
+    - {fileID: 8300000, guid: eac6554d5f96d5a4bae83241ee6e98c6, type: 3}
+    - {fileID: 8300000, guid: 7f40b66d7479449459a8fd259c9268ff, type: 3}
+    - {fileID: 8300000, guid: 1421c440d36b565428487886fe2dcc94, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 3c602065a341eec459d33c3913fdd587, type: 3}
     - {fileID: 8300000, guid: f76fc5bc42c49a1418ac812537f86dec, type: 3}
@@ -6875,11 +6880,14 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9af5ec25b83c56940ab7f01830e45626, type: 3}
     - {fileID: 8300000, guid: 9f2f39107493c1949ade22f55075e4f5, type: 3}
     - {fileID: 8300000, guid: a0a4bd220b1e4cd4ea000a20212c949f, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 3c690983dd6d31a4dbc1f76b6de7f077, type: 3}
+    - {fileID: 8300000, guid: edec1ab2c4c18bd4dae96ff4355e6d32, type: 3}
+    - {fileID: 8300000, guid: a4ae4a85b49f4704e8e3550bef857327, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: df6981b1258c8704fbfcd4a4ae057ede, type: 3}
     - {fileID: 8300000, guid: c91c765003f5eef41964bfbef4ed75e5, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 92272246f658177488d9fb6ca5fa908d, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -6892,7 +6900,9 @@ MonoBehaviour:
     tagalogAudio:
     - {fileID: 8300000, guid: e69ae0b51d9d3884ba28e4a37bb38a8f, type: 3}
     - {fileID: 8300000, guid: e44c60e8da83ce04f82efe9d67ad2834, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 4ee1a770e71d20e4a9a7adfe0b472bda, type: 3}
+    - {fileID: 8300000, guid: e22f6955795959f4b85be21d02103deb, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 973fcadf9ae06f2439c5aa7ad235eb51, type: 3}
     - {fileID: 8300000, guid: cd646b3516b7c814bae17155fe6dcec0, type: 3}
@@ -6907,7 +6917,9 @@ MonoBehaviour:
     tagalogAudio:
     - {fileID: 8300000, guid: 70f5710ed3e0a4c419ab698fdc32bcdc, type: 3}
     - {fileID: 8300000, guid: d61f9ca86fae57e4ca65c46032f891e9, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: f0f2858182b98254ca36c8732ab05c9c, type: 3}
+    - {fileID: 8300000, guid: 4e2f5fd3e01778843b4c855ecd1b9235, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 603c91daa9a82624189829e19ea81b8a, type: 3}
     - {fileID: 8300000, guid: e134c4b3ec7cb214c8eedc53ca255d23, type: 3}
@@ -6919,7 +6931,6 @@ MonoBehaviour:
     - And it might turn into indigestion.
     - So to prevent indigestion, Cindy needs an Imodium.
     - This is also used in diarrhea, nausea and heartburn.
-    - So that's all for our Outdoor Scenes.
     - Do not forget what we are using, doing and learning every scenes.
     - This will help us to have an idea in things regarding to using a First Aid
       Kit.
@@ -6942,30 +6953,36 @@ MonoBehaviour:
     - {fileID: 8300000, guid: f5f6b6196cd0c6d43b9486fa566a989f, type: 3}
     - {fileID: 8300000, guid: 5bbedaa864101344bb202d5a5fc15ead, type: 3}
     - {fileID: 8300000, guid: 3afb52f375cff9a4e934568dc9d74bb2, type: 3}
-    - {fileID: 8300000, guid: 7d4e5a1c974e44f448606e17a7baf72f, type: 3}
     - {fileID: 8300000, guid: 4c175b801eaafd1498d73328ee6c9b4d, type: 3}
     - {fileID: 8300000, guid: 699415c5b1332a54c823eee47d26dfa5, type: 3}
     - {fileID: 8300000, guid: 92b7d14ea14145e4490e0858836486f6, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 39ed6f2de4a8269498b42ba1d1cf7fa3, type: 3}
+    - {fileID: 8300000, guid: 8c8bd518052ac91418a7c44a3abc7c8b, type: 3}
+    - {fileID: 8300000, guid: 08a975f65daa07a47b876ca8ec95f151, type: 3}
+    - {fileID: 8300000, guid: 17906412438aff542bde1234ad438ea4, type: 3}
+    - {fileID: 8300000, guid: 7aa7d341277107041b86963524056d9d, type: 3}
+    - {fileID: 8300000, guid: 883637b521962b44c824f92463f28250, type: 3}
+    - {fileID: 8300000, guid: 49a7f45ed7f743d4cb83a8821d2ff300, type: 3}
+    - {fileID: 8300000, guid: 2249d04d8fbe7514988774a50d3abc51, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 678db9b44d829d1489f2cf0c1b298be8, type: 3}
     - {fileID: 8300000, guid: 203ae32dfd0326d419c2fc73b20c4487, type: 3}
     - {fileID: 8300000, guid: fd4ac92de34538f46b1bd80add00bab8, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: dc32da1f207c5cd4cafbd8167b312256, type: 3}
     - {fileID: 8300000, guid: 6bcf86c1b16ac9d46b3761941f5ddada, type: 3}
-    - {fileID: 8300000, guid: 3f0e25ad2e879384b865d7841ae3b618, type: 3}
     - {fileID: 8300000, guid: 5222d8d36a757884ab87cb2c9808edae, type: 3}
     - {fileID: 8300000, guid: 8b179642e87c75c4bb48e078b3ebd38e, type: 3}
     - {fileID: 8300000, guid: 37e58127228c6c847a9ede6f7ee7b35c, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: b23e6aac3e8fca34289b8b61c7062e98, type: 3}
-  - {fileID: 8300000, guid: 2be7efc0067cce244ab1a6ec0aea46c6, type: 3}
-  - {fileID: 8300000, guid: ad8bf31951e56fb469e51ed2185d1457, type: 3}
-  - {fileID: 8300000, guid: 7690289dc1676de4582dbe8d5c6ac633, type: 3}
-  - {fileID: 8300000, guid: 22d1f37312c215644ae2085a15b3abde, type: 3}
-  - {fileID: 8300000, guid: d96f1cec17ae59c4890371523c0b68a8, type: 3}
-  - {fileID: 8300000, guid: 29532b0c700f5704c9e91bcdb5525f71, type: 3}
-  - {fileID: 8300000, guid: 73900fbd09a10c14ea9b4bc76d44674a, type: 3}
+  - {fileID: 8300000, guid: 06e55ccc5e250e14b999c8d50d9001b2, type: 3}
+  - {fileID: 8300000, guid: 7d0cf618b9e56424a81a1ef97ff88564, type: 3}
+  - {fileID: 8300000, guid: 8dec2b227fb166846bde7dbbfd635893, type: 3}
+  - {fileID: 8300000, guid: c705e29ed6158fe43bc27f2084cafa6c, type: 3}
+  - {fileID: 8300000, guid: 6ed44250317e215459d6d0ec5b2fd213, type: 3}
+  - {fileID: 8300000, guid: 73dc691318676f146ad083094ba0805d, type: 3}
+  - {fileID: 8300000, guid: 80b1bff0f7f2e674997cbbb5cfcb9998, type: 3}
+  - {fileID: 8300000, guid: d8a38743174eb224baae0d589f91cb23, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 8300000, guid: 272da0072ececc944aae26e5314d7907, type: 3}
   - {fileID: 8300000, guid: 189503aa53a328043a15d94b930754fc, type: 3}
@@ -6988,7 +7005,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 127570e405b2df04e93c779e8f86528d, type: 3}
   - {fileID: 8300000, guid: d76dd79585474d3408f3afb62d20b215, type: 3}
   - {fileID: 8300000, guid: 5e2b8a95dba1ac7448851b5549b525a9, type: 3}
-  - {fileID: 8300000, guid: 195fbd2c99835b5479e96a288c5d18c6, type: 3}
   - {fileID: 8300000, guid: ffcc8387e1131ae45868fe5da0e68952, type: 3}
   - {fileID: 8300000, guid: ffa314c4b5336bc4eb7ec5880cf391b4, type: 3}
   - {fileID: 8300000, guid: 258dee1304dff2841b954410f2dd4215, type: 3}

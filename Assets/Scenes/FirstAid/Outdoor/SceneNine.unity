@@ -6033,7 +6033,13 @@ MonoBehaviour:
     - {fileID: 8300000, guid: c10958315639f7a41a5980d1ca0059a0, type: 3}
     - {fileID: 8300000, guid: 4c09ae3852022c244ba8813ab7e6dfa9, type: 3}
     - {fileID: 8300000, guid: 81d47fc6cb6a51e4c9319666d3a2dce2, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 988af563f097f7046941b077eca7ae2e, type: 3}
+    - {fileID: 8300000, guid: 8c9634b49a71e58439cb7027c744f0a8, type: 3}
+    - {fileID: 8300000, guid: b3991c429d2d928418362cd3610a49d2, type: 3}
+    - {fileID: 8300000, guid: ec64bbc5c96ac5843aa0d2efc7975fe4, type: 3}
+    - {fileID: 8300000, guid: 6321053a4a5b7584393cfb0c8f20a783, type: 3}
+    - {fileID: 8300000, guid: 329aa90c34d238045ab400f211af1a95, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 73e4e8f2fb5dd694a94776b7d7ef0e9c, type: 3}
     - {fileID: 8300000, guid: c24feb7c675e8344890fb03e69ee9e88, type: 3}
@@ -6067,7 +6073,14 @@ MonoBehaviour:
     - {fileID: 8300000, guid: aba1c8df0177321428f78915eed61199, type: 3}
     - {fileID: 8300000, guid: f4b49e576b354e0479d008211c29fd0c, type: 3}
     - {fileID: 8300000, guid: 9768b5dac183a1246bcc9a7c0927110d, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: ea5824857615904468025ee55e440a6c, type: 3}
+    - {fileID: 8300000, guid: 8f52ba78c67e733459d8e1742d554535, type: 3}
+    - {fileID: 8300000, guid: 8ee45966f9d1fd5439e8fe76536c5902, type: 3}
+    - {fileID: 8300000, guid: f2ba083848d7fa847936937a23728933, type: 3}
+    - {fileID: 8300000, guid: 31a3da6417ec3cc468081fc84e3e7af3, type: 3}
+    - {fileID: 8300000, guid: 3a7b02f31fc618644bb91bf4ee605205, type: 3}
+    - {fileID: 8300000, guid: d8341957c90790341b70708bc30ab2c7, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 80353b119fddcc5488bfd260a13760c1, type: 3}
     - {fileID: 8300000, guid: 8c6f4b50a1aaa9f4ca5e4d2bc3e5d278, type: 3}
@@ -6091,7 +6104,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: a7fb1b4c21d8034409e64440539f6a68, type: 3}
     - {fileID: 8300000, guid: f7236f00bf50c5b4bad1fe1807da1cee, type: 3}
     - {fileID: 8300000, guid: e113654bcbe95184382605083435155a, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8008a7188b7f3024abaae79a267b5696, type: 3}
+    - {fileID: 8300000, guid: f30577a545b21704094a578cd4f665b1, type: 3}
+    - {fileID: 8300000, guid: e0fbc4771b171ec42a8cd1c0ab0f3819, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: d88b137dd0d8fa340b758646a2b2c4de, type: 3}
     - {fileID: 8300000, guid: 73bab26da2fba334cb372c596dd77e01, type: 3}
@@ -6107,7 +6123,9 @@ MonoBehaviour:
     tagalogAudio:
     - {fileID: 8300000, guid: 8f8e87e5a0f5ef442967d7076ecdf95a, type: 3}
     - {fileID: 8300000, guid: 413675ec044f8ff4e9bd677cd1c09193, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 3b7da8767627c144a8669a00754a4a10, type: 3}
+    - {fileID: 8300000, guid: 4509b9323655a6a45b315d0ec5295b4f, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 877d4a127fae65d4bb4b37fe198368ff, type: 3}
     - {fileID: 8300000, guid: 0e2fd22da3e69714bac4e57a5d880525, type: 3}
@@ -6125,17 +6143,20 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 4549ca9fcbd52b44f9cbac722054ec62, type: 3}
     - {fileID: 8300000, guid: dca2065af7e0b9641b8b05972980d414, type: 3}
     - {fileID: 8300000, guid: 9f75e00b060635b4ebd027f68f1e670d, type: 3}
-    englishDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 97ae953e99fe3134aa88fa95545dc871, type: 3}
+    - {fileID: 8300000, guid: 100a1b824f7c1724196d98c87155ee22, type: 3}
+    - {fileID: 8300000, guid: 33b6125688c52fb4abd7f545a7533ae6, type: 3}
     tagalogDrKidBoyAudio:
     - {fileID: 8300000, guid: 8c7fa9038a8684d41b348f6862032351, type: 3}
     - {fileID: 8300000, guid: 90133b3236827dc49b3b5ba3303f9d83, type: 3}
     - {fileID: 8300000, guid: eda9cff265a776549a7b1ca20608d343, type: 3}
   CindyIntroDialogAudio:
-  - {fileID: 8300000, guid: 20422755f9a0444448f1b95d362bd5e0, type: 3}
-  - {fileID: 8300000, guid: a42911a1365a8c84db24aa3b661cb15f, type: 3}
-  - {fileID: 8300000, guid: b842da5a1be37d14492a7f885aa8a576, type: 3}
-  - {fileID: 8300000, guid: 907eaa070c7a1c347a275330aa6973ce, type: 3}
-  - {fileID: 8300000, guid: 3094ced6e4762b54abcf7cc57f31a173, type: 3}
+  - {fileID: 8300000, guid: 5274c8c2ea093a9409ff2a6cc628808c, type: 3}
+  - {fileID: 8300000, guid: 4c7029ccdaa75c2468b3db625bad6f14, type: 3}
+  - {fileID: 8300000, guid: 2676f0afa62075e4fab92a1e2b0af222, type: 3}
+  - {fileID: 8300000, guid: 255e8d69ecd2b6847894045cb628aefb, type: 3}
+  - {fileID: 8300000, guid: 66210df23c59cef489a9d0cc64182450, type: 3}
   NarratorTutorialDialogAudio:
   - {fileID: 8300000, guid: 2b2e51100fac0f446b7c4b5713ec5967, type: 3}
   - {fileID: 8300000, guid: 70448b960f982bb4f9a31322e15a200d, type: 3}
