@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstAid/Actions/SceneEleven.unity
     guid: 4dcde021f18fbdd46b5d4f927088c580
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Actions/SceneTwelve.unity
+    guid: fb8dda6067c854648a75d992d5cbe442
   m_configObjects: {}

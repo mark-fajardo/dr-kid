@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
-public class SceneElevenScript : MonoBehaviour
+public class SceneTwelveScript : MonoBehaviour
 {
     public GameObject Intro;
     public GameObject IntroTwo;
     public GameObject TutorialOne;
-    public GameObject TutorialTwo;
     public GameObject AssessmentOne;
-    public GameObject AssessmentTwo;
 
     public Dialog CindyIntroDialog;
     public Dialog NarratorTutorialDialog;
@@ -113,8 +111,8 @@ public class SceneElevenScript : MonoBehaviour
     public void OptionTwo()
     {
         Option = 2;
-        FindObjectOfType<DB>().UpdateLevelDone(11, 12);
-        FindObjectOfType<DB>().UpdateLevelSCore(11, TimesSelected);
+        FindObjectOfType<DB>().UpdateLevelDone(12, 13);
+        FindObjectOfType<DB>().UpdateLevelSCore(12, TimesSelected);
         ShowVideo();
     }
 
@@ -155,7 +153,7 @@ public class SceneElevenScript : MonoBehaviour
         {
             if (Option == 2)
             {
-                FindObjectOfType<LevelLoader>().LoadNextLevel(15, TimesSelected);
+                FindObjectOfType<LevelLoader>().LoadNextLevel(16, TimesSelected);
             }
             else
             {
@@ -171,14 +169,9 @@ public class SceneElevenScript : MonoBehaviour
                 FindObjectOfType<FirstAidMenu>().GrowIntro();
                 AssessmentOne.SetActive(true);
             }
-            else if (DialogQue == 2)
-            {
-                AssessmentOne.SetActive(false);
-                AssessmentTwo.SetActive(true);
-            }
             else if (DialogQue == 3)
             {
-                AssessmentTwo.SetActive(false);
+                AssessmentOne.SetActive(false);
                 FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
                 FindObjectOfType<FirstAidMenu>().ShrinkIntro();
             }
@@ -187,13 +180,13 @@ public class SceneElevenScript : MonoBehaviour
 
     private void CindyQue()
     {
-        if (DialogQue == 1)
+        if (DialogQue == 2)
         {
             FindObjectOfType<FirstAidMenu>().MoveCindyRight();
             FindObjectOfType<FirstAidMenu>().GrowIntro();
             Intro.SetActive(true);
         }
-        else if (DialogQue == 2)
+        else if (DialogQue == 3)
         {
             Intro.SetActive(false);
             IntroTwo.SetActive(true);
@@ -213,20 +206,15 @@ public class SceneElevenScript : MonoBehaviour
 
     private void NarratorTutorialQue()
     {
-        if (DialogQue == 5)
+        if (DialogQue == 2)
         {
             FindObjectOfType<FirstAidMenu>().GrowIntro();
             FindObjectOfType<FirstAidMenu>().MoveNarratorRight();
             TutorialOne.SetActive(true);
         }
-        else if (DialogQue == 6)
+        else if (DialogQue == 3)
         {
             TutorialOne.SetActive(false);
-            TutorialTwo.SetActive(true);
-        }
-        else if (DialogQue == 7)
-        {
-            TutorialTwo.SetActive(false);
             FindObjectOfType<FirstAidMenu>().ShrinkIntro();
             FindObjectOfType<FirstAidMenu>().MoveNarratorLeft();
         }
