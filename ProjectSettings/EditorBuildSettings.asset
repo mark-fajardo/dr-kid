@@ -53,4 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FirstAid/Actions/SceneTwelve.unity
     guid: fb8dda6067c854648a75d992d5cbe442
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Actions/SceneThirteen.unity
+    guid: 3afb6f3fbb8b5b74cbc4e781ef5b51c4
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Actions/SceneFourteen.unity
+    guid: 11f14df8dd071fc4497938513936379e
+  - enabled: 1
+    path: Assets/Scenes/FirstAid/Actions/SceneFifteen.unity
+    guid: 33b58bd1e8179e3449b9cb84fab5c6e3
   m_configObjects: {}
