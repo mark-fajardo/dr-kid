@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -357.4127, y: -185.9709}
+  m_AnchoredPosition: {x: 0.0010375977, y: 0.00030517578}
+  m_SizeDelta: {x: -0.0019531, y: 0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20574480
 MonoBehaviour:
@@ -2635,8 +2635,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9109802}
-  m_SizeDelta: {x: -18.642029, y: -16.744385}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &661488049
 MonoBehaviour:
@@ -3397,7 +3397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.12900001, y: 0.10113957}
   m_AnchorMax: {x: 0.836, y: 0.90370196}
-  m_AnchoredPosition: {x: 0.9721527, y: 0.010116577}
+  m_AnchoredPosition: {x: 0.97213745, y: 0.010116577}
   m_SizeDelta: {x: 3.842804, y: -0.020301819}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829807520
@@ -3463,7 +3463,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874100516}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d3a94a5abd09e9841b484ae925179dfc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7153fef51a7a6a7459e8ded89dc23ca1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3472,7 +3472,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 1
+  m_AspectRatio: 5
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -3672,7 +3672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19072747, y: 0.25616348}
   m_AnchorMax: {x: 0.72700006, y: 0.7425096}
-  m_AnchoredPosition: {x: 7.5354004, y: 0.4068985}
+  m_AnchoredPosition: {x: 7.5354004, y: 0.40689087}
   m_SizeDelta: {x: 12.848999, y: 14.076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914794853
@@ -4570,7 +4570,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.5
+  m_fontSize: 59.2
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5735,7 +5735,7 @@ MonoBehaviour:
     - Ang sakit ng ulo!
     - Sa tingin ko, kailangan ko ng paunang lunas ngayon. Salamat...
     tagalogAudio:
-    - {fileID: 8300000, guid: 81e458fcd14596749b161d733b49b30f, type: 3}
+    - {fileID: 8300000, guid: 796343b6719f15f47ba13ea39e851d78, type: 3}
     - {fileID: 8300000, guid: e5e4b8e776ff32f44a628c3debcda42a, type: 3}
     - {fileID: 8300000, guid: f0257fe1f0b97e64f834308bcaac0a63, type: 3}
     - {fileID: 8300000, guid: d002580d5a9bf184d895757e9807a64e, type: 3}
@@ -6666,7 +6666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19072747, y: 0.25616348}
   m_AnchorMax: {x: 0.7801406, y: 0.7935145}
-  m_AnchoredPosition: {x: 4.265503, y: 1.6800003}
+  m_AnchoredPosition: {x: 4.265503, y: 1.6799927}
   m_SizeDelta: {x: 6.8843994, y: 6.370001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834661565

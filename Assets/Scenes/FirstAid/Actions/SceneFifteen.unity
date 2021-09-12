@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &16246745
 RectTransform:
   m_ObjectHideFlags: 0
@@ -155,10 +155,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32834968, y: 0.25616348}
-  m_AnchorMax: {x: 0.666, y: 0.83083653}
-  m_AnchoredPosition: {x: 1.7228088, y: -0.76060486}
-  m_SizeDelta: {x: 1.8114929, y: 1.5212002}
+  m_AnchorMin: {x: 0.21200001, y: 0.15435591}
+  m_AnchorMax: {x: 0.799, y: 0.8762883}
+  m_AnchoredPosition: {x: 0.11779785, y: 2.7059937}
+  m_SizeDelta: {x: 5.4600067, y: 1.1804962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16246746
 MonoBehaviour:
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b24425d95f490b84592739d02c19de44, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1118,7 +1118,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 1
+  m_AspectRatio: 5
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -1347,10 +1347,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26656708, y: 0.2264038}
-  m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
-  m_SizeDelta: {x: -5.2300034, y: -6.1399994}
+  m_AnchorMin: {x: 0.21200001, y: 0.2264038}
+  m_AnchorMax: {x: 0.7537894, y: 0.80980754}
+  m_AnchoredPosition: {x: 2.9971008, y: 0.9299774}
+  m_SizeDelta: {x: 8.466003, y: 25.523}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328553413
 MonoBehaviour:
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 61ed921507468db47a6ec2ec25af8b85, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2358,7 +2358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &599116027
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2373,10 +2373,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32834968, y: 0.25616348}
-  m_AnchorMax: {x: 0.666, y: 0.83083653}
-  m_AnchoredPosition: {x: 1.7228088, y: -0.76060486}
-  m_SizeDelta: {x: 1.8114929, y: 1.5212002}
+  m_AnchorMin: {x: 0.1348958, y: 0.18100001}
+  m_AnchorMax: {x: 0.82424444, y: 0.9671058}
+  m_AnchoredPosition: {x: 5.138794, y: 20.630997}
+  m_SizeDelta: {x: -10.2776, y: 0.71271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &599116028
 MonoBehaviour:
@@ -2398,7 +2398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f5613f7c3ac4bcd46b76906a67764c1d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2619,8 +2619,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -357.4127, y: -185.9709}
+  m_AnchoredPosition: {x: 0.0010375977, y: 0.00030517578}
+  m_SizeDelta: {x: -0.0019531, y: 0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &621570586
 MonoBehaviour:
@@ -3709,7 +3709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26656708, y: 0.2264038}
   m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
+  m_AnchoredPosition: {x: 14.839, y: 4.1170044}
   m_SizeDelta: {x: -5.2300034, y: -6.1399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &844312897
@@ -3732,7 +3732,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 749e853f66bba4f46b8a49d0d05639c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4340,10 +4340,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26656708, y: 0.2264038}
-  m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
-  m_SizeDelta: {x: -5.2300034, y: -6.1399994}
+  m_AnchorMin: {x: 0.16944088, y: 0.15435591}
+  m_AnchorMax: {x: 0.799, y: 0.85600007}
+  m_AnchoredPosition: {x: 1.9967957, y: 1.3560028}
+  m_SizeDelta: {x: 1.550003, y: -1.5810013}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013846396
 MonoBehaviour:
@@ -4365,7 +4365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ee6ab5ec2bdbf4e43921441900883818, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4544,7 +4544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.086, y: 0.24400002}
   m_AnchorMax: {x: 0.90627414, y: 0.767}
-  m_AnchoredPosition: {x: 5.613, y: 3.5465}
+  m_AnchoredPosition: {x: 5.6130066, y: 3.5465012}
   m_SizeDelta: {x: -11.226, y: 7.093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1034951934
@@ -4693,10 +4693,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26656708, y: 0.2264038}
-  m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
-  m_SizeDelta: {x: -5.2300034, y: -6.1399994}
+  m_AnchorMin: {x: 0.1348958, y: 0.12457721}
+  m_AnchorMax: {x: 0.84417427, y: 0.9013651}
+  m_AnchoredPosition: {x: -2.0029907, y: 3.5000153}
+  m_SizeDelta: {x: -8.579407, y: 0.04509735}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103403379
 MonoBehaviour:
@@ -4718,7 +4718,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cff0c2e7a3bcbd847a243791cb396cf7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4844,10 +4844,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26656708, y: 0.2264038}
-  m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
-  m_SizeDelta: {x: -5.2300034, y: -6.1399994}
+  m_AnchorMin: {x: 0.1348958, y: 0.12457721}
+  m_AnchorMax: {x: 0.84417427, y: 0.9013651}
+  m_AnchoredPosition: {x: -2.0393066, y: 3.7230682}
+  m_SizeDelta: {x: -8.449997, y: 0.4300003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207233300
 MonoBehaviour:
@@ -4869,7 +4869,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 119582bd2760c824f9dbb5ceac519f35, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5713,10 +5713,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.32834968, y: 0.25616348}
-  m_AnchorMax: {x: 0.666, y: 0.83083653}
-  m_AnchoredPosition: {x: 1.7228088, y: -0.76060486}
-  m_SizeDelta: {x: 1.8114929, y: 1.5212002}
+  m_AnchorMin: {x: 0.16944088, y: 0.18100001}
+  m_AnchorMax: {x: 0.799, y: 0.83083653}
+  m_AnchoredPosition: {x: 2.0339966, y: 10.320892}
+  m_SizeDelta: {x: 1.4261017, y: 11.654499}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486681889
 MonoBehaviour:
@@ -5738,7 +5738,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d5147952992e2e64ea583aa83910728f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5880,7 +5880,15 @@ MonoBehaviour:
     - Natanggal ko na po ang pako sa aking paa.
     - Sobrang sakit po!
     - Tulungan niyo po ako. Salamat po.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: b12542d4093f5f449af95e3a1f31b9a6, type: 3}
+    - {fileID: 8300000, guid: d8da1e956952815448ff860ed14a38c5, type: 3}
+    - {fileID: 8300000, guid: 3f90c07a74319034d95a140330e08763, type: 3}
+    - {fileID: 8300000, guid: 920dbe7115c38a74b8a7f1dc078950bb, type: 3}
+    - {fileID: 8300000, guid: 7cd781f647fb2c84e8ec90e78b03420b, type: 3}
+    - {fileID: 8300000, guid: 50685dd6935b1b040917a62e32c8d0bf, type: 3}
+    - {fileID: 8300000, guid: b01f799b084e26e48a0d4f7d47e3e984, type: 3}
+    - {fileID: 8300000, guid: d4421a03bc36de8418f6285e0d905acc, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -5900,12 +5908,26 @@ MonoBehaviour:
     - Dali! Kailangan nating makuha ang mga paunang lunas na kailangan ni Cindy.
     - Una, kailangan natin ng Agua Oxinada para malinis natin ang sugat mula sa impeksyon.
     - Pangalawa, kailangan rin natin ng Betadine para makatulong rin sa pag-tanggal
-      ng bakteryay at impeksyon sa sugat.
+      ng bakterya at impeksyon sa sugat.
     - At huli, kailangan natin Gauze at Tape para matakpan ang sugat mula sa dumi.
     - Tara at kunin na natin ang mga kailangang gamit!
     tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 2c8d8b0c3dc49cc4bbfda05727a944d5, type: 3}
+    - {fileID: 8300000, guid: 6a1ba399f76a9d14eba409579b079b0e, type: 3}
+    - {fileID: 8300000, guid: 88263da3023696540b502e50fb4441fb, type: 3}
+    - {fileID: 8300000, guid: 256573a4f6072ba4e9a00f509083261a, type: 3}
+    - {fileID: 8300000, guid: cd54dd6e7690fd04fa04a26c40069712, type: 3}
+    - {fileID: 8300000, guid: 3f3edd57ab79d1247a19fbce781e02ce, type: 3}
+    - {fileID: 8300000, guid: fec8d07039110064bb0b9272ab3a1a38, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 239af71bd17004b45826a2b2263b1086, type: 3}
+    - {fileID: 8300000, guid: 81605bc6373fe9a498c8f36593da50a2, type: 3}
+    - {fileID: 8300000, guid: 77264fcaf0382e64fbe0ab12dcfe6bea, type: 3}
+    - {fileID: 8300000, guid: cffa943e9a8446046949fca994319b5b, type: 3}
+    - {fileID: 8300000, guid: 53494d99ae7c9664ab110b33cc428762, type: 3}
+    - {fileID: 8300000, guid: 3fc792e001fad224ca077cc001409781, type: 3}
+    - {fileID: 8300000, guid: 9532ac8120a0e61469655a7ee8b742ac, type: 3}
   OptionOneDialog:
     name: Dr. Kid
     dialogs:
@@ -5915,8 +5937,12 @@ MonoBehaviour:
     - Hindi natin kailangan ng Pandikit sa ngayon.
     - Piliin lamang ang mga gamit na angkop sa sitwasyon natin ngayon.
     tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 8a0176199419284499dcf7b7f8d98d58, type: 3}
+    - {fileID: 8300000, guid: f93310252df85cf44bda54b2d6ade127, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 6d93b3ab29c87964e9034cc38b02a6fa, type: 3}
+    - {fileID: 8300000, guid: 746dabf2e7e599b47ac078dc235f418a, type: 3}
   OptionTwoDialog:
     name: Dr. Kid
     dialogs:
@@ -5926,8 +5952,12 @@ MonoBehaviour:
     - Hindi natin kailangan ng Thermometer sa ngayon.
     - Walang lagnat si Cindy ngayon.
     tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 7906ea159731e9e48803708fa9e2f145, type: 3}
+    - {fileID: 8300000, guid: fc61f883d88ccec4a9f47c19d0dac522, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: deabbe687870f184db67a0089bf17bdb, type: 3}
+    - {fileID: 8300000, guid: b4bd567a07dc9c448bf64ca0232d4997, type: 3}
   OptionThreeDialog:
     name: Dr. Kid
     dialogs:
@@ -5957,8 +5987,28 @@ MonoBehaviour:
     - Iyun lamang. Tayo ay magpatuloy na sa susunod na eksena.
     - Tara!
     tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 16eae0ae482254f4dbfed34f0d89e05d, type: 3}
+    - {fileID: 8300000, guid: 32e3bca4a0dab194c8fab9f3bdce5a9b, type: 3}
+    - {fileID: 8300000, guid: 2834307477fbed64f8631bc60f69705b, type: 3}
+    - {fileID: 8300000, guid: 3ab6246b8fd7b7a4084c24cc653ccc28, type: 3}
+    - {fileID: 8300000, guid: 75a410ecfc5951148a7c5c3c316912b1, type: 3}
+    - {fileID: 8300000, guid: 50d87f68667aff144944e5c0080e8827, type: 3}
+    - {fileID: 8300000, guid: 49ef208f990cdbb40af1742dc3ecf505, type: 3}
+    - {fileID: 8300000, guid: 8bca48d5181a59241bd9c263fde242b4, type: 3}
+    - {fileID: 8300000, guid: 202fda3810312004a93ee36dccbad8cd, type: 3}
+    - {fileID: 8300000, guid: 1444c84da0bfcf0468023e6bb755a6f8, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: 2d29b5e29f824b5419a06fa68844c692, type: 3}
+    - {fileID: 8300000, guid: 43260c2f9ffe0ef4c9ab0af85e25f1c4, type: 3}
+    - {fileID: 8300000, guid: b202ace5713ff46489de4785da5e3edd, type: 3}
+    - {fileID: 8300000, guid: a7a32de200161cd44b94580bcf1bc289, type: 3}
+    - {fileID: 8300000, guid: 5a19be699fa98ab4687ae55d07872535, type: 3}
+    - {fileID: 8300000, guid: 64d2536bb28cc5b4d9d6fc5420627939, type: 3}
+    - {fileID: 8300000, guid: ad99b35175af07848ac92704a7338e64, type: 3}
+    - {fileID: 8300000, guid: 9bcabc96931ea42479cc8fc95a317d8f, type: 3}
+    - {fileID: 8300000, guid: 751c4237eded56d4898167eccc461242, type: 3}
+    - {fileID: 8300000, guid: 167726ef789bd834c8c0a4814bd06dd3, type: 3}
   OptionFourDialog:
     name: Dr. Kid
     dialogs:
@@ -5966,9 +6016,19 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng Inhaler sa ngayon.
     tagalogAudio: []
-    englishDrKidBoyAudio: []
-    tagalogDrKidBoyAudio: []
-  CindyIntroDialogAudio: []
+    englishDrKidBoyAudio:
+    - {fileID: 8300000, guid: 43eb6db192e48a84e9af91c56f6c1381, type: 3}
+    tagalogDrKidBoyAudio:
+    - {fileID: 8300000, guid: e6e1473c6e0e44c4590a97f6d96dceae, type: 3}
+  CindyIntroDialogAudio:
+  - {fileID: 8300000, guid: 5c8bad4bf264257459bf03f0718c1dbb, type: 3}
+  - {fileID: 8300000, guid: b42cb9ea84f5a4c40aabf0646070ffa8, type: 3}
+  - {fileID: 8300000, guid: 1754f20395f233f49b387696dae6701b, type: 3}
+  - {fileID: 8300000, guid: 352a5fa8b5f97124ea77b16189d4c2eb, type: 3}
+  - {fileID: 8300000, guid: eecb1a04e4e89484ab49f3e5d62f817d, type: 3}
+  - {fileID: 8300000, guid: 5979d1015542cec49ae61017e0444d6f, type: 3}
+  - {fileID: 8300000, guid: 7c6445588a64076459714b9727cb28d0, type: 3}
+  - {fileID: 8300000, guid: 4369048423e32024b894bf53218f178f, type: 3}
   NarratorTutorialDialogAudio: []
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
@@ -6358,10 +6418,10 @@ RectTransform:
   m_Father: {fileID: 1844867433}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26656708, y: 0.2264038}
-  m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
-  m_SizeDelta: {x: -5.2300034, y: -6.1399994}
+  m_AnchorMin: {x: 0.1348958, y: 0.12457721}
+  m_AnchorMax: {x: 0.84417427, y: 0.9013651}
+  m_AnchoredPosition: {x: -1.9887085, y: 10.391006}
+  m_SizeDelta: {x: -8.5511, y: 13.7659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1601484015
 MonoBehaviour:
@@ -6383,7 +6443,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d8691dc7804d0a040b6376c786e789e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6809,7 +6869,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.5
+  m_fontSize: 59.2
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7129,8 +7189,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9109802}
-  m_SizeDelta: {x: -18.642029, y: -16.744385}
+  m_AnchoredPosition: {x: 0.000061035156, y: -0.000061035156}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768999683
 MonoBehaviour:
@@ -7696,10 +7756,10 @@ RectTransform:
   m_Father: {fileID: 1042132829}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.642}
-  m_AnchorMin: {x: 0.27735952, y: 0.25300002}
-  m_AnchorMax: {x: 0.7425124, y: 0.78735614}
-  m_AnchoredPosition: {x: -0.50001526, y: -0.000015258789}
-  m_SizeDelta: {x: 6.695801, y: 3.2020001}
+  m_AnchorMin: {x: 0.09540519, y: 0.16118182}
+  m_AnchorMax: {x: 0.88516366, y: 0.8386819}
+  m_AnchoredPosition: {x: 0, y: 0.5}
+  m_SizeDelta: {x: 4.801903, y: -11.778301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058131885
 MonoBehaviour:
@@ -7721,7 +7781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: eee46a2ad66c97d45b22c6a5b5e681ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

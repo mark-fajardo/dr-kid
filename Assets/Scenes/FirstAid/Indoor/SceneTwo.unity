@@ -1151,8 +1151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -357.4127, y: -185.9709}
+  m_AnchoredPosition: {x: 0.0010375977, y: 0.00030517578}
+  m_SizeDelta: {x: -0.0019531, y: 0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421966572
 MonoBehaviour:
@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7294118}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.5
+  m_fontSize: 59.2
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3319,7 +3319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26146895, y: 0.22100002}
   m_AnchorMax: {x: 0.726, y: 0.78170186}
-  m_AnchoredPosition: {x: 3.3894043, y: 0.8880234}
+  m_AnchoredPosition: {x: 3.3894043, y: 0.88801575}
   m_SizeDelta: {x: 2.5695038, y: 1.776}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951187387
@@ -3470,8 +3470,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9109802}
-  m_SizeDelta: {x: -18.642029, y: -16.744385}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962256671
 MonoBehaviour:
@@ -3925,7 +3925,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073380175}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d3a94a5abd09e9841b484ae925179dfc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 6eec90c7cceca9a42857998dafd8eadb, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3934,7 +3934,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 1
+  m_AspectRatio: 5
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -4884,12 +4884,12 @@ MonoBehaviour:
     - Matutulungan nyo po ba ako, sa kung ano ang dapat kong gawin at mga gamit na
       dapat kong ihanda?
     tagalogAudio:
-    - {fileID: 8300000, guid: 56a045c5e5920514cbb4f62997a70562, type: 3}
+    - {fileID: 8300000, guid: ae8b113128da6d94ea2da36e836d4f10, type: 3}
     - {fileID: 0}
-    - {fileID: 8300000, guid: f718ee84a8d9de64a9d219ed8f650cc9, type: 3}
-    - {fileID: 8300000, guid: 7383932a13dd7cd458765444f8f5703d, type: 3}
-    - {fileID: 8300000, guid: 5179e160a279ef14994c65bbc334bd85, type: 3}
-    - {fileID: 8300000, guid: ca55509549d428a47a15a967ccd820ba, type: 3}
+    - {fileID: 8300000, guid: bfe8e9af40ddc1042a6152f037550c38, type: 3}
+    - {fileID: 8300000, guid: 579235431db7e5c48bbb49d6b08ec35b, type: 3}
+    - {fileID: 8300000, guid: 910aa80c78881bb459b1652e5f171bcf, type: 3}
+    - {fileID: 8300000, guid: 80d483e74e6323545b5982d917424f55, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialDialog:
@@ -4935,8 +4935,8 @@ MonoBehaviour:
     - Naku! Sasakit ito?
     - Paki-bilisan na lamang po at wag ninyo pong damihan.
     tagalogAudio:
-    - {fileID: 8300000, guid: f5147b3f7e68d864b846cbc7e971306b, type: 3}
-    - {fileID: 8300000, guid: aeda98c88a926c34fbe4c55f35a0eef1, type: 3}
+    - {fileID: 8300000, guid: 167f4c65e0854654790febdc5ceb3096, type: 3}
+    - {fileID: 8300000, guid: 44ee182a580b90a4b8c648e296c83c7f, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   NarratorTutorialTwoDialog:
@@ -4949,7 +4949,7 @@ MonoBehaviour:
     - And that's all we need. We need to finish this quickly to to make Cindy better.
     - Stay smart on choosing and remember what I've taught you little doctor...
     tagalogDialogs:
-    - Huwag ka mag-alala masiyado Cindy.
+    - Huwag ka mag-alala masyado Cindy.
     - Ang kaibigan natin dito ay tuturuan ka sa kung papaano mo lilinisin ang iyong
       sugat.
     - At sa ating pagpapatuloy, kailangan rin natin ng Betadine.
@@ -5412,7 +5412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.119, y: 0.08929811}
   m_AnchorMax: {x: 0.8484822, y: 0.9138077}
-  m_AnchoredPosition: {x: 0.07409668, y: -0.65800476}
+  m_AnchoredPosition: {x: 0.07409668, y: -0.6579895}
   m_SizeDelta: {x: -1.6458015, y: -0.69940186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1425186953
@@ -6264,7 +6264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.119, y: 0.08929811}
   m_AnchorMax: {x: 0.8484822, y: 0.9138077}
-  m_AnchoredPosition: {x: 0.07408142, y: 2.9080048}
+  m_AnchoredPosition: {x: 0.07409668, y: 2.9079895}
   m_SizeDelta: {x: -1.6458, y: -22.2671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1711390500

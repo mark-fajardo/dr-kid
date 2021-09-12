@@ -1274,8 +1274,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -357.4127, y: -185.9709}
+  m_AnchoredPosition: {x: -0.0010375977, y: 0.000061035}
+  m_SizeDelta: {x: -0.0019531, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361509163
 MonoBehaviour:
@@ -2039,7 +2039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26656708, y: 0.2264038}
   m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
+  m_AnchoredPosition: {x: 0.9456024, y: 4.1170044}
   m_SizeDelta: {x: -5.2300034, y: -6.1399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620828806
@@ -2781,7 +2781,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 1
+  m_AspectRatio: 5
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -3432,7 +3432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.26656708, y: 0.2264038}
   m_AnchorMax: {x: 0.694, y: 0.80980754}
-  m_AnchoredPosition: {x: 0.9456024, y: 4.116997}
+  m_AnchoredPosition: {x: 0.9456024, y: 4.1170044}
   m_SizeDelta: {x: -5.2300034, y: -6.1399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091662734
@@ -6248,8 +6248,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9109802}
-  m_SizeDelta: {x: -18.642029, y: -16.744385}
+  m_AnchoredPosition: {x: 0.000083447, y: 0.0000092983}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1852565195
 MonoBehaviour:
@@ -7164,7 +7164,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.5
+  m_fontSize: 59.2
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1

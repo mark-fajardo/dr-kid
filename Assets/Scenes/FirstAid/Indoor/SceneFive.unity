@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.5
+  m_fontSize: 59.2
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2908,8 +2908,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9109802}
-  m_SizeDelta: {x: -18.642029, y: -16.744385}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749720472
 MonoBehaviour:
@@ -3136,8 +3136,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -357.4127, y: -185.9709}
+  m_AnchoredPosition: {x: 0.0010375977, y: 0.00030517578}
+  m_SizeDelta: {x: -0.0019531, y: 0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &889191914
 MonoBehaviour:
@@ -6320,7 +6320,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573016643}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d3a94a5abd09e9841b484ae925179dfc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: d135bd94c8ac6894eb304e015522a3e4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6329,7 +6329,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 1
+  m_AspectRatio: 5
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -6700,7 +6700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25532886, y: 0.216}
   m_AnchorMax: {x: 0.8028223, y: 0.79800004}
-  m_AnchoredPosition: {x: -2.0000267, y: -2.0315018}
+  m_AnchoredPosition: {x: -2.000023, y: -2.0314941}
   m_SizeDelta: {x: 1.012001, y: 7.387699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750597873
@@ -7947,7 +7947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14739881, y: 0.10024526}
   m_AnchorMax: {x: 0.83800006, y: 0.906}
-  m_AnchoredPosition: {x: -0.9402008, y: -1.5010986}
+  m_AnchoredPosition: {x: -0.94021606, y: -1.5010986}
   m_SizeDelta: {x: 0.03099823, y: -1.5419998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103714222

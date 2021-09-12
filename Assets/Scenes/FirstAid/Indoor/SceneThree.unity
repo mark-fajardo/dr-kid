@@ -2131,7 +2131,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680223880}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d3a94a5abd09e9841b484ae925179dfc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a84becd1f44b50145aa5d97dee7d3efc, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -2140,7 +2140,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 1
+  m_AspectRatio: 5
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -5137,7 +5137,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.5
+  m_fontSize: 59.2
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6993,11 +6993,11 @@ MonoBehaviour:
     - Sa tingin ko ay mayroon siyang lagnat, ngunit di ko alam ang aking gagawin.
     - Kailangan ko kumpirmahin kung mayroon nga talaga siyang sakit.
     tagalogAudio:
-    - {fileID: 8300000, guid: c5ac8ec0bc27f1248b4871a4c904b672, type: 3}
+    - {fileID: 8300000, guid: d599f63c8b95b4e42988933638021805, type: 3}
     - {fileID: 8300000, guid: 7661743a134ca5042a717364497a8e3b, type: 3}
     - {fileID: 8300000, guid: 8e5f028da3291524cb9aab0109975bc4, type: 3}
     - {fileID: 8300000, guid: de993ceb006c6be409f59071876a43ed, type: 3}
-    - {fileID: 8300000, guid: 8d6c11233a9912442a1b42c24cfebf5d, type: 3}
+    - {fileID: 8300000, guid: a34eb42a7280837428a820a50b5146e8, type: 3}
     - {fileID: 8300000, guid: 5af6b8479e5ffe7478e9e8274a5b1160, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
@@ -7090,7 +7090,7 @@ MonoBehaviour:
       lagnat.
     - Salamat sa pagiging maaasahan.
     - Sa ating pagpapatuloy, nakumpirma natin na ang kaniyang Ina ay may lagnat.
-    - At sa ating inaasahan, dapat ay tumalab ang gamit sa ilang oras lamang.
+    - At sa ating inaasahan, dapat ay tumalab ang gamot sa ilang oras lamang.
     - At huwag kalilimutan na bigyan siya ng gamot kada 4-6 na oras kung kinakailangan.
     - Nang sa gayon ay guminhawa ang pakiramdam ng kaniyang Ina.
     - Tara sa susunod na eksena? Tara na!
@@ -7254,8 +7254,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9109802}
-  m_SizeDelta: {x: -18.642029, y: -16.744385}
+  m_AnchoredPosition: {x: 0.0009765625, y: 0}
+  m_SizeDelta: {x: -0.0019531, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1911153674
 MonoBehaviour:
@@ -7326,7 +7326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16.958}
   m_AnchorMin: {x: 0.31371343, y: 0.2608654}
   m_AnchorMax: {x: 0.65368545, y: 0.7981585}
-  m_AnchoredPosition: {x: -0, y: -6.411003}
+  m_AnchoredPosition: {x: 0, y: -6.4109955}
   m_SizeDelta: {x: 20.2802, y: -26.6679}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988831021
@@ -7726,8 +7726,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -357.4127, y: -185.9709}
+  m_AnchoredPosition: {x: 0.0010375977, y: 0.00030517578}
+  m_SizeDelta: {x: -0.0019531, y: 0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124029664
 MonoBehaviour:
@@ -7742,7 +7742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7294118}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
