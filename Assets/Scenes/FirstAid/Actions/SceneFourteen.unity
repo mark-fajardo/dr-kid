@@ -473,7 +473,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -835,7 +835,13 @@ MonoBehaviour:
     - Ngayon ay, kailangan na lamang natin ito na maprotektahan sa impeksyon.
     - Kailangan lamang natin ng Betadine para dito.
     - Tulungan natin si Cindy makuha at mailagay ang Betadine sa kaniyang sugat.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: c7c3a88469830214494633962aa7d489, type: 3}
+    - {fileID: 8300000, guid: d589b9a3a57f7064f816da31b73d5d03, type: 3}
+    - {fileID: 8300000, guid: 0d38bb2851d850641badc00f0f5a97bb, type: 3}
+    - {fileID: 8300000, guid: 35b2fb7dac5c6bc45bb561c08a9d21a3, type: 3}
+    - {fileID: 8300000, guid: 42dd279166fac1c4bae2ab4bfe666569, type: 3}
+    - {fileID: 8300000, guid: 609a5f1fc35ef7e4f8a3824de263cfa4, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: e8eae3167eda0e64383e4038c13a034d, type: 3}
     - {fileID: 8300000, guid: 5f50fbb9df42575469de48aa85560b45, type: 3}
@@ -896,7 +902,13 @@ MonoBehaviour:
     - Dahil nalinis na ni Cindy ang kaniyang sugat.
     - Iyun lamang para sa eksenang ito.
     - Tara sa susunod na eksena. Tara!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: b901690366f41ca47835c3152a5963ec, type: 3}
+    - {fileID: 8300000, guid: a66aaf9e6c13cc040a6d11cd366d9a23, type: 3}
+    - {fileID: 8300000, guid: d3e5f05f336094b40886f238387df929, type: 3}
+    - {fileID: 8300000, guid: 775523e1cbf12264da1a711be7a682ac, type: 3}
+    - {fileID: 8300000, guid: 6cc559e4f25808e4ea34628fe4d896e0, type: 3}
+    - {fileID: 8300000, guid: db30f01c24d9e0547b2aa709c79c77af, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 2bee587e1b57e7c4ba014f616d7b4d28, type: 3}
     - {fileID: 8300000, guid: 81a2bcc365119d249a4e14a8d8bf37c6, type: 3}
@@ -930,10 +942,22 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b7ee24d94ffc2004aaa3f7ed2d4d5d93, type: 3}
   - {fileID: 8300000, guid: 010939b81e36e634cafbf6fe276f2984, type: 3}
   - {fileID: 8300000, guid: 6ac17e9dd03fad64ebe5df5b33634c20, type: 3}
-  NarratorTutorialDialogAudio: []
+  NarratorTutorialDialogAudio:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   OptionFourDialogAudio: []
   TimesSelected: 0
   VideoContainer: {fileID: 1960733884}
@@ -7555,7 +7579,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960733883}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ee350dab3c41fd4d8598dcd84767223, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a779addc7a420684d8227376ba9832a9, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

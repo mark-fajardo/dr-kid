@@ -5103,7 +5103,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5931,7 +5931,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544048851}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ee350dab3c41fd4d8598dcd84767223, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 44576ec7e8b2d1841982a3ced28aaefb, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -7623,7 +7623,15 @@ MonoBehaviour:
     - Kailangan natin ng Mupirocin Ointment para mapatigil ang pagdami ng bakterya.
     - At bendahe para matakpan ang kaniyang hiwa.
     - Dalian natin at nang magamot na natin ang hiwa ni Cindy.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 75f9538ab504f5e47aa278ede1d3c7e8, type: 3}
+    - {fileID: 8300000, guid: af5b61757fcab6345862ac15f5913d92, type: 3}
+    - {fileID: 8300000, guid: 965df00ba69f815428ee371553140988, type: 3}
+    - {fileID: 8300000, guid: 9e4929a899bebc44bb270d64c13008fa, type: 3}
+    - {fileID: 8300000, guid: 9d50ff9607b12f94f844cf5382b8fed3, type: 3}
+    - {fileID: 8300000, guid: 8441f9a008caf8143af8dc3312b8d0c6, type: 3}
+    - {fileID: 8300000, guid: 0f3de42618f6f7946b431a169a540a6e, type: 3}
+    - {fileID: 8300000, guid: ef74c249b9f34bd4aa3c48bc1f9b07bf, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 96e1e42ce01a3f348aff08f7029aedb8, type: 3}
     - {fileID: 8300000, guid: 0821cf6ec3134bf488fadeff4a699943, type: 3}
@@ -7677,7 +7685,13 @@ MonoBehaviour:
     - Iyun lamang para sa eksenang ito.
     - Sana ay may bago kayong natutunan para sa mga ganitong uri ng eksena.
     - Tayo ay magtungo na sa susunod na eksena. Tara!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 03891cfbe1ba054408517343689a8464, type: 3}
+    - {fileID: 8300000, guid: 8dcc2c6fd91467f4286c7f7f1cdb6d4f, type: 3}
+    - {fileID: 8300000, guid: 49fccf1975e614a4ebd8d2724dceeaa3, type: 3}
+    - {fileID: 8300000, guid: 1309557bc64e6794b87833754bec39f7, type: 3}
+    - {fileID: 8300000, guid: fa3addbca304c1141a85f264950f3852, type: 3}
+    - {fileID: 8300000, guid: bfc6a186fcd69864b96b1fc5c6884cc6, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 7ff4469de5149c948957359f2853dd87, type: 3}
     - {fileID: 8300000, guid: 4836f054d4da2b2449fcbe017c88bfa4, type: 3}
@@ -7730,9 +7744,23 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2c09ab2ff71f04b4b98b7975282d4b77, type: 3}
   - {fileID: 8300000, guid: e008207e2c098fa40ba2740d35cedcf6, type: 3}
   - {fileID: 8300000, guid: f252b6d8927150b4ea969bcb6581ed64, type: 3}
-  NarratorTutorialDialogAudio: []
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 3336a8cae6c2d484e90d009c27612f1d, type: 3}
+  - {fileID: 8300000, guid: 11b97ab68cade2e4b85bdad5c25dd615, type: 3}
+  - {fileID: 8300000, guid: 965df00ba69f815428ee371553140988, type: 3}
+  - {fileID: 8300000, guid: 333a01f3335a99346b32b08efde50fe1, type: 3}
+  - {fileID: 8300000, guid: 823ef5c146f336144b253da2502a640f, type: 3}
+  - {fileID: 8300000, guid: 91adc223f4818d5458cf8dcc24acde51, type: 3}
+  - {fileID: 8300000, guid: 7ab743a3f85ce1b499ccb2311a2083f0, type: 3}
+  - {fileID: 8300000, guid: 5e64abaaf43180b4abad626f81bb21d5, type: 3}
   OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 031974dc0f105d94a835eb31a574dda8, type: 3}
+  - {fileID: 8300000, guid: e36913b4e3fd9c842aa173edbc1a0856, type: 3}
+  - {fileID: 8300000, guid: 554f0e34f04d09b409cd21490972aab1, type: 3}
+  - {fileID: 8300000, guid: ac43821ca9a2d7741b1cb246cc7621e2, type: 3}
+  - {fileID: 8300000, guid: 990e4e3199981c94199449ea49d7ed3d, type: 3}
+  - {fileID: 8300000, guid: 2e7fcb6d1e59cef4aa74d65cc4bcc30a, type: 3}
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []
   TimesSelected: 0

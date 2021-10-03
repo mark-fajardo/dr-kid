@@ -2138,7 +2138,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722676334}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d3a94a5abd09e9841b484ae925179dfc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f8e630f4d52fd084483d4a879e7db872, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -5116,7 +5116,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1

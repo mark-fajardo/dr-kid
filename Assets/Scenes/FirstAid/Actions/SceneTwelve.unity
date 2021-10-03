@@ -1626,7 +1626,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4315,7 +4315,13 @@ MonoBehaviour:
     - Maganda ito sa mga ganitong uri ng sugat.
     - Ayusin natin ito sa pinakamabilis na makakaya natin.
     - Paki-kuha na ang Lucas Papaw Ointment.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: c4912ff97f05a0246b2df2613e4a85da, type: 3}
+    - {fileID: 8300000, guid: c9fd0df1c35c9614a8dd42a06086a3d6, type: 3}
+    - {fileID: 8300000, guid: 67ab5bea7f3cac34fb6d4dcd280cf1c1, type: 3}
+    - {fileID: 8300000, guid: 85d514355edf65a4fa8f3f7c3ce155a1, type: 3}
+    - {fileID: 8300000, guid: bb1cc3d23e8b34f49bf3bddb2b063ec6, type: 3}
+    - {fileID: 8300000, guid: ebea0440f4dfe444f8e9250e2a2eeeef, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 07c99b73064f9da44854267dc483f09a, type: 3}
     - {fileID: 8300000, guid: 2fb6102039fcb0643945fefd46f57e5e, type: 3}
@@ -4360,7 +4366,14 @@ MonoBehaviour:
     - Natutunan natin na, posible na magamit ang mga maiinam na pamahid para dito.
     - Laging tatandaan ang mga materyales natin ng ating paunang lunas na ginagamit.
     - Tara sa susunod na eksena!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: fe1178a4348f30644858825d263b0100, type: 3}
+    - {fileID: 8300000, guid: 0a7ca95fde552d44f96b396fc2d2097e, type: 3}
+    - {fileID: 8300000, guid: b7b925d44d872ea4f8e94e9de645f738, type: 3}
+    - {fileID: 8300000, guid: 87c7ddc2278e94047ad68cb40ab4e1f2, type: 3}
+    - {fileID: 8300000, guid: 8a8ad20dce05c8547b456522560f0b33, type: 3}
+    - {fileID: 8300000, guid: 311275e0844f46d4699f33e7621b8992, type: 3}
+    - {fileID: 8300000, guid: 2629f02dbb41fdc459c5ddd96c7cb8a9, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 2433d297e08251145b3b9c36ec8b4b60, type: 3}
     - {fileID: 8300000, guid: cb856a8f73cc24f48ae311fe295fc617, type: 3}
@@ -4414,9 +4427,22 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 91f7678ea19de6c489287db0a432f78f, type: 3}
   - {fileID: 8300000, guid: a2e8eb66f6dafcf4da447b7c0d82fb21, type: 3}
   - {fileID: 8300000, guid: 031b48ee48361bf4491503b5ed2e91c2, type: 3}
-  NarratorTutorialDialogAudio: []
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 9093b2d31fdadc140b8deed40b8eaacc, type: 3}
+  - {fileID: 8300000, guid: 3e91c14dc1186774fb4cc0eec66f40b2, type: 3}
+  - {fileID: 8300000, guid: 2ed4fab275f438149b84906e79354e12, type: 3}
+  - {fileID: 8300000, guid: 7ad504182a2df9846985e84f43b0d98f, type: 3}
+  - {fileID: 8300000, guid: 1ecb7cfa2b03a814d9b71937cc486f34, type: 3}
+  - {fileID: 8300000, guid: 12a70f6a62e513347bd7f81015e4b015, type: 3}
   OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: bcb865f0fd5518f4198beff966b6fef9, type: 3}
+  - {fileID: 8300000, guid: c681597815720d346b7bb0d1341ddf1e, type: 3}
+  - {fileID: 8300000, guid: 47a9252f260f9c747a6ace0b3f139201, type: 3}
+  - {fileID: 8300000, guid: 22c47ec9729e753448bdb2c319b99c6e, type: 3}
+  - {fileID: 8300000, guid: 6885e81cbcf8efe429460aa75615d9b4, type: 3}
+  - {fileID: 8300000, guid: 18454c012deb95643bc629a1e90d913a, type: 3}
+  - {fileID: 8300000, guid: dd5371a6da6766049abec23f75a16ae3, type: 3}
   OptionThreeDialogAudio: []
   OptionFourDialogAudio: []
   TimesSelected: 0
@@ -4496,7 +4522,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109508425}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ee350dab3c41fd4d8598dcd84767223, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 9acf0ea812a156b4ca135fee1f2c623f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

@@ -60,6 +60,16 @@ public class DialogManager : MonoBehaviour
 
     public int DisplayNextDialog(bool FromSceneScript = true)
     {
+        try
+        {
+            NarrationSource.Stop();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Cannot stop narration source.");
+            Console.WriteLine(e.Message);
+        }
+
         if (DialogDisplayIndex == 0)
         {
             DialogBackBtn.SetActive(false);

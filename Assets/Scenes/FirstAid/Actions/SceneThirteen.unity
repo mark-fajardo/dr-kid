@@ -2331,7 +2331,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778575305}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ee350dab3c41fd4d8598dcd84767223, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a34f0f49dc28e2540813f1aa6cd394fe, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3147,7 +3147,14 @@ MonoBehaviour:
       ng impeksyon.
     - At huli, kailangan natin ng Gauze at Tape para matakpan ang sugat.
     - Tara at kuhanin na natin ang mga ito!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: b885946502913af468c3b5bf379b5db4, type: 3}
+    - {fileID: 8300000, guid: c05dfc8967da20d4c8e8da22664ef3e7, type: 3}
+    - {fileID: 8300000, guid: 6dbb2ae485589f64f9cc254f4d002d19, type: 3}
+    - {fileID: 8300000, guid: 8dc7e20482f9b6a42a111877377b71df, type: 3}
+    - {fileID: 8300000, guid: d440748376b678d418f59e550a8b0bd2, type: 3}
+    - {fileID: 8300000, guid: 424dd65e30a1b7842ac83a0ff006a704, type: 3}
+    - {fileID: 8300000, guid: e90b7e1aa3221d841b09f971c05f9078, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: f7f0a60fd7a19e644b3bcf7414663648, type: 3}
     - {fileID: 8300000, guid: cdd318be9ba26e14da6601bd9604fe5d, type: 3}
@@ -3206,7 +3213,14 @@ MonoBehaviour:
       mga dumi.
     - At iyun lamang para sa eksenang ito.
     - Tara sa sumunod na eksena!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 2bd0dba5866f68b4aa5f596600202c54, type: 3}
+    - {fileID: 8300000, guid: 98f5d4a03eadb014c908a9b382eaed60, type: 3}
+    - {fileID: 8300000, guid: 1d02a7c5fca067f4db9e073f51a52c0d, type: 3}
+    - {fileID: 8300000, guid: 771c935c75afde746b14112bc6a275be, type: 3}
+    - {fileID: 8300000, guid: 5364e080d95c2d549adb2a91275d3075, type: 3}
+    - {fileID: 8300000, guid: 032208a68d0ed0044884d8fdfafa10d7, type: 3}
+    - {fileID: 8300000, guid: c7480e4ef3f1c68418aabd17da63adc2, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 8eaf08e7da300594c96833591c4ca81b, type: 3}
     - {fileID: 8300000, guid: e8cb6fe7872e28f49b7dccb0ea284c5e, type: 3}
@@ -3245,10 +3259,24 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a323e070458b30e438d21b80ccdf39ff, type: 3}
   - {fileID: 8300000, guid: 2ebf967157f543b40966364b1f4dd8b0, type: 3}
   - {fileID: 8300000, guid: 376d1a6c9e5bcb347a8cd7dc3498d56f, type: 3}
-  NarratorTutorialDialogAudio: []
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: e9441433c517dc64b849297b0531d88c, type: 3}
+  - {fileID: 8300000, guid: 1ff36e0c1ee03f74d8bfb3eca5b43a49, type: 3}
+  - {fileID: 8300000, guid: d688f391c2deed843aa237705d0b7923, type: 3}
+  - {fileID: 8300000, guid: 29bc104725dd3b5449149712e03755a5, type: 3}
+  - {fileID: 8300000, guid: ca984d0cfacf7e444a74a1ae80cc9eaa, type: 3}
+  - {fileID: 8300000, guid: 1400cfd87f504694f9b135fb08172f14, type: 3}
+  - {fileID: 8300000, guid: f2794cbf93902d74486ef820ec6309ce, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: bf07dbc0eae8dbb47a5d195b97711b74, type: 3}
+  - {fileID: 8300000, guid: bdabd8fb95c73e24aa42fc8b16818d1f, type: 3}
+  - {fileID: 8300000, guid: 5f2cad32befd78d46b1d7261cdfba87a, type: 3}
+  - {fileID: 8300000, guid: 485ab6af3bf28e844ae4bb66d45d97ad, type: 3}
+  - {fileID: 8300000, guid: 3f0f97e724b78b44ea40ff5a4a84c318, type: 3}
+  - {fileID: 8300000, guid: 5996a75612f322e4186de3d43ef73351, type: 3}
+  - {fileID: 8300000, guid: 2f3af7f34fb2a0340a8bb17c565c92a6, type: 3}
   OptionFourDialogAudio: []
   TimesSelected: 0
   VideoContainer: {fileID: 778575306}
@@ -3881,7 +3909,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1

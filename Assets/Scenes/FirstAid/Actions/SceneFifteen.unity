@@ -1109,7 +1109,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215215808}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ee350dab3c41fd4d8598dcd84767223, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 4c1f3214cfe2874438ad3cfa334b829f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -5911,7 +5911,14 @@ MonoBehaviour:
       ng bakterya at impeksyon sa sugat.
     - At huli, kailangan natin Gauze at Tape para matakpan ang sugat mula sa dumi.
     - Tara at kunin na natin ang mga kailangang gamit!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 81d78cf06741668449699d9411d06062, type: 3}
+    - {fileID: 8300000, guid: badc2037f499c4c469d9b003ea776cb7, type: 3}
+    - {fileID: 8300000, guid: 8ab80e4b7d773874a868aa475d39529d, type: 3}
+    - {fileID: 8300000, guid: 179017fe7b1e75740bacc88676ca757a, type: 3}
+    - {fileID: 8300000, guid: 5cecc6147b5935343a7ac642593e2bda, type: 3}
+    - {fileID: 8300000, guid: ca100e6e241ef4c4793a03147b1f7611, type: 3}
+    - {fileID: 8300000, guid: f2982420b1a130a41a0f96d0715ca564, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 2c8d8b0c3dc49cc4bbfda05727a944d5, type: 3}
     - {fileID: 8300000, guid: 6a1ba399f76a9d14eba409579b079b0e, type: 3}
@@ -5986,7 +5993,17 @@ MonoBehaviour:
       na tumawag ng doctor.
     - Iyun lamang. Tayo ay magpatuloy na sa susunod na eksena.
     - Tara!
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 72be345e17b4786489dbbe1b852bc13e, type: 3}
+    - {fileID: 8300000, guid: b47ec735c2db6b446bf6a5e77acd1e7e, type: 3}
+    - {fileID: 8300000, guid: 272b181aa45b2634bb6b6996c3bffb81, type: 3}
+    - {fileID: 8300000, guid: 335cb946f06ab294e84c87c7e22c05aa, type: 3}
+    - {fileID: 8300000, guid: 6d0bae3e26343c843ae73e1a554aa389, type: 3}
+    - {fileID: 8300000, guid: 4f34e2051b4d81649a672b5d756b7e9d, type: 3}
+    - {fileID: 8300000, guid: dbdb3513d5b3b7b4f82ab4a2d0fcf5ee, type: 3}
+    - {fileID: 8300000, guid: 12193d7378646694a980000b56f891e1, type: 3}
+    - {fileID: 8300000, guid: ee1a59176ea8096438921ac865e8114a, type: 3}
+    - {fileID: 8300000, guid: 5cc3163a67bc2c341b4a69cdd39fefb1, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 16eae0ae482254f4dbfed34f0d89e05d, type: 3}
     - {fileID: 8300000, guid: 32e3bca4a0dab194c8fab9f3bdce5a9b, type: 3}
@@ -6029,10 +6046,27 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5979d1015542cec49ae61017e0444d6f, type: 3}
   - {fileID: 8300000, guid: 7c6445588a64076459714b9727cb28d0, type: 3}
   - {fileID: 8300000, guid: 4369048423e32024b894bf53218f178f, type: 3}
-  NarratorTutorialDialogAudio: []
+  NarratorTutorialDialogAudio:
+  - {fileID: 8300000, guid: 393afb67b03dcba4eb255c1098d182b5, type: 3}
+  - {fileID: 8300000, guid: e0f85d09aa19ec5448cb6b35310e4d99, type: 3}
+  - {fileID: 8300000, guid: ccc828e5eba90304a8663e412117ee80, type: 3}
+  - {fileID: 8300000, guid: c42f98e65eced664cafd8ffae06af8f5, type: 3}
+  - {fileID: 8300000, guid: 9baac070027e07d48a39b07a15732abf, type: 3}
+  - {fileID: 8300000, guid: aa9d0585ed90b434db557440f2720622, type: 3}
+  - {fileID: 8300000, guid: b6127a77e6c059241b3078106e4ac006, type: 3}
   OptionOneDialogAudio: []
   OptionTwoDialogAudio: []
-  OptionThreeDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: 076f91e5878166f4eb2706bdf329449a, type: 3}
+  - {fileID: 8300000, guid: 287f1bbce39273d40801ec5708bd9f26, type: 3}
+  - {fileID: 8300000, guid: 6b6cfc82bf305ec45b595a0a8b472b02, type: 3}
+  - {fileID: 8300000, guid: 4135294337f74fc4bb5eb7a14be0b152, type: 3}
+  - {fileID: 8300000, guid: cbddd8b8b7a8488419af250ebcb601b8, type: 3}
+  - {fileID: 8300000, guid: 5c697313f9004004fa23f1bccc81d948, type: 3}
+  - {fileID: 8300000, guid: a54d6ab50cd318845ba457ea9dd650a1, type: 3}
+  - {fileID: 8300000, guid: ccd684a4a3fbe7c449c36d794c601bae, type: 3}
+  - {fileID: 8300000, guid: ab13047da9a44684eb3f7eab26604390, type: 3}
+  - {fileID: 8300000, guid: 72f966db96eade94ba1e07ba77438439, type: 3}
   OptionFourDialogAudio: []
   TimesSelected: 0
   VideoContainer: {fileID: 215215809}
@@ -6869,7 +6903,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
