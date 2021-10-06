@@ -1388,7 +1388,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 51ea3671e1a99f848974bf634d4e2bfd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.033
+  m_Volume: 0.018
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3117,7 +3117,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6603,44 +6603,42 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 645c1b638faf64d41b79031b1222cbd3, type: 3}
   - {fileID: 8300000, guid: 68784cf9a2ce52b4bae1192fe5dbbfd2, type: 3}
   NarratorTutorialDialogAudio:
-  - {fileID: 8300000, guid: fff8410d9c37d534d8a43ec5950fb4b6, type: 3}
-  - {fileID: 8300000, guid: 78f12269c0700d34eb3f5aa86dec502e, type: 3}
-  - {fileID: 8300000, guid: c282a6e5eaa83584591b872f888e8642, type: 3}
-  - {fileID: 8300000, guid: eafbde6a19e952f44910720f35364969, type: 3}
-  - {fileID: 8300000, guid: 0e2ebd5864c339e4d89c0726f23ade42, type: 3}
-  - {fileID: 8300000, guid: dde1ecdfe4c281a499ecb1c75438fafd, type: 3}
-  - {fileID: 8300000, guid: e9984eff5669b7d458c04213c3c8d265, type: 3}
-  - {fileID: 8300000, guid: 56fd714bb1a4cd34db1e1ad086dcdcf3, type: 3}
-  - {fileID: 8300000, guid: 76ac8db8d9e9c114fa08ae9db6f612d1, type: 3}
-  - {fileID: 8300000, guid: f2cb814e18a320e499fd3b9d6de201f8, type: 3}
-  - {fileID: 8300000, guid: 10a29e8a829f58d45bcf1a707c0603ae, type: 3}
-  - {fileID: 8300000, guid: ac6b16da02b144d4f8133110305e292e, type: 3}
-  - {fileID: 8300000, guid: 64c02e886b2d26d42a4d4771a4040765, type: 3}
-  - {fileID: 8300000, guid: 0e2287228061dcb42996287f587b4c02, type: 3}
-  - {fileID: 8300000, guid: c78e0bb9cd3c8544d98c75e1a5556fcf, type: 3}
-  - {fileID: 8300000, guid: be242c5781c2d0d4a89d7f4c9a38b520, type: 3}
+  - {fileID: 8300000, guid: 18f9e8ae7dd0bae4e871eaa4aa95dad3, type: 3}
+  - {fileID: 8300000, guid: 1b50b5d63924e594b85f3a170b0818bf, type: 3}
+  - {fileID: 8300000, guid: 6226964cfd855f749b0296e1be84f968, type: 3}
+  - {fileID: 8300000, guid: 862c0b2a76867cd4d93da5e9d033e9ab, type: 3}
+  - {fileID: 8300000, guid: f5596a84edd655248b6bbe3d29137127, type: 3}
+  - {fileID: 8300000, guid: fec36f8900ed7a248be0b18d6121e7b4, type: 3}
+  - {fileID: 8300000, guid: 9a73d99b6c6c07d4a9ef359091ed5954, type: 3}
+  - {fileID: 8300000, guid: 0ccc5086e1750b14caedf0d527e04c12, type: 3}
+  - {fileID: 8300000, guid: 67a039af723142f4986a1a411fa7a221, type: 3}
+  - {fileID: 8300000, guid: 76e38bc0ac2ef54478a22446691ab025, type: 3}
+  - {fileID: 8300000, guid: 312745bcfedc98e4a80449ca2c4c6d5b, type: 3}
+  - {fileID: 8300000, guid: 50d0405af962d254da256364642c4843, type: 3}
+  - {fileID: 8300000, guid: 1700d6044b8a58442841a226bd01cd18, type: 3}
+  - {fileID: 8300000, guid: cb8375d0e4009e848b9cd8f68ce4a4d2, type: 3}
+  - {fileID: 8300000, guid: 33141ad4862bd95479e85458dc4f4e18, type: 3}
   OptionOneDialogAudio:
-  - {fileID: 8300000, guid: 87507af6ecd602d40b3b94990520a8d4, type: 3}
-  - {fileID: 8300000, guid: 0af512f0cb645a4439bdbdd6eabbf8e2, type: 3}
-  - {fileID: 8300000, guid: c3c530472a943624881de325e418be10, type: 3}
+  - {fileID: 8300000, guid: 69a89450474551f4c9b3e64b31942c7c, type: 3}
+  - {fileID: 8300000, guid: cc1abf7de3de970408ed812d9dfc9366, type: 3}
+  - {fileID: 8300000, guid: 8b2c2064345dc0b4fbac44bb00915e9b, type: 3}
   OptionTwoDialogAudio:
-  - {fileID: 8300000, guid: 385d3bad98cf1a14c9dcb983bd70fa15, type: 3}
-  - {fileID: 8300000, guid: b83c1d2f9e3e5824b9f99f7ce95edd05, type: 3}
-  - {fileID: 8300000, guid: 2f047466970b02e4998d86e16b69f87c, type: 3}
-  - {fileID: 8300000, guid: da829ba9ff5875b49a2e2320bfeac9b5, type: 3}
-  - {fileID: 8300000, guid: bb4ecbe290aea4c4db843ed171d74537, type: 3}
-  - {fileID: 8300000, guid: b7482565412167243801acca1d36d4ab, type: 3}
-  - {fileID: 8300000, guid: 8d71baf21ed203543aa6d49071aea5c4, type: 3}
-  - {fileID: 8300000, guid: 49c484760290ef7478d37a7a7c2b7c69, type: 3}
-  - {fileID: 8300000, guid: 2a69e7d3003e2c443a9e9a48f09c1986, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 4c17feec1e64739409da1cdcb855aacc, type: 3}
+  - {fileID: 8300000, guid: 2f9dfaca318c61a458cc1f313683ee2c, type: 3}
+  - {fileID: 8300000, guid: 55118d39b6742244faccd34ab22ca42a, type: 3}
+  - {fileID: 8300000, guid: bfaf40f9a78bf58489042c2c49812c6c, type: 3}
+  - {fileID: 8300000, guid: 7d1fe2bb1fa6b804b96b4f7c013c712d, type: 3}
+  - {fileID: 8300000, guid: a103850b8e7bee34291e2692177a6191, type: 3}
+  - {fileID: 8300000, guid: 6ccbbee1c5e92b945a50e217e67f37dc, type: 3}
+  - {fileID: 8300000, guid: e7c166eab08a1b24ab42989a385aac73, type: 3}
+  - {fileID: 8300000, guid: d0a3e17fc4e09104eae1c3bda1e9ba6c, type: 3}
   OptionThreeDialogAudio:
-  - {fileID: 8300000, guid: 9e93c32304f57f244a01d9aa2a54e485, type: 3}
-  - {fileID: 8300000, guid: c65fe4e44865c97489346b8602ad8b1b, type: 3}
+  - {fileID: 8300000, guid: fdaa0b0794a06394d82570d6e4fc596b, type: 3}
+  - {fileID: 8300000, guid: ded25eed2bd626d4fa67756ccc728c1d, type: 3}
   OptionFourDialogAudio:
-  - {fileID: 8300000, guid: 53925589b7d258f49b34241a85693a87, type: 3}
-  - {fileID: 8300000, guid: 744964d8102be8e4887df46ce0b014d1, type: 3}
-  - {fileID: 8300000, guid: bb53d393c1f8f2b4ba2a66db3e0ab5f3, type: 3}
+  - {fileID: 8300000, guid: 2f51410ae5ae36845b3179ae33f5bb20, type: 3}
+  - {fileID: 8300000, guid: a1239e10a7a62b84d82cd45397615fda, type: 3}
+  - {fileID: 8300000, guid: 828aaae8000775e4791a2658ed778347, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 1565358409}
   VideoTutorial: {fileID: 145794173}
@@ -7446,7 +7444,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7936,7 +7934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000083447, y: 0.0000092983}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103620719

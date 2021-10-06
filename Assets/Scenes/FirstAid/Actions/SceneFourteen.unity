@@ -864,7 +864,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng Gunting sa ngayon.
     - Kailangan lamang natin ng bagay na makakapagprotekta sa sugat mula sa impeksyon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: c0f98707e0756bf49afaecfb01adcbf8, type: 3}
+    - {fileID: 8300000, guid: 6864d601099be8d40af48454f5b1f2ee, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: c66ef42f3d681f84dbf864b3c7283448, type: 3}
     - {fileID: 8300000, guid: 5e33a9df79454ea4fb3f9f18a419d391, type: 3}
@@ -879,7 +881,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng kahit na anong tape sa ngayon.
     - Paki-kuha lamang ang paunang lunas para sa sugat na makakaiwas sa impeksyon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: efba992e69c26f44aab699865c799bea, type: 3}
+    - {fileID: 8300000, guid: f495e32d29dc0db499e9da200f0dc9a6, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 6d77357f0f011d64d87a957d024c6012, type: 3}
     - {fileID: 8300000, guid: 1a7398f434a148248954304020051df3, type: 3}
@@ -929,7 +933,8 @@ MonoBehaviour:
     - We don't need any medicines right now.
     tagalogDialogs:
     - Hindi natin kailangan ng kahit na anong gamot sa ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: eba9def5ee72ef745afd14061eeed1ae, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: be0b097c8aef79b49bd6d8bee1571314, type: 3}
     tagalogDrKidBoyAudio:
@@ -943,22 +948,27 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 010939b81e36e634cafbf6fe276f2984, type: 3}
   - {fileID: 8300000, guid: 6ac17e9dd03fad64ebe5df5b33634c20, type: 3}
   NarratorTutorialDialogAudio:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  - {fileID: 8300000, guid: 59dd179b8969fad4bb95635b80122c39, type: 3}
+  - {fileID: 8300000, guid: c8533029657d1664e88956d18b585754, type: 3}
+  - {fileID: 8300000, guid: 7a2b4607d458fca4888458958c59711e, type: 3}
+  - {fileID: 8300000, guid: 1503d5ed42eff434792e5574be721b93, type: 3}
+  - {fileID: 8300000, guid: bb5a5adbcda278e49a8b0cb263865b1c, type: 3}
+  - {fileID: 8300000, guid: a57820555f630394f8b66a9c41491bc2, type: 3}
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 69f7f94ed16611848b7997ec43357e72, type: 3}
+  - {fileID: 8300000, guid: e4f54fc554e56174aa2db7c591da0a67, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 16757aa3da8564f4fbd9afe1e85a0029, type: 3}
+  - {fileID: 8300000, guid: 04ae6c5d1d02b9d46ba99ccc163222da, type: 3}
   OptionThreeDialogAudio:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  OptionFourDialogAudio: []
+  - {fileID: 8300000, guid: 8503da5dda37adc4ba5941e2bf3fdb12, type: 3}
+  - {fileID: 8300000, guid: e2a1e752c9d04c2438fd50776e817075, type: 3}
+  - {fileID: 8300000, guid: 885d7f4808ca033429da831c7239671e, type: 3}
+  - {fileID: 8300000, guid: 04eb3f93ccca1af48b2a585894708ec1, type: 3}
+  - {fileID: 8300000, guid: 28f721493888b024ba1224ef5c84d56b, type: 3}
+  - {fileID: 8300000, guid: ca9b71b0a4b21c146a2b4d071817e7b2, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 2605e935e65cd224094d6cf08beae53b, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 1960733884}
   VideoTutorial: {fileID: 1269626030}
@@ -3582,7 +3592,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -4412,7 +4412,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5943,7 +5943,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng Pandikit sa ngayon.
     - Piliin lamang ang mga gamit na angkop sa sitwasyon natin ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: e453f76d04a096f419c686e6d6575af5, type: 3}
+    - {fileID: 8300000, guid: a6127fca3044d1744ab645d8f10243e2, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 8a0176199419284499dcf7b7f8d98d58, type: 3}
     - {fileID: 8300000, guid: f93310252df85cf44bda54b2d6ade127, type: 3}
@@ -5958,7 +5960,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng Thermometer sa ngayon.
     - Walang lagnat si Cindy ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 4675b7f2eb4200d4991e0d95bf20dcc4, type: 3}
+    - {fileID: 8300000, guid: 9530b852c8071e644aac0c47e2411c48, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 7906ea159731e9e48803708fa9e2f145, type: 3}
     - {fileID: 8300000, guid: fc61f883d88ccec4a9f47c19d0dac522, type: 3}
@@ -6032,7 +6036,8 @@ MonoBehaviour:
     - We don't need an Inhaler right now.
     tagalogDialogs:
     - Hindi natin kailangan ng Inhaler sa ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 90235345b1123fb41bf651b77585ec8f, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 43eb6db192e48a84e9af91c56f6c1381, type: 3}
     tagalogDrKidBoyAudio:
@@ -6054,8 +6059,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9baac070027e07d48a39b07a15732abf, type: 3}
   - {fileID: 8300000, guid: aa9d0585ed90b434db557440f2720622, type: 3}
   - {fileID: 8300000, guid: b6127a77e6c059241b3078106e4ac006, type: 3}
-  OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: cecfdb62022b0c24a808261bf24ae010, type: 3}
+  - {fileID: 8300000, guid: 69a0784e77a017f429fba3882c4a4d3a, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: 19dc60164e683b044898df8b7410a126, type: 3}
+  - {fileID: 8300000, guid: 90cc3ece48ecd3248aefee53956cbcc6, type: 3}
   OptionThreeDialogAudio:
   - {fileID: 8300000, guid: 076f91e5878166f4eb2706bdf329449a, type: 3}
   - {fileID: 8300000, guid: 287f1bbce39273d40801ec5708bd9f26, type: 3}
@@ -6067,7 +6076,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ccd684a4a3fbe7c449c36d794c601bae, type: 3}
   - {fileID: 8300000, guid: ab13047da9a44684eb3f7eab26604390, type: 3}
   - {fileID: 8300000, guid: 72f966db96eade94ba1e07ba77438439, type: 3}
-  OptionFourDialogAudio: []
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: e23dfd1e5a2b8b942ba979173f0e0f3c, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 215215809}
   VideoTutorial: {fileID: 1391207405}

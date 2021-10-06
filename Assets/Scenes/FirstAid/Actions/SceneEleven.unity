@@ -2735,7 +2735,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7659,7 +7659,10 @@ MonoBehaviour:
     - Hindi natin kailangan ng pamunas sa ngayon.
     - Pwede siguro kung pamunas ng kaniyang kamay.
     - Pero di natin kinakailangan iyan ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 69bca8f7eb169944b9ca2d4c54c3d2ae, type: 3}
+    - {fileID: 8300000, guid: 6771d0c62f548f344a6c57f3687af57c, type: 3}
+    - {fileID: 8300000, guid: f42c798f83b42024fb00f47befa7655a, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 675bc56ce640ecc49988dc6b7ffc1672, type: 3}
     - {fileID: 8300000, guid: 69408577d392293498ac8a108102efe3, type: 3}
@@ -7714,7 +7717,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng kahit na anong gamot sa ngayon.
     - Kailangan natin ng pamahid para kay Cindy sa ngayon.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 5cc8b111cea8fcf41b05877c7a2bbbc0, type: 3}
+    - {fileID: 8300000, guid: 204a96030556e0849a2bf906d046d5b0, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: e74401a11e436c6419ef49499ead8ebc, type: 3}
     - {fileID: 8300000, guid: 84a90c9d3dd4e0144988268e219e00d2, type: 3}
@@ -7729,7 +7734,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Hindi natin kailangan ng Thermometer sa ngayon.
     - Kailangan lamang natin ay magamot ang hiwa ni Cindy.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: f9070fc4890cd54498fd3bc739ca711c, type: 3}
+    - {fileID: 8300000, guid: 86a265a8818247948a4506310bc8fe42, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 1bf008a4baa49934e986af70c82c00cc, type: 3}
     - {fileID: 8300000, guid: 07065eb5d938e7d41a4245f96add73cb, type: 3}
@@ -7753,7 +7760,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 91adc223f4818d5458cf8dcc24acde51, type: 3}
   - {fileID: 8300000, guid: 7ab743a3f85ce1b499ccb2311a2083f0, type: 3}
   - {fileID: 8300000, guid: 5e64abaaf43180b4abad626f81bb21d5, type: 3}
-  OptionOneDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 1442c649db76e8d44993bf26224fadc5, type: 3}
+  - {fileID: 8300000, guid: a59ddf9840b0df14f98d205c7745efa7, type: 3}
   OptionTwoDialogAudio:
   - {fileID: 8300000, guid: 031974dc0f105d94a835eb31a574dda8, type: 3}
   - {fileID: 8300000, guid: e36913b4e3fd9c842aa173edbc1a0856, type: 3}
@@ -7761,8 +7770,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ac43821ca9a2d7741b1cb246cc7621e2, type: 3}
   - {fileID: 8300000, guid: 990e4e3199981c94199449ea49d7ed3d, type: 3}
   - {fileID: 8300000, guid: 2e7fcb6d1e59cef4aa74d65cc4bcc30a, type: 3}
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: b9af973b14ec0fc4192732f02e47a190, type: 3}
+  - {fileID: 8300000, guid: 36d118844209d8e428d69654b1b734ee, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 56452f20739eac542beffe30fc236974, type: 3}
+  - {fileID: 8300000, guid: 45c806682040d5646a6316a48ffe414d, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 1544048852}
   VideoTutorial: {fileID: 969184348}

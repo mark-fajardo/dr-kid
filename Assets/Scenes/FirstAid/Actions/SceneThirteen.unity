@@ -3177,7 +3177,8 @@ MonoBehaviour:
     - We don't need this thing right  now.
     tagalogDialogs:
     - Hindi natin ito magagamit para sa pag-gamot sugat.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 79654cf0fc701b2429ea3a752ae40288, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 3489f2309ecf85348aba274ec7d6dd3a, type: 3}
     tagalogDrKidBoyAudio:
@@ -3189,7 +3190,8 @@ MonoBehaviour:
     tagalogDialogs:
     - Maaari na magamit natin ito sa ngayon, pero hindi ito ang mismong kailangan
       natin.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 0dc9524384688e3489333a4b76414a71, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 3c83af09c6d69154d9f563677edab9de, type: 3}
     tagalogDrKidBoyAudio:
@@ -3245,7 +3247,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Si Cindy ay walang lagnat ngayon.
     - Piliing mabuti ang tamang materyales para sa paglilinis ng sugat.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 2fa1a29076cf9e343880becc8e959686, type: 3}
+    - {fileID: 8300000, guid: 56252fd5d3a97234abc9028841b0f2dd, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 53c01820ece7e914095588b91ddb8bad, type: 3}
     - {fileID: 8300000, guid: ce27803c393027a439994dd15bfea6a6, type: 3}
@@ -3267,8 +3271,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ca984d0cfacf7e444a74a1ae80cc9eaa, type: 3}
   - {fileID: 8300000, guid: 1400cfd87f504694f9b135fb08172f14, type: 3}
   - {fileID: 8300000, guid: f2794cbf93902d74486ef820ec6309ce, type: 3}
-  OptionOneDialogAudio: []
-  OptionTwoDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: a90e5da30319a8f42bdf9d9ac271a2eb, type: 3}
+  OptionTwoDialogAudio:
+  - {fileID: 8300000, guid: ee909ff217b4d854997a70e10a2579bb, type: 3}
   OptionThreeDialogAudio:
   - {fileID: 8300000, guid: bf07dbc0eae8dbb47a5d195b97711b74, type: 3}
   - {fileID: 8300000, guid: bdabd8fb95c73e24aa42fc8b16818d1f, type: 3}
@@ -3277,7 +3283,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3f0f97e724b78b44ea40ff5a4a84c318, type: 3}
   - {fileID: 8300000, guid: 5996a75612f322e4186de3d43ef73351, type: 3}
   - {fileID: 8300000, guid: 2f3af7f34fb2a0340a8bb17c565c92a6, type: 3}
-  OptionFourDialogAudio: []
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: 8f9454ce00a8e06448020a368696af7c, type: 3}
+  - {fileID: 8300000, guid: c89416905a9bf29409723f47a5f9d07e, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 778575306}
   VideoTutorial: {fileID: 703341430}
@@ -5299,7 +5307,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0

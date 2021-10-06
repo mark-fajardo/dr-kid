@@ -496,13 +496,13 @@ MonoBehaviour:
     - Pwede siyang pumunta doon at magtago.
     - Sabihin natin ito sa lalong madaling panahon.
     tagalogAudio:
-    - {fileID: 8300000, guid: e70c408b92894eb41878809a6ea6396f, type: 3}
-    - {fileID: 8300000, guid: f354e31318a6963438223828c1bc6d05, type: 3}
-    - {fileID: 8300000, guid: 49fbc40cc00d6ff4b9042d927511a582, type: 3}
-    - {fileID: 8300000, guid: 43a96bdc2c0ea804db5319979d318d4f, type: 3}
-    - {fileID: 8300000, guid: a95d216c0eee58b4e88fcd1fba74d4bb, type: 3}
-    - {fileID: 8300000, guid: 11ec2b6a0f734fc40bb49a910e691f3f, type: 3}
-    - {fileID: 8300000, guid: a895c06af97362740afbf89c97e45643, type: 3}
+    - {fileID: 8300000, guid: f8df01e890d960e4bafb26daa2fe034d, type: 3}
+    - {fileID: 8300000, guid: b461d2e8913ed6c45b89d510bea9a701, type: 3}
+    - {fileID: 8300000, guid: a25353363d4f7714fae194f0c94d0b35, type: 3}
+    - {fileID: 8300000, guid: c94d99bbe16b11b45b6803e00ee3a5d2, type: 3}
+    - {fileID: 8300000, guid: 5d8e91e98e80fe1438ab92a4a695d664, type: 3}
+    - {fileID: 8300000, guid: bc0b3473600922a44aedf18aa358b591, type: 3}
+    - {fileID: 8300000, guid: 2409d3dfe8b655241bfb5c3413a24b78, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionOneDialog:
@@ -527,12 +527,12 @@ MonoBehaviour:
     - Huwag kalilimutan na sabihin sa iba na delikado ang mga ganitong kalamidad.
     - Kaya manatiling ligtas! Tara!
     tagalogAudio:
-    - {fileID: 8300000, guid: dc4da8f2af9e30d4cb9398a01e64c55d, type: 3}
-    - {fileID: 8300000, guid: 14176a125d34a5e418e40c6b2947f940, type: 3}
-    - {fileID: 8300000, guid: ef9fc060ee6407f4a9ac0d230506c79f, type: 3}
-    - {fileID: 8300000, guid: 0114e987fb2d02f41813176e2530dc2b, type: 3}
-    - {fileID: 8300000, guid: 5f8941f20213ad547934052354184526, type: 3}
-    - {fileID: 8300000, guid: 3d1ba374046b96a4385f7be293ef1f33, type: 3}
+    - {fileID: 8300000, guid: d8a31cb25833b3445909a9c7da314bd8, type: 3}
+    - {fileID: 8300000, guid: 1ace64760cb6e0043b902708203e4e5f, type: 3}
+    - {fileID: 8300000, guid: e74272c44d0e60f40be1753ce27a21b5, type: 3}
+    - {fileID: 8300000, guid: ad1ec74e95aac6f4dadf3f1e00e4430a, type: 3}
+    - {fileID: 8300000, guid: 555817c0db14e314e8a49f61de58f5fd, type: 3}
+    - {fileID: 8300000, guid: e8371aab16064ad408df7e2d136fa116, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionTwoDialog:
@@ -544,8 +544,8 @@ MonoBehaviour:
     - Si Cindy ay wala nang oras para maglaro sa labas.
     - Kailangan ni Cindy na maging ligtas sa lindol.
     tagalogAudio:
-    - {fileID: 8300000, guid: 4d84eedfe81faec459ec93acf65f55d9, type: 3}
-    - {fileID: 8300000, guid: 6455654bd028dd54e814598a342efe82, type: 3}
+    - {fileID: 8300000, guid: b1a43e8530e029c449ef949c2159ec60, type: 3}
+    - {fileID: 8300000, guid: cee1032b8b2f6b44a831a6c8a152d13f, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionThreeDialog:
@@ -557,8 +557,8 @@ MonoBehaviour:
     - Huwag sabihin kay Cindy na magtatakbo sa mga nahuhulog na mga bagay.
     - Maaari siyang masaktan dito.
     tagalogAudio:
-    - {fileID: 8300000, guid: 7f0e419b837f7ca4f808b97e6e9c25d9, type: 3}
-    - {fileID: 8300000, guid: b261fca006929944dabd538e1b9cc092, type: 3}
+    - {fileID: 8300000, guid: 5d1d80e947470ce448ffa6e21ce31a89, type: 3}
+    - {fileID: 8300000, guid: 47028b5b018429845bf87dc543033b44, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   OptionFourDialog:
@@ -572,8 +572,8 @@ MonoBehaviour:
     - Kailangang malaman ni Cindy na kailangan niya na kumilos at maghanap ng lugar
       na mapagtataguan.
     tagalogAudio:
-    - {fileID: 8300000, guid: 3559ee61877f57a4f9c916ffbf328939, type: 3}
-    - {fileID: 8300000, guid: 2e37856bf3c34db469a6e6abc88af0d5, type: 3}
+    - {fileID: 8300000, guid: 0257910a514355445bdc0ec849b87aad, type: 3}
+    - {fileID: 8300000, guid: aa69849f299843147bd9beb5dd2cf04a, type: 3}
     englishDrKidBoyAudio: []
     tagalogDrKidBoyAudio: []
   CindyIntroDialogAudio:
@@ -581,29 +581,29 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e0537d3ec73e3ce45a0ac56760ee1fe9, type: 3}
   - {fileID: 8300000, guid: c855e8318ce9cec4eb6d50b6bafdf4c0, type: 3}
   NarratorTutorialDialogAudio:
-  - {fileID: 8300000, guid: 62b571c30f64dd8468cbd8bc7acccd14, type: 3}
-  - {fileID: 8300000, guid: c27cd12f796cf184c963c3c70662746a, type: 3}
-  - {fileID: 8300000, guid: 19d5748c382361f4991e1954dde158e5, type: 3}
-  - {fileID: 8300000, guid: 63949119308ef4647a7d5ec3f74d0a01, type: 3}
-  - {fileID: 8300000, guid: 3eda3cb7f1cc8124084425f0a698b6b3, type: 3}
-  - {fileID: 8300000, guid: 7ae23c051cc5d2b4cb7ffa0a780bac17, type: 3}
-  - {fileID: 8300000, guid: ea14f769569419746bcd55ef548bebd9, type: 3}
+  - {fileID: 8300000, guid: bda38cf2eb810654facdab4ea35333c5, type: 3}
+  - {fileID: 8300000, guid: 1ce968a894b1cd844ba017d2defc5347, type: 3}
+  - {fileID: 8300000, guid: 8f4c640d098402e44b58fcd693ebf8ec, type: 3}
+  - {fileID: 8300000, guid: fc5409648e2756a428f7bdda2753d191, type: 3}
+  - {fileID: 8300000, guid: ee5f157404ce72c4899a5d50b5c1f88f, type: 3}
+  - {fileID: 8300000, guid: 3529df7b868ee5740a1918f83aae28f5, type: 3}
+  - {fileID: 8300000, guid: 86c41b9c50a0d5744b6dee7d33f58dde, type: 3}
   OptionOneDialogAudio:
-  - {fileID: 8300000, guid: fac665b4a2ffa534d853d3865c5a2eac, type: 3}
-  - {fileID: 8300000, guid: 81f5120dcdd244648b21edc7cf20bdfa, type: 3}
-  - {fileID: 8300000, guid: 9b241acf889e1754aae8baf3670a7a10, type: 3}
-  - {fileID: 8300000, guid: 983afb3e3a9890448a3c7f42d4f18b78, type: 3}
-  - {fileID: 8300000, guid: a0f0733f3c71c5e46b8ca52a6d05b112, type: 3}
-  - {fileID: 8300000, guid: 61d986366ec87cd43aa9aaae8a537c26, type: 3}
+  - {fileID: 8300000, guid: be999e673849d1c4d99f8849a0db3a13, type: 3}
+  - {fileID: 8300000, guid: 0ff10ec3faa0e9b40b1d75dd75153861, type: 3}
+  - {fileID: 8300000, guid: cbbc9f91fcd230345b6058bfb12cbfd1, type: 3}
+  - {fileID: 8300000, guid: f105ac590f0c4b54787d5b2a0b338ecc, type: 3}
+  - {fileID: 8300000, guid: 88829d9793914a14eb3d9215adae9259, type: 3}
+  - {fileID: 8300000, guid: 08063c326b5ac0643a45be0e4d35d0e5, type: 3}
   OptionTwoDialogAudio:
-  - {fileID: 8300000, guid: 78c7f110a58372e48b91ea81a7995d26, type: 3}
-  - {fileID: 8300000, guid: 68ebe850bdf6bd64ba1a21b65bedf51b, type: 3}
+  - {fileID: 8300000, guid: e37d480fdc227ea4b95e70f3fb769c6a, type: 3}
+  - {fileID: 8300000, guid: ba21c19e2047b21468e8ce7d6265e3e1, type: 3}
   OptionThreeDialogAudio:
-  - {fileID: 8300000, guid: 173194d42e9b89741a157588a9c6ae7c, type: 3}
-  - {fileID: 8300000, guid: 0e872c258387eab41b0eca7945bff021, type: 3}
+  - {fileID: 8300000, guid: 236af6f5be8a87a4bb411893f00f3c05, type: 3}
+  - {fileID: 8300000, guid: b406971e52a4c1d4d8ab7de71b58b544, type: 3}
   OptionFourDialogAudio:
-  - {fileID: 8300000, guid: 869fe41d68ed9344ea172755cb68a196, type: 3}
-  - {fileID: 8300000, guid: ff4829ad7d2a9ba44b58b731cf2195a9, type: 3}
+  - {fileID: 8300000, guid: 268d136a09c217d49a23aa1671a555a5, type: 3}
+  - {fileID: 8300000, guid: db76e09d9d7370c4eb1830aeb524b4eb, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 1964181119}
   VideoTutorial: {fileID: 194426574}
@@ -4753,7 +4753,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.2
+  m_fontSize: 35.5
   m_fontSizeBase: 40.2
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5754,7 +5754,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0

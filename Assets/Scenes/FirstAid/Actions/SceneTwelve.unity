@@ -4343,7 +4343,8 @@ MonoBehaviour:
     tagalogDialogs:
     - Para kay Cindy, mas maganda na gumamit tayo ng mainam na pamahid sa kaniyang
       sugat.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 36dc7edb59c3e1e45b19d3a87f43daa7, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 13a1e77994d3141438d7520baed3b413, type: 3}
     tagalogDrKidBoyAudio:
@@ -4398,7 +4399,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Di natin kailangan ng Inhaler sa ngayon.
     - Kailangan ni Cindy ng gamot para sa kaniyang paso.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: 1854e13e3f3f38e4d8e0e6d646834d0b, type: 3}
+    - {fileID: 8300000, guid: bba61e92bca241f4ab9020f44f831d10, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: dfd0463bca1caa6498bd6a45a7e50876, type: 3}
     - {fileID: 8300000, guid: bd6e5e482bc16ab42bfacf3fd20b5f55, type: 3}
@@ -4413,7 +4416,9 @@ MonoBehaviour:
     tagalogDialogs:
     - Di natin kaillangan ng mga tabletang gamot sa ngayon.
     - Kailangan lamang natin ng pamahid para sa napasong balat.
-    tagalogAudio: []
+    tagalogAudio:
+    - {fileID: 8300000, guid: a83394ee36588b342a53897c0009ceb1, type: 3}
+    - {fileID: 8300000, guid: e632a62417c7495419dc7ad60001a9a2, type: 3}
     englishDrKidBoyAudio:
     - {fileID: 8300000, guid: 9b342199591f68249b6343ee55bbe14c, type: 3}
     - {fileID: 8300000, guid: 5ce56d23aef3ef94e981d06451ac7078, type: 3}
@@ -4434,7 +4439,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7ad504182a2df9846985e84f43b0d98f, type: 3}
   - {fileID: 8300000, guid: 1ecb7cfa2b03a814d9b71937cc486f34, type: 3}
   - {fileID: 8300000, guid: 12a70f6a62e513347bd7f81015e4b015, type: 3}
-  OptionOneDialogAudio: []
+  OptionOneDialogAudio:
+  - {fileID: 8300000, guid: 8643c543affd7044186965dce6e61b0e, type: 3}
   OptionTwoDialogAudio:
   - {fileID: 8300000, guid: bcb865f0fd5518f4198beff966b6fef9, type: 3}
   - {fileID: 8300000, guid: c681597815720d346b7bb0d1341ddf1e, type: 3}
@@ -4443,8 +4449,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6885e81cbcf8efe429460aa75615d9b4, type: 3}
   - {fileID: 8300000, guid: 18454c012deb95643bc629a1e90d913a, type: 3}
   - {fileID: 8300000, guid: dd5371a6da6766049abec23f75a16ae3, type: 3}
-  OptionThreeDialogAudio: []
-  OptionFourDialogAudio: []
+  OptionThreeDialogAudio:
+  - {fileID: 8300000, guid: d9e5f40dce27b4241a22c6832976db83, type: 3}
+  - {fileID: 8300000, guid: 5ec716c1e9278ed48ac9202fec985b67, type: 3}
+  OptionFourDialogAudio:
+  - {fileID: 8300000, guid: dab723607c96f0a448851c50b7f0d116, type: 3}
+  - {fileID: 8300000, guid: 46633a52a20c3b24d94789e415253375, type: 3}
   TimesSelected: 0
   VideoContainer: {fileID: 1109508426}
   VideoTutorial: {fileID: 1146869410}
@@ -7488,7 +7498,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: da234207694602c4f80c9d31009b551f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 2a5c4705de535b348864eb09389f47e4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.755
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
