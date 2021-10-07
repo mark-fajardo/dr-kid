@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System;
 
 public class LevelLoader : MonoBehaviour
 {
@@ -75,6 +76,15 @@ public class LevelLoader : MonoBehaviour
 
     IEnumerator AddLoading(int sceneIndex)
     {
+        try
+        {
+            FindObjectOfType<DialogManager>().StopAudio();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Cannot stop narration source.");
+            Console.WriteLine(e.Message);
+        }
         loadingScreen.SetActive(true);
         yield return new WaitForSeconds(3f);
         StartCoroutine(LoadAsynchronously(sceneIndex));

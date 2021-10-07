@@ -132,6 +132,19 @@ public class DialogManager : MonoBehaviour
         DisplayNextDialog(false);
     }
 
+    public void StopAudio()
+    {
+        try
+        {
+            NarrationSource.Stop();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Cannot stop narration source.");
+            Console.WriteLine(e.Message);
+        }
+    }
+
     void EndDialog()
     {
         animator.SetBool("DialogIsOpen", false);
